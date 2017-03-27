@@ -1,0 +1,2325 @@
+{
+  "current_comparison": "by_years",
+  "available_comparisons": [
+    {
+      "id": "by_years",
+      "name": "Fiscal Year"
+    }
+  ],
+  "id": "employment--compensation-per-person--combined",
+  "lexicon_name": "Compensation of Government Employees (per person)",
+  "name": "Compensation of Government Employees (per person)",
+  "current_government_type": "combined",
+  "current_year": "2014",
+  "available_adjustments": null,
+  "available_government_types": [
+    {
+      "name": "Combined",
+      "id": "combined"
+    }
+  ],
+  "data_tables": [
+    {
+      "key": 2,
+      "order": 2,
+      "id": "compensation",
+      "name": "Compensation",
+      "lexicon_name": "Compensation",
+      "type": "",
+      "rows": [
+        {
+          "key": 9,
+          "order": 9,
+          "id": "wages_&_salaries",
+          "name": "Wages & Salaries",
+          "lexicon_name": "Wages & Salaries",
+          "parent": "Compensation",
+          "type": "subtotal",
+          "data": {
+            "combined": [
+              {
+                "x": "1980",
+                "y": 32963
+              },
+              {
+                "x": "1985",
+                "y": 45958
+              },
+              {
+                "x": "1990",
+                "y": 57541
+              },
+              {
+                "x": "1995",
+                "y": 71200
+              },
+              {
+                "x": "2000",
+                "y": 85918
+              },
+              {
+                "x": "2005",
+                "y": 109432
+              },
+              {
+                "x": "2010",
+                "y": 128174
+              },
+              {
+                "x": "2011",
+                "y": 130720
+              },
+              {
+                "x": "2012",
+                "y": 131939
+              },
+              {
+                "x": "2013",
+                "y": 132218
+              },
+              {
+                "x": "2014",
+                "y": 135525
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": 10,
+              "order": 10,
+              "id": "federal_government",
+              "name": "Federal Government",
+              "lexicon_name": "Federal Government",
+              "parent": "Federal Government",
+              "type": null,
+              "data": {
+                "combined": [
+                  {
+                    "x": "1980",
+                    "y": 17633
+                  },
+                  {
+                    "x": "1985",
+                    "y": 24294
+                  },
+                  {
+                    "x": "1990",
+                    "y": 30009
+                  },
+                  {
+                    "x": "1995",
+                    "y": 38370
+                  },
+                  {
+                    "x": "2000",
+                    "y": 46749
+                  },
+                  {
+                    "x": "2005",
+                    "y": 63261
+                  },
+                  {
+                    "x": "2010",
+                    "y": 74665
+                  },
+                  {
+                    "x": "2011",
+                    "y": 76421
+                  },
+                  {
+                    "x": "2012",
+                    "y": 76572
+                  },
+                  {
+                    "x": "2013",
+                    "y": 75997
+                  },
+                  {
+                    "x": "2014",
+                    "y": 78148
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "key": 11,
+                  "order": 11,
+                  "id": "military",
+                  "name": "Military",
+                  "lexicon_name": "Military",
+                  "parent": "Military",
+                  "type": null,
+                  "data": {
+                    "combined": [
+                      {
+                        "x": "1980",
+                        "y": 13498
+                      },
+                      {
+                        "x": "1985",
+                        "y": 20418
+                      },
+                      {
+                        "x": "1990",
+                        "y": 25729
+                      },
+                      {
+                        "x": "1995",
+                        "y": 31388
+                      },
+                      {
+                        "x": "2000",
+                        "y": 37466
+                      },
+                      {
+                        "x": "2005",
+                        "y": 58614
+                      },
+                      {
+                        "x": "2010",
+                        "y": 71009
+                      },
+                      {
+                        "x": "2011",
+                        "y": 71412
+                      },
+                      {
+                        "x": "2012",
+                        "y": 71622
+                      },
+                      {
+                        "x": "2013",
+                        "y": 71017
+                      },
+                      {
+                        "x": "2014",
+                        "y": 72023
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": 12,
+                  "order": 12,
+                  "id": "non-military",
+                  "name": "Non-Military",
+                  "lexicon_name": "Non-Military",
+                  "parent": "Non-Military",
+                  "type": null,
+                  "data": {
+                    "combined": [
+                      {
+                        "x": "1980",
+                        "y": 20780
+                      },
+                      {
+                        "x": "1985",
+                        "y": 27394
+                      },
+                      {
+                        "x": "1990",
+                        "y": 33156
+                      },
+                      {
+                        "x": "1995",
+                        "y": 42721
+                      },
+                      {
+                        "x": "2000",
+                        "y": 52221
+                      },
+                      {
+                        "x": "2005",
+                        "y": 66016
+                      },
+                      {
+                        "x": "2010",
+                        "y": 76751
+                      },
+                      {
+                        "x": "2011",
+                        "y": 79320
+                      },
+                      {
+                        "x": "2012",
+                        "y": 79426
+                      },
+                      {
+                        "x": "2013",
+                        "y": 78881
+                      },
+                      {
+                        "x": "2014",
+                        "y": 81617
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": 13,
+              "order": 13,
+              "id": "state_and_local_government",
+              "name": "State and Local Government",
+              "lexicon_name": "State and Local Government",
+              "parent": "State and Local Government",
+              "type": null,
+              "data": {
+                "combined": [
+                  {
+                    "x": "1980",
+                    "y": 15330
+                  },
+                  {
+                    "x": "1985",
+                    "y": 21664
+                  },
+                  {
+                    "x": "1990",
+                    "y": 27532
+                  },
+                  {
+                    "x": "1995",
+                    "y": 32830
+                  },
+                  {
+                    "x": "2000",
+                    "y": 39169
+                  },
+                  {
+                    "x": "2005",
+                    "y": 46171
+                  },
+                  {
+                    "x": "2010",
+                    "y": 53509
+                  },
+                  {
+                    "x": "2011",
+                    "y": 54299
+                  },
+                  {
+                    "x": "2012",
+                    "y": 55367
+                  },
+                  {
+                    "x": "2013",
+                    "y": 56221
+                  },
+                  {
+                    "x": "2014",
+                    "y": 57377
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "key": 14,
+                  "order": 14,
+                  "id": "education",
+                  "name": "Education",
+                  "lexicon_name": "Education",
+                  "parent": "Education",
+                  "type": null,
+                  "data": {
+                    "combined": [
+                      {
+                        "x": "1980",
+                        "y": 15781
+                      },
+                      {
+                        "x": "1985",
+                        "y": 21846
+                      },
+                      {
+                        "x": "1990",
+                        "y": 27717
+                      },
+                      {
+                        "x": "1995",
+                        "y": 32550
+                      },
+                      {
+                        "x": "2000",
+                        "y": 38358
+                      },
+                      {
+                        "x": "2005",
+                        "y": 44958
+                      },
+                      {
+                        "x": "2010",
+                        "y": 52437
+                      },
+                      {
+                        "x": "2011",
+                        "y": 53046
+                      },
+                      {
+                        "x": "2012",
+                        "y": 53034
+                      },
+                      {
+                        "x": "2013",
+                        "y": 53862
+                      },
+                      {
+                        "x": "2014",
+                        "y": 55566
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": 15,
+                  "order": 15,
+                  "id": "non-education",
+                  "name": "Non-Education",
+                  "lexicon_name": "Non-Education",
+                  "parent": "Non-Education",
+                  "type": null,
+                  "data": {
+                    "combined": [
+                      {
+                        "x": "1980",
+                        "y": 14930
+                      },
+                      {
+                        "x": "1985",
+                        "y": 21498
+                      },
+                      {
+                        "x": "1990",
+                        "y": 27360
+                      },
+                      {
+                        "x": "1995",
+                        "y": 33098
+                      },
+                      {
+                        "x": "2000",
+                        "y": 40004
+                      },
+                      {
+                        "x": "2005",
+                        "y": 47419
+                      },
+                      {
+                        "x": "2010",
+                        "y": 54615
+                      },
+                      {
+                        "x": "2011",
+                        "y": 55598
+                      },
+                      {
+                        "x": "2012",
+                        "y": 57880
+                      },
+                      {
+                        "x": "2013",
+                        "y": 58768
+                      },
+                      {
+                        "x": "2014",
+                        "y": 59277
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": 16,
+          "order": 16,
+          "id": "other_supplemental_benefits",
+          "name": "Other Supplemental Benefits",
+          "lexicon_name": "Other Supplemental Benefits",
+          "parent": "Compensation",
+          "type": "subtotal",
+          "data": {
+            "combined": [
+              {
+                "x": "1980",
+                "y": 2633
+              },
+              {
+                "x": "1985",
+                "y": 5061
+              },
+              {
+                "x": "1990",
+                "y": 8181
+              },
+              {
+                "x": "1995",
+                "y": 11498
+              },
+              {
+                "x": "2000",
+                "y": 14710
+              },
+              {
+                "x": "2005",
+                "y": 24681
+              },
+              {
+                "x": "2010",
+                "y": 30133
+              },
+              {
+                "x": "2011",
+                "y": 31800
+              },
+              {
+                "x": "2012",
+                "y": 32508
+              },
+              {
+                "x": "2013",
+                "y": 32783
+              },
+              {
+                "x": "2014",
+                "y": 33838
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": 17,
+              "order": 17,
+              "id": "federal_government",
+              "name": "Federal Government",
+              "lexicon_name": "Federal Government",
+              "parent": "Federal Government",
+              "type": null,
+              "data": {
+                "combined": [
+                  {
+                    "x": "1980",
+                    "y": 1124
+                  },
+                  {
+                    "x": "1985",
+                    "y": 2114
+                  },
+                  {
+                    "x": "1990",
+                    "y": 3906
+                  },
+                  {
+                    "x": "1995",
+                    "y": 5685
+                  },
+                  {
+                    "x": "2000",
+                    "y": 7576
+                  },
+                  {
+                    "x": "2005",
+                    "y": 14305
+                  },
+                  {
+                    "x": "2010",
+                    "y": 17298
+                  },
+                  {
+                    "x": "2011",
+                    "y": 18420
+                  },
+                  {
+                    "x": "2012",
+                    "y": 18864
+                  },
+                  {
+                    "x": "2013",
+                    "y": 18570
+                  },
+                  {
+                    "x": "2014",
+                    "y": 18973
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "key": 18,
+                  "order": 18,
+                  "id": "military",
+                  "name": "Military",
+                  "lexicon_name": "Military",
+                  "parent": "Military",
+                  "type": null,
+                  "data": {
+                    "combined": [
+                      {
+                        "x": "1980",
+                        "y": 912
+                      },
+                      {
+                        "x": "1985",
+                        "y": 1394
+                      },
+                      {
+                        "x": "1990",
+                        "y": 2121
+                      },
+                      {
+                        "x": "1995",
+                        "y": 2451
+                      },
+                      {
+                        "x": "2000",
+                        "y": 2833
+                      },
+                      {
+                        "x": "2005",
+                        "y": 12176
+                      },
+                      {
+                        "x": "2010",
+                        "y": 14322
+                      },
+                      {
+                        "x": "2011",
+                        "y": 14681
+                      },
+                      {
+                        "x": "2012",
+                        "y": 14548
+                      },
+                      {
+                        "x": "2013",
+                        "y": 12763
+                      },
+                      {
+                        "x": "2014",
+                        "y": 12418
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": 19,
+                  "order": 19,
+                  "id": "non-military",
+                  "name": "Non-Military",
+                  "lexicon_name": "Non-Military",
+                  "parent": "Non-Military",
+                  "type": null,
+                  "data": {
+                    "combined": [
+                      {
+                        "x": "1980",
+                        "y": 1286
+                      },
+                      {
+                        "x": "1985",
+                        "y": 2689
+                      },
+                      {
+                        "x": "1990",
+                        "y": 5219
+                      },
+                      {
+                        "x": "1995",
+                        "y": 7700
+                      },
+                      {
+                        "x": "2000",
+                        "y": 10372
+                      },
+                      {
+                        "x": "2005",
+                        "y": 15566
+                      },
+                      {
+                        "x": "2010",
+                        "y": 18996
+                      },
+                      {
+                        "x": "2011",
+                        "y": 20585
+                      },
+                      {
+                        "x": "2012",
+                        "y": 21353
+                      },
+                      {
+                        "x": "2013",
+                        "y": 21933
+                      },
+                      {
+                        "x": "2014",
+                        "y": 22685
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": 20,
+              "order": 20,
+              "id": "state_and_local_government",
+              "name": "State and Local Government",
+              "lexicon_name": "State and Local Government",
+              "parent": "State and Local Government",
+              "type": null,
+              "data": {
+                "combined": [
+                  {
+                    "x": "1980",
+                    "y": 1509
+                  },
+                  {
+                    "x": "1985",
+                    "y": 2947
+                  },
+                  {
+                    "x": "1990",
+                    "y": 4275
+                  },
+                  {
+                    "x": "1995",
+                    "y": 5813
+                  },
+                  {
+                    "x": "2000",
+                    "y": 7134
+                  },
+                  {
+                    "x": "2005",
+                    "y": 10376
+                  },
+                  {
+                    "x": "2010",
+                    "y": 12835
+                  },
+                  {
+                    "x": "2011",
+                    "y": 13380
+                  },
+                  {
+                    "x": "2012",
+                    "y": 13644
+                  },
+                  {
+                    "x": "2013",
+                    "y": 14213
+                  },
+                  {
+                    "x": "2014",
+                    "y": 14865
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": 21,
+          "order": 21,
+          "id": "promised_pension_contributions",
+          "name": "Promised Pension Contributions",
+          "lexicon_name": "Promised Pension Contributions",
+          "parent": "Compensation",
+          "type": "subtotal",
+          "data": {
+            "combined": [
+              {
+                "x": "1980",
+                "y": 6723
+              },
+              {
+                "x": "1985",
+                "y": 9167
+              },
+              {
+                "x": "1990",
+                "y": 10010
+              },
+              {
+                "x": "1995",
+                "y": 11886
+              },
+              {
+                "x": "2000",
+                "y": 14110
+              },
+              {
+                "x": "2005",
+                "y": 18958
+              },
+              {
+                "x": "2010",
+                "y": 24985
+              },
+              {
+                "x": "2011",
+                "y": 25594
+              },
+              {
+                "x": "2012",
+                "y": 26086
+              },
+              {
+                "x": "2013",
+                "y": 26255
+              },
+              {
+                "x": "2014",
+                "y": 26552
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": 22,
+              "order": 22,
+              "id": "federal_government",
+              "name": "Federal Government",
+              "lexicon_name": "Federal Government",
+              "parent": "Federal Government",
+              "type": null,
+              "data": {
+                "combined": [
+                  {
+                    "x": "1980",
+                    "y": 5145
+                  },
+                  {
+                    "x": "1985",
+                    "y": 6850
+                  },
+                  {
+                    "x": "1990",
+                    "y": 6457
+                  },
+                  {
+                    "x": "1995",
+                    "y": 6433
+                  },
+                  {
+                    "x": "2000",
+                    "y": 7125
+                  },
+                  {
+                    "x": "2005",
+                    "y": 9437
+                  },
+                  {
+                    "x": "2010",
+                    "y": 13087
+                  },
+                  {
+                    "x": "2011",
+                    "y": 13591
+                  },
+                  {
+                    "x": "2012",
+                    "y": 14014
+                  },
+                  {
+                    "x": "2013",
+                    "y": 14133
+                  },
+                  {
+                    "x": "2014",
+                    "y": 14481
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "key": 23,
+                  "order": 23,
+                  "id": "military",
+                  "name": "Military",
+                  "lexicon_name": "Military",
+                  "parent": "Military",
+                  "type": null,
+                  "data": {
+                    "combined": [
+                      {
+                        "x": "1980",
+                        "y": 4717
+                      },
+                      {
+                        "x": "1985",
+                        "y": 6942
+                      },
+                      {
+                        "x": "1990",
+                        "y": 7452
+                      },
+                      {
+                        "x": "1995",
+                        "y": 7010
+                      },
+                      {
+                        "x": "2000",
+                        "y": 7815
+                      },
+                      {
+                        "x": "2005",
+                        "y": 11031
+                      },
+                      {
+                        "x": "2010",
+                        "y": 16742
+                      },
+                      {
+                        "x": "2011",
+                        "y": 17309
+                      },
+                      {
+                        "x": "2012",
+                        "y": 17799
+                      },
+                      {
+                        "x": "2013",
+                        "y": 17895
+                      },
+                      {
+                        "x": "2014",
+                        "y": 18096
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": 24,
+                  "order": 24,
+                  "id": "non-military",
+                  "name": "Non-Military",
+                  "lexicon_name": "Non-Military",
+                  "parent": "Non-Military",
+                  "type": null,
+                  "data": {
+                    "combined": [
+                      {
+                        "x": "1980",
+                        "y": 5471
+                      },
+                      {
+                        "x": "1985",
+                        "y": 6777
+                      },
+                      {
+                        "x": "1990",
+                        "y": 5726
+                      },
+                      {
+                        "x": "1995",
+                        "y": 6072
+                      },
+                      {
+                        "x": "2000",
+                        "y": 6718
+                      },
+                      {
+                        "x": "2005",
+                        "y": 8493
+                      },
+                      {
+                        "x": "2010",
+                        "y": 11000
+                      },
+                      {
+                        "x": "2011",
+                        "y": 11440
+                      },
+                      {
+                        "x": "2012",
+                        "y": 11831
+                      },
+                      {
+                        "x": "2013",
+                        "y": 11954
+                      },
+                      {
+                        "x": "2014",
+                        "y": 12434
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": 25,
+              "order": 25,
+              "id": "state_and_local_government",
+              "name": "State and Local Government",
+              "lexicon_name": "State and Local Government",
+              "parent": "State and Local Government",
+              "type": null,
+              "data": {
+                "combined": [
+                  {
+                    "x": "1980",
+                    "y": 1578
+                  },
+                  {
+                    "x": "1985",
+                    "y": 2317
+                  },
+                  {
+                    "x": "1990",
+                    "y": 3553
+                  },
+                  {
+                    "x": "1995",
+                    "y": 5453
+                  },
+                  {
+                    "x": "2000",
+                    "y": 6985
+                  },
+                  {
+                    "x": "2005",
+                    "y": 9521
+                  },
+                  {
+                    "x": "2010",
+                    "y": 11898
+                  },
+                  {
+                    "x": "2011",
+                    "y": 12003
+                  },
+                  {
+                    "x": "2012",
+                    "y": 12072
+                  },
+                  {
+                    "x": "2013",
+                    "y": 12122
+                  },
+                  {
+                    "x": "2014",
+                    "y": 12071
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        }
+      ],
+      "total_rows": [
+        {
+          "key": 26,
+          "order": 26,
+          "id": "total_compensation",
+          "name": "Total Compensation",
+          "lexicon_name": "Total Compensation",
+          "parent": "Compensation",
+          "type": null,
+          "data": {
+            "combined": [
+              {
+                "x": "1980",
+                "y": 42318
+              },
+              {
+                "x": "1985",
+                "y": 60186
+              },
+              {
+                "x": "1990",
+                "y": 75732
+              },
+              {
+                "x": "1995",
+                "y": 94583
+              },
+              {
+                "x": "2000",
+                "y": 114737
+              },
+              {
+                "x": "2005",
+                "y": 153071
+              },
+              {
+                "x": "2010",
+                "y": 183291
+              },
+              {
+                "x": "2011",
+                "y": 188115
+              },
+              {
+                "x": "2012",
+                "y": 190533
+              },
+              {
+                "x": "2013",
+                "y": 191257
+              },
+              {
+                "x": "2014",
+                "y": 195915
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": 3,
+              "order": 3,
+              "id": "federal_government",
+              "name": "Federal Government",
+              "lexicon_name": "Federal Government",
+              "parent": "Federal Government",
+              "type": null,
+              "data": {
+                "combined": [
+                  {
+                    "x": "1980",
+                    "y": 23902
+                  },
+                  {
+                    "x": "1985",
+                    "y": 33258
+                  },
+                  {
+                    "x": "1990",
+                    "y": 40372
+                  },
+                  {
+                    "x": "1995",
+                    "y": 50487
+                  },
+                  {
+                    "x": "2000",
+                    "y": 61449
+                  },
+                  {
+                    "x": "2005",
+                    "y": 87003
+                  },
+                  {
+                    "x": "2010",
+                    "y": 105049
+                  },
+                  {
+                    "x": "2011",
+                    "y": 108433
+                  },
+                  {
+                    "x": "2012",
+                    "y": 109450
+                  },
+                  {
+                    "x": "2013",
+                    "y": 108700
+                  },
+                  {
+                    "x": "2014",
+                    "y": 111602
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "key": 4,
+                  "order": 4,
+                  "id": "military",
+                  "name": "Military",
+                  "lexicon_name": "Military",
+                  "parent": "Military",
+                  "type": null,
+                  "data": {
+                    "combined": [
+                      {
+                        "x": "1980",
+                        "y": 19127
+                      },
+                      {
+                        "x": "1985",
+                        "y": 28754
+                      },
+                      {
+                        "x": "1990",
+                        "y": 35301
+                      },
+                      {
+                        "x": "1995",
+                        "y": 40849
+                      },
+                      {
+                        "x": "2000",
+                        "y": 48114
+                      },
+                      {
+                        "x": "2005",
+                        "y": 81821
+                      },
+                      {
+                        "x": "2010",
+                        "y": 102073
+                      },
+                      {
+                        "x": "2011",
+                        "y": 103402
+                      },
+                      {
+                        "x": "2012",
+                        "y": 103970
+                      },
+                      {
+                        "x": "2013",
+                        "y": 101675
+                      },
+                      {
+                        "x": "2014",
+                        "y": 102537
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": 5,
+                  "order": 5,
+                  "id": "non-military",
+                  "name": "Non-Military",
+                  "lexicon_name": "Non-Military",
+                  "parent": "Non-Military",
+                  "type": null,
+                  "data": {
+                    "combined": [
+                      {
+                        "x": "1980",
+                        "y": 27537
+                      },
+                      {
+                        "x": "1985",
+                        "y": 36859
+                      },
+                      {
+                        "x": "1990",
+                        "y": 44101
+                      },
+                      {
+                        "x": "1995",
+                        "y": 56493
+                      },
+                      {
+                        "x": "2000",
+                        "y": 69311
+                      },
+                      {
+                        "x": "2005",
+                        "y": 90075
+                      },
+                      {
+                        "x": "2010",
+                        "y": 106748
+                      },
+                      {
+                        "x": "2011",
+                        "y": 111345
+                      },
+                      {
+                        "x": "2012",
+                        "y": 112610
+                      },
+                      {
+                        "x": "2013",
+                        "y": 112768
+                      },
+                      {
+                        "x": "2014",
+                        "y": 116736
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": 6,
+              "order": 6,
+              "id": "state_and_local_government",
+              "name": "State and Local Government",
+              "lexicon_name": "State and Local Government",
+              "parent": "State and Local Government",
+              "type": null,
+              "data": {
+                "combined": [
+                  {
+                    "x": "1980",
+                    "y": 18416
+                  },
+                  {
+                    "x": "1985",
+                    "y": 26928
+                  },
+                  {
+                    "x": "1990",
+                    "y": 35360
+                  },
+                  {
+                    "x": "1995",
+                    "y": 44096
+                  },
+                  {
+                    "x": "2000",
+                    "y": 53288
+                  },
+                  {
+                    "x": "2005",
+                    "y": 66068
+                  },
+                  {
+                    "x": "2010",
+                    "y": 78242
+                  },
+                  {
+                    "x": "2011",
+                    "y": 79682
+                  },
+                  {
+                    "x": "2012",
+                    "y": 81083
+                  },
+                  {
+                    "x": "2013",
+                    "y": 82557
+                  },
+                  {
+                    "x": "2014",
+                    "y": 84313
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "key": 7,
+                  "order": 7,
+                  "id": "education",
+                  "name": "Education",
+                  "lexicon_name": "Education",
+                  "parent": "Education",
+                  "type": null,
+                  "data": {
+                    "combined": [
+                      {
+                        "x": "1980",
+                        "y": 18992
+                      },
+                      {
+                        "x": "1985",
+                        "y": 27163
+                      },
+                      {
+                        "x": "1990",
+                        "y": 35675
+                      },
+                      {
+                        "x": "1995",
+                        "y": 43812
+                      },
+                      {
+                        "x": "2000",
+                        "y": 52279
+                      },
+                      {
+                        "x": "2005",
+                        "y": 64431
+                      },
+                      {
+                        "x": "2010",
+                        "y": 76847
+                      },
+                      {
+                        "x": "2011",
+                        "y": 78012
+                      },
+                      {
+                        "x": "2012",
+                        "y": 77843
+                      },
+                      {
+                        "x": "2013",
+                        "y": 79277
+                      },
+                      {
+                        "x": "2014",
+                        "y": 81851
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": 8,
+                  "order": 8,
+                  "id": "non-education",
+                  "name": "Non-Education",
+                  "lexicon_name": "Non-Education",
+                  "parent": "Non-Education",
+                  "type": null,
+                  "data": {
+                    "combined": [
+                      {
+                        "x": "1980",
+                        "y": 17906
+                      },
+                      {
+                        "x": "1985",
+                        "y": 26714
+                      },
+                      {
+                        "x": "1990",
+                        "y": 35069
+                      },
+                      {
+                        "x": "1995",
+                        "y": 44368
+                      },
+                      {
+                        "x": "2000",
+                        "y": 54326
+                      },
+                      {
+                        "x": "2005",
+                        "y": 67753
+                      },
+                      {
+                        "x": "2010",
+                        "y": 79681
+                      },
+                      {
+                        "x": "2011",
+                        "y": 81412
+                      },
+                      {
+                        "x": "2012",
+                        "y": 84574
+                      },
+                      {
+                        "x": "2013",
+                        "y": 86097
+                      },
+                      {
+                        "x": "2014",
+                        "y": 86895
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": 28,
+      "order": 28,
+      "id": "pension_over_or_under_funding",
+      "name": "Pension Over or Under Funding",
+      "lexicon_name": "Pension Over or Under Funding",
+      "type": "",
+      "rows": [
+        {
+          "key": 29,
+          "order": 29,
+          "id": "actual_pension_contributions",
+          "name": "Actual Pension Contributions",
+          "lexicon_name": "Actual Pension Contributions",
+          "parent": "Pension Over or Under Funding",
+          "type": "subtotal",
+          "data": {
+            "combined": [
+              {
+                "x": "1980",
+                "y": 7285
+              },
+              {
+                "x": "1985",
+                "y": 12172
+              },
+              {
+                "x": "1990",
+                "y": 12908
+              },
+              {
+                "x": "1995",
+                "y": 15618
+              },
+              {
+                "x": "2000",
+                "y": 18609
+              },
+              {
+                "x": "2005",
+                "y": 24365
+              },
+              {
+                "x": "2010",
+                "y": 38469
+              },
+              {
+                "x": "2011",
+                "y": 40511
+              },
+              {
+                "x": "2012",
+                "y": 43057
+              },
+              {
+                "x": "2013",
+                "y": 45200
+              },
+              {
+                "x": "2014",
+                "y": 47554
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": 30,
+              "order": 30,
+              "id": "federal_government",
+              "name": "Federal Government",
+              "lexicon_name": "Federal Government",
+              "parent": "Federal Government",
+              "type": null,
+              "data": {
+                "combined": [
+                  {
+                    "x": "1980",
+                    "y": 5573
+                  },
+                  {
+                    "x": "1985",
+                    "y": 9700
+                  },
+                  {
+                    "x": "1990",
+                    "y": 10372
+                  },
+                  {
+                    "x": "1995",
+                    "y": 12608
+                  },
+                  {
+                    "x": "2000",
+                    "y": 15951
+                  },
+                  {
+                    "x": "2005",
+                    "y": 20441
+                  },
+                  {
+                    "x": "2010",
+                    "y": 32891
+                  },
+                  {
+                    "x": "2011",
+                    "y": 34406
+                  },
+                  {
+                    "x": "2012",
+                    "y": 36516
+                  },
+                  {
+                    "x": "2013",
+                    "y": 37921
+                  },
+                  {
+                    "x": "2014",
+                    "y": 39735
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "key": 31,
+                  "order": 31,
+                  "id": "military",
+                  "name": "Military",
+                  "lexicon_name": "Military",
+                  "parent": "Military",
+                  "type": null,
+                  "data": {
+                    "combined": [
+                      {
+                        "x": "1980",
+                        "y": 5697
+                      },
+                      {
+                        "x": "1985",
+                        "y": 12045
+                      },
+                      {
+                        "x": "1990",
+                        "y": 12150
+                      },
+                      {
+                        "x": "1995",
+                        "y": 13340
+                      },
+                      {
+                        "x": "2000",
+                        "y": 18242
+                      },
+                      {
+                        "x": "2005",
+                        "y": 26511
+                      },
+                      {
+                        "x": "2010",
+                        "y": 55116
+                      },
+                      {
+                        "x": "2011",
+                        "y": 58404
+                      },
+                      {
+                        "x": "2012",
+                        "y": 62266
+                      },
+                      {
+                        "x": "2013",
+                        "y": 65475
+                      },
+                      {
+                        "x": "2014",
+                        "y": 69150
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": 32,
+                  "order": 32,
+                  "id": "non-military",
+                  "name": "Non-Military",
+                  "lexicon_name": "Non-Military",
+                  "parent": "Non-Military",
+                  "type": null,
+                  "data": {
+                    "combined": [
+                      {
+                        "x": "1980",
+                        "y": 5479
+                      },
+                      {
+                        "x": "1985",
+                        "y": 7825
+                      },
+                      {
+                        "x": "1990",
+                        "y": 9065
+                      },
+                      {
+                        "x": "1995",
+                        "y": 12151
+                      },
+                      {
+                        "x": "2000",
+                        "y": 14599
+                      },
+                      {
+                        "x": "2005",
+                        "y": 16843
+                      },
+                      {
+                        "x": "2010",
+                        "y": 20203
+                      },
+                      {
+                        "x": "2011",
+                        "y": 20517
+                      },
+                      {
+                        "x": "2012",
+                        "y": 21668
+                      },
+                      {
+                        "x": "2013",
+                        "y": 21966
+                      },
+                      {
+                        "x": "2014",
+                        "y": 23077
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": 33,
+              "order": 33,
+              "id": "state_and_local_government",
+              "name": "State and Local Government",
+              "lexicon_name": "State and Local Government",
+              "parent": "State and Local Government",
+              "type": null,
+              "data": {
+                "combined": [
+                  {
+                    "x": "1980",
+                    "y": 1712
+                  },
+                  {
+                    "x": "1985",
+                    "y": 2472
+                  },
+                  {
+                    "x": "1990",
+                    "y": 2536
+                  },
+                  {
+                    "x": "1995",
+                    "y": 3010
+                  },
+                  {
+                    "x": "2000",
+                    "y": 2658
+                  },
+                  {
+                    "x": "2005",
+                    "y": 3924
+                  },
+                  {
+                    "x": "2010",
+                    "y": 5578
+                  },
+                  {
+                    "x": "2011",
+                    "y": 6105
+                  },
+                  {
+                    "x": "2012",
+                    "y": 6541
+                  },
+                  {
+                    "x": "2013",
+                    "y": 7279
+                  },
+                  {
+                    "x": "2014",
+                    "y": 7819
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": 34,
+          "order": 34,
+          "id": "over_(+)_or_under_(-)_funded_pension_contributions",
+          "name": "Over (+) or Under (-) funded Pension Contributions",
+          "lexicon_name": "Over (+) or Under (-) funded Pension Contributions",
+          "parent": "Pension Over or Under Funding",
+          "type": "subtotal",
+          "data": {
+            "combined": [
+              {
+                "x": "1980",
+                "y": 562
+              },
+              {
+                "x": "1985",
+                "y": 3005
+              },
+              {
+                "x": "1990",
+                "y": 2897
+              },
+              {
+                "x": "1995",
+                "y": 3732
+              },
+              {
+                "x": "2000",
+                "y": 4499
+              },
+              {
+                "x": "2005",
+                "y": 5408
+              },
+              {
+                "x": "2010",
+                "y": 13484
+              },
+              {
+                "x": "2011",
+                "y": 14917
+              },
+              {
+                "x": "2012",
+                "y": 16972
+              },
+              {
+                "x": "2013",
+                "y": 18944
+              },
+              {
+                "x": "2014",
+                "y": 21002
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": 35,
+              "order": 35,
+              "id": "federal_government",
+              "name": "Federal Government",
+              "lexicon_name": "Federal Government",
+              "parent": "Federal Government",
+              "type": null,
+              "data": {
+                "combined": [
+                  {
+                    "x": "1980",
+                    "y": 428
+                  },
+                  {
+                    "x": "1985",
+                    "y": 2850
+                  },
+                  {
+                    "x": "1990",
+                    "y": 3915
+                  },
+                  {
+                    "x": "1995",
+                    "y": 6175
+                  },
+                  {
+                    "x": "2000",
+                    "y": 8826
+                  },
+                  {
+                    "x": "2005",
+                    "y": 11004
+                  },
+                  {
+                    "x": "2010",
+                    "y": 19804
+                  },
+                  {
+                    "x": "2011",
+                    "y": 20815
+                  },
+                  {
+                    "x": "2012",
+                    "y": 22503
+                  },
+                  {
+                    "x": "2013",
+                    "y": 23787
+                  },
+                  {
+                    "x": "2014",
+                    "y": 25254
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "key": 36,
+                  "order": 36,
+                  "id": "military",
+                  "name": "Military",
+                  "lexicon_name": "Military",
+                  "parent": "Military",
+                  "type": null,
+                  "data": {
+                    "combined": [
+                      {
+                        "x": "1980",
+                        "y": 980
+                      },
+                      {
+                        "x": "1985",
+                        "y": 5103
+                      },
+                      {
+                        "x": "1990",
+                        "y": 4698
+                      },
+                      {
+                        "x": "1995",
+                        "y": 6330
+                      },
+                      {
+                        "x": "2000",
+                        "y": 10427
+                      },
+                      {
+                        "x": "2005",
+                        "y": 15480
+                      },
+                      {
+                        "x": "2010",
+                        "y": 38375
+                      },
+                      {
+                        "x": "2011",
+                        "y": 41094
+                      },
+                      {
+                        "x": "2012",
+                        "y": 44467
+                      },
+                      {
+                        "x": "2013",
+                        "y": 47580
+                      },
+                      {
+                        "x": "2014",
+                        "y": 51054
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": 37,
+                  "order": 37,
+                  "id": "non-military",
+                  "name": "Non-Military",
+                  "lexicon_name": "Non-Military",
+                  "parent": "Non-Military",
+                  "type": null,
+                  "data": {
+                    "combined": [
+                      {
+                        "x": "1980",
+                        "y": 8
+                      },
+                      {
+                        "x": "1985",
+                        "y": 1048
+                      },
+                      {
+                        "x": "1990",
+                        "y": 3339
+                      },
+                      {
+                        "x": "1995",
+                        "y": 6079
+                      },
+                      {
+                        "x": "2000",
+                        "y": 7882
+                      },
+                      {
+                        "x": "2005",
+                        "y": 8350
+                      },
+                      {
+                        "x": "2010",
+                        "y": 9202
+                      },
+                      {
+                        "x": "2011",
+                        "y": 9077
+                      },
+                      {
+                        "x": "2012",
+                        "y": 9837
+                      },
+                      {
+                        "x": "2013",
+                        "y": 10011
+                      },
+                      {
+                        "x": "2014",
+                        "y": 10643
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": 38,
+              "order": 38,
+              "id": "state_and_local_government",
+              "name": "State and Local Government",
+              "lexicon_name": "State and Local Government",
+              "parent": "State and Local Government",
+              "type": null,
+              "data": {
+                "combined": [
+                  {
+                    "x": "1980",
+                    "y": 134
+                  },
+                  {
+                    "x": "1985",
+                    "y": 155
+                  },
+                  {
+                    "x": "1990",
+                    "y": -1018
+                  },
+                  {
+                    "x": "1995",
+                    "y": -2443
+                  },
+                  {
+                    "x": "2000",
+                    "y": -4327
+                  },
+                  {
+                    "x": "2005",
+                    "y": -5596
+                  },
+                  {
+                    "x": "2010",
+                    "y": -6320
+                  },
+                  {
+                    "x": "2011",
+                    "y": -5898
+                  },
+                  {
+                    "x": "2012",
+                    "y": -5531
+                  },
+                  {
+                    "x": "2013",
+                    "y": -4843
+                  },
+                  {
+                    "x": "2014",
+                    "y": -4252
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        }
+      ],
+      "total_rows": [
+        {
+          "key": 39,
+          "order": 39,
+          "id": "total_contributions",
+          "name": "Total Contributions",
+          "lexicon_name": "Total Contributions",
+          "parent": "Pension Over or Under Funding",
+          "type": null,
+          "data": {
+            "combined": [
+              {
+                "x": "1980",
+                "y": 7847
+              },
+              {
+                "x": "1985",
+                "y": 15177
+              },
+              {
+                "x": "1990",
+                "y": 15805
+              },
+              {
+                "x": "1995",
+                "y": 19350
+              },
+              {
+                "x": "2000",
+                "y": 23108
+              },
+              {
+                "x": "2005",
+                "y": 29773
+              },
+              {
+                "x": "2010",
+                "y": 51953
+              },
+              {
+                "x": "2011",
+                "y": 55428
+              },
+              {
+                "x": "2012",
+                "y": 60029
+              },
+              {
+                "x": "2013",
+                "y": 64144
+              },
+              {
+                "x": "2014",
+                "y": 68556
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": 40,
+              "order": 40,
+              "id": "federal_government",
+              "name": "Federal Government",
+              "lexicon_name": "Federal Government",
+              "parent": "Federal Government",
+              "type": null,
+              "data": {
+                "combined": [
+                  {
+                    "x": "1980",
+                    "y": 6001
+                  },
+                  {
+                    "x": "1985",
+                    "y": 12550
+                  },
+                  {
+                    "x": "1990",
+                    "y": 14287
+                  },
+                  {
+                    "x": "1995",
+                    "y": 18783
+                  },
+                  {
+                    "x": "2000",
+                    "y": 24777
+                  },
+                  {
+                    "x": "2005",
+                    "y": 31445
+                  },
+                  {
+                    "x": "2010",
+                    "y": 52695
+                  },
+                  {
+                    "x": "2011",
+                    "y": 55221
+                  },
+                  {
+                    "x": "2012",
+                    "y": 59019
+                  },
+                  {
+                    "x": "2013",
+                    "y": 61708
+                  },
+                  {
+                    "x": "2014",
+                    "y": 64989
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "key": 42,
+                  "order": 42,
+                  "id": "military",
+                  "name": "Military",
+                  "lexicon_name": "Military",
+                  "parent": "Military",
+                  "type": null,
+                  "data": {
+                    "combined": [
+                      {
+                        "x": "1980",
+                        "y": 6677
+                      },
+                      {
+                        "x": "1985",
+                        "y": 17148
+                      },
+                      {
+                        "x": "1990",
+                        "y": 16848
+                      },
+                      {
+                        "x": "1995",
+                        "y": 19670
+                      },
+                      {
+                        "x": "2000",
+                        "y": 28669
+                      },
+                      {
+                        "x": "2005",
+                        "y": 41991
+                      },
+                      {
+                        "x": "2010",
+                        "y": 93491
+                      },
+                      {
+                        "x": "2011",
+                        "y": 99498
+                      },
+                      {
+                        "x": "2012",
+                        "y": 106733
+                      },
+                      {
+                        "x": "2013",
+                        "y": 113055
+                      },
+                      {
+                        "x": "2014",
+                        "y": 120204
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": 43,
+                  "order": 43,
+                  "id": "non-military",
+                  "name": "Non-Military",
+                  "lexicon_name": "Non-Military",
+                  "parent": "Non-Military",
+                  "type": null,
+                  "data": {
+                    "combined": [
+                      {
+                        "x": "1980",
+                        "y": 5487
+                      },
+                      {
+                        "x": "1985",
+                        "y": 8873
+                      },
+                      {
+                        "x": "1990",
+                        "y": 12404
+                      },
+                      {
+                        "x": "1995",
+                        "y": 18230
+                      },
+                      {
+                        "x": "2000",
+                        "y": 22481
+                      },
+                      {
+                        "x": "2005",
+                        "y": 25193
+                      },
+                      {
+                        "x": "2010",
+                        "y": 29405
+                      },
+                      {
+                        "x": "2011",
+                        "y": 29594
+                      },
+                      {
+                        "x": "2012",
+                        "y": 31505
+                      },
+                      {
+                        "x": "2013",
+                        "y": 31977
+                      },
+                      {
+                        "x": "2014",
+                        "y": 33720
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": 41,
+              "order": 41,
+              "id": "state_and_local_government",
+              "name": "State and Local Government",
+              "lexicon_name": "State and Local Government",
+              "parent": "State and Local Government",
+              "type": null,
+              "data": {
+                "combined": [
+                  {
+                    "x": "1980",
+                    "y": 1846
+                  },
+                  {
+                    "x": "1985",
+                    "y": 2627
+                  },
+                  {
+                    "x": "1990",
+                    "y": 1518
+                  },
+                  {
+                    "x": "1995",
+                    "y": 567
+                  },
+                  {
+                    "x": "2000",
+                    "y": -1669
+                  },
+                  {
+                    "x": "2005",
+                    "y": -1672
+                  },
+                  {
+                    "x": "2010",
+                    "y": -742
+                  },
+                  {
+                    "x": "2011",
+                    "y": 207
+                  },
+                  {
+                    "x": "2012",
+                    "y": 1010
+                  },
+                  {
+                    "x": "2013",
+                    "y": 2436
+                  },
+                  {
+                    "x": "2014",
+                    "y": 3567
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
