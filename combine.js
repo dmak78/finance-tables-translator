@@ -7,196 +7,9 @@ import merge from 'lodash/merge'
 import mergeWith from 'lodash/mergeWith'
 import csv from 'csvtojson'
 
-const currentConfig = {
-  'revenue--government--state_local': {
-    section: 'revenue',
-    sector: 'government',
-    government_type: 'state_local',
-    government_type_name: 'State & Local',
-    name: 'Government Revenue',
-    latest_year: '2014',
-    itemParentId: 'name',
-    defaults: {
-      rounding_unit: 1000000000,
-      precision: 1
-    }
-  },
-  'revenue--government--federal': {
-    section: 'revenue',
-    sector: 'government',
-    government_type: 'federal',
-    government_type_name: 'Federal',
-    name: 'Government Revenue',
-    latest_year: '2015',
-    itemParentId: 'name'
-  },
-  'revenue--government--combined': {
-    section: 'revenue',
-    sector: 'government',
-    government_type: 'combined',
-    government_type_name: 'Combined',
-    name: 'Government Revenue',
-    latest_year: '2015',
-    itemParentId: 'name'
-  },
-  'employment--compensation-aggregate--combined': {
-    section: 'employment',
-    sector: 'compensation-aggregate',
-    government_type: 'combined',
-    government_type_name: 'Combined',
-    name: 'Compensation of Government Employees (aggregate)',
-    latest_year: '2014',
-    itemParentId: 'tableId',
-    defaults: {
-      current_comparison: "by_years",
-      available_comparisons: [
-        {
-          id: "by_years",
-          name: "Fiscal Year"
-        }
-      ]
-    }
-  },
-  'employment--compensation-per-person--combined': {
-    section: 'employment',
-    sector: 'compensation-per-person',
-    government_type: 'combined',
-    government_type_name: 'Combined',
-    name: 'Compensation of Government Employees (per person)',
-    latest_year: '2014',
-    itemParentId: 'tableId',
-    defaults: {
-      current_comparison: "by_years",
-      available_comparisons: [
-        {
-          id: "by_years",
-          name: "Fiscal Year"
-        }
-      ]
-    }
-  },
-  'employment--number-of-employees--combined': {
-    section: 'employment',
-    sector: 'number-of-employees',
-    government_type: 'combined',
-    government_type_name: 'Combined',
-    name: 'Total Employees',
-    latest_year: '2014',
-    itemParentId: 'name'
-  },
-  'employment--number-of-employees--federal': {
-    section: 'employment',
-    sector: 'number-of-employees',
-    government_type: 'federal',
-    government_type_name: 'Federal',
-    name: 'Total Employees',
-    latest_year: '2014',
-    itemParentId: 'name'
-  },
-  'employment--number-of-employees--state_local': {
-    section: 'employment',
-    sector: 'number-of-employees',
-    government_type: 'state_local',
-    government_type_name: 'State & Local',
-    name: 'Total Employees',
-    latest_year: '2014',
-    itemParentId: 'name'
-  },
-  'balance-sheets--government--combined': {
-    section: 'balance-sheets',
-    sector: 'government',
-    government_type: 'combined',
-    government_type_name: 'Combined',
-    name: 'Government Balance Sheet',
-    latest_year: '2015',
-    itemParentId: 'name'
-  },
-  'balance-sheets--government--federal': {
-    section: 'balance-sheets',
-    sector: 'government',
-    government_type: 'federal',
-    government_type_name: 'Federal',
-    name: 'Government Balance Sheet',
-    latest_year: '2015',
-    itemParentId: 'name'
-  },
-  'balance-sheets--government--state_local': {
-    section: 'balance-sheets',
-    sector: 'government',
-    government_type: 'state_local',
-    government_type_name: 'State & Local',
-    name: 'Government Balance Sheet',
-    latest_year: '2015',
-    itemParentId: 'name'
-  },
-  'balance-sheets--federal-reserve--combined': {
-    section: 'balance-sheets',
-    sector: 'federal-reserve',
-    government_type: 'combined',
-    government_type_name: 'Combined',
-    name: 'Federal Reserve Balance Sheet',
-    latest_year: '2015',
-    itemParentId: 'name'
-  },
-  'balance-sheets--gse--federal': {
-    section: 'balance-sheets',
-    sector: 'gse',
-    government_type: 'federal',
-    government_type_name: 'Federal',
-    name: 'Government-Sponsored Enterprises Balance Sheet',
-    latest_year: '2015',
-    itemParentId: 'name'
-  },
-  'employment--compensation-per-person-per-hour--state_local': {
-    section: 'employment',
-    sector: 'compensation-per-person-per-hour',
-    government_type: 'state_local',
-    government_type_name: 'State & Local',
-    name: 'Compensation Per Person Per Hour (State & Local)',
-    latest_year: '2015',
-    itemParentId: 'tableId',
-    defaults: {
-      current_comparison: "by_years",
-      precision: 2,
-      available_years: [
-        {
-          id: "2005",
-          name: "2005"
-        },
-        {
-          id: "2010",
-          name: "2010"
-        },
-        {
-          id: "2011",
-          name: "2011"
-        },
-        {
-          id: "2012",
-          name: "2012"
-        },
-        {
-          id: "2013",
-          name: "2013"
-        },
-        {
-          id: "2014",
-          name: "2014"
-        },
-        {
-          id: "2015",
-          name: "2015"
-        }
-      ],
-      available_comparisons: [
-        {
-          name: "Fiscal Year",
-          id: "by_years"
-        }
-      ]
-    }
-  }
-}
+import { entityNameToKey } from './lib'
+
+import currentConfig from './config'
 
 const parseDataIntoArray = (data) => {
   let output = []
@@ -207,17 +20,24 @@ const parseDataIntoArray = (data) => {
 }
 
 const createRow = (row, parent, dataArray, config) => {
+  const {
+    id,
+    order,
+    name,
+    style,
+    data
+  }
   const parentId = _.get('name')(row)
   return {
-    key: row.id,
-    order: row.order,
-    id: row.id,
-    name: row.name,
-    lexicon_name: row.name,
+    key: id,
+    order: order,
+    id: id,
+    name: name,
+    lexicon_name: name,
     parent: parent,
-    type: row.style && row.style !== "" ? row.style : null,
-    data: row.data,
-    children: _.map(row => createRow(row, row.name, dataArray))(_.filter(item => item.type === 'row' && item.parent === parentId)(dataArray))
+    type: style && style !== "" ? style : null,
+    data: data,
+    children: _.map(child => createRow(child, name, dataArray))(_.filter(item => item.type === 'row' && item.parent === parentId)(dataArray))
   }
 }
 
@@ -246,17 +66,39 @@ const processDataTables = (data) => {
 }
 
 function writeTableJson(output) {
-  fs.writeJson(`output/revenue--government.json`, output, (err) => {
+  fs.writeJson(`output/test.json`, output, (err) => {
     if (err) console.error(err)
-    console.log('done: ' + 'revenue--government')
+    console.log('done: ' + 'spending--by-mission')
+  })
+}
+
+function csvToJson(config) {
+  const id = `${config.section}--${config.sector}--${config.government_type}`
+  const tableData = []
+  return new Promise(function(resolve){
+    csv({
+      checkType: true
+    })
+      .fromFile(`input/${config.section}/${config.sector}/${config.government_type}/${id}.csv`)
+      .on('json',(jsonRow) => {
+        tableData.push({
+          ...jsonRow,
+          id: entityNameToKey(jsonRow.name)
+        })
+      })
+      .on('done',(error) => {
+        if (error) return console.error(error)
+        console.log('converted: ' + id )
+        resolve(tableData)
+      })
   })
 }
 
 function buildTableJson(data) {
   const output = {
-    "id": 'revenue--government',
-    "lexicon_name": 'Government Revenue',
-    "name": 'Government Revenue',
+    "id": 'spending--by-mission',
+    "lexicon_name": 'Spending By Mission',
+    "name": 'Spending By Mission',
     "current_government_type": 'combined',
     "current_year": '2014',
     "available_adjustments": null,
@@ -284,63 +126,64 @@ function buildTableJson(data) {
   return writeTableJson(output)
 }
 
-function entityNameToKey(name) {
-  return name.toLowerCase().replace(/ /g,'_')
-}
+const rowConfigValues = ['id', 'order', 'style', 'type', 'footnote', 'parent', 'name', 'source']
 
-const tablesToProcess = [
-  'revenue--government--combined',
-  'revenue--government--federal',
-  'revenue--government--state_local'
-]
 
-function csvToJson(config) {
-  const id = `${config.section}--${config.sector}--${config.government_type}`
-  const tableData = []
-  return new Promise(function(resolve){
-    csv({
-      checkType: true
-    })
-      .fromFile(`input/${config.section}/${config.sector}/${config.government_type}/${id}.csv`)
-      .on('json',(jsonRow)=>{
-        tableData.push({
-          ...jsonRow,
-          id: entityNameToKey(jsonRow.name)
-        })
-      })
-      .on('done',(error) => {
-        if (error) return console.error(error)
-        console.log('converted: ' + id )
-        resolve(tableData)
-      })
-  })
-}
+const isRowDataType = (row) => row.type === 'row' || row.type === 'total_row'
 
-const files = _.map(id => {
-  return csvToJson(currentConfig[id])
-})(tablesToProcess)
-
-Promise.all(files).then(function(data){
-  const rowConfigValues = ['id', 'order', 'style', 'type', 'footnote', 'parent', 'name', 'source']
-  const rawJson = _.mapValues((values) => {
-    const rowObject = _.pick(rowConfigValues)(values[0])
-    let data = rowObject.type === 'row' || rowObject.type === 'total_row' ? _.keyBy(row => row.government_type)(values) : null
-    data = _.mapValues(datum => {
-      const filtered = _.omit([...rowConfigValues, 'government_type'])(datum)
-      return map(filtered, (value, key) => {
-        return {
-          x: key,
-          y: value * 1000
-        }
-      })
-    })(data)
+const processDataPoints = _.mapValues(datum => {
+  const filtered = _.omit([...rowConfigValues, 'government_type'])(datum)
+  return map(filtered, (value, key) => {
     return {
-      ...rowObject,
-      data
+      x: key,
+      y: value * 1000
     }
-  })(_.groupBy(row => row.id)(_.flatten(data)))
-  buildTableJson(rawJson)
-  fs.writeJson(`input/test.json`, rawJson, (err) => {
-    if (err) console.error(err)
   })
 })
+
+const combineGovernmentTypeData = _.flow(
+  _.keyBy(row => row.government_type),
+  processDataPoints
+)
+
+const getData = (values) => {
+  return isRowDataType(values[0]) ? 
+    combineGovernmentTypeData(values) 
+  : null
+}
+
+const combineRowJson = (values) => {
+  return { 
+    ..._.flow(
+      _.getOr(null, '0'),
+      _.pick(rowConfigValues),
+    )(values),
+    data: getData(values)
+  }
+}
+
+const combineTableFiles = _.flow(
+  _.flatten,
+  _.groupBy(row => row.id),
+  _.mapValues(combineRowJson),
+  buildTableJson
+)
+
+const tablesToProcess = [
+  'spending--by-mission--combined',
+  'spending--by-mission--federal',
+  'spending--by-mission--state_local'
+]
+
+const getConfigAndProcess = (config) => (id) => csvToJson(config[id])
+
+const fetchTableCsvFiles = (config) => _.map(getConfigAndProcess(config))
+
+const combine = (config, tableIds) => {
+  const files = fetchTableCsvFiles(config)(tableIds)
+  Promise.all(files).then(
+    combineTableFiles
+  )
+}
+
+combine(currentConfig, tablesToProcess)
