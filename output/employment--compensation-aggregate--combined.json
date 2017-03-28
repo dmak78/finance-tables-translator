@@ -20,7 +20,7 @@
   ],
   "data_tables": [
     {
-      "key": 2,
+      "key": "data-table--compensation",
       "order": 2,
       "id": "compensation",
       "name": "Compensation",
@@ -28,9 +28,9 @@
       "type": "expandable",
       "rows": [
         {
-          "key": 9,
+          "key": "9--combined",
           "order": 9,
-          "id": "wages_&_salaries",
+          "id": "9--wages_&_salaries",
           "name": "Wages & Salaries",
           "lexicon_name": "Wages & Salaries",
           "parent": "Compensation",
@@ -85,12 +85,12 @@
           },
           "children": [
             {
-              "key": 10,
+              "key": "10--combined",
               "order": 10,
-              "id": "federal_government",
+              "id": "10--federal_government",
               "name": "Federal Government",
               "lexicon_name": "Federal Government",
-              "parent": "Federal Government",
+              "parent": "Wages & Salaries",
               "type": null,
               "data": {
                 "combined": [
@@ -142,12 +142,12 @@
               },
               "children": [
                 {
-                  "key": 11,
+                  "key": "11--combined",
                   "order": 11,
-                  "id": "military",
+                  "id": "11--military",
                   "name": "Military",
                   "lexicon_name": "Military",
-                  "parent": "Military",
+                  "parent": "Federal Government",
                   "type": null,
                   "data": {
                     "combined": [
@@ -200,12 +200,12 @@
                   "children": []
                 },
                 {
-                  "key": 12,
+                  "key": "12--combined",
                   "order": 12,
-                  "id": "non-military",
+                  "id": "12--non-military",
                   "name": "Non-Military",
                   "lexicon_name": "Non-Military",
-                  "parent": "Non-Military",
+                  "parent": "Federal Government",
                   "type": null,
                   "data": {
                     "combined": [
@@ -260,12 +260,12 @@
               ]
             },
             {
-              "key": 13,
+              "key": "13--combined",
               "order": 13,
-              "id": "state_and_local_government",
+              "id": "13--state_and_local_government",
               "name": "State and Local Government",
               "lexicon_name": "State and Local Government",
-              "parent": "State and Local Government",
+              "parent": "Wages & Salaries",
               "type": null,
               "data": {
                 "combined": [
@@ -317,12 +317,12 @@
               },
               "children": [
                 {
-                  "key": 14,
+                  "key": "14--combined",
                   "order": 14,
-                  "id": "education",
+                  "id": "14--education",
                   "name": "Education",
                   "lexicon_name": "Education",
-                  "parent": "Education",
+                  "parent": "State and Local Government",
                   "type": null,
                   "data": {
                     "combined": [
@@ -375,12 +375,12 @@
                   "children": []
                 },
                 {
-                  "key": 15,
+                  "key": "15--combined",
                   "order": 15,
-                  "id": "non-education",
+                  "id": "15--non-education",
                   "name": "Non-Education",
                   "lexicon_name": "Non-Education",
-                  "parent": "Non-Education",
+                  "parent": "State and Local Government",
                   "type": null,
                   "data": {
                     "combined": [
@@ -437,9 +437,9 @@
           ]
         },
         {
-          "key": 16,
+          "key": "16--combined",
           "order": 16,
-          "id": "other_supplemental_benefits",
+          "id": "16--other_supplemental_benefits",
           "name": "Other Supplemental Benefits",
           "lexicon_name": "Other Supplemental Benefits",
           "parent": "Compensation",
@@ -494,12 +494,12 @@
           },
           "children": [
             {
-              "key": 17,
+              "key": "17--combined",
               "order": 17,
-              "id": "federal_government",
+              "id": "17--federal_government",
               "name": "Federal Government",
               "lexicon_name": "Federal Government",
-              "parent": "Federal Government",
+              "parent": "Other Supplemental Benefits",
               "type": null,
               "data": {
                 "combined": [
@@ -551,12 +551,12 @@
               },
               "children": [
                 {
-                  "key": 18,
+                  "key": "18--combined",
                   "order": 18,
-                  "id": "military",
+                  "id": "18--military",
                   "name": "Military",
                   "lexicon_name": "Military",
-                  "parent": "Military",
+                  "parent": "Federal Government",
                   "type": null,
                   "data": {
                     "combined": [
@@ -609,12 +609,12 @@
                   "children": []
                 },
                 {
-                  "key": 19,
+                  "key": "19--combined",
                   "order": 19,
-                  "id": "non-military",
+                  "id": "19--non-military",
                   "name": "Non-Military",
                   "lexicon_name": "Non-Military",
-                  "parent": "Non-Military",
+                  "parent": "Federal Government",
                   "type": null,
                   "data": {
                     "combined": [
@@ -669,12 +669,12 @@
               ]
             },
             {
-              "key": 20,
+              "key": "20--combined",
               "order": 20,
-              "id": "state_and_local_government",
+              "id": "20--state_and_local_government",
               "name": "State and Local Government",
               "lexicon_name": "State and Local Government",
-              "parent": "State and Local Government",
+              "parent": "Other Supplemental Benefits",
               "type": null,
               "data": {
                 "combined": [
@@ -729,9 +729,9 @@
           ]
         },
         {
-          "key": 21,
+          "key": "21--combined",
           "order": 21,
-          "id": "promised_pension_contributions",
+          "id": "21--promised_pension_contributions",
           "name": "Promised Pension Contributions",
           "lexicon_name": "Promised Pension Contributions",
           "parent": "Compensation",
@@ -786,12 +786,12 @@
           },
           "children": [
             {
-              "key": 22,
+              "key": "22--combined",
               "order": 22,
-              "id": "federal_government",
+              "id": "22--federal_government",
               "name": "Federal Government",
               "lexicon_name": "Federal Government",
-              "parent": "Federal Government",
+              "parent": "Promised Pension Contributions",
               "type": null,
               "data": {
                 "combined": [
@@ -843,12 +843,12 @@
               },
               "children": [
                 {
-                  "key": 23,
+                  "key": "23--combined",
                   "order": 23,
-                  "id": "military",
+                  "id": "23--military",
                   "name": "Military",
                   "lexicon_name": "Military",
-                  "parent": "Military",
+                  "parent": "Federal Government",
                   "type": null,
                   "data": {
                     "combined": [
@@ -901,12 +901,12 @@
                   "children": []
                 },
                 {
-                  "key": 24,
+                  "key": "24--combined",
                   "order": 24,
-                  "id": "non-military",
+                  "id": "24--non-military",
                   "name": "Non-Military",
                   "lexicon_name": "Non-Military",
-                  "parent": "Non-Military",
+                  "parent": "Federal Government",
                   "type": null,
                   "data": {
                     "combined": [
@@ -961,12 +961,12 @@
               ]
             },
             {
-              "key": 25,
+              "key": "25--combined",
               "order": 25,
-              "id": "state_and_local_government",
+              "id": "25--state_and_local_government",
               "name": "State and Local Government",
               "lexicon_name": "State and Local Government",
-              "parent": "State and Local Government",
+              "parent": "Promised Pension Contributions",
               "type": null,
               "data": {
                 "combined": [
@@ -1023,9 +1023,9 @@
       ],
       "total_rows": [
         {
-          "key": 37,
+          "key": "37--combined",
           "order": 37,
-          "id": "total_compensation",
+          "id": "37--total_compensation",
           "name": "Total Compensation",
           "lexicon_name": "Total Compensation",
           "parent": "Compensation",
@@ -1080,12 +1080,12 @@
           },
           "children": [
             {
-              "key": 3,
+              "key": "3--combined",
               "order": 3,
-              "id": "federal_government",
+              "id": "3--federal_government",
               "name": "Federal Government",
               "lexicon_name": "Federal Government",
-              "parent": "Federal Government",
+              "parent": "Total Compensation",
               "type": null,
               "data": {
                 "combined": [
@@ -1137,12 +1137,12 @@
               },
               "children": [
                 {
-                  "key": 4,
+                  "key": "4--combined",
                   "order": 4,
-                  "id": "military",
+                  "id": "4--military",
                   "name": "Military",
                   "lexicon_name": "Military",
-                  "parent": "Military",
+                  "parent": "Federal Government",
                   "type": null,
                   "data": {
                     "combined": [
@@ -1195,12 +1195,12 @@
                   "children": []
                 },
                 {
-                  "key": 5,
+                  "key": "5--combined",
                   "order": 5,
-                  "id": "non-military",
+                  "id": "5--non-military",
                   "name": "Non-Military",
                   "lexicon_name": "Non-Military",
-                  "parent": "Non-Military",
+                  "parent": "Federal Government",
                   "type": null,
                   "data": {
                     "combined": [
@@ -1255,12 +1255,12 @@
               ]
             },
             {
-              "key": 6,
+              "key": "6--combined",
               "order": 6,
-              "id": "state_and_local_government",
+              "id": "6--state_and_local_government",
               "name": "State and Local Government",
               "lexicon_name": "State and Local Government",
-              "parent": "State and Local Government",
+              "parent": "Total Compensation",
               "type": null,
               "data": {
                 "combined": [
@@ -1312,12 +1312,12 @@
               },
               "children": [
                 {
-                  "key": 7,
+                  "key": "7--combined",
                   "order": 7,
-                  "id": "education",
+                  "id": "7--education",
                   "name": "Education",
                   "lexicon_name": "Education",
-                  "parent": "Education",
+                  "parent": "State and Local Government",
                   "type": null,
                   "data": {
                     "combined": [
@@ -1370,12 +1370,12 @@
                   "children": []
                 },
                 {
-                  "key": 8,
+                  "key": "8--combined",
                   "order": 8,
-                  "id": "non-education",
+                  "id": "8--non-education",
                   "name": "Non-Education",
                   "lexicon_name": "Non-Education",
-                  "parent": "Non-Education",
+                  "parent": "State and Local Government",
                   "type": null,
                   "data": {
                     "combined": [
@@ -1434,7 +1434,7 @@
       ]
     },
     {
-      "key": 26,
+      "key": "data-table--pension_over_or_under_funding",
       "order": 26,
       "id": "pension_over_or_under_funding",
       "name": "Pension Over or Under Funding",
@@ -1442,9 +1442,9 @@
       "type": "expandable",
       "rows": [
         {
-          "key": 27,
+          "key": "27--combined",
           "order": 27,
-          "id": "actual_pension_contributions",
+          "id": "27--actual_pension_contributions",
           "name": "Actual Pension Contributions",
           "lexicon_name": "Actual Pension Contributions",
           "parent": "Pension Over or Under Funding",
@@ -1499,12 +1499,12 @@
           },
           "children": [
             {
-              "key": 28,
+              "key": "28--combined",
               "order": 28,
-              "id": "federal_government",
+              "id": "28--federal_government",
               "name": "Federal Government",
               "lexicon_name": "Federal Government",
-              "parent": "Federal Government",
+              "parent": "Actual Pension Contributions",
               "type": null,
               "data": {
                 "combined": [
@@ -1556,12 +1556,12 @@
               },
               "children": [
                 {
-                  "key": 29,
+                  "key": "29--combined",
                   "order": 29,
-                  "id": "military",
+                  "id": "29--military",
                   "name": "Military",
                   "lexicon_name": "Military",
-                  "parent": "Military",
+                  "parent": "Federal Government",
                   "type": null,
                   "data": {
                     "combined": [
@@ -1614,12 +1614,12 @@
                   "children": []
                 },
                 {
-                  "key": 30,
+                  "key": "30--combined",
                   "order": 30,
-                  "id": "non-military",
+                  "id": "30--non-military",
                   "name": "Non-Military",
                   "lexicon_name": "Non-Military",
-                  "parent": "Non-Military",
+                  "parent": "Federal Government",
                   "type": null,
                   "data": {
                     "combined": [
@@ -1674,12 +1674,12 @@
               ]
             },
             {
-              "key": 31,
+              "key": "31--combined",
               "order": 31,
-              "id": "state_and_local_government",
+              "id": "31--state_and_local_government",
               "name": "State and Local Government",
               "lexicon_name": "State and Local Government",
-              "parent": "State and Local Government",
+              "parent": "Actual Pension Contributions",
               "type": null,
               "data": {
                 "combined": [
@@ -1734,9 +1734,9 @@
           ]
         },
         {
-          "key": 32,
+          "key": "32--combined",
           "order": 32,
-          "id": "over_(+)_or_under_(-)_funded_pension_contributions",
+          "id": "32--over_(+)_or_under_(-)_funded_pension_contributions",
           "name": "Over (+) or Under (-) funded Pension Contributions",
           "lexicon_name": "Over (+) or Under (-) funded Pension Contributions",
           "parent": "Pension Over or Under Funding",
@@ -1791,12 +1791,12 @@
           },
           "children": [
             {
-              "key": 33,
+              "key": "33--combined",
               "order": 33,
-              "id": "federal_government",
+              "id": "33--federal_government",
               "name": "Federal Government",
               "lexicon_name": "Federal Government",
-              "parent": "Federal Government",
+              "parent": "Over (+) or Under (-) funded Pension Contributions",
               "type": null,
               "data": {
                 "combined": [
@@ -1848,12 +1848,12 @@
               },
               "children": [
                 {
-                  "key": 34,
+                  "key": "34--combined",
                   "order": 34,
-                  "id": "military",
+                  "id": "34--military",
                   "name": "Military",
                   "lexicon_name": "Military",
-                  "parent": "Military",
+                  "parent": "Federal Government",
                   "type": null,
                   "data": {
                     "combined": [
@@ -1906,12 +1906,12 @@
                   "children": []
                 },
                 {
-                  "key": 35,
+                  "key": "35--combined",
                   "order": 35,
-                  "id": "non-military",
+                  "id": "35--non-military",
                   "name": "Non-Military",
                   "lexicon_name": "Non-Military",
-                  "parent": "Non-Military",
+                  "parent": "Federal Government",
                   "type": null,
                   "data": {
                     "combined": [
@@ -1966,12 +1966,12 @@
               ]
             },
             {
-              "key": 36,
+              "key": "36--combined",
               "order": 36,
-              "id": "state_and_local_government",
+              "id": "36--state_and_local_government",
               "name": "State and Local Government",
               "lexicon_name": "State and Local Government",
-              "parent": "State and Local Government",
+              "parent": "Over (+) or Under (-) funded Pension Contributions",
               "type": null,
               "data": {
                 "combined": [
@@ -2028,9 +2028,9 @@
       ],
       "total_rows": [
         {
-          "key": 38,
+          "key": "38--combined",
           "order": 38,
-          "id": "total_contributions",
+          "id": "38--total_contributions",
           "name": "Total Contributions",
           "lexicon_name": "Total Contributions",
           "parent": "Pension Over or Under Funding",
@@ -2085,12 +2085,12 @@
           },
           "children": [
             {
-              "key": 39,
+              "key": "39--combined",
               "order": 39,
-              "id": "federal_government",
+              "id": "39--federal_government",
               "name": "Federal Government",
               "lexicon_name": "Federal Government",
-              "parent": "Federal Government",
+              "parent": "Total Contributions",
               "type": null,
               "data": {
                 "combined": [
@@ -2142,12 +2142,12 @@
               },
               "children": [
                 {
-                  "key": 41,
+                  "key": "41--combined",
                   "order": 41,
-                  "id": "military",
+                  "id": "41--military",
                   "name": "Military",
                   "lexicon_name": "Military",
-                  "parent": "Military",
+                  "parent": "Federal Government",
                   "type": null,
                   "data": {
                     "combined": [
@@ -2200,12 +2200,12 @@
                   "children": []
                 },
                 {
-                  "key": 42,
+                  "key": "42--combined",
                   "order": 42,
-                  "id": "non-military",
+                  "id": "42--non-military",
                   "name": "Non-Military",
                   "lexicon_name": "Non-Military",
-                  "parent": "Non-Military",
+                  "parent": "Federal Government",
                   "type": null,
                   "data": {
                     "combined": [
@@ -2260,12 +2260,12 @@
               ]
             },
             {
-              "key": 40,
+              "key": "40--combined",
               "order": 40,
-              "id": "state_and_local_government",
+              "id": "40--state_and_local_government",
               "name": "State and Local Government",
               "lexicon_name": "State and Local Government",
-              "parent": "State and Local Government",
+              "parent": "Total Contributions",
               "type": null,
               "data": {
                 "combined": [

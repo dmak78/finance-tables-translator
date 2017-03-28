@@ -1,4 +1,64 @@
 const config = {
+  'grb--all--combined': {
+    id: 'grb--all--combined',
+    section: 'grb',
+    sector: 'all',
+    government_type: 'combined',
+    government_type_name: 'All',
+    name: 'Net Spending By Business',
+    latest_year: '2014',
+    itemParentId: 'orderId',
+    multiplier: 1000,
+    defaults: {
+      rounding_unit: 1000000000,
+      precision: 2,
+      current_comparison: 'by_years',
+      available_comparisons: [
+        {
+          name: "Fiscal Year",
+          id: "by_years"
+        }
+      ],
+      available_years: [
+        {
+          "name": "1980",
+          "id": "1980"
+        },
+        {
+          "name": "1990",
+          "id": "1990"
+        },
+        {
+          "name": "2000",
+          "id": "2000"
+        },
+        {
+          "name": "2010",
+          "id": "2010"
+        },
+        {
+          "name": "2011",
+          "id": "2011"
+        },
+        {
+          "name": "2012",
+          "id": "2012"
+        },
+        {
+          "name": "2013",
+          "id": "2013"
+        },
+        {
+          "name": "2014",
+          "id": "2014"
+        },
+        {
+          "name": "2015",
+          "id": "2015"
+        }
+      ]
+    }
+  },
   'spending--by-mission--combined': {
     id: 'spending--by-mission--combined',
     section: 'spending',
@@ -8,9 +68,11 @@ const config = {
     name: 'Spending By Mission',
     latest_year: '2014',
     itemParentId: 'name',
+    multiplier: 1000,
     defaults: {
       rounding_unit: 1000000000,
-      precision: 1
+      precision: 1,
+      current_comparison: "by_years"
     }
   },
   'spending--by-mission--federal': {
@@ -22,9 +84,11 @@ const config = {
     name: 'Spending By Mission - Federal',
     latest_year: '2015',
     itemParentId: 'name',
+    multiplier: 1000,
     defaults: {
       rounding_unit: 1000000000,
-      precision: 1
+      precision: 1,
+      current_comparison: "by_years"
     }
   },
   'spending--by-mission--state_local': {
@@ -36,9 +100,11 @@ const config = {
     name: 'Spending By Mission - State & Local',
     latest_year: '2014',
     itemParentId: 'name',
+    multiplier: 1000,
     defaults: {
       rounding_unit: 1000000000,
-      precision: 1
+      precision: 1,
+      current_comparison: "by_years"
     }
   },
   'revenue--government--state_local': {
@@ -50,9 +116,11 @@ const config = {
     name: 'Government Revenue',
     latest_year: '2014',
     itemParentId: 'name',
+    multiplier: 1000,
     defaults: {
       rounding_unit: 1000000000,
-      precision: 1
+      precision: 1,
+      current_comparison: "by_years"
     }
   },
   'revenue--government--federal': {
@@ -63,7 +131,13 @@ const config = {
     government_type_name: 'Federal',
     name: 'Government Revenue',
     latest_year: '2015',
-    itemParentId: 'name'
+    itemParentId: 'name',
+    multiplier: 1000,
+    defaults: {
+      rounding_unit: 1000000000,
+      precision: 1,
+      current_comparison: "by_years"
+    }
   },
   'revenue--government--combined': {
     id: 'revenue--government--combined',
@@ -72,8 +146,14 @@ const config = {
     government_type: 'combined',
     government_type_name: 'Combined',
     name: 'Government Revenue',
-    latest_year: '2015',
-    itemParentId: 'name'
+    latest_year: '2014',
+    itemParentId: 'name',
+    multiplier: 1000,
+    defaults: {
+      rounding_unit: 1000000000,
+      precision: 1,
+      current_comparison: "by_years"
+    }
   },
   'employment--compensation-aggregate--combined': {
     id: 'employment--compensation-aggregate--combined',

@@ -1,6 +1,7 @@
 {
   "rounding_unit": 1000000000,
   "precision": 1,
+  "current_comparison": "by_years",
   "id": "spending--by-mission--state_local",
   "lexicon_name": "Spending By Mission - State & Local",
   "name": "Spending By Mission - State & Local",
@@ -15,17 +16,491 @@
   ],
   "data_tables": [
     {
-      "key": 3,
-      "order": 3,
+      "key": "data-table--annual_deficit_/_surplus",
+      "order": 2,
+      "id": "annual_deficit_/_surplus",
+      "name": "Annual Deficit / Surplus",
+      "lexicon_name": "Annual Deficit / Surplus",
+      "type": "summary",
+      "rows": [
+        {
+          "key": "3--state_local",
+          "order": 3,
+          "id": "3--total_revenue",
+          "name": "Total Revenue",
+          "lexicon_name": "Total Revenue",
+          "parent": "Annual Deficit / Surplus",
+          "type": null,
+          "data": {
+            "state_local": [
+              {
+                "x": "1980",
+                "y": 332580232000
+              },
+              {
+                "x": "1981",
+                "y": 367340355000
+              },
+              {
+                "x": "1982",
+                "y": 392213609000
+              },
+              {
+                "x": "1983",
+                "y": 422041154000
+              },
+              {
+                "x": "1984",
+                "y": 472883073000
+              },
+              {
+                "x": "1985",
+                "y": 521673966000
+              },
+              {
+                "x": "1986",
+                "y": 569569897000
+              },
+              {
+                "x": "1987",
+                "y": 614986381000
+              },
+              {
+                "x": "1988",
+                "y": 634019063000
+              },
+              {
+                "x": "1989",
+                "y": 677622906000
+              },
+              {
+                "x": "1990",
+                "y": 735090836000
+              },
+              {
+                "x": "1991",
+                "y": 768994038000
+              },
+              {
+                "x": "1992",
+                "y": 854279410000
+              },
+              {
+                "x": "1993",
+                "y": 916006055000
+              },
+              {
+                "x": "1994",
+                "y": 963324410000
+              },
+              {
+                "x": "1995",
+                "y": 1020787563000
+              },
+              {
+                "x": "1996",
+                "y": 1099985730000
+              },
+              {
+                "x": "1997",
+                "y": 1184854271000
+              },
+              {
+                "x": "1998",
+                "y": 1286252899000
+              },
+              {
+                "x": "1999",
+                "y": 1344236247000
+              },
+              {
+                "x": "2000",
+                "y": 1468419578000
+              },
+              {
+                "x": "2001",
+                "y": 1377156539000
+              },
+              {
+                "x": "2002",
+                "y": 1275929976000
+              },
+              {
+                "x": "2003",
+                "y": 1491940790000
+              },
+              {
+                "x": "2004",
+                "y": 1846421945000
+              },
+              {
+                "x": "2005",
+                "y": 1906488461000
+              },
+              {
+                "x": "2006",
+                "y": 2060699366000
+              },
+              {
+                "x": "2007",
+                "y": 2337460033000
+              },
+              {
+                "x": "2008",
+                "y": 1857107202000
+              },
+              {
+                "x": "2009",
+                "y": 1315990670000
+              },
+              {
+                "x": "2010",
+                "y": 2366370265000
+              },
+              {
+                "x": "2011",
+                "y": 2591873958000
+              },
+              {
+                "x": "2012",
+                "y": 2197279318000
+              },
+              {
+                "x": "2013",
+                "y": 2555340470000
+              },
+              {
+                "x": "2014",
+                "y": 2768561581000
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "key": "4--state_local",
+          "order": 4,
+          "id": "4--total_spending",
+          "name": "Total Spending",
+          "lexicon_name": "Total Spending",
+          "parent": "Annual Deficit / Surplus",
+          "type": null,
+          "data": {
+            "state_local": [
+              {
+                "x": "1980",
+                "y": 331647901000
+              },
+              {
+                "x": "1981",
+                "y": 365432410000
+              },
+              {
+                "x": "1982",
+                "y": 388040231000
+              },
+              {
+                "x": "1983",
+                "y": 418635720000
+              },
+              {
+                "x": "1984",
+                "y": 454283466000
+              },
+              {
+                "x": "1985",
+                "y": 497234344000
+              },
+              {
+                "x": "1986",
+                "y": 546848656000
+              },
+              {
+                "x": "1987",
+                "y": 596538937000
+              },
+              {
+                "x": "1988",
+                "y": 628741437000
+              },
+              {
+                "x": "1989",
+                "y": 671548374000
+              },
+              {
+                "x": "1990",
+                "y": 734258445000
+              },
+              {
+                "x": "1991",
+                "y": 801421255000
+              },
+              {
+                "x": "1992",
+                "y": 826981477000
+              },
+              {
+                "x": "1993",
+                "y": 871281434000
+              },
+              {
+                "x": "1994",
+                "y": 911311398000
+              },
+              {
+                "x": "1995",
+                "y": 972077211000
+              },
+              {
+                "x": "1996",
+                "y": 1004883341000
+              },
+              {
+                "x": "1997",
+                "y": 1055649251000
+              },
+              {
+                "x": "1998",
+                "y": 1116530042000
+              },
+              {
+                "x": "1999",
+                "y": 1194605774000
+              },
+              {
+                "x": "2000",
+                "y": 1294773012000
+              },
+              {
+                "x": "2001",
+                "y": 1401564744000
+              },
+              {
+                "x": "2002",
+                "y": 1521880158000
+              },
+              {
+                "x": "2003",
+                "y": 1600905069000
+              },
+              {
+                "x": "2004",
+                "y": 1692976424000
+              },
+              {
+                "x": "2005",
+                "y": 1774697556000
+              },
+              {
+                "x": "2006",
+                "y": 1842541292000
+              },
+              {
+                "x": "2007",
+                "y": 1968810369000
+              },
+              {
+                "x": "2008",
+                "y": 2103505224000
+              },
+              {
+                "x": "2009",
+                "y": 2216653378000
+              },
+              {
+                "x": "2010",
+                "y": 2271068664000
+              },
+              {
+                "x": "2011",
+                "y": 2309791678000
+              },
+              {
+                "x": "2012",
+                "y": 2336460149000
+              },
+              {
+                "x": "2013",
+                "y": 2368224105000
+              },
+              {
+                "x": "2014",
+                "y": 2452304801000
+              }
+            ]
+          },
+          "children": []
+        }
+      ],
+      "total_rows": [
+        {
+          "key": "5--state_local",
+          "order": 5,
+          "id": "5--net_balance",
+          "name": "Net Balance",
+          "lexicon_name": "Net Balance",
+          "parent": "Annual Deficit / Surplus",
+          "type": null,
+          "data": {
+            "state_local": [
+              {
+                "x": "1980",
+                "y": 932331000
+              },
+              {
+                "x": "1981",
+                "y": 1907945000
+              },
+              {
+                "x": "1982",
+                "y": 4173378000
+              },
+              {
+                "x": "1983",
+                "y": 3405434000
+              },
+              {
+                "x": "1984",
+                "y": 18599607000
+              },
+              {
+                "x": "1985",
+                "y": 24439622000
+              },
+              {
+                "x": "1986",
+                "y": 22721241000
+              },
+              {
+                "x": "1987",
+                "y": 18447444000
+              },
+              {
+                "x": "1988",
+                "y": 5277626000
+              },
+              {
+                "x": "1989",
+                "y": 6074532000
+              },
+              {
+                "x": "1990",
+                "y": 832391000
+              },
+              {
+                "x": "1991",
+                "y": -32427217000
+              },
+              {
+                "x": "1992",
+                "y": 27297933000
+              },
+              {
+                "x": "1993",
+                "y": 44724621000
+              },
+              {
+                "x": "1994",
+                "y": 52013012000
+              },
+              {
+                "x": "1995",
+                "y": 48710352000
+              },
+              {
+                "x": "1996",
+                "y": 95102389000
+              },
+              {
+                "x": "1997",
+                "y": 129205020000
+              },
+              {
+                "x": "1998",
+                "y": 169722857000
+              },
+              {
+                "x": "1999",
+                "y": 149630473000
+              },
+              {
+                "x": "2000",
+                "y": 173646566000
+              },
+              {
+                "x": "2001",
+                "y": -24408205000
+              },
+              {
+                "x": "2002",
+                "y": -245950182000
+              },
+              {
+                "x": "2003",
+                "y": -108964279000
+              },
+              {
+                "x": "2004",
+                "y": 153445521000
+              },
+              {
+                "x": "2005",
+                "y": 131790905000
+              },
+              {
+                "x": "2006",
+                "y": 218158074000
+              },
+              {
+                "x": "2007",
+                "y": 368649664000
+              },
+              {
+                "x": "2008",
+                "y": -246398022000
+              },
+              {
+                "x": "2009",
+                "y": -900662708000
+              },
+              {
+                "x": "2010",
+                "y": 95301601000
+              },
+              {
+                "x": "2011",
+                "y": 282082280000
+              },
+              {
+                "x": "2012",
+                "y": -139180831000
+              },
+              {
+                "x": "2013",
+                "y": 187116365000
+              },
+              {
+                "x": "2014",
+                "y": 316256780000
+              }
+            ]
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "data-table--spending_by_mission",
+      "order": 6,
       "id": "spending_by_mission",
       "name": "Spending By Mission",
       "lexicon_name": "Spending By Mission",
       "type": "expandable",
       "rows": [
         {
-          "key": "5--state_local",
-          "order": 5,
-          "id": "establish_justice_and_ensure_domestic_tranquility",
+          "key": "7--state_local",
+          "order": 7,
+          "id": "7--establish_justice_and_ensure_domestic_tranquility",
           "name": "Establish Justice and Ensure Domestic Tranquility",
           "lexicon_name": "Establish Justice and Ensure Domestic Tranquility",
           "parent": "Spending By Mission",
@@ -176,12 +651,12 @@
           },
           "children": [
             {
-              "key": "6--state_local",
-              "order": 6,
-              "id": "crime_and_disaster",
+              "key": "8--state_local",
+              "order": 8,
+              "id": "8--crime_and_disaster",
               "name": "Crime and Disaster",
               "lexicon_name": "Crime and Disaster",
-              "parent": "Crime and Disaster",
+              "parent": "Establish Justice and Ensure Domestic Tranquility",
               "type": null,
               "data": {
                 "state_local": [
@@ -329,12 +804,12 @@
               },
               "children": [
                 {
-                  "key": "7--state_local",
-                  "order": 7,
-                  "id": "law_enforcement_and_corrections",
+                  "key": "9--state_local",
+                  "order": 9,
+                  "id": "9--law_enforcement_and_corrections",
                   "name": "Law Enforcement and Corrections",
                   "lexicon_name": "Law Enforcement and Corrections",
-                  "parent": "Law Enforcement and Corrections",
+                  "parent": "Crime and Disaster",
                   "type": null,
                   "data": {
                     "state_local": [
@@ -482,12 +957,12 @@
                   },
                   "children": [
                     {
-                      "key": "8--state_local",
-                      "order": 8,
-                      "id": "law_enforcement",
+                      "key": "10--state_local",
+                      "order": 10,
+                      "id": "10--law_enforcement",
                       "name": "Law Enforcement",
                       "lexicon_name": "Law Enforcement",
-                      "parent": "Law Enforcement",
+                      "parent": "Law Enforcement and Corrections",
                       "type": null,
                       "data": {
                         "state_local": [
@@ -636,12 +1111,12 @@
                       "children": []
                     },
                     {
-                      "key": "9--state_local",
-                      "order": 9,
-                      "id": "corrections",
+                      "key": "11--state_local",
+                      "order": 11,
+                      "id": "11--corrections",
                       "name": "Corrections",
                       "lexicon_name": "Corrections",
-                      "parent": "Corrections",
+                      "parent": "Law Enforcement and Corrections",
                       "type": null,
                       "data": {
                         "state_local": [
@@ -792,12 +1267,12 @@
                   ]
                 },
                 {
-                  "key": "10--state_local",
-                  "order": 10,
-                  "id": "justice_system",
+                  "key": "12--state_local",
+                  "order": 12,
+                  "id": "12--justice_system",
                   "name": "Justice System",
                   "lexicon_name": "Justice System",
-                  "parent": "Justice System",
+                  "parent": "Crime and Disaster",
                   "type": null,
                   "data": {
                     "state_local": [
@@ -946,12 +1421,12 @@
                   "children": []
                 },
                 {
-                  "key": "11--state_local",
-                  "order": 11,
-                  "id": "fire_protection",
+                  "key": "13--state_local",
+                  "order": 13,
+                  "id": "13--fire_protection",
                   "name": "Fire Protection",
                   "lexicon_name": "Fire Protection",
-                  "parent": "Fire Protection",
+                  "parent": "Crime and Disaster",
                   "type": null,
                   "data": {
                     "state_local": [
@@ -1102,12 +1577,12 @@
               ]
             },
             {
-              "key": "12--state_local",
-              "order": 12,
-              "id": "safeguarding_consumers_and_employees",
+              "key": "14--state_local",
+              "order": 14,
+              "id": "14--safeguarding_consumers_and_employees",
               "name": "Safeguarding Consumers and Employees",
               "lexicon_name": "Safeguarding Consumers and Employees",
-              "parent": "Safeguarding Consumers and Employees",
+              "parent": "Establish Justice and Ensure Domestic Tranquility",
               "type": null,
               "data": {
                 "state_local": [
@@ -1256,12 +1731,12 @@
               "children": []
             },
             {
-              "key": "13--state_local",
-              "order": 13,
-              "id": "child_safety_and_miscellaneous_social_services",
+              "key": "15--state_local",
+              "order": 15,
+              "id": "15--child_safety_and_miscellaneous_social_services",
               "name": "Child Safety and Miscellaneous Social Services",
               "lexicon_name": "Child Safety and Miscellaneous Social Services",
-              "parent": "Child Safety and Miscellaneous Social Services",
+              "parent": "Establish Justice and Ensure Domestic Tranquility",
               "type": null,
               "data": {
                 "state_local": [
@@ -1412,9 +1887,9 @@
           ]
         },
         {
-          "key": "14--state_local",
-          "order": 14,
-          "id": "provide_for_the_common_defense",
+          "key": "16--state_local",
+          "order": 16,
+          "id": "16--provide_for_the_common_defense",
           "name": "Provide for the Common Defense",
           "lexicon_name": "Provide for the Common Defense",
           "parent": "Spending By Mission",
@@ -1565,12 +2040,12 @@
           },
           "children": [
             {
-              "key": "15--state_local",
-              "order": 15,
-              "id": "national_defense_and_support_for_veterans",
+              "key": "17--state_local",
+              "order": 17,
+              "id": "17--national_defense_and_support_for_veterans",
               "name": "National Defense and Support for Veterans",
               "lexicon_name": "National Defense and Support for Veterans",
-              "parent": "National Defense and Support for Veterans",
+              "parent": "Provide for the Common Defense",
               "type": null,
               "data": {
                 "state_local": [
@@ -1718,12 +2193,12 @@
               },
               "children": [
                 {
-                  "key": "16--state_local",
-                  "order": 16,
-                  "id": "support_for_veterans",
+                  "key": "18--state_local",
+                  "order": 18,
+                  "id": "18--support_for_veterans",
                   "name": "Support for Veterans",
                   "lexicon_name": "Support for Veterans",
-                  "parent": "Support for Veterans",
+                  "parent": "National Defense and Support for Veterans",
                   "type": null,
                   "data": {
                     "state_local": [
@@ -1876,9 +2351,9 @@
           ]
         },
         {
-          "key": "17--state_local",
-          "order": 17,
-          "id": "promote_the_general_welfare",
+          "key": "19--state_local",
+          "order": 19,
+          "id": "19--promote_the_general_welfare",
           "name": "Promote the General Welfare",
           "lexicon_name": "Promote the General Welfare",
           "parent": "Spending By Mission",
@@ -2029,12 +2504,12 @@
           },
           "children": [
             {
-              "key": "18--state_local",
-              "order": 18,
-              "id": "economy_and_infrastructure",
+              "key": "20--state_local",
+              "order": 20,
+              "id": "20--economy_and_infrastructure",
               "name": "Economy and Infrastructure",
               "lexicon_name": "Economy and Infrastructure",
-              "parent": "Economy and Infrastructure",
+              "parent": "Promote the General Welfare",
               "type": null,
               "data": {
                 "state_local": [
@@ -2182,12 +2657,12 @@
               },
               "children": [
                 {
-                  "key": "19--state_local",
-                  "order": 19,
-                  "id": "transportation_and_transportation_safety",
+                  "key": "21--state_local",
+                  "order": 21,
+                  "id": "21--transportation_and_transportation_safety",
                   "name": "Transportation and Transportation Safety",
                   "lexicon_name": "Transportation and Transportation Safety",
-                  "parent": "Transportation and Transportation Safety",
+                  "parent": "Economy and Infrastructure",
                   "type": null,
                   "data": {
                     "state_local": [
@@ -2335,12 +2810,12 @@
                   },
                   "children": [
                     {
-                      "key": "20--state_local",
-                      "order": 20,
-                      "id": "air_transportation_-_airports_(govt._business_-_net_of_revenues)",
+                      "key": "22--state_local",
+                      "order": 22,
+                      "id": "22--air_transportation_-_airports_(govt._business_-_net_of_revenues)",
                       "name": "Air Transportation - Airports (Govt. Business - net of revenues)",
                       "lexicon_name": "Air Transportation - Airports (Govt. Business - net of revenues)",
-                      "parent": "Air Transportation - Airports (Govt. Business - net of revenues)",
+                      "parent": "Transportation and Transportation Safety",
                       "type": null,
                       "data": {
                         "state_local": [
@@ -2489,12 +2964,12 @@
                       "children": []
                     },
                     {
-                      "key": "21--state_local",
-                      "order": 21,
-                      "id": "highway_transportation",
+                      "key": "23--state_local",
+                      "order": 23,
+                      "id": "23--highway_transportation",
                       "name": "Highway Transportation",
                       "lexicon_name": "Highway Transportation",
-                      "parent": "Highway Transportation",
+                      "parent": "Transportation and Transportation Safety",
                       "type": null,
                       "data": {
                         "state_local": [
@@ -2642,12 +3117,12 @@
                       },
                       "children": [
                         {
-                          "key": "22--state_local",
-                          "order": 22,
-                          "id": "regular_highways",
+                          "key": "24--state_local",
+                          "order": 24,
+                          "id": "24--regular_highways",
                           "name": "Regular Highways",
                           "lexicon_name": "Regular Highways",
-                          "parent": "Regular Highways",
+                          "parent": "Highway Transportation",
                           "type": null,
                           "data": {
                             "state_local": [
@@ -2796,12 +3271,12 @@
                           "children": []
                         },
                         {
-                          "key": "23--state_local",
-                          "order": 23,
-                          "id": "toll_highways_(govt._business_-_net_of_revenues)",
+                          "key": "25--state_local",
+                          "order": 25,
+                          "id": "25--toll_highways_(govt._business_-_net_of_revenues)",
                           "name": "Toll Highways (Govt. Business - net of revenues)",
                           "lexicon_name": "Toll Highways (Govt. Business - net of revenues)",
-                          "parent": "Toll Highways (Govt. Business - net of revenues)",
+                          "parent": "Highway Transportation",
                           "type": null,
                           "data": {
                             "state_local": [
@@ -2950,12 +3425,12 @@
                           "children": []
                         },
                         {
-                          "key": "24--state_local",
-                          "order": 24,
-                          "id": "parking_facilities_(govt._business_-_net_of_revenues)",
+                          "key": "26--state_local",
+                          "order": 26,
+                          "id": "26--parking_facilities_(govt._business_-_net_of_revenues)",
                           "name": "Parking Facilities (Govt. Business - net of revenues)",
                           "lexicon_name": "Parking Facilities (Govt. Business - net of revenues)",
-                          "parent": "Parking Facilities (Govt. Business - net of revenues)",
+                          "parent": "Highway Transportation",
                           "type": null,
                           "data": {
                             "state_local": [
@@ -3106,12 +3581,12 @@
                       ]
                     },
                     {
-                      "key": "25--state_local",
-                      "order": 25,
-                      "id": "railroad_transportation_-_mass_transit_(govt._business_-_net_of_revenues)",
+                      "key": "27--state_local",
+                      "order": 27,
+                      "id": "27--railroad_transportation_-_mass_transit_(govt._business_-_net_of_revenues)",
                       "name": "Railroad Transportation - Mass Transit (Govt. Business - net of revenues)",
                       "lexicon_name": "Railroad Transportation - Mass Transit (Govt. Business - net of revenues)",
-                      "parent": "Railroad Transportation - Mass Transit (Govt. Business - net of revenues)",
+                      "parent": "Transportation and Transportation Safety",
                       "type": null,
                       "data": {
                         "state_local": [
@@ -3260,12 +3735,12 @@
                       "children": []
                     },
                     {
-                      "key": "26--state_local",
-                      "order": 26,
-                      "id": "water_transportation_-_sea_and_inland_port_facilities_(govt._business_-_net_of_revenues)",
+                      "key": "28--state_local",
+                      "order": 28,
+                      "id": "28--water_transportation_-_sea_and_inland_port_facilities_(govt._business_-_net_of_revenues)",
                       "name": "Water Transportation - Sea and Inland Port Facilities (Govt. Business - net of revenues)",
                       "lexicon_name": "Water Transportation - Sea and Inland Port Facilities (Govt. Business - net of revenues)",
-                      "parent": "Water Transportation - Sea and Inland Port Facilities (Govt. Business - net of revenues)",
+                      "parent": "Transportation and Transportation Safety",
                       "type": null,
                       "data": {
                         "state_local": [
@@ -3416,12 +3891,12 @@
                   ]
                 },
                 {
-                  "key": "27--state_local",
-                  "order": 27,
-                  "id": "general_commerce",
+                  "key": "29--state_local",
+                  "order": 29,
+                  "id": "29--general_commerce",
                   "name": "General Commerce",
                   "lexicon_name": "General Commerce",
-                  "parent": "General Commerce",
+                  "parent": "Economy and Infrastructure",
                   "type": null,
                   "data": {
                     "state_local": [
@@ -3569,12 +4044,12 @@
                   },
                   "children": [
                     {
-                      "key": "28--state_local",
-                      "order": 28,
-                      "id": "liquor_stores_(govt._business_-_net_of_revenues)",
+                      "key": "30--state_local",
+                      "order": 30,
+                      "id": "30--liquor_stores_(govt._business_-_net_of_revenues)",
                       "name": "Liquor Stores (Govt. Business - net of revenues)",
                       "lexicon_name": "Liquor Stores (Govt. Business - net of revenues)",
-                      "parent": "Liquor Stores (Govt. Business - net of revenues)",
+                      "parent": "General Commerce",
                       "type": null,
                       "data": {
                         "state_local": [
@@ -3723,12 +4198,12 @@
                       "children": []
                     },
                     {
-                      "key": "29--state_local",
-                      "order": 29,
-                      "id": "lotteries_(govt._business_-_net_of_revenues)",
+                      "key": "31--state_local",
+                      "order": 31,
+                      "id": "31--lotteries_(govt._business_-_net_of_revenues)",
                       "name": "Lotteries (Govt. Business - net of revenues)",
                       "lexicon_name": "Lotteries (Govt. Business - net of revenues)",
-                      "parent": "Lotteries (Govt. Business - net of revenues)",
+                      "parent": "General Commerce",
                       "type": null,
                       "data": {
                         "state_local": [
@@ -3877,12 +4352,12 @@
                       "children": []
                     },
                     {
-                      "key": "30--state_local",
-                      "order": 30,
-                      "id": "other_government_businesses_(net_of_revenues)",
+                      "key": "32--state_local",
+                      "order": 32,
+                      "id": "32--other_government_businesses_(net_of_revenues)",
                       "name": "Other Government Businesses (net of revenues)",
                       "lexicon_name": "Other Government Businesses (net of revenues)",
-                      "parent": "Other Government Businesses (net of revenues)",
+                      "parent": "General Commerce",
                       "type": null,
                       "data": {
                         "state_local": [
@@ -4035,12 +4510,12 @@
               ]
             },
             {
-              "key": "31--state_local",
-              "order": 31,
-              "id": "health_(excludes_medicare/medicaid)",
+              "key": "33--state_local",
+              "order": 33,
+              "id": "33--health_(excludes_medicare/medicaid)",
               "name": "Health (excludes Medicare/Medicaid)",
               "lexicon_name": "Health (excludes Medicare/Medicaid)",
-              "parent": "Health (excludes Medicare/Medicaid)",
+              "parent": "Promote the General Welfare",
               "type": null,
               "data": {
                 "state_local": [
@@ -4188,12 +4663,12 @@
               },
               "children": [
                 {
-                  "key": "32--state_local",
-                  "order": 32,
-                  "id": "public_health",
+                  "key": "34--state_local",
+                  "order": 34,
+                  "id": "34--public_health",
                   "name": "Public Health",
                   "lexicon_name": "Public Health",
-                  "parent": "Public Health",
+                  "parent": "Health (excludes Medicare/Medicaid)",
                   "type": null,
                   "data": {
                     "state_local": [
@@ -4342,12 +4817,12 @@
                   "children": []
                 },
                 {
-                  "key": "33--state_local",
-                  "order": 33,
-                  "id": "other_medical_assistance_to_persons_-_public_hospitals_(govt._business_-_net_of_revenues)",
-                  "name": "Other Medical Assistance to Persons - Public Hospitals (Govt. Business - net of revenues)",
-                  "lexicon_name": "Other Medical Assistance to Persons - Public Hospitals (Govt. Business - net of revenues)",
-                  "parent": "Other Medical Assistance to Persons - Public Hospitals (Govt. Business - net of revenues)",
+                  "key": "35--state_local",
+                  "order": 35,
+                  "id": "35--other_medical_assistance_to_persons_(includes_net_spending_by_public_hospitals)",
+                  "name": "Other Medical Assistance to Persons (includes net spending by public hospitals)",
+                  "lexicon_name": "Other Medical Assistance to Persons (includes net spending by public hospitals)",
+                  "parent": "Health (excludes Medicare/Medicaid)",
                   "type": null,
                   "data": {
                     "state_local": [
@@ -4498,12 +4973,12 @@
               ]
             },
             {
-              "key": "34--state_local",
-              "order": 34,
-              "id": "standard_of_living_and_aid_to_the_disadvantaged",
+              "key": "36--state_local",
+              "order": 36,
+              "id": "36--standard_of_living_and_aid_to_the_disadvantaged",
               "name": "Standard of Living and Aid to the Disadvantaged",
               "lexicon_name": "Standard of Living and Aid to the Disadvantaged",
-              "parent": "Standard of Living and Aid to the Disadvantaged",
+              "parent": "Promote the General Welfare",
               "type": null,
               "data": {
                 "state_local": [
@@ -4651,12 +5126,12 @@
               },
               "children": [
                 {
-                  "key": "35--state_local",
-                  "order": 35,
-                  "id": "cash_programs_for_aid_to_the_disadvantaged",
+                  "key": "37--state_local",
+                  "order": 37,
+                  "id": "37--cash_programs_for_aid_to_the_disadvantaged",
                   "name": "Cash Programs for Aid to the Disadvantaged",
                   "lexicon_name": "Cash Programs for Aid to the Disadvantaged",
-                  "parent": "Cash Programs for Aid to the Disadvantaged",
+                  "parent": "Standard of Living and Aid to the Disadvantaged",
                   "type": null,
                   "data": {
                     "state_local": [
@@ -4805,12 +5280,12 @@
                   "children": []
                 },
                 {
-                  "key": "36--state_local",
-                  "order": 36,
-                  "id": "non-cash_programs_for_aid_to_the_disadvantaged",
+                  "key": "38--state_local",
+                  "order": 38,
+                  "id": "38--non-cash_programs_for_aid_to_the_disadvantaged",
                   "name": "Non-Cash Programs for Aid to the Disadvantaged",
                   "lexicon_name": "Non-Cash Programs for Aid to the Disadvantaged",
-                  "parent": "Non-Cash Programs for Aid to the Disadvantaged",
+                  "parent": "Standard of Living and Aid to the Disadvantaged",
                   "type": null,
                   "data": {
                     "state_local": [
@@ -4958,12 +5433,12 @@
                   },
                   "children": [
                     {
-                      "key": "37--state_local",
-                      "order": 37,
-                      "id": "housing_assistance_(net_of_charges)",
+                      "key": "39--state_local",
+                      "order": 39,
+                      "id": "39--housing_assistance_(net_of_charges)",
                       "name": "Housing Assistance (Net of charges)",
                       "lexicon_name": "Housing Assistance (Net of charges)",
-                      "parent": "Housing Assistance (Net of charges)",
+                      "parent": "Non-Cash Programs for Aid to the Disadvantaged",
                       "type": null,
                       "data": {
                         "state_local": [
@@ -5112,12 +5587,12 @@
                       "children": []
                     },
                     {
-                      "key": "38--state_local",
-                      "order": 38,
-                      "id": "medical_assistance_to_poor_(includes_medicaid)",
+                      "key": "40--state_local",
+                      "order": 40,
+                      "id": "40--medical_assistance_to_poor_(includes_medicaid)",
                       "name": "Medical Assistance to Poor (includes Medicaid)",
                       "lexicon_name": "Medical Assistance to Poor (includes Medicaid)",
-                      "parent": "Medical Assistance to Poor (includes Medicaid)",
+                      "parent": "Non-Cash Programs for Aid to the Disadvantaged",
                       "type": null,
                       "data": {
                         "state_local": [
@@ -5266,12 +5741,12 @@
                       "children": []
                     },
                     {
-                      "key": "39--state_local",
-                      "order": 39,
-                      "id": "other_non-cash_aid_to_the_disadvantaged",
+                      "key": "41--state_local",
+                      "order": 41,
+                      "id": "41--other_non-cash_aid_to_the_disadvantaged",
                       "name": "Other Non-Cash Aid to the Disadvantaged",
                       "lexicon_name": "Other Non-Cash Aid to the Disadvantaged",
-                      "parent": "Other Non-Cash Aid to the Disadvantaged",
+                      "parent": "Non-Cash Programs for Aid to the Disadvantaged",
                       "type": null,
                       "data": {
                         "state_local": [
@@ -5422,12 +5897,12 @@
                   ]
                 },
                 {
-                  "key": "40--state_local",
-                  "order": 40,
-                  "id": "unemployment_insurance",
+                  "key": "42--state_local",
+                  "order": 42,
+                  "id": "42--unemployment_insurance",
                   "name": "Unemployment Insurance",
                   "lexicon_name": "Unemployment Insurance",
-                  "parent": "Unemployment Insurance",
+                  "parent": "Standard of Living and Aid to the Disadvantaged",
                   "type": null,
                   "data": {
                     "state_local": [
@@ -5576,12 +6051,12 @@
                   "children": []
                 },
                 {
-                  "key": "41--state_local",
-                  "order": 41,
-                  "id": "note:_government-run_businesses_(net_expenditures)",
+                  "key": "43--state_local",
+                  "order": 43,
+                  "id": "43--note:_government-run_businesses_(net_expenditures)",
                   "name": "Note: Government-run Businesses (net expenditures)",
                   "lexicon_name": "Note: Government-run Businesses (net expenditures)",
-                  "parent": "Note: Government-run Businesses (net expenditures)",
+                  "parent": "Standard of Living and Aid to the Disadvantaged",
                   "type": null,
                   "data": {
                     "state_local": [
@@ -5734,9 +6209,9 @@
           ]
         },
         {
-          "key": "42--state_local",
-          "order": 42,
-          "id": "secure_the_blessings_of_liberty_to_ourselves_and_our_posterity",
+          "key": "44--state_local",
+          "order": 44,
+          "id": "44--secure_the_blessings_of_liberty_to_ourselves_and_our_posterity",
           "name": "Secure the Blessings of Liberty to Ourselves and Our Posterity",
           "lexicon_name": "Secure the Blessings of Liberty to Ourselves and Our Posterity",
           "parent": "Spending By Mission",
@@ -5887,12 +6362,12 @@
           },
           "children": [
             {
-              "key": "43--state_local",
-              "order": 43,
-              "id": "education",
+              "key": "45--state_local",
+              "order": 45,
+              "id": "45--education",
               "name": "Education",
               "lexicon_name": "Education",
-              "parent": "Education",
+              "parent": "Secure the Blessings of Liberty to Ourselves and Our Posterity",
               "type": null,
               "data": {
                 "state_local": [
@@ -6040,12 +6515,12 @@
               },
               "children": [
                 {
-                  "key": "44--state_local",
-                  "order": 44,
-                  "id": "education_inside_the_classroom",
+                  "key": "46--state_local",
+                  "order": 46,
+                  "id": "46--education_inside_the_classroom",
                   "name": "Education Inside the Classroom",
                   "lexicon_name": "Education Inside the Classroom",
-                  "parent": "Education Inside the Classroom",
+                  "parent": "Education",
                   "type": null,
                   "data": {
                     "state_local": [
@@ -6193,12 +6668,12 @@
                   },
                   "children": [
                     {
-                      "key": "45--state_local",
-                      "order": 45,
-                      "id": "elementary_and_secondary_education_(net_of_charges_such_as_lunches)",
+                      "key": "47--state_local",
+                      "order": 47,
+                      "id": "47--elementary_and_secondary_education_(net_of_charges_such_as_lunches)",
                       "name": "Elementary and Secondary Education (Net of charges such as lunches)",
                       "lexicon_name": "Elementary and Secondary Education (Net of charges such as lunches)",
-                      "parent": "Elementary and Secondary Education (Net of charges such as lunches)",
+                      "parent": "Education Inside the Classroom",
                       "type": null,
                       "data": {
                         "state_local": [
@@ -6347,12 +6822,12 @@
                       "children": []
                     },
                     {
-                      "key": "46--state_local",
-                      "order": 46,
-                      "id": "higher_education_(net_of_tuition_revenues)",
+                      "key": "48--state_local",
+                      "order": 48,
+                      "id": "48--higher_education_(net_of_tuition_revenues)",
                       "name": "Higher Education (Net of tuition revenues)",
                       "lexicon_name": "Higher Education (Net of tuition revenues)",
-                      "parent": "Higher Education (Net of tuition revenues)",
+                      "parent": "Education Inside the Classroom",
                       "type": null,
                       "data": {
                         "state_local": [
@@ -6501,12 +6976,12 @@
                       "children": []
                     },
                     {
-                      "key": "47--state_local",
-                      "order": 47,
-                      "id": "education_unallocable_between_k-12_and_higher",
+                      "key": "49--state_local",
+                      "order": 49,
+                      "id": "49--education_unallocable_between_k-12_and_higher",
                       "name": "Education Unallocable between K-12 and Higher",
                       "lexicon_name": "Education Unallocable between K-12 and Higher",
-                      "parent": "Education Unallocable between K-12 and Higher",
+                      "parent": "Education Inside the Classroom",
                       "type": null,
                       "data": {
                         "state_local": [
@@ -6657,12 +7132,12 @@
                   ]
                 },
                 {
-                  "key": "48--state_local",
-                  "order": 48,
-                  "id": "education_outside_the_classrooom_-_libraries",
+                  "key": "50--state_local",
+                  "order": 50,
+                  "id": "50--education_outside_the_classrooom_-_libraries",
                   "name": "Education Outside the Classrooom - Libraries",
                   "lexicon_name": "Education Outside the Classrooom - Libraries",
-                  "parent": "Education Outside the Classrooom - Libraries",
+                  "parent": "Education",
                   "type": null,
                   "data": {
                     "state_local": [
@@ -6813,12 +7288,12 @@
               ]
             },
             {
-              "key": "49--state_local",
-              "order": 49,
-              "id": "sustainability_and_self-sufficiency",
+              "key": "51--state_local",
+              "order": 51,
+              "id": "51--sustainability_and_self-sufficiency",
               "name": "Sustainability and Self-Sufficiency",
               "lexicon_name": "Sustainability and Self-Sufficiency",
-              "parent": "Sustainability and Self-Sufficiency",
+              "parent": "Secure the Blessings of Liberty to Ourselves and Our Posterity",
               "type": null,
               "data": {
                 "state_local": [
@@ -6966,12 +7441,12 @@
               },
               "children": [
                 {
-                  "key": "50--state_local",
-                  "order": 50,
-                  "id": "energy_-_gas_and_electric_utilities_(govt._business_-_net_of_revenues)",
+                  "key": "52--state_local",
+                  "order": 52,
+                  "id": "52--energy_-_gas_and_electric_utilities_(govt._business_-_net_of_revenues)",
                   "name": "Energy - Gas and Electric Utilities (Govt. Business - net of revenues)",
                   "lexicon_name": "Energy - Gas and Electric Utilities (Govt. Business - net of revenues)",
-                  "parent": "Energy - Gas and Electric Utilities (Govt. Business - net of revenues)",
+                  "parent": "Sustainability and Self-Sufficiency",
                   "type": null,
                   "data": {
                     "state_local": [
@@ -7120,12 +7595,12 @@
                   "children": []
                 },
                 {
-                  "key": "51--state_local",
-                  "order": 51,
-                  "id": "environment_and_natural_resources",
+                  "key": "53--state_local",
+                  "order": 53,
+                  "id": "53--environment_and_natural_resources",
                   "name": "Environment and Natural Resources",
                   "lexicon_name": "Environment and Natural Resources",
-                  "parent": "Environment and Natural Resources",
+                  "parent": "Sustainability and Self-Sufficiency",
                   "type": null,
                   "data": {
                     "state_local": [
@@ -7273,12 +7748,12 @@
                   },
                   "children": [
                     {
-                      "key": "52--state_local",
-                      "order": 52,
-                      "id": "sewerage_and_waste_management_(govt._business_-_net_of_revenues)",
+                      "key": "54--state_local",
+                      "order": 54,
+                      "id": "54--sewerage_and_waste_management_(govt._business_-_net_of_revenues)",
                       "name": "Sewerage and Waste Management (Govt. Business - net of revenues)",
                       "lexicon_name": "Sewerage and Waste Management (Govt. Business - net of revenues)",
-                      "parent": "Sewerage and Waste Management (Govt. Business - net of revenues)",
+                      "parent": "Environment and Natural Resources",
                       "type": null,
                       "data": {
                         "state_local": [
@@ -7427,12 +7902,12 @@
                       "children": []
                     },
                     {
-                      "key": "53--state_local",
-                      "order": 53,
-                      "id": "water_utilities_(govt._business_-_net_of_revenues)",
+                      "key": "55--state_local",
+                      "order": 55,
+                      "id": "55--water_utilities_(govt._business_-_net_of_revenues)",
                       "name": "Water Utilities (Govt. Business - net of revenues)",
                       "lexicon_name": "Water Utilities (Govt. Business - net of revenues)",
-                      "parent": "Water Utilities (Govt. Business - net of revenues)",
+                      "parent": "Environment and Natural Resources",
                       "type": null,
                       "data": {
                         "state_local": [
@@ -7581,12 +8056,12 @@
                       "children": []
                     },
                     {
-                      "key": "54--state_local",
-                      "order": 54,
-                      "id": "other_environmental_and_natural_resources",
+                      "key": "56--state_local",
+                      "order": 56,
+                      "id": "56--other_environmental_and_natural_resources",
                       "name": "Other Environmental and Natural Resources",
                       "lexicon_name": "Other Environmental and Natural Resources",
-                      "parent": "Other Environmental and Natural Resources",
+                      "parent": "Environment and Natural Resources",
                       "type": null,
                       "data": {
                         "state_local": [
@@ -7737,12 +8212,12 @@
                   ]
                 },
                 {
-                  "key": "55--state_local",
-                  "order": 55,
-                  "id": "agriculture",
+                  "key": "57--state_local",
+                  "order": 57,
+                  "id": "57--agriculture",
                   "name": "Agriculture",
                   "lexicon_name": "Agriculture",
-                  "parent": "Agriculture",
+                  "parent": "Sustainability and Self-Sufficiency",
                   "type": null,
                   "data": {
                     "state_local": [
@@ -7893,12 +8368,12 @@
               ]
             },
             {
-              "key": "56--state_local",
-              "order": 56,
-              "id": "wealth_and_savings",
+              "key": "58--state_local",
+              "order": 58,
+              "id": "58--wealth_and_savings",
               "name": "Wealth and Savings",
               "lexicon_name": "Wealth and Savings",
-              "parent": "Wealth and Savings",
+              "parent": "Secure the Blessings of Liberty to Ourselves and Our Posterity",
               "type": null,
               "data": {
                 "state_local": [
@@ -8046,12 +8521,12 @@
               },
               "children": [
                 {
-                  "key": "57--state_local",
-                  "order": 57,
-                  "id": "obligations",
+                  "key": "59--state_local",
+                  "order": 59,
+                  "id": "59--obligations",
                   "name": "Obligations",
                   "lexicon_name": "Obligations",
-                  "parent": "Obligations",
+                  "parent": "Wealth and Savings",
                   "type": null,
                   "data": {
                     "state_local": [
@@ -8199,12 +8674,12 @@
                   },
                   "children": [
                     {
-                      "key": "58--state_local",
-                      "order": 58,
-                      "id": "employee_retirement_and_disability_benefits",
+                      "key": "60--state_local",
+                      "order": 60,
+                      "id": "60--employee_retirement_and_disability_benefits",
                       "name": "Employee Retirement and Disability Benefits",
                       "lexicon_name": "Employee Retirement and Disability Benefits",
-                      "parent": "Employee Retirement and Disability Benefits",
+                      "parent": "Obligations",
                       "type": null,
                       "data": {
                         "state_local": [
@@ -8353,12 +8828,12 @@
                       "children": []
                     },
                     {
-                      "key": "59--state_local",
-                      "order": 59,
-                      "id": "offset_for_government_employee_contributions_for_retirement_and_disability",
+                      "key": "61--state_local",
+                      "order": 61,
+                      "id": "61--offset_for_government_employee_contributions_for_retirement_and_disability",
                       "name": "Offset for Government Employee Contributions for Retirement and Disability",
                       "lexicon_name": "Offset for Government Employee Contributions for Retirement and Disability",
-                      "parent": "Offset for Government Employee Contributions for Retirement and Disability",
+                      "parent": "Obligations",
                       "type": null,
                       "data": {
                         "state_local": [
@@ -8507,12 +8982,12 @@
                       "children": []
                     },
                     {
-                      "key": "60--state_local",
-                      "order": 60,
-                      "id": "interest_on_debt_(net_of_interest_on_investments)",
+                      "key": "62--state_local",
+                      "order": 62,
+                      "id": "62--interest_on_debt_(net_of_interest_on_investments)",
                       "name": "Interest on Debt (net of interest on investments)",
                       "lexicon_name": "Interest on Debt (net of interest on investments)",
-                      "parent": "Interest on Debt (net of interest on investments)",
+                      "parent": "Obligations",
                       "type": null,
                       "data": {
                         "state_local": [
@@ -8667,9 +9142,9 @@
           ]
         },
         {
-          "key": "61--state_local",
-          "order": 61,
-          "id": "general_government",
+          "key": "63--state_local",
+          "order": 63,
+          "id": "63--general_government",
           "name": "General Government",
           "lexicon_name": "General Government",
           "parent": "Spending By Mission",
@@ -8823,9 +9298,9 @@
       ],
       "total_rows": [
         {
-          "key": "4--state_local",
-          "order": 4,
-          "id": "total_spending_(net_expenditures)",
+          "key": "64--state_local",
+          "order": 64,
+          "id": "64--total_spending_(net_expenditures)",
           "name": "Total Spending (Net Expenditures)",
           "lexicon_name": "Total Spending (Net Expenditures)",
           "parent": "Spending By Mission",

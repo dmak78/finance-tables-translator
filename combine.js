@@ -20,31 +20,25 @@ const parseDataIntoArray = (data) => {
 }
 
 const createRow = (row, parent, dataArray, config) => {
-  const {
-    id,
-    order,
-    name,
-    style,
-    data
-  }
   const parentId = _.get('name')(row)
   return {
-    key: id,
-    order: order,
-    id: id,
-    name: name,
-    lexicon_name: name,
+    key: row.id,
+    order: row.order,
+    id: row.id,
+    name: row.name,
+    lexicon_name: row.name,
     parent: parent,
-    type: style && style !== "" ? style : null,
-    data: data,
-    children: _.map(child => createRow(child, name, dataArray))(_.filter(item => item.type === 'row' && item.parent === parentId)(dataArray))
+    type: row.style && row.style !== "" ? row.style : null,
+    data: row.data,
+    children: _.map(row => createRow(row, row.name, dataArray))(_.filter(item => item.type === 'row' && item.parent === parentId)(dataArray))
   }
 }
 
 const createDataTables = (dataArray) => _.map(table => {
   const parentId = _.get('name')(table)
   const data_table_rows = _.filter(item => item.type === 'row' && item.parent === parentId)(dataArray)
-  const data_table_total_rows = _.filter(item => item.type === 'total_row' && item.parent === parentId)(dataArray)
+  let data_table_total_rows = _.filter(item => item.type === 'total_row' && item.parent === parentId)(dataArray)
+  data_table_total_rows = _.orderBy(['order'], ['asc'])(data_table_total_rows)
   return {
     key: table.id,
     order: table.order,
@@ -66,9 +60,9 @@ const processDataTables = (data) => {
 }
 
 function writeTableJson(output) {
-  fs.writeJson(`output/test.json`, output, (err) => {
+  fs.writeJson(`output/revenue--government.json`, output, (err) => {
     if (err) console.error(err)
-    console.log('done: ' + 'spending--by-mission')
+    console.log('done: ' + 'revenue--government')
   })
 }
 
@@ -79,7 +73,7 @@ function csvToJson(config) {
     csv({
       checkType: true
     })
-      .fromFile(`input/${config.section}/${config.sector}/${config.government_type}/${id}.csv`)
+      .fromFile(`input/csv/${id}.csv`)
       .on('json',(jsonRow) => {
         tableData.push({
           ...jsonRow,
@@ -96,9 +90,9 @@ function csvToJson(config) {
 
 function buildTableJson(data) {
   const output = {
-    "id": 'spending--by-mission',
-    "lexicon_name": 'Spending By Mission',
-    "name": 'Spending By Mission',
+    "id": 'revenue--government',
+    "lexicon_name": 'Government Revenue',
+    "name": 'Government Revenue',
     "current_government_type": 'combined',
     "current_year": '2014',
     "available_adjustments": null,
@@ -170,9 +164,9 @@ const combineTableFiles = _.flow(
 )
 
 const tablesToProcess = [
-  'spending--by-mission--combined',
-  'spending--by-mission--federal',
-  'spending--by-mission--state_local'
+  'revenue--government--combined',
+  'revenue--government--federal',
+  'revenue--government--state_local'
 ]
 
 const getConfigAndProcess = (config) => (id) => csvToJson(config[id])

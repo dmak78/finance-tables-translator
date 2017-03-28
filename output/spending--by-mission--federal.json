@@ -1,6 +1,7 @@
 {
   "rounding_unit": 1000000000,
   "precision": 1,
+  "current_comparison": "by_years",
   "id": "spending--by-mission--federal",
   "lexicon_name": "Spending By Mission - Federal",
   "name": "Spending By Mission - Federal",
@@ -15,17 +16,503 @@
   ],
   "data_tables": [
     {
-      "key": 3,
-      "order": 3,
+      "key": "data-table--annual_deficit_/_surplus",
+      "order": 2,
+      "id": "annual_deficit_/_surplus",
+      "name": "Annual Deficit / Surplus",
+      "lexicon_name": "Annual Deficit / Surplus",
+      "type": "summary",
+      "rows": [
+        {
+          "key": "3--federal",
+          "order": 3,
+          "id": "3--total_revenue",
+          "name": "Total Revenue",
+          "lexicon_name": "Total Revenue",
+          "parent": "Annual Deficit / Surplus",
+          "type": null,
+          "data": {
+            "federal": [
+              {
+                "x": "1980",
+                "y": 518946872000
+              },
+              {
+                "x": "1981",
+                "y": 607188009000
+              },
+              {
+                "x": "1982",
+                "y": 621882747000
+              },
+              {
+                "x": "1983",
+                "y": 609704629000
+              },
+              {
+                "x": "1984",
+                "y": 672070418000
+              },
+              {
+                "x": "1985",
+                "y": 739119402000
+              },
+              {
+                "x": "1986",
+                "y": 773882284000
+              },
+              {
+                "x": "1987",
+                "y": 860753770000
+              },
+              {
+                "x": "1988",
+                "y": 914218578000
+              },
+              {
+                "x": "1989",
+                "y": 996174324000
+              },
+              {
+                "x": "1990",
+                "y": 1037870377000
+              },
+              {
+                "x": "1991",
+                "y": 1061436469000
+              },
+              {
+                "x": "1992",
+                "y": 1097640045000
+              },
+              {
+                "x": "1993",
+                "y": 1161648845000
+              },
+              {
+                "x": "1994",
+                "y": 1266104830000
+              },
+              {
+                "x": "1995",
+                "y": 1366490000000
+              },
+              {
+                "x": "1996",
+                "y": 1461543000000
+              },
+              {
+                "x": "1997",
+                "y": 1599711000000
+              },
+              {
+                "x": "1998",
+                "y": 1739427000000
+              },
+              {
+                "x": "1999",
+                "y": 1837859000000
+              },
+              {
+                "x": "2000",
+                "y": 2035813000000
+              },
+              {
+                "x": "2001",
+                "y": 2005622000000
+              },
+              {
+                "x": "2002",
+                "y": 1865806000000
+              },
+              {
+                "x": "2003",
+                "y": 1795989000000
+              },
+              {
+                "x": "2004",
+                "y": 1895221000000
+              },
+              {
+                "x": "2005",
+                "y": 2170474000000
+              },
+              {
+                "x": "2006",
+                "y": 2425762000000
+              },
+              {
+                "x": "2007",
+                "y": 2600783000000
+              },
+              {
+                "x": "2008",
+                "y": 2557455000000
+              },
+              {
+                "x": "2009",
+                "y": 2142059000000
+              },
+              {
+                "x": "2010",
+                "y": 2183895000000
+              },
+              {
+                "x": "2011",
+                "y": 2328751000000
+              },
+              {
+                "x": "2012",
+                "y": 2486917000000
+              },
+              {
+                "x": "2013",
+                "y": 2804500000000
+              },
+              {
+                "x": "2014",
+                "y": 3047497000000
+              },
+              {
+                "x": "2015",
+                "y": 3301773000000
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "key": "4--federal",
+          "order": 4,
+          "id": "4--total_spending",
+          "name": "Total Spending",
+          "lexicon_name": "Total Spending",
+          "parent": "Annual Deficit / Surplus",
+          "type": null,
+          "data": {
+            "federal": [
+              {
+                "x": "1980",
+                "y": 592776596000
+              },
+              {
+                "x": "1981",
+                "y": 686156141000
+              },
+              {
+                "x": "1982",
+                "y": 749859637000
+              },
+              {
+                "x": "1983",
+                "y": 817506768000
+              },
+              {
+                "x": "1984",
+                "y": 857437758000
+              },
+              {
+                "x": "1985",
+                "y": 951426993000
+              },
+              {
+                "x": "1986",
+                "y": 995109127000
+              },
+              {
+                "x": "1987",
+                "y": 1010483282000
+              },
+              {
+                "x": "1988",
+                "y": 1069396532000
+              },
+              {
+                "x": "1989",
+                "y": 1148813278000
+              },
+              {
+                "x": "1990",
+                "y": 1258906091000
+              },
+              {
+                "x": "1991",
+                "y": 1330674210000
+              },
+              {
+                "x": "1992",
+                "y": 1387960688000
+              },
+              {
+                "x": "1993",
+                "y": 1416699862000
+              },
+              {
+                "x": "1994",
+                "y": 1469291048000
+              },
+              {
+                "x": "1995",
+                "y": 1530442000000
+              },
+              {
+                "x": "1996",
+                "y": 1568974000000
+              },
+              {
+                "x": "1997",
+                "y": 1621595000000
+              },
+              {
+                "x": "1998",
+                "y": 1670157000000
+              },
+              {
+                "x": "1999",
+                "y": 1712249000000
+              },
+              {
+                "x": "2000",
+                "y": 1799572000000
+              },
+              {
+                "x": "2001",
+                "y": 1877386000000
+              },
+              {
+                "x": "2002",
+                "y": 2023564000000
+              },
+              {
+                "x": "2003",
+                "y": 2173574000000
+              },
+              {
+                "x": "2004",
+                "y": 2307948000000
+              },
+              {
+                "x": "2005",
+                "y": 2488820000000
+              },
+              {
+                "x": "2006",
+                "y": 2673943000000
+              },
+              {
+                "x": "2007",
+                "y": 2761484000000
+              },
+              {
+                "x": "2008",
+                "y": 3016008000000
+              },
+              {
+                "x": "2009",
+                "y": 3554747000000
+              },
+              {
+                "x": "2010",
+                "y": 3478268000000
+              },
+              {
+                "x": "2011",
+                "y": 3628341000000
+              },
+              {
+                "x": "2012",
+                "y": 3573880000000
+              },
+              {
+                "x": "2013",
+                "y": 3484044000000
+              },
+              {
+                "x": "2014",
+                "y": 3532124000000
+              },
+              {
+                "x": "2015",
+                "y": 3740179000000
+              }
+            ]
+          },
+          "children": []
+        }
+      ],
+      "total_rows": [
+        {
+          "key": "5--federal",
+          "order": 5,
+          "id": "5--net_balance",
+          "name": "Net Balance",
+          "lexicon_name": "Net Balance",
+          "parent": "Annual Deficit / Surplus",
+          "type": null,
+          "data": {
+            "federal": [
+              {
+                "x": "1980",
+                "y": -73829724000
+              },
+              {
+                "x": "1981",
+                "y": -78968132000
+              },
+              {
+                "x": "1982",
+                "y": -127976890000
+              },
+              {
+                "x": "1983",
+                "y": -207802139000
+              },
+              {
+                "x": "1984",
+                "y": -185367340000
+              },
+              {
+                "x": "1985",
+                "y": -212307591000
+              },
+              {
+                "x": "1986",
+                "y": -221226843000
+              },
+              {
+                "x": "1987",
+                "y": -149729512000
+              },
+              {
+                "x": "1988",
+                "y": -155177954000
+              },
+              {
+                "x": "1989",
+                "y": -152638954000
+              },
+              {
+                "x": "1990",
+                "y": -221035714000
+              },
+              {
+                "x": "1991",
+                "y": -269237741000
+              },
+              {
+                "x": "1992",
+                "y": -290320643000
+              },
+              {
+                "x": "1993",
+                "y": -255051017000
+              },
+              {
+                "x": "1994",
+                "y": -203186218000
+              },
+              {
+                "x": "1995",
+                "y": -163952000000
+              },
+              {
+                "x": "1996",
+                "y": -107431000000
+              },
+              {
+                "x": "1997",
+                "y": -21884000000
+              },
+              {
+                "x": "1998",
+                "y": 69270000000
+              },
+              {
+                "x": "1999",
+                "y": 125610000000
+              },
+              {
+                "x": "2000",
+                "y": 236241000000
+              },
+              {
+                "x": "2001",
+                "y": 128236000000
+              },
+              {
+                "x": "2002",
+                "y": -157758000000
+              },
+              {
+                "x": "2003",
+                "y": -377585000000
+              },
+              {
+                "x": "2004",
+                "y": -412727000000
+              },
+              {
+                "x": "2005",
+                "y": -318346000000
+              },
+              {
+                "x": "2006",
+                "y": -248181000000
+              },
+              {
+                "x": "2007",
+                "y": -160701000000
+              },
+              {
+                "x": "2008",
+                "y": -458553000000
+              },
+              {
+                "x": "2009",
+                "y": -1412688000000
+              },
+              {
+                "x": "2010",
+                "y": -1294373000000
+              },
+              {
+                "x": "2011",
+                "y": -1299590000000
+              },
+              {
+                "x": "2012",
+                "y": -1086963000000
+              },
+              {
+                "x": "2013",
+                "y": -679544000000
+              },
+              {
+                "x": "2014",
+                "y": -484627000000
+              },
+              {
+                "x": "2015",
+                "y": -438406000000
+              }
+            ]
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "data-table--spending_by_mission",
+      "order": 6,
       "id": "spending_by_mission",
       "name": "Spending By Mission",
       "lexicon_name": "Spending By Mission",
       "type": "expandable",
       "rows": [
         {
-          "key": "4--federal",
-          "order": 4,
-          "id": "establish_justice_and_ensure_domestic_tranquility",
+          "key": "8--federal",
+          "order": 8,
+          "id": "8--establish_justice_and_ensure_domestic_tranquility",
           "name": "Establish Justice and Ensure Domestic Tranquility",
           "lexicon_name": "Establish Justice and Ensure Domestic Tranquility",
           "parent": "Spending By Mission",
@@ -180,12 +667,12 @@
           },
           "children": [
             {
-              "key": "5--federal",
-              "order": 5,
-              "id": "crime_and_disaster",
+              "key": "9--federal",
+              "order": 9,
+              "id": "9--crime_and_disaster",
               "name": "Crime and Disaster",
               "lexicon_name": "Crime and Disaster",
-              "parent": "Crime and Disaster",
+              "parent": "Establish Justice and Ensure Domestic Tranquility",
               "type": null,
               "data": {
                 "federal": [
@@ -337,12 +824,12 @@
               },
               "children": [
                 {
-                  "key": "6--federal",
-                  "order": 6,
-                  "id": "law_enforcement_and_corrections",
+                  "key": "10--federal",
+                  "order": 10,
+                  "id": "10--law_enforcement_and_corrections",
                   "name": "Law Enforcement and Corrections",
                   "lexicon_name": "Law Enforcement and Corrections",
-                  "parent": "Law Enforcement and Corrections",
+                  "parent": "Crime and Disaster",
                   "type": null,
                   "data": {
                     "federal": [
@@ -494,12 +981,12 @@
                   },
                   "children": [
                     {
-                      "key": "7--federal",
-                      "order": 7,
-                      "id": "law_enforcement",
+                      "key": "11--federal",
+                      "order": 11,
+                      "id": "11--law_enforcement",
                       "name": "Law Enforcement",
                       "lexicon_name": "Law Enforcement",
-                      "parent": "Law Enforcement",
+                      "parent": "Law Enforcement and Corrections",
                       "type": null,
                       "data": {
                         "federal": [
@@ -652,12 +1139,12 @@
                       "children": []
                     },
                     {
-                      "key": "8--federal",
-                      "order": 8,
-                      "id": "corrections",
+                      "key": "12--federal",
+                      "order": 12,
+                      "id": "12--corrections",
                       "name": "Corrections",
                       "lexicon_name": "Corrections",
-                      "parent": "Corrections",
+                      "parent": "Law Enforcement and Corrections",
                       "type": null,
                       "data": {
                         "federal": [
@@ -812,12 +1299,12 @@
                   ]
                 },
                 {
-                  "key": "9--federal",
-                  "order": 9,
-                  "id": "justice_system",
+                  "key": "13--federal",
+                  "order": 13,
+                  "id": "13--justice_system",
                   "name": "Justice System",
                   "lexicon_name": "Justice System",
-                  "parent": "Justice System",
+                  "parent": "Crime and Disaster",
                   "type": null,
                   "data": {
                     "federal": [
@@ -970,12 +1457,12 @@
                   "children": []
                 },
                 {
-                  "key": "10--federal",
-                  "order": 10,
-                  "id": "disaster_relief_(net_of_insurance_premiums)",
+                  "key": "14--federal",
+                  "order": 14,
+                  "id": "14--disaster_relief_(net_of_insurance_premiums)",
                   "name": "Disaster Relief (net of insurance premiums)",
                   "lexicon_name": "Disaster Relief (net of insurance premiums)",
-                  "parent": "Disaster Relief (net of insurance premiums)",
+                  "parent": "Crime and Disaster",
                   "type": null,
                   "data": {
                     "federal": [
@@ -1130,12 +1617,12 @@
               ]
             },
             {
-              "key": "11--federal",
-              "order": 11,
-              "id": "safeguarding_consumers_and_employees",
+              "key": "15--federal",
+              "order": 15,
+              "id": "15--safeguarding_consumers_and_employees",
               "name": "Safeguarding Consumers and Employees",
               "lexicon_name": "Safeguarding Consumers and Employees",
-              "parent": "Safeguarding Consumers and Employees",
+              "parent": "Establish Justice and Ensure Domestic Tranquility",
               "type": null,
               "data": {
                 "federal": [
@@ -1287,12 +1774,12 @@
               },
               "children": [
                 {
-                  "key": "12--federal",
-                  "order": 12,
-                  "id": "consumer_protection",
+                  "key": "16--federal",
+                  "order": 16,
+                  "id": "16--consumer_protection",
                   "name": "Consumer Protection",
                   "lexicon_name": "Consumer Protection",
-                  "parent": "Consumer Protection",
+                  "parent": "Safeguarding Consumers and Employees",
                   "type": null,
                   "data": {
                     "federal": [
@@ -1445,12 +1932,12 @@
                   "children": []
                 },
                 {
-                  "key": "13--federal",
-                  "order": 13,
-                  "id": "employee_protection",
+                  "key": "17--federal",
+                  "order": 17,
+                  "id": "17--employee_protection",
                   "name": "Employee Protection",
                   "lexicon_name": "Employee Protection",
-                  "parent": "Employee Protection",
+                  "parent": "Safeguarding Consumers and Employees",
                   "type": null,
                   "data": {
                     "federal": [
@@ -1603,12 +2090,12 @@
                   "children": []
                 },
                 {
-                  "key": "14--federal",
-                  "order": 14,
-                  "id": "patents_and_copyrights",
+                  "key": "18--federal",
+                  "order": 18,
+                  "id": "18--patents_and_copyrights",
                   "name": "Patents and Copyrights",
                   "lexicon_name": "Patents and Copyrights",
-                  "parent": "Patents and Copyrights",
+                  "parent": "Safeguarding Consumers and Employees",
                   "type": null,
                   "data": {
                     "federal": [
@@ -1761,12 +2248,12 @@
                   "children": []
                 },
                 {
-                  "key": "15--federal",
-                  "order": 15,
-                  "id": "other_business_regulation",
+                  "key": "19--federal",
+                  "order": 19,
+                  "id": "19--other_business_regulation",
                   "name": "Other Business Regulation",
                   "lexicon_name": "Other Business Regulation",
-                  "parent": "Other Business Regulation",
+                  "parent": "Safeguarding Consumers and Employees",
                   "type": null,
                   "data": {
                     "federal": [
@@ -1921,12 +2408,12 @@
               ]
             },
             {
-              "key": "16--federal",
-              "order": 16,
-              "id": "child_safety_and_miscellaneous_social_services",
+              "key": "20--federal",
+              "order": 20,
+              "id": "20--child_safety_and_miscellaneous_social_services",
               "name": "Child Safety and Miscellaneous Social Services",
               "lexicon_name": "Child Safety and Miscellaneous Social Services",
-              "parent": "Child Safety and Miscellaneous Social Services",
+              "parent": "Establish Justice and Ensure Domestic Tranquility",
               "type": null,
               "data": {
                 "federal": [
@@ -2081,9 +2568,9 @@
           ]
         },
         {
-          "key": "17--federal",
-          "order": 17,
-          "id": "provide_for_the_common_defense",
+          "key": "21--federal",
+          "order": 21,
+          "id": "21--provide_for_the_common_defense",
           "name": "Provide for the Common Defense",
           "lexicon_name": "Provide for the Common Defense",
           "parent": "Spending By Mission",
@@ -2238,12 +2725,12 @@
           },
           "children": [
             {
-              "key": "18--federal",
-              "order": 18,
-              "id": "national_defense_and_support_for_veterans",
+              "key": "22--federal",
+              "order": 22,
+              "id": "22--national_defense_and_support_for_veterans",
               "name": "National Defense and Support for Veterans",
               "lexicon_name": "National Defense and Support for Veterans",
-              "parent": "National Defense and Support for Veterans",
+              "parent": "Provide for the Common Defense",
               "type": null,
               "data": {
                 "federal": [
@@ -2395,12 +2882,12 @@
               },
               "children": [
                 {
-                  "key": "19--federal",
-                  "order": 19,
-                  "id": "national_defense",
+                  "key": "23--federal",
+                  "order": 23,
+                  "id": "23--national_defense",
                   "name": "National Defense",
                   "lexicon_name": "National Defense",
-                  "parent": "National Defense",
+                  "parent": "National Defense and Support for Veterans",
                   "type": null,
                   "data": {
                     "federal": [
@@ -2553,12 +3040,12 @@
                   "children": []
                 },
                 {
-                  "key": "20--federal",
-                  "order": 20,
-                  "id": "support_for_veterans",
+                  "key": "24--federal",
+                  "order": 24,
+                  "id": "24--support_for_veterans",
                   "name": "Support for Veterans",
                   "lexicon_name": "Support for Veterans",
-                  "parent": "Support for Veterans",
+                  "parent": "National Defense and Support for Veterans",
                   "type": null,
                   "data": {
                     "federal": [
@@ -2710,12 +3197,12 @@
                   },
                   "children": [
                     {
-                      "key": "21--federal",
-                      "order": 21,
-                      "id": "veterans_pension_and_disability_benefits",
+                      "key": "25--federal",
+                      "order": 25,
+                      "id": "25--veterans_pension_and_disability_benefits",
                       "name": "Veterans Pension and Disability Benefits",
                       "lexicon_name": "Veterans Pension and Disability Benefits",
-                      "parent": "Veterans Pension and Disability Benefits",
+                      "parent": "Support for Veterans",
                       "type": null,
                       "data": {
                         "federal": [
@@ -2868,12 +3355,12 @@
                       "children": []
                     },
                     {
-                      "key": "22--federal",
-                      "order": 22,
-                      "id": "veterans_medical_care",
+                      "key": "26--federal",
+                      "order": 26,
+                      "id": "26--veterans_medical_care",
                       "name": "Veterans Medical Care",
                       "lexicon_name": "Veterans Medical Care",
-                      "parent": "Veterans Medical Care",
+                      "parent": "Support for Veterans",
                       "type": null,
                       "data": {
                         "federal": [
@@ -3026,12 +3513,12 @@
                       "children": []
                     },
                     {
-                      "key": "23--federal",
-                      "order": 23,
-                      "id": "veterans_housing_(net_of_loan_repayments)",
+                      "key": "27--federal",
+                      "order": 27,
+                      "id": "27--veterans_housing_(net_of_loan_repayments)",
                       "name": "Veterans Housing (net of loan repayments)",
                       "lexicon_name": "Veterans Housing (net of loan repayments)",
-                      "parent": "Veterans Housing (net of loan repayments)",
+                      "parent": "Support for Veterans",
                       "type": null,
                       "data": {
                         "federal": [
@@ -3184,12 +3671,12 @@
                       "children": []
                     },
                     {
-                      "key": "24--federal",
-                      "order": 24,
-                      "id": "veterans_readjustment_benefits",
+                      "key": "28--federal",
+                      "order": 28,
+                      "id": "28--veterans_readjustment_benefits",
                       "name": "Veterans Readjustment Benefits",
                       "lexicon_name": "Veterans Readjustment Benefits",
-                      "parent": "Veterans Readjustment Benefits",
+                      "parent": "Support for Veterans",
                       "type": null,
                       "data": {
                         "federal": [
@@ -3342,12 +3829,12 @@
                       "children": []
                     },
                     {
-                      "key": "25--federal",
-                      "order": 25,
-                      "id": "other_veterans_services",
+                      "key": "29--federal",
+                      "order": 29,
+                      "id": "29--other_veterans_services",
                       "name": "Other Veterans Services",
                       "lexicon_name": "Other Veterans Services",
-                      "parent": "Other Veterans Services",
+                      "parent": "Support for Veterans",
                       "type": null,
                       "data": {
                         "federal": [
@@ -3500,12 +3987,12 @@
                       "children": []
                     },
                     {
-                      "key": "35--federal",
-                      "order": 35,
-                      "id": "highway_transportation",
+                      "key": "39--federal",
+                      "order": 39,
+                      "id": "39--highway_transportation",
                       "name": "Highway Transportation",
                       "lexicon_name": "Highway Transportation",
-                      "parent": "Highway Transportation",
+                      "parent": "Support for Veterans",
                       "type": null,
                       "data": {
                         "federal": [
@@ -3658,12 +4145,12 @@
                       "children": []
                     },
                     {
-                      "key": "36--federal",
-                      "order": 36,
-                      "id": "railroad_transportation",
+                      "key": "40--federal",
+                      "order": 40,
+                      "id": "40--railroad_transportation",
                       "name": "Railroad Transportation",
                       "lexicon_name": "Railroad Transportation",
-                      "parent": "Railroad Transportation",
+                      "parent": "Support for Veterans",
                       "type": null,
                       "data": {
                         "federal": [
@@ -3816,12 +4303,12 @@
                       "children": []
                     },
                     {
-                      "key": "37--federal",
-                      "order": 37,
-                      "id": "ground_transportation_(unallocable)",
+                      "key": "41--federal",
+                      "order": 41,
+                      "id": "41--ground_transportation_(unallocable)",
                       "name": "Ground Transportation (unallocable)",
                       "lexicon_name": "Ground Transportation (unallocable)",
-                      "parent": "Ground Transportation (unallocable)",
+                      "parent": "Support for Veterans",
                       "type": null,
                       "data": {
                         "federal": [
@@ -3974,12 +4461,12 @@
                       "children": []
                     },
                     {
-                      "key": "38--federal",
-                      "order": 38,
-                      "id": "water_transportation",
+                      "key": "42--federal",
+                      "order": 42,
+                      "id": "42--water_transportation",
                       "name": "Water Transportation",
                       "lexicon_name": "Water Transportation",
-                      "parent": "Water Transportation",
+                      "parent": "Support for Veterans",
                       "type": null,
                       "data": {
                         "federal": [
@@ -4132,12 +4619,12 @@
                       "children": []
                     },
                     {
-                      "key": "39--federal",
-                      "order": 39,
-                      "id": "general_and_other_transportation",
+                      "key": "43--federal",
+                      "order": 43,
+                      "id": "43--general_and_other_transportation",
                       "name": "General and Other Transportation",
                       "lexicon_name": "General and Other Transportation",
-                      "parent": "General and Other Transportation",
+                      "parent": "Support for Veterans",
                       "type": null,
                       "data": {
                         "federal": [
@@ -4294,12 +4781,12 @@
               ]
             },
             {
-              "key": "26--federal",
-              "order": 26,
-              "id": "foreign_affairs_and_foreign_aid",
+              "key": "30--federal",
+              "order": 30,
+              "id": "30--foreign_affairs_and_foreign_aid",
               "name": "Foreign Affairs and Foreign Aid",
               "lexicon_name": "Foreign Affairs and Foreign Aid",
-              "parent": "Foreign Affairs and Foreign Aid",
+              "parent": "Provide for the Common Defense",
               "type": null,
               "data": {
                 "federal": [
@@ -4451,12 +4938,12 @@
               },
               "children": [
                 {
-                  "key": "27--federal",
-                  "order": 27,
-                  "id": "international_development_and_humanitarian_assistance",
+                  "key": "31--federal",
+                  "order": 31,
+                  "id": "31--international_development_and_humanitarian_assistance",
                   "name": "International Development and Humanitarian Assistance",
                   "lexicon_name": "International Development and Humanitarian Assistance",
-                  "parent": "International Development and Humanitarian Assistance",
+                  "parent": "Foreign Affairs and Foreign Aid",
                   "type": null,
                   "data": {
                     "federal": [
@@ -4609,12 +5096,12 @@
                   "children": []
                 },
                 {
-                  "key": "28--federal",
-                  "order": 28,
-                  "id": "international_security_assistance",
+                  "key": "32--federal",
+                  "order": 32,
+                  "id": "32--international_security_assistance",
                   "name": "International Security Assistance",
                   "lexicon_name": "International Security Assistance",
-                  "parent": "International Security Assistance",
+                  "parent": "Foreign Affairs and Foreign Aid",
                   "type": null,
                   "data": {
                     "federal": [
@@ -4767,12 +5254,12 @@
                   "children": []
                 },
                 {
-                  "key": "29--federal",
-                  "order": 29,
-                  "id": "other_foreign_affairs",
+                  "key": "33--federal",
+                  "order": 33,
+                  "id": "33--other_foreign_affairs",
                   "name": "Other Foreign Affairs",
                   "lexicon_name": "Other Foreign Affairs",
-                  "parent": "Other Foreign Affairs",
+                  "parent": "Foreign Affairs and Foreign Aid",
                   "type": null,
                   "data": {
                     "federal": [
@@ -4927,12 +5414,12 @@
               ]
             },
             {
-              "key": "30--federal",
-              "order": 30,
-              "id": "immigration_and_border_security_(net_of_visa_fees,_etc.)",
+              "key": "34--federal",
+              "order": 34,
+              "id": "34--immigration_and_border_security_(net_of_visa_fees,_etc.)",
               "name": "Immigration and Border Security (net of visa fees, etc.)",
               "lexicon_name": "Immigration and Border Security (net of visa fees, etc.)",
-              "parent": "Immigration and Border Security (net of visa fees, etc.)",
+              "parent": "Provide for the Common Defense",
               "type": null,
               "data": {
                 "federal": [
@@ -5087,9 +5574,9 @@
           ]
         },
         {
-          "key": "31--federal",
-          "order": 31,
-          "id": "promote_the_general_welfare",
+          "key": "35--federal",
+          "order": 35,
+          "id": "35--promote_the_general_welfare",
           "name": "Promote the General Welfare",
           "lexicon_name": "Promote the General Welfare",
           "parent": "Spending By Mission",
@@ -5244,12 +5731,12 @@
           },
           "children": [
             {
-              "key": "32--federal",
-              "order": 32,
-              "id": "economy_and_infrastructure",
+              "key": "36--federal",
+              "order": 36,
+              "id": "36--economy_and_infrastructure",
               "name": "Economy and Infrastructure",
               "lexicon_name": "Economy and Infrastructure",
-              "parent": "Economy and Infrastructure",
+              "parent": "Promote the General Welfare",
               "type": null,
               "data": {
                 "federal": [
@@ -5401,12 +5888,12 @@
               },
               "children": [
                 {
-                  "key": "33--federal",
-                  "order": 33,
-                  "id": "transportation_and_transportation_safety",
+                  "key": "37--federal",
+                  "order": 37,
+                  "id": "37--transportation_and_transportation_safety",
                   "name": "Transportation and Transportation Safety",
                   "lexicon_name": "Transportation and Transportation Safety",
-                  "parent": "Transportation and Transportation Safety",
+                  "parent": "Economy and Infrastructure",
                   "type": null,
                   "data": {
                     "federal": [
@@ -5558,12 +6045,12 @@
                   },
                   "children": [
                     {
-                      "key": "34--federal",
-                      "order": 34,
-                      "id": "air_transportation",
+                      "key": "38--federal",
+                      "order": 38,
+                      "id": "38--air_transportation",
                       "name": "Air Transportation",
                       "lexicon_name": "Air Transportation",
-                      "parent": "Air Transportation",
+                      "parent": "Transportation and Transportation Safety",
                       "type": null,
                       "data": {
                         "federal": [
@@ -5718,12 +6205,12 @@
                   ]
                 },
                 {
-                  "key": "40--federal",
-                  "order": 40,
-                  "id": "general_commerce_(includes_small_business_administration)",
+                  "key": "44--federal",
+                  "order": 44,
+                  "id": "44--general_commerce_(includes_small_business_administration)",
                   "name": "General Commerce (includes Small Business Administration)",
                   "lexicon_name": "General Commerce (includes Small Business Administration)",
-                  "parent": "General Commerce (includes Small Business Administration)",
+                  "parent": "Economy and Infrastructure",
                   "type": null,
                   "data": {
                     "federal": [
@@ -5876,12 +6363,12 @@
                   "children": []
                 },
                 {
-                  "key": "41--federal",
-                  "order": 41,
-                  "id": "banking_and_finance",
+                  "key": "45--federal",
+                  "order": 45,
+                  "id": "45--banking_and_finance",
                   "name": "Banking and Finance",
                   "lexicon_name": "Banking and Finance",
-                  "parent": "Banking and Finance",
+                  "parent": "Economy and Infrastructure",
                   "type": null,
                   "data": {
                     "federal": [
@@ -6033,12 +6520,12 @@
                   },
                   "children": [
                     {
-                      "key": "42--federal",
-                      "order": 42,
-                      "id": "deposit_insurance",
+                      "key": "46--federal",
+                      "order": 46,
+                      "id": "46--deposit_insurance",
                       "name": "Deposit Insurance",
                       "lexicon_name": "Deposit Insurance",
-                      "parent": "Deposit Insurance",
+                      "parent": "Banking and Finance",
                       "type": null,
                       "data": {
                         "federal": [
@@ -6191,12 +6678,12 @@
                       "children": []
                     },
                     {
-                      "key": "43--federal",
-                      "order": 43,
-                      "id": "other_banking_and_finance_(includes_financial_market_bailouts)",
+                      "key": "47--federal",
+                      "order": 47,
+                      "id": "47--other_banking_and_finance_(includes_financial_market_bailouts)",
                       "name": "Other Banking and Finance (includes financial market bailouts)",
                       "lexicon_name": "Other Banking and Finance (includes financial market bailouts)",
-                      "parent": "Other Banking and Finance (includes financial market bailouts)",
+                      "parent": "Banking and Finance",
                       "type": null,
                       "data": {
                         "federal": [
@@ -6348,12 +6835,12 @@
                       },
                       "children": [
                         {
-                          "key": "44--federal",
-                          "order": 44,
-                          "id": "note:_net_expenditures_for_bailouts_in_banking_and_finance",
+                          "key": "48--federal",
+                          "order": 48,
+                          "id": "48--note:_net_expenditures_for_bailouts_in_banking_and_finance",
                           "name": "Note: Net expenditures for Bailouts in Banking and Finance",
                           "lexicon_name": "Note: Net expenditures for Bailouts in Banking and Finance",
-                          "parent": "Note: Net expenditures for Bailouts in Banking and Finance",
+                          "parent": "Other Banking and Finance (includes financial market bailouts)",
                           "type": null,
                           "data": {
                             "federal": [
@@ -6510,12 +6997,12 @@
                   ]
                 },
                 {
-                  "key": "45--federal",
-                  "order": 45,
-                  "id": "general_science_and_basic_research_(includes_nsf)",
+                  "key": "49--federal",
+                  "order": 49,
+                  "id": "49--general_science_and_basic_research_(includes_nsf)",
                   "name": "General Science and Basic Research (includes NSF)",
                   "lexicon_name": "General Science and Basic Research (includes NSF)",
-                  "parent": "General Science and Basic Research (includes NSF)",
+                  "parent": "Economy and Infrastructure",
                   "type": null,
                   "data": {
                     "federal": [
@@ -6668,12 +7155,12 @@
                   "children": []
                 },
                 {
-                  "key": "46--federal",
-                  "order": 46,
-                  "id": "space",
+                  "key": "50--federal",
+                  "order": 50,
+                  "id": "50--space",
                   "name": "Space",
                   "lexicon_name": "Space",
-                  "parent": "Space",
+                  "parent": "Economy and Infrastructure",
                   "type": null,
                   "data": {
                     "federal": [
@@ -6826,12 +7313,12 @@
                   "children": []
                 },
                 {
-                  "key": "47--federal",
-                  "order": 47,
-                  "id": "technology_infrastructure_(includes_fcc_and_ntis)",
+                  "key": "51--federal",
+                  "order": 51,
+                  "id": "51--technology_infrastructure_(includes_fcc_and_ntis)",
                   "name": "Technology Infrastructure (includes FCC and NTIS)",
                   "lexicon_name": "Technology Infrastructure (includes FCC and NTIS)",
-                  "parent": "Technology Infrastructure (includes FCC and NTIS)",
+                  "parent": "Economy and Infrastructure",
                   "type": null,
                   "data": {
                     "federal": [
@@ -6984,12 +7471,12 @@
                   "children": []
                 },
                 {
-                  "key": "48--federal",
-                  "order": 48,
-                  "id": "postal_service_(net_of_revenues_from_stamps,_etc.)",
+                  "key": "52--federal",
+                  "order": 52,
+                  "id": "52--postal_service_(net_of_revenues_from_stamps,_etc.)",
                   "name": "Postal Service (net of revenues from stamps, etc.)",
                   "lexicon_name": "Postal Service (net of revenues from stamps, etc.)",
-                  "parent": "Postal Service (net of revenues from stamps, etc.)",
+                  "parent": "Economy and Infrastructure",
                   "type": null,
                   "data": {
                     "federal": [
@@ -7142,12 +7629,12 @@
                   "children": []
                 },
                 {
-                  "key": "49--federal",
-                  "order": 49,
-                  "id": "community_and_regional_development",
+                  "key": "53--federal",
+                  "order": 53,
+                  "id": "53--community_and_regional_development",
                   "name": "Community and Regional Development",
                   "lexicon_name": "Community and Regional Development",
-                  "parent": "Community and Regional Development",
+                  "parent": "Economy and Infrastructure",
                   "type": null,
                   "data": {
                     "federal": [
@@ -7302,12 +7789,12 @@
               ]
             },
             {
-              "key": "50--federal",
-              "order": 50,
-              "id": "health_(excludes_medicare/medicaid)",
+              "key": "54--federal",
+              "order": 54,
+              "id": "54--health_(excludes_medicare/medicaid)",
               "name": "Health (excludes Medicare/Medicaid)",
               "lexicon_name": "Health (excludes Medicare/Medicaid)",
-              "parent": "Health (excludes Medicare/Medicaid)",
+              "parent": "Promote the General Welfare",
               "type": null,
               "data": {
                 "federal": [
@@ -7459,12 +7946,12 @@
               },
               "children": [
                 {
-                  "key": "51--federal",
-                  "order": 51,
-                  "id": "public_health",
+                  "key": "55--federal",
+                  "order": 55,
+                  "id": "55--public_health",
                   "name": "Public Health",
                   "lexicon_name": "Public Health",
-                  "parent": "Public Health",
+                  "parent": "Health (excludes Medicare/Medicaid)",
                   "type": null,
                   "data": {
                     "federal": [
@@ -7617,12 +8104,12 @@
                   "children": []
                 },
                 {
-                  "key": "52--federal",
-                  "order": 52,
-                  "id": "other_medical_assistance_to_persons",
+                  "key": "56--federal",
+                  "order": 56,
+                  "id": "56--other_medical_assistance_to_persons",
                   "name": "Other Medical Assistance to Persons",
                   "lexicon_name": "Other Medical Assistance to Persons",
-                  "parent": "Other Medical Assistance to Persons",
+                  "parent": "Health (excludes Medicare/Medicaid)",
                   "type": null,
                   "data": {
                     "federal": [
@@ -7775,12 +8262,12 @@
                   "children": []
                 },
                 {
-                  "key": "53--federal",
-                  "order": 53,
-                  "id": "medicare_and_medicaid_unallocable",
+                  "key": "57--federal",
+                  "order": 57,
+                  "id": "57--medicare_and_medicaid_unallocable",
                   "name": "Medicare and Medicaid Unallocable",
                   "lexicon_name": "Medicare and Medicaid Unallocable",
-                  "parent": "Medicare and Medicaid Unallocable",
+                  "parent": "Health (excludes Medicare/Medicaid)",
                   "type": null,
                   "data": {
                     "federal": [
@@ -7933,12 +8420,12 @@
                   "children": []
                 },
                 {
-                  "key": "54--federal",
-                  "order": 54,
-                  "id": "other_health",
-                  "name": "Other Health",
-                  "lexicon_name": "Other Health",
-                  "parent": "Other Health",
+                  "key": "58--federal",
+                  "order": 58,
+                  "id": "58--other_health_expenditures",
+                  "name": "Other Health Expenditures",
+                  "lexicon_name": "Other Health Expenditures",
+                  "parent": "Health (excludes Medicare/Medicaid)",
                   "type": null,
                   "data": {
                     "federal": [
@@ -8093,12 +8580,12 @@
               ]
             },
             {
-              "key": "55--federal",
-              "order": 55,
-              "id": "standard_of_living_and_aid_to_the_disadvantaged",
+              "key": "59--federal",
+              "order": 59,
+              "id": "59--standard_of_living_and_aid_to_the_disadvantaged",
               "name": "Standard of Living and Aid to the Disadvantaged",
               "lexicon_name": "Standard of Living and Aid to the Disadvantaged",
-              "parent": "Standard of Living and Aid to the Disadvantaged",
+              "parent": "Promote the General Welfare",
               "type": null,
               "data": {
                 "federal": [
@@ -8250,12 +8737,12 @@
               },
               "children": [
                 {
-                  "key": "56--federal",
-                  "order": 56,
-                  "id": "cash_programs_for_aid_to_the_disadvantaged",
+                  "key": "60--federal",
+                  "order": 60,
+                  "id": "60--cash_programs_for_aid_to_the_disadvantaged",
                   "name": "Cash Programs for Aid to the Disadvantaged",
                   "lexicon_name": "Cash Programs for Aid to the Disadvantaged",
-                  "parent": "Cash Programs for Aid to the Disadvantaged",
+                  "parent": "Standard of Living and Aid to the Disadvantaged",
                   "type": null,
                   "data": {
                     "federal": [
@@ -8407,12 +8894,12 @@
                   },
                   "children": [
                     {
-                      "key": "57--federal",
-                      "order": 57,
-                      "id": "child_tax_credit_(refundable_portion)",
+                      "key": "61--federal",
+                      "order": 61,
+                      "id": "61--child_tax_credit_(refundable_portion)",
                       "name": "Child Tax Credit (refundable portion)",
                       "lexicon_name": "Child Tax Credit (refundable portion)",
-                      "parent": "Child Tax Credit (refundable portion)",
+                      "parent": "Cash Programs for Aid to the Disadvantaged",
                       "type": null,
                       "data": {
                         "federal": [
@@ -8565,12 +9052,12 @@
                       "children": []
                     },
                     {
-                      "key": "58--federal",
-                      "order": 58,
-                      "id": "eitc_(refundable_portion)",
+                      "key": "62--federal",
+                      "order": 62,
+                      "id": "62--eitc_(refundable_portion)",
                       "name": "EITC (refundable portion)",
                       "lexicon_name": "EITC (refundable portion)",
-                      "parent": "EITC (refundable portion)",
+                      "parent": "Cash Programs for Aid to the Disadvantaged",
                       "type": null,
                       "data": {
                         "federal": [
@@ -8723,12 +9210,12 @@
                       "children": []
                     },
                     {
-                      "key": "59--federal",
-                      "order": 59,
-                      "id": "ssi",
+                      "key": "63--federal",
+                      "order": 63,
+                      "id": "63--ssi",
                       "name": "SSI",
                       "lexicon_name": "SSI",
-                      "parent": "SSI",
+                      "parent": "Cash Programs for Aid to the Disadvantaged",
                       "type": null,
                       "data": {
                         "federal": [
@@ -8881,12 +9368,12 @@
                       "children": []
                     },
                     {
-                      "key": "60--federal",
-                      "order": 60,
-                      "id": "tanf",
+                      "key": "64--federal",
+                      "order": 64,
+                      "id": "64--tanf",
                       "name": "TANF",
                       "lexicon_name": "TANF",
-                      "parent": "TANF",
+                      "parent": "Cash Programs for Aid to the Disadvantaged",
                       "type": null,
                       "data": {
                         "federal": [
@@ -9039,12 +9526,12 @@
                       "children": []
                     },
                     {
-                      "key": "61--federal",
-                      "order": 61,
-                      "id": "refugee_assistance",
+                      "key": "65--federal",
+                      "order": 65,
+                      "id": "65--refugee_assistance",
                       "name": "Refugee Assistance",
                       "lexicon_name": "Refugee Assistance",
-                      "parent": "Refugee Assistance",
+                      "parent": "Cash Programs for Aid to the Disadvantaged",
                       "type": null,
                       "data": {
                         "federal": [
@@ -9197,12 +9684,12 @@
                       "children": []
                     },
                     {
-                      "key": "62--federal",
-                      "order": 62,
-                      "id": "other_cash_programs",
+                      "key": "66--federal",
+                      "order": 66,
+                      "id": "66--other_cash_programs",
                       "name": "Other Cash Programs",
                       "lexicon_name": "Other Cash Programs",
-                      "parent": "Other Cash Programs",
+                      "parent": "Cash Programs for Aid to the Disadvantaged",
                       "type": null,
                       "data": {
                         "federal": [
@@ -9357,12 +9844,12 @@
                   ]
                 },
                 {
-                  "key": "63--federal",
-                  "order": 63,
-                  "id": "non-cash_programs_for_aid_to_the_disadvantaged",
+                  "key": "67--federal",
+                  "order": 67,
+                  "id": "67--non-cash_programs_for_aid_to_the_disadvantaged",
                   "name": "Non-Cash Programs for Aid to the Disadvantaged",
                   "lexicon_name": "Non-Cash Programs for Aid to the Disadvantaged",
-                  "parent": "Non-Cash Programs for Aid to the Disadvantaged",
+                  "parent": "Standard of Living and Aid to the Disadvantaged",
                   "type": null,
                   "data": {
                     "federal": [
@@ -9514,12 +10001,12 @@
                   },
                   "children": [
                     {
-                      "key": "64--federal",
-                      "order": 64,
-                      "id": "child_care_assistance",
+                      "key": "68--federal",
+                      "order": 68,
+                      "id": "68--child_care_assistance",
                       "name": "Child Care Assistance",
                       "lexicon_name": "Child Care Assistance",
-                      "parent": "Child Care Assistance",
+                      "parent": "Non-Cash Programs for Aid to the Disadvantaged",
                       "type": null,
                       "data": {
                         "federal": [
@@ -9672,12 +10159,12 @@
                       "children": []
                     },
                     {
-                      "key": "65--federal",
-                      "order": 65,
-                      "id": "housing_assistance",
+                      "key": "69--federal",
+                      "order": 69,
+                      "id": "69--housing_assistance",
                       "name": "Housing Assistance",
                       "lexicon_name": "Housing Assistance",
-                      "parent": "Housing Assistance",
+                      "parent": "Non-Cash Programs for Aid to the Disadvantaged",
                       "type": null,
                       "data": {
                         "federal": [
@@ -9830,12 +10317,12 @@
                       "children": []
                     },
                     {
-                      "key": "66--federal",
-                      "order": 66,
-                      "id": "medicaid_and_chip",
+                      "key": "70--federal",
+                      "order": 70,
+                      "id": "70--medicaid_and_chip",
                       "name": "Medicaid and CHIP",
                       "lexicon_name": "Medicaid and CHIP",
-                      "parent": "Medicaid and CHIP",
+                      "parent": "Non-Cash Programs for Aid to the Disadvantaged",
                       "type": null,
                       "data": {
                         "federal": [
@@ -9988,12 +10475,12 @@
                       "children": []
                     },
                     {
-                      "key": "67--federal",
-                      "order": 67,
-                      "id": "other_medical_assistance_to_persons",
-                      "name": "Other Medical Assistance to Persons",
-                      "lexicon_name": "Other Medical Assistance to Persons",
-                      "parent": "Other Medical Assistance to Persons",
+                      "key": "71--federal",
+                      "order": 71,
+                      "id": "71--other_medical_assistance_to_persons_(includes_net_spending_by_public_hospitals)",
+                      "name": "Other Medical Assistance to Persons (includes net spending by public hospitals)",
+                      "lexicon_name": "Other Medical Assistance to Persons (includes net spending by public hospitals)",
+                      "parent": "Non-Cash Programs for Aid to the Disadvantaged",
                       "type": null,
                       "data": {
                         "federal": [
@@ -10146,12 +10633,12 @@
                       "children": []
                     },
                     {
-                      "key": "68--federal",
-                      "order": 68,
-                      "id": "pell_grants",
+                      "key": "72--federal",
+                      "order": 72,
+                      "id": "72--pell_grants",
                       "name": "Pell Grants",
                       "lexicon_name": "Pell Grants",
-                      "parent": "Pell Grants",
+                      "parent": "Non-Cash Programs for Aid to the Disadvantaged",
                       "type": null,
                       "data": {
                         "federal": [
@@ -10304,12 +10791,12 @@
                       "children": []
                     },
                     {
-                      "key": "69--federal",
-                      "order": 69,
-                      "id": "snap",
+                      "key": "73--federal",
+                      "order": 73,
+                      "id": "73--snap",
                       "name": "SNAP",
                       "lexicon_name": "SNAP",
-                      "parent": "SNAP",
+                      "parent": "Non-Cash Programs for Aid to the Disadvantaged",
                       "type": null,
                       "data": {
                         "federal": [
@@ -10462,12 +10949,12 @@
                       "children": []
                     },
                     {
-                      "key": "70--federal",
-                      "order": 70,
-                      "id": "other_non-cash_programs",
+                      "key": "74--federal",
+                      "order": 74,
+                      "id": "74--other_non-cash_programs",
                       "name": "Other Non-Cash Programs",
                       "lexicon_name": "Other Non-Cash Programs",
-                      "parent": "Other Non-Cash Programs",
+                      "parent": "Non-Cash Programs for Aid to the Disadvantaged",
                       "type": null,
                       "data": {
                         "federal": [
@@ -10622,12 +11109,12 @@
                   ]
                 },
                 {
-                  "key": "71--federal",
-                  "order": 71,
-                  "id": "unemployment_insurance_(u.i.)",
-                  "name": "Unemployment Insurance (U.I.)",
-                  "lexicon_name": "Unemployment Insurance (U.I.)",
-                  "parent": "Unemployment Insurance (U.I.)",
+                  "key": "75--federal",
+                  "order": 75,
+                  "id": "75--unemployment_insurance",
+                  "name": "Unemployment Insurance",
+                  "lexicon_name": "Unemployment Insurance",
+                  "parent": "Standard of Living and Aid to the Disadvantaged",
                   "type": null,
                   "data": {
                     "federal": [
@@ -10780,12 +11267,12 @@
                   "children": []
                 },
                 {
-                  "key": "72--federal",
-                  "order": 72,
-                  "id": "employment_and_training",
+                  "key": "76--federal",
+                  "order": 76,
+                  "id": "76--employment_and_training",
                   "name": "Employment and Training",
                   "lexicon_name": "Employment and Training",
-                  "parent": "Employment and Training",
+                  "parent": "Standard of Living and Aid to the Disadvantaged",
                   "type": null,
                   "data": {
                     "federal": [
@@ -10938,12 +11425,12 @@
                   "children": []
                 },
                 {
-                  "key": "73--federal",
-                  "order": 73,
-                  "id": "other_tax_credits",
+                  "key": "77--federal",
+                  "order": 77,
+                  "id": "77--other_tax_credits",
                   "name": "Other Tax Credits",
                   "lexicon_name": "Other Tax Credits",
-                  "parent": "Other Tax Credits",
+                  "parent": "Standard of Living and Aid to the Disadvantaged",
                   "type": null,
                   "data": {
                     "federal": [
@@ -11098,12 +11585,12 @@
               ]
             },
             {
-              "key": "74--federal",
-              "order": 74,
-              "id": "note:_government-run_businesses_(net_expenditures)",
+              "key": "78--federal",
+              "order": 78,
+              "id": "78--note:_government-run_businesses_(net_expenditures)",
               "name": "Note: Government-run Businesses (net expenditures)",
               "lexicon_name": "Note: Government-run Businesses (net expenditures)",
-              "parent": "Note: Government-run Businesses (net expenditures)",
+              "parent": "Promote the General Welfare",
               "type": null,
               "data": {
                 "federal": [
@@ -11258,9 +11745,9 @@
           ]
         },
         {
-          "key": "75--federal",
-          "order": 75,
-          "id": "secure_the_blessings_of_liberty_to_ourselves_and_our_posterity",
+          "key": "79--federal",
+          "order": 79,
+          "id": "79--secure_the_blessings_of_liberty_to_ourselves_and_our_posterity",
           "name": "Secure the Blessings of Liberty to Ourselves and Our Posterity",
           "lexicon_name": "Secure the Blessings of Liberty to Ourselves and Our Posterity",
           "parent": "Spending By Mission",
@@ -11415,12 +11902,12 @@
           },
           "children": [
             {
-              "key": "76--federal",
-              "order": 76,
-              "id": "education",
+              "key": "80--federal",
+              "order": 80,
+              "id": "80--education",
               "name": "Education",
               "lexicon_name": "Education",
-              "parent": "Education",
+              "parent": "Secure the Blessings of Liberty to Ourselves and Our Posterity",
               "type": null,
               "data": {
                 "federal": [
@@ -11572,12 +12059,12 @@
               },
               "children": [
                 {
-                  "key": "77--federal",
-                  "order": 77,
-                  "id": "education_inside_the_classroom",
+                  "key": "81--federal",
+                  "order": 81,
+                  "id": "81--education_inside_the_classroom",
                   "name": "Education Inside the Classroom",
                   "lexicon_name": "Education Inside the Classroom",
-                  "parent": "Education Inside the Classroom",
+                  "parent": "Education",
                   "type": null,
                   "data": {
                     "federal": [
@@ -11729,12 +12216,12 @@
                   },
                   "children": [
                     {
-                      "key": "78--federal",
-                      "order": 78,
-                      "id": "elementary_and_secondary_education",
+                      "key": "82--federal",
+                      "order": 82,
+                      "id": "82--elementary_and_secondary_education",
                       "name": "Elementary and Secondary Education",
                       "lexicon_name": "Elementary and Secondary Education",
-                      "parent": "Elementary and Secondary Education",
+                      "parent": "Education Inside the Classroom",
                       "type": null,
                       "data": {
                         "federal": [
@@ -11887,12 +12374,12 @@
                       "children": []
                     },
                     {
-                      "key": "79--federal",
-                      "order": 79,
-                      "id": "higher_education_(excludes_pell_grants;_net_of_loan_repayments)",
+                      "key": "83--federal",
+                      "order": 83,
+                      "id": "83--higher_education_(excludes_pell_grants;_net_of_loan_repayments)",
                       "name": "Higher Education (excludes Pell Grants; net of loan repayments)",
                       "lexicon_name": "Higher Education (excludes Pell Grants; net of loan repayments)",
-                      "parent": "Higher Education (excludes Pell Grants; net of loan repayments)",
+                      "parent": "Education Inside the Classroom",
                       "type": null,
                       "data": {
                         "federal": [
@@ -12045,12 +12532,12 @@
                       "children": []
                     },
                     {
-                      "key": "80--federal",
-                      "order": 80,
-                      "id": "vocational_education",
+                      "key": "84--federal",
+                      "order": 84,
+                      "id": "84--vocational_education",
                       "name": "Vocational Education",
                       "lexicon_name": "Vocational Education",
-                      "parent": "Vocational Education",
+                      "parent": "Education Inside the Classroom",
                       "type": null,
                       "data": {
                         "federal": [
@@ -12205,12 +12692,12 @@
                   ]
                 },
                 {
-                  "key": "81--federal",
-                  "order": 81,
-                  "id": "education_outside_the_classrooom_(includes_libraries_and_museums)",
+                  "key": "85--federal",
+                  "order": 85,
+                  "id": "85--education_outside_the_classrooom_(includes_libraries_and_museums)",
                   "name": "Education Outside the Classrooom (includes libraries and museums)",
                   "lexicon_name": "Education Outside the Classrooom (includes libraries and museums)",
-                  "parent": "Education Outside the Classrooom (includes libraries and museums)",
+                  "parent": "Education",
                   "type": null,
                   "data": {
                     "federal": [
@@ -12365,12 +12852,12 @@
               ]
             },
             {
-              "key": "82--federal",
-              "order": 82,
-              "id": "sustainability_and_self-sufficiency",
+              "key": "86--federal",
+              "order": 86,
+              "id": "86--sustainability_and_self-sufficiency",
               "name": "Sustainability and Self-Sufficiency",
               "lexicon_name": "Sustainability and Self-Sufficiency",
-              "parent": "Sustainability and Self-Sufficiency",
+              "parent": "Secure the Blessings of Liberty to Ourselves and Our Posterity",
               "type": null,
               "data": {
                 "federal": [
@@ -12522,12 +13009,12 @@
               },
               "children": [
                 {
-                  "key": "83--federal",
-                  "order": 83,
-                  "id": "energy_(includes_net_expenditures_of_energy_utilities,_e.g.,_tva)",
+                  "key": "87--federal",
+                  "order": 87,
+                  "id": "87--energy_(includes_net_expenditures_of_energy_utilities,_e.g.,_tva)",
                   "name": "Energy (includes net expenditures of energy utilities, e.g., TVA)",
                   "lexicon_name": "Energy (includes net expenditures of energy utilities, e.g., TVA)",
-                  "parent": "Energy (includes net expenditures of energy utilities, e.g., TVA)",
+                  "parent": "Sustainability and Self-Sufficiency",
                   "type": null,
                   "data": {
                     "federal": [
@@ -12680,12 +13167,12 @@
                   "children": []
                 },
                 {
-                  "key": "84--federal",
-                  "order": 84,
-                  "id": "environment_and_natural_resources",
+                  "key": "88--federal",
+                  "order": 88,
+                  "id": "88--environment_and_natural_resources",
                   "name": "Environment and Natural Resources",
                   "lexicon_name": "Environment and Natural Resources",
-                  "parent": "Environment and Natural Resources",
+                  "parent": "Sustainability and Self-Sufficiency",
                   "type": null,
                   "data": {
                     "federal": [
@@ -12838,12 +13325,12 @@
                   "children": []
                 },
                 {
-                  "key": "85--federal",
-                  "order": 85,
-                  "id": "agriculture",
+                  "key": "89--federal",
+                  "order": 89,
+                  "id": "89--agriculture",
                   "name": "Agriculture",
                   "lexicon_name": "Agriculture",
-                  "parent": "Agriculture",
+                  "parent": "Sustainability and Self-Sufficiency",
                   "type": null,
                   "data": {
                     "federal": [
@@ -12998,12 +13485,12 @@
               ]
             },
             {
-              "key": "86--federal",
-              "order": 86,
-              "id": "wealth_and_savings",
+              "key": "90--federal",
+              "order": 90,
+              "id": "90--wealth_and_savings",
               "name": "Wealth and Savings",
               "lexicon_name": "Wealth and Savings",
-              "parent": "Wealth and Savings",
+              "parent": "Secure the Blessings of Liberty to Ourselves and Our Posterity",
               "type": null,
               "data": {
                 "federal": [
@@ -13155,12 +13642,12 @@
               },
               "children": [
                 {
-                  "key": "87--federal",
-                  "order": 87,
-                  "id": "social_security",
+                  "key": "91--federal",
+                  "order": 91,
+                  "id": "91--social_security",
                   "name": "Social Security",
                   "lexicon_name": "Social Security",
-                  "parent": "Social Security",
+                  "parent": "Wealth and Savings",
                   "type": null,
                   "data": {
                     "federal": [
@@ -13312,12 +13799,12 @@
                   },
                   "children": [
                     {
-                      "key": "88--federal",
-                      "order": 88,
-                      "id": "retirement_(foasi)",
+                      "key": "92--federal",
+                      "order": 92,
+                      "id": "92--retirement_(foasi)",
                       "name": "Retirement (FOASI)",
                       "lexicon_name": "Retirement (FOASI)",
-                      "parent": "Retirement (FOASI)",
+                      "parent": "Social Security",
                       "type": null,
                       "data": {
                         "federal": [
@@ -13470,12 +13957,12 @@
                       "children": []
                     },
                     {
-                      "key": "89--federal",
-                      "order": 89,
-                      "id": "disability_(fdi)",
+                      "key": "93--federal",
+                      "order": 93,
+                      "id": "93--disability_(fdi)",
                       "name": "Disability (FDI)",
                       "lexicon_name": "Disability (FDI)",
-                      "parent": "Disability (FDI)",
+                      "parent": "Social Security",
                       "type": null,
                       "data": {
                         "federal": [
@@ -13628,12 +14115,12 @@
                       "children": []
                     },
                     {
-                      "key": "90--federal",
-                      "order": 90,
-                      "id": "other_social_security_(includes_unallocable)",
+                      "key": "94--federal",
+                      "order": 94,
+                      "id": "94--other_social_security_(includes_unallocable)",
                       "name": "Other Social Security (includes unallocable)",
                       "lexicon_name": "Other Social Security (includes unallocable)",
-                      "parent": "Other Social Security (includes unallocable)",
+                      "parent": "Social Security",
                       "type": null,
                       "data": {
                         "federal": [
@@ -13788,12 +14275,12 @@
                   ]
                 },
                 {
-                  "key": "91--federal",
-                  "order": 91,
-                  "id": "medicare_(net_of_premiums)",
+                  "key": "95--federal",
+                  "order": 95,
+                  "id": "95--medicare_(net_of_premiums)",
                   "name": "Medicare (net of premiums)",
                   "lexicon_name": "Medicare (net of premiums)",
-                  "parent": "Medicare (net of premiums)",
+                  "parent": "Wealth and Savings",
                   "type": null,
                   "data": {
                     "federal": [
@@ -13946,12 +14433,12 @@
                   "children": []
                 },
                 {
-                  "key": "92--federal",
-                  "order": 92,
-                  "id": "general_retirement_programs_(includes_railroad_retirement_and_pbgc)",
+                  "key": "96--federal",
+                  "order": 96,
+                  "id": "96--general_retirement_programs_(includes_railroad_retirement_and_pbgc)",
                   "name": "General Retirement Programs (includes Railroad Retirement and PBGC)",
                   "lexicon_name": "General Retirement Programs (includes Railroad Retirement and PBGC)",
-                  "parent": "General Retirement Programs (includes Railroad Retirement and PBGC)",
+                  "parent": "Wealth and Savings",
                   "type": null,
                   "data": {
                     "federal": [
@@ -14104,12 +14591,12 @@
                   "children": []
                 },
                 {
-                  "key": "93--federal",
-                  "order": 93,
-                  "id": "housing_support",
+                  "key": "97--federal",
+                  "order": 97,
+                  "id": "97--housing_support",
                   "name": "Housing Support",
                   "lexicon_name": "Housing Support",
-                  "parent": "Housing Support",
+                  "parent": "Wealth and Savings",
                   "type": null,
                   "data": {
                     "federal": [
@@ -14261,12 +14748,12 @@
                   },
                   "children": [
                     {
-                      "key": "94--federal",
-                      "order": 94,
-                      "id": "general_housing_support_(net_of_loan_repayments)",
+                      "key": "98--federal",
+                      "order": 98,
+                      "id": "98--general_housing_support_(net_of_loan_repayments)",
                       "name": "General Housing Support (Net of loan repayments)",
                       "lexicon_name": "General Housing Support (Net of loan repayments)",
-                      "parent": "General Housing Support (Net of loan repayments)",
+                      "parent": "Housing Support",
                       "type": null,
                       "data": {
                         "federal": [
@@ -14419,12 +14906,12 @@
                       "children": []
                     },
                     {
-                      "key": "95--federal",
-                      "order": 95,
-                      "id": "housing-related_gse_expenditures_(fannie_mae,_freddie_mac_assistance)",
+                      "key": "99--federal",
+                      "order": 99,
+                      "id": "99--housing-related_gse_expenditures_(fannie_mae,_freddie_mac_assistance)",
                       "name": "Housing-Related GSE expenditures (Fannie Mae, Freddie Mac assistance)",
                       "lexicon_name": "Housing-Related GSE expenditures (Fannie Mae, Freddie Mac assistance)",
-                      "parent": "Housing-Related GSE expenditures (Fannie Mae, Freddie Mac assistance)",
+                      "parent": "Housing Support",
                       "type": null,
                       "data": {
                         "federal": [
@@ -14577,12 +15064,12 @@
                       "children": []
                     },
                     {
-                      "key": "96--federal",
-                      "order": 96,
-                      "id": "rural_housing_programs_(net_of_loan_repayments)",
+                      "key": "100--federal",
+                      "order": 100,
+                      "id": "100--rural_housing_programs_(net_of_loan_repayments)",
                       "name": "Rural Housing Programs (Net of loan repayments)",
                       "lexicon_name": "Rural Housing Programs (Net of loan repayments)",
-                      "parent": "Rural Housing Programs (Net of loan repayments)",
+                      "parent": "Housing Support",
                       "type": null,
                       "data": {
                         "federal": [
@@ -14737,12 +15224,12 @@
                   ]
                 },
                 {
-                  "key": "97--federal",
-                  "order": 97,
-                  "id": "obligations",
+                  "key": "101--federal",
+                  "order": 101,
+                  "id": "101--obligations",
                   "name": "Obligations",
                   "lexicon_name": "Obligations",
-                  "parent": "Obligations",
+                  "parent": "Wealth and Savings",
                   "type": null,
                   "data": {
                     "federal": [
@@ -14894,12 +15381,12 @@
                   },
                   "children": [
                     {
-                      "key": "98--federal",
-                      "order": 98,
-                      "id": "employee_retirement_and_disability_benefits",
+                      "key": "102--federal",
+                      "order": 102,
+                      "id": "102--employee_retirement_and_disability_benefits",
                       "name": "Employee Retirement and Disability Benefits",
                       "lexicon_name": "Employee Retirement and Disability Benefits",
-                      "parent": "Employee Retirement and Disability Benefits",
+                      "parent": "Obligations",
                       "type": null,
                       "data": {
                         "federal": [
@@ -15052,12 +15539,12 @@
                       "children": []
                     },
                     {
-                      "key": "99--federal",
-                      "order": 99,
-                      "id": "offset_for_government_employee_contributions_for_retirement_and_disability",
+                      "key": "103--federal",
+                      "order": 103,
+                      "id": "103--offset_for_government_employee_contributions_for_retirement_and_disability",
                       "name": "Offset for Government Employee Contributions for Retirement and Disability",
                       "lexicon_name": "Offset for Government Employee Contributions for Retirement and Disability",
-                      "parent": "Offset for Government Employee Contributions for Retirement and Disability",
+                      "parent": "Obligations",
                       "type": null,
                       "data": {
                         "federal": [
@@ -15210,12 +15697,12 @@
                       "children": []
                     },
                     {
-                      "key": "100--federal",
-                      "order": 100,
-                      "id": "offset_for_government_employer_contributions_for_retirement_and_disability",
+                      "key": "104--federal",
+                      "order": 104,
+                      "id": "104--offset_for_government_employer_contributions_for_retirement_and_disability",
                       "name": "Offset for Government Employer Contributions for Retirement and Disability",
                       "lexicon_name": "Offset for Government Employer Contributions for Retirement and Disability",
-                      "parent": "Offset for Government Employer Contributions for Retirement and Disability",
+                      "parent": "Obligations",
                       "type": null,
                       "data": {
                         "federal": [
@@ -15368,12 +15855,12 @@
                       "children": []
                     },
                     {
-                      "key": "101--federal",
-                      "order": 101,
-                      "id": "interest_on_debt_(net_of_interest_on_investments)",
+                      "key": "105--federal",
+                      "order": 105,
+                      "id": "105--interest_on_debt_(net_of_interest_on_investments)",
                       "name": "Interest on Debt (net of interest on investments)",
                       "lexicon_name": "Interest on Debt (net of interest on investments)",
-                      "parent": "Interest on Debt (net of interest on investments)",
+                      "parent": "Obligations",
                       "type": null,
                       "data": {
                         "federal": [
@@ -15528,646 +16015,13 @@
                   ]
                 }
               ]
-            },
-            {
-              "key": "102--federal",
-              "order": 102,
-              "id": "note:_the_american_dream",
-              "name": "Note: The American Dream",
-              "lexicon_name": "Note: The American Dream",
-              "parent": "Note: The American Dream",
-              "type": null,
-              "data": {
-                "federal": [
-                  {
-                    "x": "1980",
-                    "y": 537979000
-                  },
-                  {
-                    "x": "1981",
-                    "y": 431681000
-                  },
-                  {
-                    "x": "1982",
-                    "y": 394369000
-                  },
-                  {
-                    "x": "1983",
-                    "y": 409163000
-                  },
-                  {
-                    "x": "1984",
-                    "y": 525761000
-                  },
-                  {
-                    "x": "1985",
-                    "y": 416300000
-                  },
-                  {
-                    "x": "1986",
-                    "y": 428984000
-                  },
-                  {
-                    "x": "1987",
-                    "y": 442474000
-                  },
-                  {
-                    "x": "1988",
-                    "y": 592384000
-                  },
-                  {
-                    "x": "1989",
-                    "y": 459928000
-                  },
-                  {
-                    "x": "1990",
-                    "y": 457800000
-                  },
-                  {
-                    "x": "1991",
-                    "y": 527544000
-                  },
-                  {
-                    "x": "1992",
-                    "y": 688709000
-                  },
-                  {
-                    "x": "1993",
-                    "y": 579614000
-                  },
-                  {
-                    "x": "1994",
-                    "y": 664856000
-                  },
-                  {
-                    "x": "1995",
-                    "y": 869000000
-                  },
-                  {
-                    "x": "1996",
-                    "y": 1097000000
-                  },
-                  {
-                    "x": "1997",
-                    "y": 954000000
-                  },
-                  {
-                    "x": "1998",
-                    "y": 978000000
-                  },
-                  {
-                    "x": "1999",
-                    "y": 1063000000
-                  },
-                  {
-                    "x": "2000",
-                    "y": 1375000000
-                  },
-                  {
-                    "x": "2001",
-                    "y": 1248000000
-                  },
-                  {
-                    "x": "2002",
-                    "y": 1327000000
-                  },
-                  {
-                    "x": "2003",
-                    "y": 2073000000
-                  },
-                  {
-                    "x": "2004",
-                    "y": 2797000000
-                  },
-                  {
-                    "x": "2005",
-                    "y": 2354000000
-                  },
-                  {
-                    "x": "2006",
-                    "y": 1488000000
-                  },
-                  {
-                    "x": "2007",
-                    "y": 1545000000
-                  },
-                  {
-                    "x": "2008",
-                    "y": 1689000000
-                  },
-                  {
-                    "x": "2009",
-                    "y": 1707000000
-                  },
-                  {
-                    "x": "2010",
-                    "y": 1861000000
-                  },
-                  {
-                    "x": "2011",
-                    "y": 1957000000
-                  },
-                  {
-                    "x": "2012",
-                    "y": 1762000000
-                  },
-                  {
-                    "x": "2013",
-                    "y": 1737000000
-                  },
-                  {
-                    "x": "2014",
-                    "y": 1745000000
-                  },
-                  {
-                    "x": "2015",
-                    "y": 1733000000
-                  }
-                ]
-              },
-              "children": [
-                {
-                  "key": "103--federal",
-                  "order": 103,
-                  "id": "civil_rights_expenditures",
-                  "name": "Civil Rights Expenditures",
-                  "lexicon_name": "Civil Rights Expenditures",
-                  "parent": "Civil Rights Expenditures",
-                  "type": null,
-                  "data": {
-                    "federal": [
-                      {
-                        "x": "1980",
-                        "y": 242650000
-                      },
-                      {
-                        "x": "1981",
-                        "y": 240347000
-                      },
-                      {
-                        "x": "1982",
-                        "y": 243321000
-                      },
-                      {
-                        "x": "1983",
-                        "y": 261640000
-                      },
-                      {
-                        "x": "1984",
-                        "y": 264308000
-                      },
-                      {
-                        "x": "1985",
-                        "y": 272555000
-                      },
-                      {
-                        "x": "1986",
-                        "y": 261907000
-                      },
-                      {
-                        "x": "1987",
-                        "y": 253838000
-                      },
-                      {
-                        "x": "1988",
-                        "y": 268175000
-                      },
-                      {
-                        "x": "1989",
-                        "y": 278093000
-                      },
-                      {
-                        "x": "1990",
-                        "y": 273169000
-                      },
-                      {
-                        "x": "1991",
-                        "y": 293276000
-                      },
-                      {
-                        "x": "1992",
-                        "y": 320003000
-                      },
-                      {
-                        "x": "1993",
-                        "y": 329288000
-                      },
-                      {
-                        "x": "1994",
-                        "y": 342820000
-                      },
-                      {
-                        "x": "1995",
-                        "y": 368000000
-                      },
-                      {
-                        "x": "1996",
-                        "y": 380000000
-                      },
-                      {
-                        "x": "1997",
-                        "y": 361000000
-                      },
-                      {
-                        "x": "1998",
-                        "y": 357000000
-                      },
-                      {
-                        "x": "1999",
-                        "y": 395000000
-                      },
-                      {
-                        "x": "2000",
-                        "y": 437000000
-                      },
-                      {
-                        "x": "2001",
-                        "y": 449000000
-                      },
-                      {
-                        "x": "2002",
-                        "y": 492000000
-                      },
-                      {
-                        "x": "2003",
-                        "y": 494000000
-                      },
-                      {
-                        "x": "2004",
-                        "y": 518000000
-                      },
-                      {
-                        "x": "2005",
-                        "y": 516000000
-                      },
-                      {
-                        "x": "2006",
-                        "y": 521000000
-                      },
-                      {
-                        "x": "2007",
-                        "y": 548000000
-                      },
-                      {
-                        "x": "2008",
-                        "y": 618000000
-                      },
-                      {
-                        "x": "2009",
-                        "y": 633000000
-                      },
-                      {
-                        "x": "2010",
-                        "y": 659000000
-                      },
-                      {
-                        "x": "2011",
-                        "y": 708000000
-                      },
-                      {
-                        "x": "2012",
-                        "y": 708000000
-                      },
-                      {
-                        "x": "2013",
-                        "y": 682000000
-                      },
-                      {
-                        "x": "2014",
-                        "y": 673000000
-                      },
-                      {
-                        "x": "2015",
-                        "y": 699000000
-                      }
-                    ]
-                  },
-                  "children": []
-                },
-                {
-                  "key": "104--federal",
-                  "order": 104,
-                  "id": "elections",
-                  "name": "Elections",
-                  "lexicon_name": "Elections",
-                  "parent": "Elections",
-                  "type": null,
-                  "data": {
-                    "federal": [
-                      {
-                        "x": "1980",
-                        "y": 106586000
-                      },
-                      {
-                        "x": "1981",
-                        "y": 13330000
-                      },
-                      {
-                        "x": "1982",
-                        "y": 9174000
-                      },
-                      {
-                        "x": "1983",
-                        "y": 21167000
-                      },
-                      {
-                        "x": "1984",
-                        "y": 128296000
-                      },
-                      {
-                        "x": "1985",
-                        "y": 14952000
-                      },
-                      {
-                        "x": "1986",
-                        "y": 12670000
-                      },
-                      {
-                        "x": "1987",
-                        "y": 30106000
-                      },
-                      {
-                        "x": "1988",
-                        "y": 170864000
-                      },
-                      {
-                        "x": "1989",
-                        "y": 18931000
-                      },
-                      {
-                        "x": "1990",
-                        "y": 15194000
-                      },
-                      {
-                        "x": "1991",
-                        "y": 37391000
-                      },
-                      {
-                        "x": "1992",
-                        "y": 167048000
-                      },
-                      {
-                        "x": "1993",
-                        "y": 26028000
-                      },
-                      {
-                        "x": "1994",
-                        "y": 23661000
-                      },
-                      {
-                        "x": "1995",
-                        "y": 48000000
-                      },
-                      {
-                        "x": "1996",
-                        "y": 235000000
-                      },
-                      {
-                        "x": "1997",
-                        "y": 28000000
-                      },
-                      {
-                        "x": "1998",
-                        "y": 30000000
-                      },
-                      {
-                        "x": "1999",
-                        "y": 59000000
-                      },
-                      {
-                        "x": "2000",
-                        "y": 249000000
-                      },
-                      {
-                        "x": "2001",
-                        "y": 43000000
-                      },
-                      {
-                        "x": "2002",
-                        "y": 43000000
-                      },
-                      {
-                        "x": "2003",
-                        "y": 740000000
-                      },
-                      {
-                        "x": "2004",
-                        "y": 1515000000
-                      },
-                      {
-                        "x": "2005",
-                        "y": 1042000000
-                      },
-                      {
-                        "x": "2006",
-                        "y": 124000000
-                      },
-                      {
-                        "x": "2007",
-                        "y": 97000000
-                      },
-                      {
-                        "x": "2008",
-                        "y": 180000000
-                      },
-                      {
-                        "x": "2009",
-                        "y": 158000000
-                      },
-                      {
-                        "x": "2010",
-                        "y": 169000000
-                      },
-                      {
-                        "x": "2011",
-                        "y": 205000000
-                      },
-                      {
-                        "x": "2012",
-                        "y": 80000000
-                      },
-                      {
-                        "x": "2013",
-                        "y": 80000000
-                      },
-                      {
-                        "x": "2014",
-                        "y": 115000000
-                      },
-                      {
-                        "x": "2015",
-                        "y": 74000000
-                      }
-                    ]
-                  },
-                  "children": []
-                },
-                {
-                  "key": "105--federal",
-                  "order": 105,
-                  "id": "civic_participation",
-                  "name": "Civic Participation",
-                  "lexicon_name": "Civic Participation",
-                  "parent": "Civic Participation",
-                  "type": null,
-                  "data": {
-                    "federal": [
-                      {
-                        "x": "1980",
-                        "y": 188743000
-                      },
-                      {
-                        "x": "1981",
-                        "y": 178004000
-                      },
-                      {
-                        "x": "1982",
-                        "y": 141874000
-                      },
-                      {
-                        "x": "1983",
-                        "y": 126356000
-                      },
-                      {
-                        "x": "1984",
-                        "y": 133157000
-                      },
-                      {
-                        "x": "1985",
-                        "y": 128793000
-                      },
-                      {
-                        "x": "1986",
-                        "y": 154407000
-                      },
-                      {
-                        "x": "1987",
-                        "y": 158530000
-                      },
-                      {
-                        "x": "1988",
-                        "y": 153345000
-                      },
-                      {
-                        "x": "1989",
-                        "y": 162904000
-                      },
-                      {
-                        "x": "1990",
-                        "y": 169437000
-                      },
-                      {
-                        "x": "1991",
-                        "y": 196877000
-                      },
-                      {
-                        "x": "1992",
-                        "y": 201658000
-                      },
-                      {
-                        "x": "1993",
-                        "y": 224298000
-                      },
-                      {
-                        "x": "1994",
-                        "y": 298375000
-                      },
-                      {
-                        "x": "1995",
-                        "y": 453000000
-                      },
-                      {
-                        "x": "1996",
-                        "y": 482000000
-                      },
-                      {
-                        "x": "1997",
-                        "y": 565000000
-                      },
-                      {
-                        "x": "1998",
-                        "y": 591000000
-                      },
-                      {
-                        "x": "1999",
-                        "y": 609000000
-                      },
-                      {
-                        "x": "2000",
-                        "y": 689000000
-                      },
-                      {
-                        "x": "2001",
-                        "y": 756000000
-                      },
-                      {
-                        "x": "2002",
-                        "y": 792000000
-                      },
-                      {
-                        "x": "2003",
-                        "y": 839000000
-                      },
-                      {
-                        "x": "2004",
-                        "y": 764000000
-                      },
-                      {
-                        "x": "2005",
-                        "y": 796000000
-                      },
-                      {
-                        "x": "2006",
-                        "y": 843000000
-                      },
-                      {
-                        "x": "2007",
-                        "y": 900000000
-                      },
-                      {
-                        "x": "2008",
-                        "y": 891000000
-                      },
-                      {
-                        "x": "2009",
-                        "y": 916000000
-                      },
-                      {
-                        "x": "2010",
-                        "y": 1033000000
-                      },
-                      {
-                        "x": "2011",
-                        "y": 1044000000
-                      },
-                      {
-                        "x": "2012",
-                        "y": 974000000
-                      },
-                      {
-                        "x": "2013",
-                        "y": 975000000
-                      },
-                      {
-                        "x": "2014",
-                        "y": 957000000
-                      },
-                      {
-                        "x": "2015",
-                        "y": 960000000
-                      }
-                    ]
-                  },
-                  "children": []
-                }
-              ]
             }
           ]
         },
         {
           "key": "106--federal",
           "order": 106,
-          "id": "general_government",
+          "id": "106--general_government",
           "name": "General Government",
           "lexicon_name": "General Government",
           "parent": "Spending By Mission",
@@ -16325,7 +16179,7 @@
         {
           "key": "108--federal",
           "order": 108,
-          "id": "grants_to_state_and_local_governments_and_territories",
+          "id": "108--grants_to_state_and_local_governments_and_territories",
           "name": "Grants to State and Local Governments and Territories",
           "lexicon_name": "Grants to State and Local Governments and Territories",
           "parent": "Spending By Mission",
@@ -16480,12 +16334,12 @@
           },
           "children": [
             {
-              "key": "132--federal",
-              "order": 132,
-              "id": "child_and_social_services",
+              "key": "130--federal",
+              "order": 130,
+              "id": "130--child_and_social_services",
               "name": "Child and Social Services",
               "lexicon_name": "Child and Social Services",
-              "parent": "Child and Social Services",
+              "parent": "Grants to State and Local Governments and Territories",
               "type": null,
               "data": {
                 "federal": [
@@ -16638,12 +16492,12 @@
               "children": []
             },
             {
-              "key": "133--federal",
-              "order": 133,
-              "id": "transportation",
+              "key": "131--federal",
+              "order": 131,
+              "id": "131--transportation",
               "name": "Transportation",
               "lexicon_name": "Transportation",
-              "parent": "Transportation",
+              "parent": "Grants to State and Local Governments and Territories",
               "type": null,
               "data": {
                 "federal": [
@@ -16796,12 +16650,12 @@
               "children": []
             },
             {
-              "key": "134--federal",
-              "order": 134,
-              "id": "community_and_regional_development",
+              "key": "132--federal",
+              "order": 132,
+              "id": "132--community_and_regional_development",
               "name": "Community and Regional Development",
               "lexicon_name": "Community and Regional Development",
-              "parent": "Community and Regional Development",
+              "parent": "Grants to State and Local Governments and Territories",
               "type": null,
               "data": {
                 "federal": [
@@ -16954,12 +16808,12 @@
               "children": []
             },
             {
-              "key": "135--federal",
-              "order": 135,
-              "id": "cash_programs_for_aid_to_the_disadvantaged_(grants)",
+              "key": "133--federal",
+              "order": 133,
+              "id": "133--cash_programs_for_aid_to_the_disadvantaged_(grants)",
               "name": "Cash Programs for Aid to the Disadvantaged (Grants)",
               "lexicon_name": "Cash Programs for Aid to the Disadvantaged (Grants)",
-              "parent": "Cash Programs for Aid to the Disadvantaged (Grants)",
+              "parent": "Grants to State and Local Governments and Territories",
               "type": null,
               "data": {
                 "federal": [
@@ -17111,12 +16965,12 @@
               },
               "children": [
                 {
-                  "key": "136--federal",
-                  "order": 136,
-                  "id": "tanf",
+                  "key": "134--federal",
+                  "order": 134,
+                  "id": "134--tanf",
                   "name": "TANF",
                   "lexicon_name": "TANF",
-                  "parent": "TANF",
+                  "parent": "Cash Programs for Aid to the Disadvantaged (Grants)",
                   "type": null,
                   "data": {
                     "federal": [
@@ -17271,12 +17125,12 @@
               ]
             },
             {
-              "key": "137--federal",
-              "order": 137,
-              "id": "non-cash_programs_for_aid_to_the_disadvantaged_(grants)",
+              "key": "135--federal",
+              "order": 135,
+              "id": "135--non-cash_programs_for_aid_to_the_disadvantaged_(grants)",
               "name": "Non-Cash Programs for Aid to the Disadvantaged (Grants)",
               "lexicon_name": "Non-Cash Programs for Aid to the Disadvantaged (Grants)",
-              "parent": "Non-Cash Programs for Aid to the Disadvantaged (Grants)",
+              "parent": "Grants to State and Local Governments and Territories",
               "type": null,
               "data": {
                 "federal": [
@@ -17428,12 +17282,12 @@
               },
               "children": [
                 {
-                  "key": "138--federal",
-                  "order": 138,
-                  "id": "child_care_assistance",
+                  "key": "136--federal",
+                  "order": 136,
+                  "id": "136--child_care_assistance",
                   "name": "Child Care Assistance",
                   "lexicon_name": "Child Care Assistance",
-                  "parent": "Child Care Assistance",
+                  "parent": "Non-Cash Programs for Aid to the Disadvantaged (Grants)",
                   "type": null,
                   "data": {
                     "federal": [
@@ -17586,12 +17440,12 @@
                   "children": []
                 },
                 {
-                  "key": "139--federal",
-                  "order": 139,
-                  "id": "medicaid_and_chip",
+                  "key": "137--federal",
+                  "order": 137,
+                  "id": "137--medicaid_and_chip",
                   "name": "Medicaid and CHIP",
                   "lexicon_name": "Medicaid and CHIP",
-                  "parent": "Medicaid and CHIP",
+                  "parent": "Non-Cash Programs for Aid to the Disadvantaged (Grants)",
                   "type": null,
                   "data": {
                     "federal": [
@@ -17744,12 +17598,12 @@
                   "children": []
                 },
                 {
-                  "key": "140--federal",
-                  "order": 140,
-                  "id": "housing_assistance",
+                  "key": "138--federal",
+                  "order": 138,
+                  "id": "138--housing_assistance",
                   "name": "Housing Assistance",
                   "lexicon_name": "Housing Assistance",
-                  "parent": "Housing Assistance",
+                  "parent": "Non-Cash Programs for Aid to the Disadvantaged (Grants)",
                   "type": null,
                   "data": {
                     "federal": [
@@ -17904,12 +17758,12 @@
               ]
             },
             {
-              "key": "141--federal",
-              "order": 141,
-              "id": "elementary_and_secondary_education",
+              "key": "139--federal",
+              "order": 139,
+              "id": "139--elementary_and_secondary_education",
               "name": "Elementary and Secondary Education",
               "lexicon_name": "Elementary and Secondary Education",
-              "parent": "Elementary and Secondary Education",
+              "parent": "Grants to State and Local Governments and Territories",
               "type": null,
               "data": {
                 "federal": [
@@ -18062,12 +17916,12 @@
               "children": []
             },
             {
-              "key": "142--federal",
-              "order": 142,
-              "id": "vocational_education",
+              "key": "140--federal",
+              "order": 140,
+              "id": "140--vocational_education",
               "name": "Vocational Education",
               "lexicon_name": "Vocational Education",
-              "parent": "Vocational Education",
+              "parent": "Grants to State and Local Governments and Territories",
               "type": null,
               "data": {
                 "federal": [
@@ -18224,9 +18078,9 @@
       ],
       "total_rows": [
         {
-          "key": "109--federal",
-          "order": 109,
-          "id": "direct_expenditures_(non-grants)",
+          "key": "7--federal",
+          "order": 7,
+          "id": "7--direct_expenditures_(non-grants)",
           "name": "Direct Expenditures (Non-Grants)",
           "lexicon_name": "Direct Expenditures (Non-Grants)",
           "parent": "Spending By Mission",
@@ -18382,9 +18236,9 @@
           "children": []
         },
         {
-          "key": "110--federal",
-          "order": 110,
-          "id": "total_spending_(net_expenditures)",
+          "key": "109--federal",
+          "order": 109,
+          "id": "109--total_spending_(net_expenditures)",
           "name": "Total Spending (Net Expenditures)",
           "lexicon_name": "Total Spending (Net Expenditures)",
           "parent": "Spending By Mission",
@@ -18542,8 +18396,8 @@
       ]
     },
     {
-      "key": 130,
-      "order": 130,
+      "key": "data-table--memo:_non-grant_assistance",
+      "order": 129,
       "id": "memo:_non-grant_assistance",
       "name": "",
       "lexicon_name": "Memo: Non-Grant Assistance",
@@ -18552,7 +18406,7 @@
         {
           "key": "107--federal",
           "order": 107,
-          "id": "non-grant_assistance_to_territories_and_s&l_governments",
+          "id": "107--non-grant_assistance_to_territories_and_s&l_governments",
           "name": "Non-Grant Assistance to Territories and S&L Governments",
           "lexicon_name": "Non-Grant Assistance to Territories and S&L Governments",
           "parent": "Memo: Non-Grant Assistance",

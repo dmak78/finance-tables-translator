@@ -27,6 +27,7 @@ const createRow = (row, parent, dataArray, config) => {
   } = row
   const parentId = _.get(config.itemParentId)(row)
   const childRows = _.filter(item => item.type === 'row' && item.parent === parentId)(dataArray)
+  const multiplier = config.multiplier || 1
   return {
     "key": `${orderId}--${config.government_type}`,
     "order": orderId,
@@ -39,7 +40,7 @@ const createRow = (row, parent, dataArray, config) => {
       [row.government_type]: map(_.pick(_.range(1980, 2016))(row), (value, key) => {
         return {
           x: key,
-          y: value
+          y: value * multiplier
         }
       })
     },
@@ -111,7 +112,7 @@ function buildTableJson(data, config) {
 
 function writeTableJson(id) {
   return function(output) {
-    fs.writeJson(`output/test/${id}.json`, output, (err) => {
+    fs.writeJson(`output/${id}.json`, output, (err) => {
       if (err) console.error(err)
       console.log('done: ' + id)
     })
@@ -137,10 +138,14 @@ function convertCSV(config) {
 }
 
 const tablesToProcess = [
-  // 'spending--by-mission--combined',
-  // 'spending--by-mission--state_local',
-  // 'spending--by-mission--federal',
-  'employment--compensation-aggregate--combined'
+  'spending--by-mission--combined',
+  'spending--by-mission--state_local',
+  'spending--by-mission--federal',
+  'employment--compensation-aggregate--combined',
+  'grb--all--combined',
+  'revenue--government--state_local',
+  'revenue--government--federal',
+  'revenue--government--combined'
 ]
 
 forEach(tablesToProcess, (table) => {

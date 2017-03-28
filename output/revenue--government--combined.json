@@ -1,44 +1,13 @@
 {
+  "rounding_unit": 1000000000,
+  "precision": 1,
+  "current_comparison": "by_years",
   "id": "revenue--government--combined",
   "lexicon_name": "Government Revenue",
   "name": "Government Revenue",
   "current_government_type": "combined",
   "current_year": "2014",
   "available_adjustments": null,
-  "available_years": [
-    {
-      "name": "1980",
-      "id": "1980"
-    },
-    {
-      "name": "1990",
-      "id": "1990"
-    },
-    {
-      "name": "2000",
-      "id": "2000"
-    },
-    {
-      "name": "2010",
-      "id": "2010"
-    },
-    {
-      "name": "2011",
-      "id": "2011"
-    },
-    {
-      "name": "2012",
-      "id": "2012"
-    },
-    {
-      "name": "2013",
-      "id": "2013"
-    },
-    {
-      "name": "2014",
-      "id": "2014"
-    }
-  ],
   "available_government_types": [
     {
       "name": "Combined",
@@ -47,17 +16,491 @@
   ],
   "data_tables": [
     {
-      "key": 1,
+      "key": "data-table--annual_deficit_/_surplus",
       "order": 1,
+      "id": "annual_deficit_/_surplus",
+      "name": "Annual Deficit / Surplus",
+      "lexicon_name": "Annual Deficit / Surplus",
+      "type": "summary",
+      "rows": [
+        {
+          "key": "2--combined",
+          "order": 2,
+          "id": "2--total_revenue",
+          "name": "Total Revenue",
+          "lexicon_name": "Total Revenue",
+          "parent": "Annual Deficit / Surplus",
+          "type": null,
+          "data": {
+            "combined": [
+              {
+                "x": "1980",
+                "y": 770234475000
+              },
+              {
+                "x": "1981",
+                "y": 886091027000
+              },
+              {
+                "x": "1982",
+                "y": 928593522000
+              },
+              {
+                "x": "1983",
+                "y": 943487780000
+              },
+              {
+                "x": "1984",
+                "y": 1049722301000
+              },
+              {
+                "x": "1985",
+                "y": 1156591168000
+              },
+              {
+                "x": "1986",
+                "y": 1232437055000
+              },
+              {
+                "x": "1987",
+                "y": 1363313105000
+              },
+              {
+                "x": "1988",
+                "y": 1433268181000
+              },
+              {
+                "x": "1989",
+                "y": 1550889931000
+              },
+              {
+                "x": "1990",
+                "y": 1639391158000
+              },
+              {
+                "x": "1991",
+                "y": 1679769412000
+              },
+              {
+                "x": "1992",
+                "y": 1776447330000
+              },
+              {
+                "x": "1993",
+                "y": 1882619100000
+              },
+              {
+                "x": "1994",
+                "y": 2017584478000
+              },
+              {
+                "x": "1995",
+                "y": 2162181048000
+              },
+              {
+                "x": "1996",
+                "y": 2330558229000
+              },
+              {
+                "x": "1997",
+                "y": 2543821543000
+              },
+              {
+                "x": "1998",
+                "y": 2774177695000
+              },
+              {
+                "x": "1999",
+                "y": 2915303245000
+              },
+              {
+                "x": "2000",
+                "y": 3216311901000
+              },
+              {
+                "x": "2001",
+                "y": 3063051086000
+              },
+              {
+                "x": "2002",
+                "y": 2785577241000
+              },
+              {
+                "x": "2003",
+                "y": 2903951582000
+              },
+              {
+                "x": "2004",
+                "y": 3323158594000
+              },
+              {
+                "x": "2005",
+                "y": 3643024514000
+              },
+              {
+                "x": "2006",
+                "y": 4040386568000
+              },
+              {
+                "x": "2007",
+                "y": 4485053666000
+              },
+              {
+                "x": "2008",
+                "y": 3948796423000
+              },
+              {
+                "x": "2009",
+                "y": 2932360080000
+              },
+              {
+                "x": "2010",
+                "y": 3935840633000
+              },
+              {
+                "x": "2011",
+                "y": 4283234817000
+              },
+              {
+                "x": "2012",
+                "y": 4103225645000
+              },
+              {
+                "x": "2013",
+                "y": 4780262698000
+              },
+              {
+                "x": "2014",
+                "y": 5217217757000
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "key": "3--combined",
+          "order": 3,
+          "id": "3--total_spending",
+          "name": "Total Spending",
+          "lexicon_name": "Total Spending",
+          "parent": "Annual Deficit / Surplus",
+          "type": null,
+          "data": {
+            "combined": [
+              {
+                "x": "1980",
+                "y": 846850601000
+              },
+              {
+                "x": "1981",
+                "y": 967135632000
+              },
+              {
+                "x": "1982",
+                "y": 1056608783000
+              },
+              {
+                "x": "1983",
+                "y": 1152313194000
+              },
+              {
+                "x": "1984",
+                "y": 1221070335000
+              },
+              {
+                "x": "1985",
+                "y": 1349218023000
+              },
+              {
+                "x": "1986",
+                "y": 1435684294000
+              },
+              {
+                "x": "1987",
+                "y": 1499310121000
+              },
+              {
+                "x": "1988",
+                "y": 1587826941000
+              },
+              {
+                "x": "1989",
+                "y": 1702000505000
+              },
+              {
+                "x": "1990",
+                "y": 1864116049000
+              },
+              {
+                "x": "1991",
+                "y": 1986001946000
+              },
+              {
+                "x": "1992",
+                "y": 2044258138000
+              },
+              {
+                "x": "1993",
+                "y": 2097750083000
+              },
+              {
+                "x": "1994",
+                "y": 2173418633000
+              },
+              {
+                "x": "1995",
+                "y": 2281972696000
+              },
+              {
+                "x": "1996",
+                "y": 2347355840000
+              },
+              {
+                "x": "1997",
+                "y": 2440918523000
+              },
+              {
+                "x": "1998",
+                "y": 2539517838000
+              },
+              {
+                "x": "1999",
+                "y": 2644535772000
+              },
+              {
+                "x": "2000",
+                "y": 2811185335000
+              },
+              {
+                "x": "2001",
+                "y": 2963936291000
+              },
+              {
+                "x": "2002",
+                "y": 3193879423000
+              },
+              {
+                "x": "2003",
+                "y": 3395131861000
+              },
+              {
+                "x": "2004",
+                "y": 3587034073000
+              },
+              {
+                "x": "2005",
+                "y": 3834038609000
+              },
+              {
+                "x": "2006",
+                "y": 4074767494000
+              },
+              {
+                "x": "2007",
+                "y": 4281363002000
+              },
+              {
+                "x": "2008",
+                "y": 4657916445000
+              },
+              {
+                "x": "2009",
+                "y": 5249853788000
+              },
+              {
+                "x": "2010",
+                "y": 5139009032000
+              },
+              {
+                "x": "2011",
+                "y": 5304777537000
+              },
+              {
+                "x": "2012",
+                "y": 5333109476000
+              },
+              {
+                "x": "2013",
+                "y": 5276254333000
+              },
+              {
+                "x": "2014",
+                "y": 5389059977000
+              }
+            ]
+          },
+          "children": []
+        }
+      ],
+      "total_rows": [
+        {
+          "key": "4--combined",
+          "order": 4,
+          "id": "4--net_balance",
+          "name": "Net Balance",
+          "lexicon_name": "Net Balance",
+          "parent": "Annual Deficit / Surplus",
+          "type": null,
+          "data": {
+            "combined": [
+              {
+                "x": "1980",
+                "y": -76616126000
+              },
+              {
+                "x": "1981",
+                "y": -81044605000
+              },
+              {
+                "x": "1982",
+                "y": -128015261000
+              },
+              {
+                "x": "1983",
+                "y": -208825414000
+              },
+              {
+                "x": "1984",
+                "y": -171348034000
+              },
+              {
+                "x": "1985",
+                "y": -192626855000
+              },
+              {
+                "x": "1986",
+                "y": -203247239000
+              },
+              {
+                "x": "1987",
+                "y": -135997016000
+              },
+              {
+                "x": "1988",
+                "y": -154558760000
+              },
+              {
+                "x": "1989",
+                "y": -151110574000
+              },
+              {
+                "x": "1990",
+                "y": -224724891000
+              },
+              {
+                "x": "1991",
+                "y": -306232534000
+              },
+              {
+                "x": "1992",
+                "y": -267810808000
+              },
+              {
+                "x": "1993",
+                "y": -215130983000
+              },
+              {
+                "x": "1994",
+                "y": -155834155000
+              },
+              {
+                "x": "1995",
+                "y": -119791648000
+              },
+              {
+                "x": "1996",
+                "y": -16797611000
+              },
+              {
+                "x": "1997",
+                "y": 102903020000
+              },
+              {
+                "x": "1998",
+                "y": 234659857000
+              },
+              {
+                "x": "1999",
+                "y": 270767473000
+              },
+              {
+                "x": "2000",
+                "y": 405126566000
+              },
+              {
+                "x": "2001",
+                "y": 99114795000
+              },
+              {
+                "x": "2002",
+                "y": -408302182000
+              },
+              {
+                "x": "2003",
+                "y": -491180279000
+              },
+              {
+                "x": "2004",
+                "y": -263875479000
+              },
+              {
+                "x": "2005",
+                "y": -191014095000
+              },
+              {
+                "x": "2006",
+                "y": -34380926000
+              },
+              {
+                "x": "2007",
+                "y": 203690664000
+              },
+              {
+                "x": "2008",
+                "y": -709120022000
+              },
+              {
+                "x": "2009",
+                "y": -2317493708000
+              },
+              {
+                "x": "2010",
+                "y": -1203168399000
+              },
+              {
+                "x": "2011",
+                "y": -1021542720000
+              },
+              {
+                "x": "2012",
+                "y": -1229883831000
+              },
+              {
+                "x": "2013",
+                "y": -495991635000
+              },
+              {
+                "x": "2014",
+                "y": -171842220000
+              }
+            ]
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "data-table--revenue",
+      "order": 5,
       "id": "revenue",
       "name": "Revenue",
       "lexicon_name": "Revenue",
       "type": "expandable",
       "rows": [
         {
-          "key": 3,
-          "order": 3,
-          "id": "tax_revenue",
+          "key": "7--combined",
+          "order": 7,
+          "id": "7--tax_revenue",
           "name": "Tax Revenue",
           "lexicon_name": "Tax Revenue",
           "parent": "Revenue",
@@ -208,12 +651,12 @@
           },
           "children": [
             {
-              "key": 4,
-              "order": 4,
-              "id": "individual_income_taxes",
+              "key": "8--combined",
+              "order": 8,
+              "id": "8--individual_income_taxes",
               "name": "Individual Income Taxes",
               "lexicon_name": "Individual Income Taxes",
-              "parent": "Individual Income Taxes",
+              "parent": "Tax Revenue",
               "type": null,
               "data": {
                 "combined": [
@@ -362,12 +805,12 @@
               "children": []
             },
             {
-              "key": 5,
-              "order": 5,
-              "id": "payroll_taxes",
+              "key": "9--combined",
+              "order": 9,
+              "id": "9--payroll_taxes",
               "name": "Payroll Taxes",
               "lexicon_name": "Payroll Taxes",
-              "parent": "Payroll Taxes",
+              "parent": "Tax Revenue",
               "type": null,
               "data": {
                 "combined": [
@@ -515,12 +958,12 @@
               },
               "children": [
                 {
-                  "key": 6,
-                  "order": 6,
-                  "id": "social_security",
+                  "key": "10--combined",
+                  "order": 10,
+                  "id": "10--social_security",
                   "name": "Social Security",
                   "lexicon_name": "Social Security",
-                  "parent": "Social Security",
+                  "parent": "Payroll Taxes",
                   "type": null,
                   "data": {
                     "combined": [
@@ -668,12 +1111,12 @@
                   },
                   "children": [
                     {
-                      "key": 7,
-                      "order": 7,
-                      "id": "retirement",
+                      "key": "11--combined",
+                      "order": 11,
+                      "id": "11--retirement",
                       "name": "Retirement",
                       "lexicon_name": "Retirement",
-                      "parent": "Retirement",
+                      "parent": "Social Security",
                       "type": null,
                       "data": {
                         "combined": [
@@ -822,12 +1265,12 @@
                       "children": []
                     },
                     {
-                      "key": 8,
-                      "order": 8,
-                      "id": "disability",
+                      "key": "12--combined",
+                      "order": 12,
+                      "id": "12--disability",
                       "name": "Disability",
                       "lexicon_name": "Disability",
-                      "parent": "Disability",
+                      "parent": "Social Security",
                       "type": null,
                       "data": {
                         "combined": [
@@ -978,12 +1421,12 @@
                   ]
                 },
                 {
-                  "key": 9,
-                  "order": 9,
-                  "id": "railroad_retirement",
+                  "key": "13--combined",
+                  "order": 13,
+                  "id": "13--railroad_retirement",
                   "name": "Railroad Retirement",
                   "lexicon_name": "Railroad Retirement",
-                  "parent": "Railroad Retirement",
+                  "parent": "Payroll Taxes",
                   "type": null,
                   "data": {
                     "combined": [
@@ -1132,12 +1575,12 @@
                   "children": []
                 },
                 {
-                  "key": 10,
-                  "order": 10,
-                  "id": "medicare",
+                  "key": "14--combined",
+                  "order": 14,
+                  "id": "14--medicare",
                   "name": "Medicare",
                   "lexicon_name": "Medicare",
-                  "parent": "Medicare",
+                  "parent": "Payroll Taxes",
                   "type": null,
                   "data": {
                     "combined": [
@@ -1286,12 +1729,12 @@
                   "children": []
                 },
                 {
-                  "key": 11,
-                  "order": 11,
-                  "id": "unemployment_insurance",
+                  "key": "15--combined",
+                  "order": 15,
+                  "id": "15--unemployment_insurance",
                   "name": "Unemployment Insurance",
                   "lexicon_name": "Unemployment Insurance",
-                  "parent": "Unemployment Insurance",
+                  "parent": "Payroll Taxes",
                   "type": null,
                   "data": {
                     "combined": [
@@ -1442,12 +1885,12 @@
               ]
             },
             {
-              "key": 12,
-              "order": 12,
-              "id": "corporate_income_taxes",
+              "key": "16--combined",
+              "order": 16,
+              "id": "16--corporate_income_taxes",
               "name": "Corporate Income Taxes",
               "lexicon_name": "Corporate Income Taxes",
-              "parent": "Corporate Income Taxes",
+              "parent": "Tax Revenue",
               "type": null,
               "data": {
                 "combined": [
@@ -1596,12 +2039,12 @@
               "children": []
             },
             {
-              "key": 13,
-              "order": 13,
-              "id": "sales_and_excise_taxes",
+              "key": "17--combined",
+              "order": 17,
+              "id": "17--sales_and_excise_taxes",
               "name": "Sales and Excise Taxes",
               "lexicon_name": "Sales and Excise Taxes",
-              "parent": "Sales and Excise Taxes",
+              "parent": "Tax Revenue",
               "type": null,
               "data": {
                 "combined": [
@@ -1749,12 +2192,12 @@
               },
               "children": [
                 {
-                  "key": 14,
-                  "order": 14,
-                  "id": "general_sales",
+                  "key": "18--combined",
+                  "order": 18,
+                  "id": "18--general_sales",
                   "name": "General Sales",
                   "lexicon_name": "General Sales",
-                  "parent": "General Sales",
+                  "parent": "Sales and Excise Taxes",
                   "type": null,
                   "data": {
                     "combined": [
@@ -1903,12 +2346,12 @@
                   "children": []
                 },
                 {
-                  "key": 15,
-                  "order": 15,
-                  "id": "selective_sales_(excise)",
+                  "key": "19--combined",
+                  "order": 19,
+                  "id": "19--selective_sales_(excise)",
                   "name": "Selective Sales (Excise)",
                   "lexicon_name": "Selective Sales (Excise)",
-                  "parent": "Selective Sales (Excise)",
+                  "parent": "Sales and Excise Taxes",
                   "type": null,
                   "data": {
                     "combined": [
@@ -2059,12 +2502,12 @@
               ]
             },
             {
-              "key": 16,
-              "order": 16,
-              "id": "property_taxes",
+              "key": "20--combined",
+              "order": 20,
+              "id": "20--property_taxes",
               "name": "Property Taxes",
               "lexicon_name": "Property Taxes",
-              "parent": "Property Taxes",
+              "parent": "Tax Revenue",
               "type": null,
               "data": {
                 "combined": [
@@ -2213,12 +2656,12 @@
               "children": []
             },
             {
-              "key": 17,
-              "order": 17,
-              "id": "estate_and_gift_taxes",
+              "key": "21--combined",
+              "order": 21,
+              "id": "21--estate_and_gift_taxes",
               "name": "Estate and Gift Taxes",
               "lexicon_name": "Estate and Gift Taxes",
-              "parent": "Estate and Gift Taxes",
+              "parent": "Tax Revenue",
               "type": null,
               "data": {
                 "combined": [
@@ -2367,12 +2810,12 @@
               "children": []
             },
             {
-              "key": 18,
-              "order": 18,
-              "id": "severance_taxes",
+              "key": "22--combined",
+              "order": 22,
+              "id": "22--severance_taxes",
               "name": "Severance Taxes",
               "lexicon_name": "Severance Taxes",
-              "parent": "Severance Taxes",
+              "parent": "Tax Revenue",
               "type": null,
               "data": {
                 "combined": [
@@ -2521,12 +2964,12 @@
               "children": []
             },
             {
-              "key": 19,
-              "order": 19,
-              "id": "customs_duties",
+              "key": "23--combined",
+              "order": 23,
+              "id": "23--customs_duties",
               "name": "Customs Duties",
               "lexicon_name": "Customs Duties",
-              "parent": "Customs Duties",
+              "parent": "Tax Revenue",
               "type": null,
               "data": {
                 "combined": [
@@ -2675,12 +3118,12 @@
               "children": []
             },
             {
-              "key": 20,
-              "order": 20,
-              "id": "licenses",
+              "key": "24--combined",
+              "order": 24,
+              "id": "24--licenses",
               "name": "Licenses",
               "lexicon_name": "Licenses",
-              "parent": "Licenses",
+              "parent": "Tax Revenue",
               "type": null,
               "data": {
                 "combined": [
@@ -2829,12 +3272,12 @@
               "children": []
             },
             {
-              "key": 21,
-              "order": 21,
-              "id": "other_taxes",
+              "key": "25--combined",
+              "order": 25,
+              "id": "25--other_taxes",
               "name": "Other Taxes",
               "lexicon_name": "Other Taxes",
-              "parent": "Other Taxes",
+              "parent": "Tax Revenue",
               "type": null,
               "data": {
                 "combined": [
@@ -2985,9 +3428,9 @@
           ]
         },
         {
-          "key": 22,
-          "order": 22,
-          "id": "non-tax_revenue",
+          "key": "26--combined",
+          "order": 26,
+          "id": "26--non-tax_revenue",
           "name": "Non-Tax Revenue",
           "lexicon_name": "Non-Tax Revenue",
           "parent": "Revenue",
@@ -3138,12 +3581,12 @@
           },
           "children": [
             {
-              "key": 23,
-              "order": 23,
-              "id": "sales_of_government_resources",
+              "key": "27--combined",
+              "order": 27,
+              "id": "27--sales_of_government_resources",
               "name": "Sales of Government Resources",
               "lexicon_name": "Sales of Government Resources",
-              "parent": "Sales of Government Resources",
+              "parent": "Non-Tax Revenue",
               "type": null,
               "data": {
                 "combined": [
@@ -3292,12 +3735,12 @@
               "children": []
             },
             {
-              "key": 24,
-              "order": 24,
-              "id": "federal_reserve_earnings",
+              "key": "28--combined",
+              "order": 28,
+              "id": "28--federal_reserve_earnings",
               "name": "Federal Reserve Earnings",
               "lexicon_name": "Federal Reserve Earnings",
-              "parent": "Federal Reserve Earnings",
+              "parent": "Non-Tax Revenue",
               "type": null,
               "data": {
                 "combined": [
@@ -3446,12 +3889,12 @@
               "children": []
             },
             {
-              "key": 25,
-              "order": 25,
-              "id": "earnings_(losses)_on_investments",
+              "key": "29--combined",
+              "order": 29,
+              "id": "29--earnings_(losses)_on_investments",
               "name": "Earnings (Losses) on Investments",
               "lexicon_name": "Earnings (Losses) on Investments",
-              "parent": "Earnings (Losses) on Investments",
+              "parent": "Non-Tax Revenue",
               "type": null,
               "data": {
                 "combined": [
@@ -3600,12 +4043,12 @@
               "children": []
             },
             {
-              "key": 26,
-              "order": 26,
-              "id": "other_non-tax_revenues",
+              "key": "30--combined",
+              "order": 30,
+              "id": "30--other_non-tax_revenues",
               "name": "Other Non-Tax Revenues",
               "lexicon_name": "Other Non-Tax Revenues",
-              "parent": "Other Non-Tax Revenues",
+              "parent": "Non-Tax Revenue",
               "type": null,
               "data": {
                 "combined": [
@@ -3758,9 +4201,9 @@
       ],
       "total_rows": [
         {
-          "key": 2,
-          "order": 2,
-          "id": "total_revenue",
+          "key": "6--combined",
+          "order": 6,
+          "id": "6--total_revenue",
           "name": "Total Revenue",
           "lexicon_name": "Total Revenue",
           "parent": "Revenue",
