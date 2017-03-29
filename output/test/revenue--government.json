@@ -31,9 +31,9 @@
       "type": "summary",
       "rows": [
         {
-          "key": "total_revenue",
+          "key": "annual_deficit_/_surplus--total_revenue",
           "order": 2,
-          "id": "total_revenue",
+          "id": "annual_deficit_/_surplus--total_revenue",
           "name": "Total Revenue",
           "lexicon_name": "Total Revenue",
           "parent": "Annual Deficit / Surplus",
@@ -473,9 +473,9 @@
           "children": []
         },
         {
-          "key": "total_spending",
+          "key": "annual_deficit_/_surplus--total_spending",
           "order": 3,
-          "id": "total_spending",
+          "id": "annual_deficit_/_surplus--total_spending",
           "name": "Total Spending",
           "lexicon_name": "Total Spending",
           "parent": "Annual Deficit / Surplus",
@@ -917,9 +917,9 @@
       ],
       "total_rows": [
         {
-          "key": "net_balance",
+          "key": "annual_deficit_/_surplus--net_balance",
           "order": 4,
-          "id": "net_balance",
+          "id": "annual_deficit_/_surplus--net_balance",
           "name": "Net Balance",
           "lexicon_name": "Net Balance",
           "parent": "Annual Deficit / Surplus",
@@ -1369,9 +1369,9 @@
       "type": "expandable",
       "rows": [
         {
-          "key": "tax_revenue",
+          "key": "revenue--tax_revenue",
           "order": 7,
-          "id": "tax_revenue",
+          "id": "revenue--tax_revenue",
           "name": "Tax Revenue",
           "lexicon_name": "Tax Revenue",
           "parent": "Revenue",
@@ -1810,9 +1810,9 @@
           },
           "children": [
             {
-              "key": "individual_income_taxes",
+              "key": "revenue--individual_income_taxes",
               "order": 8,
-              "id": "individual_income_taxes",
+              "id": "revenue--individual_income_taxes",
               "name": "Individual Income Taxes",
               "lexicon_name": "Individual Income Taxes",
               "parent": "Individual Income Taxes",
@@ -2251,9 +2251,9 @@
               },
               "children": [
                 {
-                  "key": "portion_from_long-term_capital_gains_(estimate_from_treasury_-_adjusted_fy)",
+                  "key": "revenue--portion_from_long-term_capital_gains_(estimate_from_treasury_-_adjusted_fy)",
                   "order": 10,
-                  "id": "portion_from_long-term_capital_gains_(estimate_from_treasury_-_adjusted_fy)",
+                  "id": "revenue--portion_from_long-term_capital_gains_(estimate_from_treasury_-_adjusted_fy)",
                   "name": "Portion from long-term capital gains (estimate from Treasury - adjusted FY)",
                   "lexicon_name": "Portion from long-term capital gains (estimate from Treasury - adjusted FY)",
                   "parent": "Portion from long-term capital gains (estimate from Treasury - adjusted FY)",
@@ -2411,9 +2411,9 @@
               ]
             },
             {
-              "key": "payroll_taxes",
+              "key": "revenue--payroll_taxes",
               "order": 9,
-              "id": "payroll_taxes",
+              "id": "revenue--payroll_taxes",
               "name": "Payroll Taxes",
               "lexicon_name": "Payroll Taxes",
               "parent": "Payroll Taxes",
@@ -2710,9 +2710,9 @@
               },
               "children": [
                 {
-                  "key": "social_security",
+                  "key": "revenue--social_security",
                   "order": 10,
-                  "id": "social_security",
+                  "id": "revenue--social_security",
                   "name": "Social Security",
                   "lexicon_name": "Social Security",
                   "parent": "Social Security",
@@ -3009,9 +3009,9 @@
                   },
                   "children": [
                     {
-                      "key": "retirement",
+                      "key": "revenue--retirement",
                       "order": 11,
-                      "id": "retirement",
+                      "id": "revenue--retirement",
                       "name": "Retirement",
                       "lexicon_name": "Retirement",
                       "parent": "Retirement",
@@ -3309,9 +3309,9 @@
                       "children": []
                     },
                     {
-                      "key": "disability",
+                      "key": "revenue--disability",
                       "order": 12,
-                      "id": "disability",
+                      "id": "revenue--disability",
                       "name": "Disability",
                       "lexicon_name": "Disability",
                       "parent": "Disability",
@@ -3611,9 +3611,9 @@
                   ]
                 },
                 {
-                  "key": "railroad_retirement",
+                  "key": "revenue--railroad_retirement",
                   "order": 13,
-                  "id": "railroad_retirement",
+                  "id": "revenue--railroad_retirement",
                   "name": "Railroad Retirement",
                   "lexicon_name": "Railroad Retirement",
                   "parent": "Railroad Retirement",
@@ -3911,9 +3911,9 @@
                   "children": []
                 },
                 {
-                  "key": "medicare",
+                  "key": "revenue--medicare",
                   "order": 14,
-                  "id": "medicare",
+                  "id": "revenue--medicare",
                   "name": "Medicare",
                   "lexicon_name": "Medicare",
                   "parent": "Medicare",
@@ -4211,9 +4211,9 @@
                   "children": []
                 },
                 {
-                  "key": "unemployment_insurance",
+                  "key": "revenue--unemployment_insurance",
                   "order": 15,
-                  "id": "unemployment_insurance",
+                  "id": "revenue--unemployment_insurance",
                   "name": "Unemployment Insurance",
                   "lexicon_name": "Unemployment Insurance",
                   "parent": "Unemployment Insurance",
@@ -4513,9 +4513,9 @@
               ]
             },
             {
-              "key": "corporate_income_taxes",
+              "key": "revenue--corporate_income_taxes",
               "order": 16,
-              "id": "corporate_income_taxes",
+              "id": "revenue--corporate_income_taxes",
               "name": "Corporate Income Taxes",
               "lexicon_name": "Corporate Income Taxes",
               "parent": "Corporate Income Taxes",
@@ -4955,9 +4955,9 @@
               "children": []
             },
             {
-              "key": "sales_and_excise_taxes",
+              "key": "revenue--sales_and_excise_taxes",
               "order": 17,
-              "id": "sales_and_excise_taxes",
+              "id": "revenue--sales_and_excise_taxes",
               "name": "Sales and Excise Taxes",
               "lexicon_name": "Sales and Excise Taxes",
               "parent": "Sales and Excise Taxes",
@@ -5250,9 +5250,9 @@
               },
               "children": [
                 {
-                  "key": "general_sales",
+                  "key": "revenue--general_sales",
                   "order": 18,
-                  "id": "general_sales",
+                  "id": "revenue--general_sales",
                   "name": "General Sales",
                   "lexicon_name": "General Sales",
                   "parent": "General Sales",
@@ -5546,9 +5546,9 @@
                   "children": []
                 },
                 {
-                  "key": "selective_sales_(excise)",
+                  "key": "revenue--selective_sales_(excise)",
                   "order": 19,
-                  "id": "selective_sales_(excise)",
+                  "id": "revenue--selective_sales_(excise)",
                   "name": "Selective Sales (Excise)",
                   "lexicon_name": "Selective Sales (Excise)",
                   "parent": "Selective Sales (Excise)",
@@ -5841,9 +5841,9 @@
                   },
                   "children": [
                     {
-                      "key": "alcoholic_beverages",
+                      "key": "revenue--alcoholic_beverages",
                       "order": 15,
-                      "id": "alcoholic_beverages",
+                      "id": "revenue--alcoholic_beverages",
                       "name": "Alcoholic Beverages",
                       "lexicon_name": "Alcoholic Beverages",
                       "parent": "Alcoholic Beverages",
@@ -5995,9 +5995,9 @@
                       "children": []
                     },
                     {
-                      "key": "motor_fuel",
+                      "key": "revenue--motor_fuel",
                       "order": 16,
-                      "id": "motor_fuel",
+                      "id": "revenue--motor_fuel",
                       "name": "Motor Fuel",
                       "lexicon_name": "Motor Fuel",
                       "parent": "Motor Fuel",
@@ -6149,9 +6149,9 @@
                       "children": []
                     },
                     {
-                      "key": "tobacco_products",
+                      "key": "revenue--tobacco_products",
                       "order": 17,
-                      "id": "tobacco_products",
+                      "id": "revenue--tobacco_products",
                       "name": "Tobacco Products",
                       "lexicon_name": "Tobacco Products",
                       "parent": "Tobacco Products",
@@ -6303,9 +6303,9 @@
                       "children": []
                     },
                     {
-                      "key": "other_selective_sales",
+                      "key": "revenue--other_selective_sales",
                       "order": 18,
-                      "id": "other_selective_sales",
+                      "id": "revenue--other_selective_sales",
                       "name": "Other Selective Sales",
                       "lexicon_name": "Other Selective Sales",
                       "parent": "Other Selective Sales",
@@ -6461,9 +6461,9 @@
               ]
             },
             {
-              "key": "property_taxes",
+              "key": "revenue--property_taxes",
               "order": 20,
-              "id": "property_taxes",
+              "id": "revenue--property_taxes",
               "name": "Property Taxes",
               "lexicon_name": "Property Taxes",
               "parent": "Property Taxes",
@@ -6757,9 +6757,9 @@
               "children": []
             },
             {
-              "key": "estate_and_gift_taxes",
+              "key": "revenue--estate_and_gift_taxes",
               "order": 21,
-              "id": "estate_and_gift_taxes",
+              "id": "revenue--estate_and_gift_taxes",
               "name": "Estate and Gift Taxes",
               "lexicon_name": "Estate and Gift Taxes",
               "parent": "Estate and Gift Taxes",
@@ -7199,9 +7199,9 @@
               "children": []
             },
             {
-              "key": "severance_taxes",
+              "key": "revenue--severance_taxes",
               "order": 22,
-              "id": "severance_taxes",
+              "id": "revenue--severance_taxes",
               "name": "Severance Taxes",
               "lexicon_name": "Severance Taxes",
               "parent": "Severance Taxes",
@@ -7495,9 +7495,9 @@
               "children": []
             },
             {
-              "key": "customs_duties",
+              "key": "revenue--customs_duties",
               "order": 23,
-              "id": "customs_duties",
+              "id": "revenue--customs_duties",
               "name": "Customs Duties",
               "lexicon_name": "Customs Duties",
               "parent": "Customs Duties",
@@ -7795,9 +7795,9 @@
               "children": []
             },
             {
-              "key": "licenses",
+              "key": "revenue--licenses",
               "order": 24,
-              "id": "licenses",
+              "id": "revenue--licenses",
               "name": "Licenses",
               "lexicon_name": "Licenses",
               "parent": "Licenses",
@@ -8091,9 +8091,9 @@
               "children": []
             },
             {
-              "key": "other_taxes",
+              "key": "revenue--other_taxes",
               "order": 25,
-              "id": "other_taxes",
+              "id": "revenue--other_taxes",
               "name": "Other Taxes",
               "lexicon_name": "Other Taxes",
               "parent": "Other Taxes",
@@ -8533,9 +8533,9 @@
               "children": []
             },
             {
-              "key": "excise_taxes",
+              "key": "revenue--excise_taxes",
               "order": 19,
-              "id": "excise_taxes",
+              "id": "revenue--excise_taxes",
               "name": "Excise Taxes",
               "lexicon_name": "Excise Taxes",
               "parent": "Excise Taxes",
@@ -8693,9 +8693,9 @@
           ]
         },
         {
-          "key": "non-tax_revenue",
+          "key": "revenue--non-tax_revenue",
           "order": 26,
-          "id": "non-tax_revenue",
+          "id": "revenue--non-tax_revenue",
           "name": "Non-Tax Revenue",
           "lexicon_name": "Non-Tax Revenue",
           "parent": "Revenue",
@@ -9134,9 +9134,9 @@
           },
           "children": [
             {
-              "key": "sales_of_government_resources",
+              "key": "revenue--sales_of_government_resources",
               "order": 27,
-              "id": "sales_of_government_resources",
+              "id": "revenue--sales_of_government_resources",
               "name": "Sales of Government Resources",
               "lexicon_name": "Sales of Government Resources",
               "parent": "Sales of Government Resources",
@@ -9575,9 +9575,9 @@
               },
               "children": [
                 {
-                  "key": "rents_and_royalties_from_outer-continental_shelf",
+                  "key": "revenue--rents_and_royalties_from_outer-continental_shelf",
                   "order": 25,
-                  "id": "rents_and_royalties_from_outer-continental_shelf",
+                  "id": "revenue--rents_and_royalties_from_outer-continental_shelf",
                   "name": "Rents and Royalties from Outer-Continental Shelf",
                   "lexicon_name": "Rents and Royalties from Outer-Continental Shelf",
                   "parent": "Rents and Royalties from Outer-Continental Shelf",
@@ -9733,9 +9733,9 @@
                   "children": []
                 },
                 {
-                  "key": "spectrum_auctions_and_licensing",
+                  "key": "revenue--spectrum_auctions_and_licensing",
                   "order": 26,
-                  "id": "spectrum_auctions_and_licensing",
+                  "id": "revenue--spectrum_auctions_and_licensing",
                   "name": "Spectrum Auctions and Licensing",
                   "lexicon_name": "Spectrum Auctions and Licensing",
                   "parent": "Spectrum Auctions and Licensing",
@@ -9891,9 +9891,9 @@
                   "children": []
                 },
                 {
-                  "key": "sales_of_major_assets",
+                  "key": "revenue--sales_of_major_assets",
                   "order": 27,
-                  "id": "sales_of_major_assets",
+                  "id": "revenue--sales_of_major_assets",
                   "name": "Sales of Major Assets",
                   "lexicon_name": "Sales of Major Assets",
                   "parent": "Sales of Major Assets",
@@ -10051,9 +10051,9 @@
               ]
             },
             {
-              "key": "federal_reserve_earnings",
+              "key": "revenue--federal_reserve_earnings",
               "order": 28,
-              "id": "federal_reserve_earnings",
+              "id": "revenue--federal_reserve_earnings",
               "name": "Federal Reserve Earnings",
               "lexicon_name": "Federal Reserve Earnings",
               "parent": "Federal Reserve Earnings",
@@ -10351,9 +10351,9 @@
               "children": []
             },
             {
-              "key": "earnings_(losses)_on_investments",
+              "key": "revenue--earnings_(losses)_on_investments",
               "order": 29,
-              "id": "earnings_(losses)_on_investments",
+              "id": "revenue--earnings_(losses)_on_investments",
               "name": "Earnings (Losses) on Investments",
               "lexicon_name": "Earnings (Losses) on Investments",
               "parent": "Earnings (Losses) on Investments",
@@ -10647,9 +10647,9 @@
               "children": []
             },
             {
-              "key": "other_non-tax_revenues",
+              "key": "revenue--other_non-tax_revenues",
               "order": 30,
-              "id": "other_non-tax_revenues",
+              "id": "revenue--other_non-tax_revenues",
               "name": "Other Non-Tax Revenues",
               "lexicon_name": "Other Non-Tax Revenues",
               "parent": "Other Non-Tax Revenues",
@@ -11089,9 +11089,9 @@
               "children": []
             },
             {
-              "key": "intergovernmental_revenue_from_federal_government_(net)",
+              "key": "revenue--intergovernmental_revenue_from_federal_government_(net)",
               "order": 28,
-              "id": "intergovernmental_revenue_from_federal_government_(net)",
+              "id": "revenue--intergovernmental_revenue_from_federal_government_(net)",
               "name": "Intergovernmental Revenue from Federal Government (Net)",
               "lexicon_name": "Intergovernmental Revenue from Federal Government (Net)",
               "parent": "Intergovernmental Revenue from Federal Government (Net)",
@@ -11247,11 +11247,11 @@
       ],
       "total_rows": [
         {
-          "key": "total",
+          "key": "revenue--total_revenue",
           "order": 6,
-          "id": "total",
-          "name": "Total",
-          "lexicon_name": "Total",
+          "id": "revenue--total_revenue",
+          "name": "Total Revenue",
+          "lexicon_name": "Total Revenue",
           "parent": "Revenue",
           "type": null,
           "data": {

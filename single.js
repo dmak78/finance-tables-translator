@@ -37,7 +37,7 @@ const createRow = (row, parent, dataArray, config) => {
     "parent": parent,
     "type": style && style !== "" ? style : null,
     "data": {
-      [row.government_type]: map(_.pick(_.range(1980, 2016))(row), (value, key) => {
+      [row.government_type]: map(_.pick(_.range(1980, 2017))(row), (value, key) => {
         return {
           x: key,
           y: value * multiplier
@@ -138,14 +138,18 @@ function convertCSV(config) {
 }
 
 const tablesToProcess = [
-  'spending--by-mission--combined',
-  'spending--by-mission--state_local',
-  'spending--by-mission--federal',
-  'employment--compensation-aggregate--combined',
-  'grb--all--combined',
-  'revenue--government--state_local',
-  'revenue--government--federal',
-  'revenue--government--combined'
+  // 'spending--by-mission--combined',
+  // 'spending--by-mission--state_local',
+  // 'spending--by-mission--federal',
+  // 'employment--compensation-aggregate--combined',
+  // 'grb--all--combined',
+  // 'revenue--government--state_local',
+  // 'revenue--government--federal',
+  // 'revenue--government--combined',
+  // 'balance-sheets--government--combined',
+  // 'balance-sheets--government--federal',
+  // 'balance-sheets--government--state_local',
+  'trust-funds--all--federal'
 ]
 
 forEach(tablesToProcess, (table) => {

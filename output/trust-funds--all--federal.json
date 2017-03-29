@@ -1,0 +1,4399 @@
+{
+  "rounding_unit": 1000000,
+  "precision": 0,
+  "current_comparison": "by_years",
+  "available_years": [
+    {
+      "id": "1980",
+      "name": "1980"
+    },
+    {
+      "id": "1990",
+      "name": "1990"
+    },
+    {
+      "id": "2000",
+      "name": "2000"
+    },
+    {
+      "id": "2005",
+      "name": "2005"
+    },
+    {
+      "id": "2010",
+      "name": "2010"
+    },
+    {
+      "id": "2011",
+      "name": "2011"
+    },
+    {
+      "id": "2012",
+      "name": "2012"
+    },
+    {
+      "id": "2013",
+      "name": "2013"
+    },
+    {
+      "id": "2014",
+      "name": "2014"
+    },
+    {
+      "id": "2015",
+      "name": "2015"
+    }
+  ],
+  "available_comparisons": [
+    {
+      "name": "Fiscal Year",
+      "id": "by_years"
+    }
+  ],
+  "id": "trust-funds--all--federal",
+  "lexicon_name": "Trust Funds Finacials",
+  "name": "Trust Funds Finacials",
+  "current_government_type": "federal",
+  "current_year": "2015",
+  "available_adjustments": null,
+  "available_government_types": [
+    {
+      "name": "Federal",
+      "id": "federal"
+    }
+  ],
+  "data_tables": [
+    {
+      "key": "data-table--medicare_trust_funds_(hi)",
+      "order": 1,
+      "id": "medicare_trust_funds_(hi)",
+      "name": "Medicare Trust Funds (HI)",
+      "lexicon_name": "Medicare Trust Funds (HI)",
+      "type": "expandable",
+      "rows": [
+        {
+          "key": "2--federal",
+          "order": 2,
+          "id": "2--total_cash_income",
+          "name": "Total cash income",
+          "lexicon_name": "Total cash income",
+          "parent": "Medicare Trust Funds (HI)",
+          "type": null,
+          "data": {
+            "federal": [
+              {
+                "x": "1980",
+                "y": 25415000000
+              },
+              {
+                "x": "1990",
+                "y": 79563000000
+              },
+              {
+                "x": "2000",
+                "y": 159681000000
+              },
+              {
+                "x": "2005",
+                "y": 198472000000
+              },
+              {
+                "x": "2010",
+                "y": 222641000000
+              },
+              {
+                "x": "2011",
+                "y": 231761000000
+              },
+              {
+                "x": "2012",
+                "y": 248744000000
+              },
+              {
+                "x": "2013",
+                "y": 254162000000
+              },
+              {
+                "x": "2014",
+                "y": 271198000000
+              },
+              {
+                "x": "2015",
+                "y": 277213000000
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": "3--federal",
+              "order": 3,
+              "id": "3--social_insurance_and_retirement_receipts",
+              "name": "Social insurance and retirement receipts",
+              "lexicon_name": "Social insurance and retirement receipts",
+              "parent": "Total cash income",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 23217000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 68556000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 135529000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 166068000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 180068000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 188490000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 201143000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 209270000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 224107000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 234189000000
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "4--federal",
+              "order": 4,
+              "id": "4--total_intragovernmental_receipts",
+              "name": "Total intragovernmental receipts",
+              "lexicon_name": "Total intragovernmental receipts",
+              "parent": "Total cash income",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 2182000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 10894000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 22612000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 28199000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 33820000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 34022000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 36247000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 29267000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 34298000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 34052000000
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "key": "5--federal",
+                  "order": 5,
+                  "id": "5--employer_share,_employee_retirement",
+                  "name": "Employer share, employee retirement",
+                  "lexicon_name": "Employer share, employee retirement",
+                  "parent": "Total intragovernmental receipts",
+                  "type": null,
+                  "data": {
+                    "federal": [
+                      {
+                        "x": "1980",
+                        "y": 249000000
+                      },
+                      {
+                        "x": "1990",
+                        "y": 2153000000
+                      },
+                      {
+                        "x": "2000",
+                        "y": 2630000000
+                      },
+                      {
+                        "x": "2005",
+                        "y": 3302000000
+                      },
+                      {
+                        "x": "2010",
+                        "y": 4042000000
+                      },
+                      {
+                        "x": "2011",
+                        "y": 4025000000
+                      },
+                      {
+                        "x": "2012",
+                        "y": 4093000000
+                      },
+                      {
+                        "x": "2013",
+                        "y": 4178000000
+                      },
+                      {
+                        "x": "2014",
+                        "y": 4052000000
+                      },
+                      {
+                        "x": "2015",
+                        "y": 4073000000
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": "6--federal",
+                  "order": 6,
+                  "id": "6--interest",
+                  "name": "Interest",
+                  "lexicon_name": "Interest",
+                  "parent": "Total intragovernmental receipts",
+                  "type": null,
+                  "data": {
+                    "federal": [
+                      {
+                        "x": "1980",
+                        "y": 1061000000
+                      },
+                      {
+                        "x": "1990",
+                        "y": 7943000000
+                      },
+                      {
+                        "x": "2000",
+                        "y": 10470000000
+                      },
+                      {
+                        "x": "2005",
+                        "y": 15155000000
+                      },
+                      {
+                        "x": "2010",
+                        "y": 14604000000
+                      },
+                      {
+                        "x": "2011",
+                        "y": 12902000000
+                      },
+                      {
+                        "x": "2012",
+                        "y": 11297000000
+                      },
+                      {
+                        "x": "2013",
+                        "y": 9917000000
+                      },
+                      {
+                        "x": "2014",
+                        "y": 8960000000
+                      },
+                      {
+                        "x": "2015",
+                        "y": 8624000000
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": "7--federal",
+                  "order": 7,
+                  "id": "7--federal_payment_(oasdi_taxes)",
+                  "name": "Federal Payment (OASDI taxes)",
+                  "lexicon_name": "Federal Payment (OASDI taxes)",
+                  "parent": "Total intragovernmental receipts",
+                  "type": null,
+                  "data": {
+                    "federal": [
+                      {
+                        "x": "1980",
+                        "y": null
+                      },
+                      {
+                        "x": "1990",
+                        "y": null
+                      },
+                      {
+                        "x": "2000",
+                        "y": 8787000000
+                      },
+                      {
+                        "x": "2005",
+                        "y": 8765000000
+                      },
+                      {
+                        "x": "2010",
+                        "y": 13760000000
+                      },
+                      {
+                        "x": "2011",
+                        "y": 15143000000
+                      },
+                      {
+                        "x": "2012",
+                        "y": 18643000000
+                      },
+                      {
+                        "x": "2013",
+                        "y": 14310000000
+                      },
+                      {
+                        "x": "2014",
+                        "y": 18066000000
+                      },
+                      {
+                        "x": "2015",
+                        "y": 20208000000
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": "8--federal",
+                  "order": 8,
+                  "id": "8--other",
+                  "name": "Other",
+                  "lexicon_name": "Other",
+                  "parent": "Total intragovernmental receipts",
+                  "type": null,
+                  "data": {
+                    "federal": [
+                      {
+                        "x": "1980",
+                        "y": 871000000
+                      },
+                      {
+                        "x": "1990",
+                        "y": 798000000
+                      },
+                      {
+                        "x": "2000",
+                        "y": 725000000
+                      },
+                      {
+                        "x": "2005",
+                        "y": 977000000
+                      },
+                      {
+                        "x": "2010",
+                        "y": 1414000000
+                      },
+                      {
+                        "x": "2011",
+                        "y": 1952000000
+                      },
+                      {
+                        "x": "2012",
+                        "y": 2214000000
+                      },
+                      {
+                        "x": "2013",
+                        "y": 862000000
+                      },
+                      {
+                        "x": "2014",
+                        "y": 3220000000
+                      },
+                      {
+                        "x": "2015",
+                        "y": 1147000000
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "9--federal",
+              "order": 9,
+              "id": "9--total_other_(mainly_proprietary)_receipts",
+              "name": "Total other (mainly proprietary) receipts",
+              "lexicon_name": "Total other (mainly proprietary) receipts",
+              "parent": "Total cash income",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 17000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 113000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 1540000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 4205000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 8753000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 9249000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 11354000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 15625000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 12793000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 8972000000
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "key": "10--federal",
+                  "order": 10,
+                  "id": "10--premium_income",
+                  "name": "Premium income",
+                  "lexicon_name": "Premium income",
+                  "parent": "Total other (mainly proprietary) receipts",
+                  "type": null,
+                  "data": {
+                    "federal": [
+                      {
+                        "x": "1980",
+                        "y": 17000000
+                      },
+                      {
+                        "x": "1990",
+                        "y": 113000000
+                      },
+                      {
+                        "x": "2000",
+                        "y": 1392000000
+                      },
+                      {
+                        "x": "2005",
+                        "y": 2303000000
+                      },
+                      {
+                        "x": "2010",
+                        "y": 3503000000
+                      },
+                      {
+                        "x": "2011",
+                        "y": 3495000000
+                      },
+                      {
+                        "x": "2012",
+                        "y": 3634000000
+                      },
+                      {
+                        "x": "2013",
+                        "y": 3657000000
+                      },
+                      {
+                        "x": "2014",
+                        "y": 3537000000
+                      },
+                      {
+                        "x": "2015",
+                        "y": 3598000000
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": "11--federal",
+                  "order": 11,
+                  "id": "11--other",
+                  "name": "Other",
+                  "lexicon_name": "Other",
+                  "parent": "Total other (mainly proprietary) receipts",
+                  "type": null,
+                  "data": {
+                    "federal": [
+                      {
+                        "x": "1980",
+                        "y": null
+                      },
+                      {
+                        "x": "1990",
+                        "y": null
+                      },
+                      {
+                        "x": "2000",
+                        "y": 148000000
+                      },
+                      {
+                        "x": "2005",
+                        "y": 1902000000
+                      },
+                      {
+                        "x": "2010",
+                        "y": 5250000000
+                      },
+                      {
+                        "x": "2011",
+                        "y": 5754000000
+                      },
+                      {
+                        "x": "2012",
+                        "y": 7720000000
+                      },
+                      {
+                        "x": "2013",
+                        "y": 11968000000
+                      },
+                      {
+                        "x": "2014",
+                        "y": 9256000000
+                      },
+                      {
+                        "x": "2015",
+                        "y": 5374000000
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "12--federal",
+          "order": 12,
+          "id": "12--total_cash_outgo",
+          "name": "Total cash outgo",
+          "lexicon_name": "Total cash outgo",
+          "parent": "Medicare Trust Funds (HI)",
+          "type": null,
+          "data": {
+            "federal": [
+              {
+                "x": "1980",
+                "y": 24288000000
+              },
+              {
+                "x": "1990",
+                "y": 66687000000
+              },
+              {
+                "x": "2000",
+                "y": 130030000000
+              },
+              {
+                "x": "2005",
+                "y": 185703000000
+              },
+              {
+                "x": "2010",
+                "y": 253634000000
+              },
+              {
+                "x": "2011",
+                "y": 264828000000
+              },
+              {
+                "x": "2012",
+                "y": 265205000000
+              },
+              {
+                "x": "2013",
+                "y": 277190000000
+              },
+              {
+                "x": "2014",
+                "y": 275149000000
+              },
+              {
+                "x": "2015",
+                "y": 283509000000
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": "13--federal",
+              "order": 13,
+              "id": "13--benefit_payments",
+              "name": "Benefit payments",
+              "lexicon_name": "Benefit payments",
+              "parent": "Total cash outgo",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 23793000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 65722000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 127698000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 182523000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 249943000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 260629000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 261237000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 272632000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 270527000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 277756000000
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "14--federal",
+              "order": 14,
+              "id": "14--administrative_expenses",
+              "name": "Administrative expenses",
+              "lexicon_name": "Administrative expenses",
+              "parent": "Total cash outgo",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 486000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 774000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 1262000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 1769000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 2218000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 2575000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 2143000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 2596000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 2777000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 3610000000
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "15--federal",
+              "order": 15,
+              "id": "15--payments_to_the_patient-centered_outcomes_research_trust_fund",
+              "name": "Payments to the Patient-Centered Outcomes Research Trust Fund",
+              "lexicon_name": "Payments to the Patient-Centered Outcomes Research Trust Fund",
+              "parent": "Total cash outgo",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": null
+                  },
+                  {
+                    "x": "1990",
+                    "y": null
+                  },
+                  {
+                    "x": "2000",
+                    "y": null
+                  },
+                  {
+                    "x": "2005",
+                    "y": null
+                  },
+                  {
+                    "x": "2010",
+                    "y": null
+                  },
+                  {
+                    "x": "2011",
+                    "y": null
+                  },
+                  {
+                    "x": "2012",
+                    "y": null
+                  },
+                  {
+                    "x": "2013",
+                    "y": 25000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 49000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 55000000
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "16--federal",
+              "order": 16,
+              "id": "16--other",
+              "name": "Other",
+              "lexicon_name": "Other",
+              "parent": "Total cash outgo",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 8000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 190000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 1070000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 1411000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 1473000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 1624000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 1825000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 1937000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 1796000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 2088000000
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "17--federal",
+          "order": 17,
+          "id": "17--surplus_or_deficit_(-)",
+          "name": "Surplus or deficit (-)",
+          "lexicon_name": "Surplus or deficit (-)",
+          "parent": "Medicare Trust Funds (HI)",
+          "type": null,
+          "data": {
+            "federal": [
+              {
+                "x": "1980",
+                "y": 1127000000
+              },
+              {
+                "x": "1990",
+                "y": 12876000000
+              },
+              {
+                "x": "2000",
+                "y": 29651000000
+              },
+              {
+                "x": "2005",
+                "y": 12769000000
+              },
+              {
+                "x": "2010",
+                "y": -30993000000
+              },
+              {
+                "x": "2011",
+                "y": -33067000000
+              },
+              {
+                "x": "2012",
+                "y": -16461000000
+              },
+              {
+                "x": "2013",
+                "y": -23028000000
+              },
+              {
+                "x": "2014",
+                "y": -3951000000
+              },
+              {
+                "x": "2015",
+                "y": -6296000000
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": "18--federal",
+              "order": 18,
+              "id": "18--adjustment_to_balances",
+              "name": "Adjustment to balances",
+              "lexicon_name": "Adjustment to balances",
+              "parent": "Surplus or deficit (-)",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": null
+                  },
+                  {
+                    "x": "1990",
+                    "y": null
+                  },
+                  {
+                    "x": "2000",
+                    "y": null
+                  },
+                  {
+                    "x": "2005",
+                    "y": null
+                  },
+                  {
+                    "x": "2010",
+                    "y": 22000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": null
+                  },
+                  {
+                    "x": "2012",
+                    "y": 100000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 5000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": -1000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": -2000000
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "19--federal",
+          "order": 19,
+          "id": "19--fund_balance,_end_of_year",
+          "name": "Fund balance, end of year",
+          "lexicon_name": "Fund balance, end of year",
+          "parent": "Medicare Trust Funds (HI)",
+          "type": null,
+          "data": {
+            "federal": [
+              {
+                "x": "1980",
+                "y": 14490000000
+              },
+              {
+                "x": "1990",
+                "y": 95631000000
+              },
+              {
+                "x": "2000",
+                "y": 168072000000
+              },
+              {
+                "x": "2005",
+                "y": 277670000000
+              },
+              {
+                "x": "2010",
+                "y": 278865000000
+              },
+              {
+                "x": "2011",
+                "y": 245698000000
+              },
+              {
+                "x": "2012",
+                "y": 229337000000
+              },
+              {
+                "x": "2013",
+                "y": 206314000000
+              },
+              {
+                "x": "2014",
+                "y": 202362000000
+              },
+              {
+                "x": "2015",
+                "y": 196064000000
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": "20--federal",
+              "order": 20,
+              "id": "20--invested_balance",
+              "name": "Invested balance",
+              "lexicon_name": "Invested balance",
+              "parent": "Fund balance, end of year",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 14656000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 96249000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 168859000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 277268000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 278221000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 245939000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 228292000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 206010000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 202207000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 195458000000
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "21--federal",
+              "order": 21,
+              "id": "21--uninvested_balance",
+              "name": "Uninvested balance",
+              "lexicon_name": "Uninvested balance",
+              "parent": "Fund balance, end of year",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": -166000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": -617000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": -787000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 402000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 644000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": -241000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 1045000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 304000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 155000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 606000000
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        }
+      ],
+      "total_rows": []
+    },
+    {
+      "key": "data-table--supplementary_medical_insurance_fund_(smi)",
+      "order": 22,
+      "id": "supplementary_medical_insurance_fund_(smi)",
+      "name": "Supplementary Medical Insurance Fund (SMI)",
+      "lexicon_name": "Supplementary Medical Insurance Fund (SMI)",
+      "type": "expandable",
+      "rows": [
+        {
+          "key": "23--federal",
+          "order": 23,
+          "id": "23--total_cash_income",
+          "name": "Total cash income",
+          "lexicon_name": "Total cash income",
+          "parent": "Supplementary Medical Insurance Fund (SMI)",
+          "type": null,
+          "data": {
+            "federal": [
+              {
+                "x": "1980",
+                "y": 10275000000
+              },
+              {
+                "x": "1990",
+                "y": 45607000000
+              },
+              {
+                "x": "2000",
+                "y": 89240000000
+              },
+              {
+                "x": "2005",
+                "y": 153499000000
+              },
+              {
+                "x": "2010",
+                "y": 282576000000
+              },
+              {
+                "x": "2011",
+                "y": 301316000000
+              },
+              {
+                "x": "2012",
+                "y": 290630000000
+              },
+              {
+                "x": "2013",
+                "y": 312100000000
+              },
+              {
+                "x": "2014",
+                "y": 332522000000
+              },
+              {
+                "x": "2015",
+                "y": 354731000000
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": "24--federal",
+              "order": 24,
+              "id": "24--individual_income_taxes",
+              "name": "Individual Income Taxes",
+              "lexicon_name": "Individual Income Taxes",
+              "parent": "Total cash income",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": null
+                  },
+                  {
+                    "x": "1990",
+                    "y": -527000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": null
+                  },
+                  {
+                    "x": "2005",
+                    "y": null
+                  },
+                  {
+                    "x": "2010",
+                    "y": null
+                  },
+                  {
+                    "x": "2011",
+                    "y": null
+                  },
+                  {
+                    "x": "2012",
+                    "y": null
+                  },
+                  {
+                    "x": "2013",
+                    "y": null
+                  },
+                  {
+                    "x": "2014",
+                    "y": null
+                  },
+                  {
+                    "x": "2015",
+                    "y": null
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "25--federal",
+              "order": 25,
+              "id": "25--excise_taxes",
+              "name": "Excise Taxes",
+              "lexicon_name": "Excise Taxes",
+              "parent": "Total cash income",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": null
+                  },
+                  {
+                    "x": "1990",
+                    "y": null
+                  },
+                  {
+                    "x": "2000",
+                    "y": null
+                  },
+                  {
+                    "x": "2005",
+                    "y": null
+                  },
+                  {
+                    "x": "2010",
+                    "y": null
+                  },
+                  {
+                    "x": "2011",
+                    "y": 1876000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 2808000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 3216000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 3209000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 2991000000
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "26--federal",
+              "order": 26,
+              "id": "26--intragovernmental_receipts",
+              "name": "Intragovernmental Receipts",
+              "lexicon_name": "Intragovernmental Receipts",
+              "parent": "Total cash income",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 7347000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 34637000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 68721000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 116565000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 216708000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 228410000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 213456000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 229726000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 246812000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 265967000000
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "key": "27--federal",
+                  "order": 27,
+                  "id": "27--interest",
+                  "name": "Interest",
+                  "lexicon_name": "Interest",
+                  "parent": "Intragovernmental Receipts",
+                  "type": null,
+                  "data": {
+                    "federal": [
+                      {
+                        "x": "1980",
+                        "y": 416000000
+                      },
+                      {
+                        "x": "1990",
+                        "y": 1427000000
+                      },
+                      {
+                        "x": "2000",
+                        "y": 3160000000
+                      },
+                      {
+                        "x": "2005",
+                        "y": 1364000000
+                      },
+                      {
+                        "x": "2010",
+                        "y": 2998000000
+                      },
+                      {
+                        "x": "2011",
+                        "y": 3231000000
+                      },
+                      {
+                        "x": "2012",
+                        "y": 2947000000
+                      },
+                      {
+                        "x": "2013",
+                        "y": 2518000000
+                      },
+                      {
+                        "x": "2014",
+                        "y": 2460000000
+                      },
+                      {
+                        "x": "2015",
+                        "y": 2482000000
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": "28--federal",
+                  "order": 28,
+                  "id": "28--federal_contributions_and_other",
+                  "name": "Federal Contributions and other",
+                  "lexicon_name": "Federal Contributions and other",
+                  "parent": "Intragovernmental Receipts",
+                  "type": null,
+                  "data": {
+                    "federal": [
+                      {
+                        "x": "1980",
+                        "y": 6932000000
+                      },
+                      {
+                        "x": "1990",
+                        "y": 33210000000
+                      },
+                      {
+                        "x": "2000",
+                        "y": 65561000000
+                      },
+                      {
+                        "x": "2005",
+                        "y": 115201000000
+                      },
+                      {
+                        "x": "2010",
+                        "y": 213710000000
+                      },
+                      {
+                        "x": "2011",
+                        "y": 225179000000
+                      },
+                      {
+                        "x": "2012",
+                        "y": 210509000000
+                      },
+                      {
+                        "x": "2013",
+                        "y": 227208000000
+                      },
+                      {
+                        "x": "2014",
+                        "y": 244352000000
+                      },
+                      {
+                        "x": "2015",
+                        "y": 263485000000
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "29--federal",
+              "order": 29,
+              "id": "29--premium_income",
+              "name": "Premium income",
+              "lexicon_name": "Premium income",
+              "parent": "Total cash income",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 2928000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 11494000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 20515000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 35940000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 61804000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 66391000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 69376000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 73906000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 77465000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 80089000000
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "key": "30--federal",
+                  "order": 30,
+                  "id": "30--from_aged_participants",
+                  "name": "From aged participants",
+                  "lexicon_name": "From aged participants",
+                  "parent": "Premium income",
+                  "type": null,
+                  "data": {
+                    "federal": [
+                      {
+                        "x": "1980",
+                        "y": 2637000000
+                      },
+                      {
+                        "x": "1990",
+                        "y": 10499000000
+                      },
+                      {
+                        "x": "2000",
+                        "y": 17961000000
+                      },
+                      {
+                        "x": "2005",
+                        "y": 30394000000
+                      },
+                      {
+                        "x": "2010",
+                        "y": 45832000000
+                      },
+                      {
+                        "x": "2011",
+                        "y": 47277000000
+                      },
+                      {
+                        "x": "2012",
+                        "y": 48297000000
+                      },
+                      {
+                        "x": "2013",
+                        "y": 51679000000
+                      },
+                      {
+                        "x": "2014",
+                        "y": 54415000000
+                      },
+                      {
+                        "x": "2015",
+                        "y": 56997000000
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": "31--federal",
+                  "order": 31,
+                  "id": "31--for_prescription_drugs",
+                  "name": "For prescription drugs",
+                  "lexicon_name": "For prescription drugs",
+                  "parent": "Premium income",
+                  "type": null,
+                  "data": {
+                    "federal": [
+                      {
+                        "x": "1980",
+                        "y": null
+                      },
+                      {
+                        "x": "1990",
+                        "y": null
+                      },
+                      {
+                        "x": "2000",
+                        "y": null
+                      },
+                      {
+                        "x": "2005",
+                        "y": null
+                      },
+                      {
+                        "x": "2010",
+                        "y": 2363000000
+                      },
+                      {
+                        "x": "2011",
+                        "y": 2631000000
+                      },
+                      {
+                        "x": "2012",
+                        "y": 2955000000
+                      },
+                      {
+                        "x": "2013",
+                        "y": 3224000000
+                      },
+                      {
+                        "x": "2014",
+                        "y": 3564000000
+                      },
+                      {
+                        "x": "2015",
+                        "y": 3815000000
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": "32--federal",
+                  "order": 32,
+                  "id": "32--from_states_and_other_participants",
+                  "name": "From States and other participants",
+                  "lexicon_name": "From States and other participants",
+                  "parent": "Premium income",
+                  "type": null,
+                  "data": {
+                    "federal": [
+                      {
+                        "x": "1980",
+                        "y": 291000000
+                      },
+                      {
+                        "x": "1990",
+                        "y": 995000000
+                      },
+                      {
+                        "x": "2000",
+                        "y": 2554000000
+                      },
+                      {
+                        "x": "2005",
+                        "y": 5546000000
+                      },
+                      {
+                        "x": "2010",
+                        "y": 13609000000
+                      },
+                      {
+                        "x": "2011",
+                        "y": 16483000000
+                      },
+                      {
+                        "x": "2012",
+                        "y": 18124000000
+                      },
+                      {
+                        "x": "2013",
+                        "y": 19003000000
+                      },
+                      {
+                        "x": "2014",
+                        "y": 19486000000
+                      },
+                      {
+                        "x": "2015",
+                        "y": 19277000000
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "33--federal",
+              "order": 33,
+              "id": "33--other",
+              "name": "Other",
+              "lexicon_name": "Other",
+              "parent": "Total cash income",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": null
+                  },
+                  {
+                    "x": "1990",
+                    "y": 3000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 4000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 994000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 4064000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 4639000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 4990000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 5252000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 5036000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 5684000000
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "34--federal",
+          "order": 34,
+          "id": "34--total_cash_outgo",
+          "name": "Total cash outgo",
+          "lexicon_name": "Total cash outgo",
+          "parent": "Supplementary Medical Insurance Fund (SMI)",
+          "type": null,
+          "data": {
+            "federal": [
+              {
+                "x": "1980",
+                "y": 10746000000
+              },
+              {
+                "x": "1990",
+                "y": 43022000000
+              },
+              {
+                "x": "2000",
+                "y": 88992000000
+              },
+              {
+                "x": "2005",
+                "y": 153727000000
+              },
+              {
+                "x": "2010",
+                "y": 272006000000
+              },
+              {
+                "x": "2011",
+                "y": 300512000000
+              },
+              {
+                "x": "2012",
+                "y": 291682000000
+              },
+              {
+                "x": "2013",
+                "y": 314011000000
+              },
+              {
+                "x": "2014",
+                "y": 331012000000
+              },
+              {
+                "x": "2015",
+                "y": 356937000000
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": "35--federal",
+              "order": 35,
+              "id": "35--benefit_payments",
+              "name": "Benefit payments",
+              "lexicon_name": "Benefit payments",
+              "parent": "Total cash outgo",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 10144000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 41450000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 87169000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 150903000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 268889000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 297333000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 288074000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 310634000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 327293000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 354091000000
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "36--federal",
+              "order": 36,
+              "id": "36--administrative_expenses",
+              "name": "Administrative expenses",
+              "lexicon_name": "Administrative expenses",
+              "parent": "Total cash outgo",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 594000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 1524000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 1780000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 2745000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 3061000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 3127000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 3528000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 3252000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 3552000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 2659000000
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "37--federal",
+              "order": 37,
+              "id": "37--payments_to_the_patient-centered_outcomes_research_trust_fund",
+              "name": "Payments to the Patient-Centered Outcomes Research Trust Fund",
+              "lexicon_name": "Payments to the Patient-Centered Outcomes Research Trust Fund",
+              "parent": "Total cash outgo",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": null
+                  },
+                  {
+                    "x": "1990",
+                    "y": null
+                  },
+                  {
+                    "x": "2000",
+                    "y": null
+                  },
+                  {
+                    "x": "2005",
+                    "y": null
+                  },
+                  {
+                    "x": "2010",
+                    "y": null
+                  },
+                  {
+                    "x": "2011",
+                    "y": null
+                  },
+                  {
+                    "x": "2012",
+                    "y": null
+                  },
+                  {
+                    "x": "2013",
+                    "y": 27000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 58000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 62000000
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "38--federal",
+              "order": 38,
+              "id": "38--other",
+              "name": "Other",
+              "lexicon_name": "Other",
+              "parent": "Total cash outgo",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 8000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 47000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 43000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 79000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 56000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 52000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 80000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 98000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 109000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 125000000
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "39--federal",
+          "order": 39,
+          "id": "39--surplus_or_deficit_(-)",
+          "name": "Surplus or deficit (-)",
+          "lexicon_name": "Surplus or deficit (-)",
+          "parent": "Supplementary Medical Insurance Fund (SMI)",
+          "type": null,
+          "data": {
+            "federal": [
+              {
+                "x": "1980",
+                "y": -471000000
+              },
+              {
+                "x": "1990",
+                "y": 2585000000
+              },
+              {
+                "x": "2000",
+                "y": 248000000
+              },
+              {
+                "x": "2005",
+                "y": -228000000
+              },
+              {
+                "x": "2010",
+                "y": 10570000000
+              },
+              {
+                "x": "2011",
+                "y": 804000000
+              },
+              {
+                "x": "2012",
+                "y": -1052000000
+              },
+              {
+                "x": "2013",
+                "y": -1911000000
+              },
+              {
+                "x": "2014",
+                "y": 1510000000
+              },
+              {
+                "x": "2015",
+                "y": -2206000000
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": "40--federal",
+              "order": 40,
+              "id": "40--adjustment_to_balances",
+              "name": "Adjustment to balances",
+              "lexicon_name": "Adjustment to balances",
+              "parent": "Surplus or deficit (-)",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": null
+                  },
+                  {
+                    "x": "1990",
+                    "y": null
+                  },
+                  {
+                    "x": "2000",
+                    "y": null
+                  },
+                  {
+                    "x": "2005",
+                    "y": -2000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": null
+                  },
+                  {
+                    "x": "2011",
+                    "y": -1000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": null
+                  },
+                  {
+                    "x": "2013",
+                    "y": 1000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": null
+                  },
+                  {
+                    "x": "2015",
+                    "y": null
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "41--federal",
+          "order": 41,
+          "id": "41--fund_balance,_end_of_year",
+          "name": "Fund balance, end of year",
+          "lexicon_name": "Fund balance, end of year",
+          "parent": "Supplementary Medical Insurance Fund (SMI)",
+          "type": null,
+          "data": {
+            "federal": [
+              {
+                "x": "1980",
+                "y": 4539000000
+              },
+              {
+                "x": "1990",
+                "y": 14527000000
+              },
+              {
+                "x": "2000",
+                "y": 45896000000
+              },
+              {
+                "x": "2005",
+                "y": 16885000000
+              },
+              {
+                "x": "2010",
+                "y": 71977000000
+              },
+              {
+                "x": "2011",
+                "y": 72780000000
+              },
+              {
+                "x": "2012",
+                "y": 71728000000
+              },
+              {
+                "x": "2013",
+                "y": 69818000000
+              },
+              {
+                "x": "2014",
+                "y": 71328000000
+              },
+              {
+                "x": "2015",
+                "y": 69122000000
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": "42--federal",
+              "order": 42,
+              "id": "42--invested_balance",
+              "name": "Invested balance",
+              "lexicon_name": "Invested balance",
+              "parent": "Fund balance, end of year",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 4558000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 14286000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 45075000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 17202000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 70982000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 70446000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 69324000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 67385000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 68391000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 66128000000
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "43--federal",
+              "order": 43,
+              "id": "43--uninvested_balance",
+              "name": "Uninvested balance",
+              "lexicon_name": "Uninvested balance",
+              "parent": "Fund balance, end of year",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": -19000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 241000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 821000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": -317000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 995000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 2334000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 2404000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 2433000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 2937000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 2994000000
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        }
+      ],
+      "total_rows": []
+    },
+    {
+      "key": "data-table--old_age_and_survivors_insurance_fund_(oasi)",
+      "order": 44,
+      "id": "old_age_and_survivors_insurance_fund_(oasi)",
+      "name": "Old Age and Survivors Insurance Fund (OASI)",
+      "lexicon_name": "Old Age and Survivors Insurance Fund (OASI)",
+      "type": "expandable",
+      "rows": [
+        {
+          "key": "45--federal",
+          "order": 45,
+          "id": "45--total_cash_income",
+          "name": "Total cash income",
+          "lexicon_name": "Total cash income",
+          "parent": "Old Age and Survivors Insurance Fund (OASI)",
+          "type": null,
+          "data": {
+            "federal": [
+              {
+                "x": "1980",
+                "y": 100051000000
+              },
+              {
+                "x": "1990",
+                "y": 279599000000
+              },
+              {
+                "x": "2000",
+                "y": 484259000000
+              },
+              {
+                "x": "2005",
+                "y": 600069000000
+              },
+              {
+                "x": "2010",
+                "y": 682470000000
+              },
+              {
+                "x": "2011",
+                "y": 692650000000
+              },
+              {
+                "x": "2012",
+                "y": 729014000000
+              },
+              {
+                "x": "2013",
+                "y": 739700000000
+              },
+              {
+                "x": "2014",
+                "y": 763308000000
+              },
+              {
+                "x": "2015",
+                "y": 795316000000
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": "46--federal",
+              "order": 46,
+              "id": "46--social_insurance_and_retirement_receipts",
+              "name": "Social insurance and retirement receipts",
+              "lexicon_name": "Social insurance and retirement receipts",
+              "parent": "Total cash income",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 96581000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 255031000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 411677000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 493646000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 539996000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 483683000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 486783000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 575555000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 628792000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 658543000000
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "47--federal",
+              "order": 47,
+              "id": "47--intragovernmental_receipts",
+              "name": "Intragovernmental receipts",
+              "lexicon_name": "Intragovernmental receipts",
+              "parent": "Total cash income",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 3470000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 24568000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 72564000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 106407000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 142457000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 208947000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 242208000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 164121000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 134477000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 136762000000
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "key": "48--federal",
+                  "order": 48,
+                  "id": "48--employer_share,_employee_retirement",
+                  "name": "Employer share, employee retirement",
+                  "lexicon_name": "Employer share, employee retirement",
+                  "parent": "Intragovernmental receipts",
+                  "type": null,
+                  "data": {
+                    "federal": [
+                      {
+                        "x": "1980",
+                        "y": 1027000000
+                      },
+                      {
+                        "x": "1990",
+                        "y": 5038000000
+                      },
+                      {
+                        "x": "2000",
+                        "y": 6542000000
+                      },
+                      {
+                        "x": "2005",
+                        "y": 9352000000
+                      },
+                      {
+                        "x": "2010",
+                        "y": 12765000000
+                      },
+                      {
+                        "x": "2011",
+                        "y": 12908000000
+                      },
+                      {
+                        "x": "2012",
+                        "y": 13331000000
+                      },
+                      {
+                        "x": "2013",
+                        "y": 13820000000
+                      },
+                      {
+                        "x": "2014",
+                        "y": 13452000000
+                      },
+                      {
+                        "x": "2015",
+                        "y": 13684000000
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": "49--federal",
+                  "order": 49,
+                  "id": "49--interest",
+                  "name": "Interest",
+                  "lexicon_name": "Interest",
+                  "parent": "Intragovernmental receipts",
+                  "type": null,
+                  "data": {
+                    "federal": [
+                      {
+                        "x": "1980",
+                        "y": 1886000000
+                      },
+                      {
+                        "x": "1990",
+                        "y": 15125000000
+                      },
+                      {
+                        "x": "2000",
+                        "y": 53531000000
+                      },
+                      {
+                        "x": "2005",
+                        "y": 81708000000
+                      },
+                      {
+                        "x": "2010",
+                        "y": 108601000000
+                      },
+                      {
+                        "x": "2011",
+                        "y": 107413000000
+                      },
+                      {
+                        "x": "2012",
+                        "y": 105239000000
+                      },
+                      {
+                        "x": "2013",
+                        "y": 100113000000
+                      },
+                      {
+                        "x": "2014",
+                        "y": 96270000000
+                      },
+                      {
+                        "x": "2015",
+                        "y": 93235000000
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": "50--federal",
+                  "order": 50,
+                  "id": "50--other",
+                  "name": "Other",
+                  "lexicon_name": "Other",
+                  "parent": "Intragovernmental receipts",
+                  "type": null,
+                  "data": {
+                    "federal": [
+                      {
+                        "x": "1980",
+                        "y": 557000000
+                      },
+                      {
+                        "x": "1990",
+                        "y": 4405000000
+                      },
+                      {
+                        "x": "2000",
+                        "y": 12491000000
+                      },
+                      {
+                        "x": "2005",
+                        "y": 15347000000
+                      },
+                      {
+                        "x": "2010",
+                        "y": 21091000000
+                      },
+                      {
+                        "x": "2011",
+                        "y": 88626000000
+                      },
+                      {
+                        "x": "2012",
+                        "y": 123638000000
+                      },
+                      {
+                        "x": "2013",
+                        "y": 50188000000
+                      },
+                      {
+                        "x": "2014",
+                        "y": 24755000000
+                      },
+                      {
+                        "x": "2015",
+                        "y": 29843000000
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "51--federal",
+              "order": 51,
+              "id": "51--other_cash_income",
+              "name": "Other cash income",
+              "lexicon_name": "Other cash income",
+              "parent": "Total cash income",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": null
+                  },
+                  {
+                    "x": "1990",
+                    "y": null
+                  },
+                  {
+                    "x": "2000",
+                    "y": 18000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 16000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 17000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 20000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 23000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 24000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 39000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 11000000
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "52--federal",
+          "order": 52,
+          "id": "52--total_cash_outgo",
+          "name": "Total cash outgo",
+          "lexicon_name": "Total cash outgo",
+          "parent": "Old Age and Survivors Insurance Fund (OASI)",
+          "type": null,
+          "data": {
+            "federal": [
+              {
+                "x": "1980",
+                "y": 103227000000
+              },
+              {
+                "x": "1990",
+                "y": 224475000000
+              },
+              {
+                "x": "2000",
+                "y": 353427000000
+              },
+              {
+                "x": "2005",
+                "y": 436830000000
+              },
+              {
+                "x": "2010",
+                "y": 579928000000
+              },
+              {
+                "x": "2011",
+                "y": 599372000000
+              },
+              {
+                "x": "2012",
+                "y": 634732000000
+              },
+              {
+                "x": "2013",
+                "y": 670586000000
+              },
+              {
+                "x": "2014",
+                "y": 705928000000
+              },
+              {
+                "x": "2015",
+                "y": 741461000000
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": "53--federal",
+              "order": 53,
+              "id": "53--benefit_payments1",
+              "name": "Benefit payments1",
+              "lexicon_name": "Benefit payments1",
+              "parent": "Total cash outgo",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 100615000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 218957000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 347894000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 430375000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 572528000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 591490000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 627221000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 663213000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 698235000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 733713000000
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "54--federal",
+              "order": 54,
+              "id": "54--payments_to_the_railroad_retirement_account",
+              "name": "Payments to the railroad retirement account",
+              "lexicon_name": "Payments to the railroad retirement account",
+              "parent": "Total cash outgo",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 1442000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 2969000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 3538000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 3579000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 3930000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 4110000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 4139000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 3948000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 4257000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 4258000000
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "55--federal",
+              "order": 55,
+              "id": "55--interest_payments",
+              "name": "Interest payments",
+              "lexicon_name": "Interest payments",
+              "parent": "Total cash outgo",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": null
+                  },
+                  {
+                    "x": "1990",
+                    "y": 982000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": null
+                  },
+                  {
+                    "x": "2005",
+                    "y": null
+                  },
+                  {
+                    "x": "2010",
+                    "y": null
+                  },
+                  {
+                    "x": "2011",
+                    "y": null
+                  },
+                  {
+                    "x": "2012",
+                    "y": null
+                  },
+                  {
+                    "x": "2013",
+                    "y": null
+                  },
+                  {
+                    "x": "2014",
+                    "y": null
+                  },
+                  {
+                    "x": "2015",
+                    "y": null
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "56--federal",
+              "order": 56,
+              "id": "56--administrative_expenses",
+              "name": "Administrative expenses",
+              "lexicon_name": "Administrative expenses",
+              "parent": "Total cash outgo",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 1160000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 1566000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 1995000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 2874000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 3467000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 3657000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 3370000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 3421000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 3434000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 3506000000
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "57--federal",
+              "order": 57,
+              "id": "57--military_service_credit_adjustment",
+              "name": "Military service credit adjustment",
+              "lexicon_name": "Military service credit adjustment",
+              "parent": "Total cash outgo",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": null
+                  },
+                  {
+                    "x": "1990",
+                    "y": null
+                  },
+                  {
+                    "x": "2000",
+                    "y": null
+                  },
+                  {
+                    "x": "2005",
+                    "y": null
+                  },
+                  {
+                    "x": "2010",
+                    "y": null
+                  },
+                  {
+                    "x": "2011",
+                    "y": 113000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": null
+                  },
+                  {
+                    "x": "2013",
+                    "y": null
+                  },
+                  {
+                    "x": "2014",
+                    "y": null
+                  },
+                  {
+                    "x": "2015",
+                    "y": null
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "58--federal",
+              "order": 58,
+              "id": "58--beneficiary_services_and_other",
+              "name": "Beneficiary services and other",
+              "lexicon_name": "Beneficiary services and other",
+              "parent": "Total cash outgo",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 10000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": null
+                  },
+                  {
+                    "x": "2000",
+                    "y": null
+                  },
+                  {
+                    "x": "2005",
+                    "y": 2000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 3000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 2000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 2000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 4000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 2000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": -16000000
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "59--federal",
+          "order": 59,
+          "id": "59--surplus_or_deficit_(-)",
+          "name": "Surplus or deficit (-)",
+          "lexicon_name": "Surplus or deficit (-)",
+          "parent": "Old Age and Survivors Insurance Fund (OASI)",
+          "type": null,
+          "data": {
+            "federal": [
+              {
+                "x": "1980",
+                "y": -3176000000
+              },
+              {
+                "x": "1990",
+                "y": 55125000000
+              },
+              {
+                "x": "2000",
+                "y": 130832000000
+              },
+              {
+                "x": "2005",
+                "y": 163239000000
+              },
+              {
+                "x": "2010",
+                "y": 102542000000
+              },
+              {
+                "x": "2011",
+                "y": 93278000000
+              },
+              {
+                "x": "2012",
+                "y": 94282000000
+              },
+              {
+                "x": "2013",
+                "y": 69114000000
+              },
+              {
+                "x": "2014",
+                "y": 57380000000
+              },
+              {
+                "x": "2015",
+                "y": 53855000000
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": "60--federal",
+              "order": 60,
+              "id": "60--adjustment_to_balances",
+              "name": "Adjustment to balances",
+              "lexicon_name": "Adjustment to balances",
+              "parent": "Surplus or deficit (-)",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": null
+                  },
+                  {
+                    "x": "1990",
+                    "y": null
+                  },
+                  {
+                    "x": "2000",
+                    "y": null
+                  },
+                  {
+                    "x": "2005",
+                    "y": null
+                  },
+                  {
+                    "x": "2010",
+                    "y": -102000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": null
+                  },
+                  {
+                    "x": "2012",
+                    "y": null
+                  },
+                  {
+                    "x": "2013",
+                    "y": -2000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": -1000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": null
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "61--federal",
+          "order": 61,
+          "id": "61--fund_balance,_end_of_year",
+          "name": "Fund balance, end of year",
+          "lexicon_name": "Fund balance, end of year",
+          "parent": "Old Age and Survivors Insurance Fund (OASI)",
+          "type": null,
+          "data": {
+            "federal": [
+              {
+                "x": "1980",
+                "y": 24578000000
+              },
+              {
+                "x": "1990",
+                "y": 203445000000
+              },
+              {
+                "x": "2000",
+                "y": 893208000000
+              },
+              {
+                "x": "2005",
+                "y": 1615876000000
+              },
+              {
+                "x": "2010",
+                "y": 2398648000000
+              },
+              {
+                "x": "2011",
+                "y": 2491926000000
+              },
+              {
+                "x": "2012",
+                "y": 2586208000000
+              },
+              {
+                "x": "2013",
+                "y": 2655320000000
+              },
+              {
+                "x": "2014",
+                "y": 2712699000000
+              },
+              {
+                "x": "2015",
+                "y": 2766554000000
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": "62--federal",
+              "order": 62,
+              "id": "62--invested_balance",
+              "name": "Invested balance",
+              "lexicon_name": "Invested balance",
+              "parent": "Fund balance, end of year",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 23577000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 203717000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 893519000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 1616159000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 2399111000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 2492531000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 2586697000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 2655599000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 2712805000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 2766649000000
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "63--federal",
+              "order": 63,
+              "id": "63--uninvested_balance",
+              "name": "Uninvested balance",
+              "lexicon_name": "Uninvested balance",
+              "parent": "Fund balance, end of year",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 1000000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": -271000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": -311000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": -283000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": -463000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": -605000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": -489000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": -279000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": -106000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": -95000000
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        }
+      ],
+      "total_rows": []
+    },
+    {
+      "key": "data-table--disability_insurance_fund_(di)",
+      "order": 64,
+      "id": "disability_insurance_fund_(di)",
+      "name": "Disability Insurance Fund (DI)",
+      "lexicon_name": "Disability Insurance Fund (DI)",
+      "type": "expandable",
+      "rows": [
+        {
+          "key": "65--federal",
+          "order": 65,
+          "id": "65--total_cash_income",
+          "name": "Total cash income",
+          "lexicon_name": "Total cash income",
+          "parent": "Disability Insurance Fund (DI)",
+          "type": null,
+          "data": {
+            "federal": [
+              {
+                "x": "1980",
+                "y": 17388000000
+              },
+              {
+                "x": "1990",
+                "y": 28322000000
+              },
+              {
+                "x": "2000",
+                "y": 77062000000
+              },
+              {
+                "x": "2005",
+                "y": 96764000000
+              },
+              {
+                "x": "2010",
+                "y": 105591000000
+              },
+              {
+                "x": "2011",
+                "y": 106308000000
+              },
+              {
+                "x": "2012",
+                "y": 108931000000
+              },
+              {
+                "x": "2013",
+                "y": 111353000000
+              },
+              {
+                "x": "2014",
+                "y": 114188000000
+              },
+              {
+                "x": "2015",
+                "y": 118036000000
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": "66--federal",
+              "order": 66,
+              "id": "66--social_insurance_and_retirement_receipts",
+              "name": "Social insurance and retirement receipts",
+              "lexicon_name": "Social insurance and retirement receipts",
+              "parent": "Total cash income",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 16628000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 26625000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 68907000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 83830000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 91691000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 82105000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 82718000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 97719000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 106773000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 111829000000
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "67--federal",
+              "order": 67,
+              "id": "67--total_intragovernmental_receipts",
+              "name": "Total intragovernmental receipts",
+              "lexicon_name": "Total intragovernmental receipts",
+              "parent": "Total cash income",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 760000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 1697000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 8121000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 12887000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 13824000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 24126000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 26131000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 13547000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 7331000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 6136000000
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "key": "68--federal",
+                  "order": 68,
+                  "id": "68--employer_share,_employee_retirement",
+                  "name": "Employer share, employee retirement",
+                  "lexicon_name": "Employer share, employee retirement",
+                  "parent": "Total intragovernmental receipts",
+                  "type": null,
+                  "data": {
+                    "federal": [
+                      {
+                        "x": "1980",
+                        "y": 177000000
+                      },
+                      {
+                        "x": "1990",
+                        "y": 529000000
+                      },
+                      {
+                        "x": "2000",
+                        "y": 1095000000
+                      },
+                      {
+                        "x": "2005",
+                        "y": 1589000000
+                      },
+                      {
+                        "x": "2010",
+                        "y": 2171000000
+                      },
+                      {
+                        "x": "2011",
+                        "y": 2191000000
+                      },
+                      {
+                        "x": "2012",
+                        "y": 2261000000
+                      },
+                      {
+                        "x": "2013",
+                        "y": 2348000000
+                      },
+                      {
+                        "x": "2014",
+                        "y": 2285000000
+                      },
+                      {
+                        "x": "2015",
+                        "y": 2324000000
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": "69--federal",
+                  "order": 69,
+                  "id": "69--interest",
+                  "name": "Interest",
+                  "lexicon_name": "Interest",
+                  "parent": "Total intragovernmental receipts",
+                  "type": null,
+                  "data": {
+                    "federal": [
+                      {
+                        "x": "1980",
+                        "y": 454000000
+                      },
+                      {
+                        "x": "1990",
+                        "y": 866000000
+                      },
+                      {
+                        "x": "2000",
+                        "y": 6265000000
+                      },
+                      {
+                        "x": "2005",
+                        "y": 10128000000
+                      },
+                      {
+                        "x": "2010",
+                        "y": 9901000000
+                      },
+                      {
+                        "x": "2011",
+                        "y": 8568000000
+                      },
+                      {
+                        "x": "2012",
+                        "y": 7154000000
+                      },
+                      {
+                        "x": "2013",
+                        "y": 5537000000
+                      },
+                      {
+                        "x": "2014",
+                        "y": 3996000000
+                      },
+                      {
+                        "x": "2015",
+                        "y": 2733000000
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": "70--federal",
+                  "order": 70,
+                  "id": "70--other",
+                  "name": "Other",
+                  "lexicon_name": "Other",
+                  "parent": "Total intragovernmental receipts",
+                  "type": null,
+                  "data": {
+                    "federal": [
+                      {
+                        "x": "1980",
+                        "y": 129000000
+                      },
+                      {
+                        "x": "1990",
+                        "y": 302000000
+                      },
+                      {
+                        "x": "2000",
+                        "y": 761000000
+                      },
+                      {
+                        "x": "2005",
+                        "y": 1170000000
+                      },
+                      {
+                        "x": "2010",
+                        "y": 1752000000
+                      },
+                      {
+                        "x": "2011",
+                        "y": 13367000000
+                      },
+                      {
+                        "x": "2012",
+                        "y": 16716000000
+                      },
+                      {
+                        "x": "2013",
+                        "y": 5662000000
+                      },
+                      {
+                        "x": "2014",
+                        "y": 1050000000
+                      },
+                      {
+                        "x": "2015",
+                        "y": 1079000000
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "71--federal",
+              "order": 71,
+              "id": "71--other_cash_income",
+              "name": "Other cash income",
+              "lexicon_name": "Other cash income",
+              "parent": "Total cash income",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": null
+                  },
+                  {
+                    "x": "1990",
+                    "y": null
+                  },
+                  {
+                    "x": "2000",
+                    "y": 34000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 47000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 76000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 77000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 82000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 87000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 84000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 71000000
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "72--federal",
+          "order": 72,
+          "id": "72--total_cash_outgo",
+          "name": "Total cash outgo",
+          "lexicon_name": "Total cash outgo",
+          "parent": "Disability Insurance Fund (DI)",
+          "type": null,
+          "data": {
+            "federal": [
+              {
+                "x": "1980",
+                "y": 15332000000
+              },
+              {
+                "x": "1990",
+                "y": 25230000000
+              },
+              {
+                "x": "2000",
+                "y": 56046000000
+              },
+              {
+                "x": "2005",
+                "y": 86468000000
+              },
+              {
+                "x": "2010",
+                "y": 126423000000
+              },
+              {
+                "x": "2011",
+                "y": 131571000000
+              },
+              {
+                "x": "2012",
+                "y": 138632000000
+              },
+              {
+                "x": "2013",
+                "y": 142847000000
+              },
+              {
+                "x": "2014",
+                "y": 144640000000
+              },
+              {
+                "x": "2015",
+                "y": 146306000000
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": "73--federal",
+              "order": 73,
+              "id": "73--benefit_payments",
+              "name": "Benefit payments",
+              "lexicon_name": "Benefit payments",
+              "parent": "Total cash outgo",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 14899000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 24306000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 54210000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 83765000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 122931000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 128005000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 135126000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 139428000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 141291000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 142846000000
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "74--federal",
+              "order": 74,
+              "id": "74--payments_to_the_railroad_retirement_account",
+              "name": "Payments to the railroad retirement account",
+              "lexicon_name": "Payments to the railroad retirement account",
+              "parent": "Total cash outgo",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": null
+                  },
+                  {
+                    "x": "1990",
+                    "y": 80000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 159000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 338000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 462000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 465000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 512000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 551000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 444000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 419000000
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "75--federal",
+              "order": 75,
+              "id": "75--administrative_expenses",
+              "name": "Administrative expenses",
+              "lexicon_name": "Administrative expenses",
+              "parent": "Total cash outgo",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 334000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 707000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 1611000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 2316000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 2923000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 3009000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 2896000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 2741000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 2776000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 2881000000
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "76--federal",
+              "order": 76,
+              "id": "76--interest_payments",
+              "name": "Interest payments",
+              "lexicon_name": "Interest payments",
+              "parent": "Total cash outgo",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": null
+                  },
+                  {
+                    "x": "1990",
+                    "y": 100000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": null
+                  },
+                  {
+                    "x": "2005",
+                    "y": null
+                  },
+                  {
+                    "x": "2010",
+                    "y": null
+                  },
+                  {
+                    "x": "2011",
+                    "y": null
+                  },
+                  {
+                    "x": "2012",
+                    "y": null
+                  },
+                  {
+                    "x": "2013",
+                    "y": null
+                  },
+                  {
+                    "x": "2014",
+                    "y": null
+                  },
+                  {
+                    "x": "2015",
+                    "y": null
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "77--federal",
+              "order": 77,
+              "id": "77--military_service_credit_adjustment",
+              "name": "Military service credit adjustment",
+              "lexicon_name": "Military service credit adjustment",
+              "parent": "Total cash outgo",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": null
+                  },
+                  {
+                    "x": "1990",
+                    "y": null
+                  },
+                  {
+                    "x": "2000",
+                    "y": null
+                  },
+                  {
+                    "x": "2005",
+                    "y": null
+                  },
+                  {
+                    "x": "2010",
+                    "y": null
+                  },
+                  {
+                    "x": "2011",
+                    "y": 3000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": null
+                  },
+                  {
+                    "x": "2013",
+                    "y": null
+                  },
+                  {
+                    "x": "2014",
+                    "y": null
+                  },
+                  {
+                    "x": "2015",
+                    "y": null
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "78--federal",
+              "order": 78,
+              "id": "78--beneficiary_services_and_other",
+              "name": "Beneficiary services and other",
+              "lexicon_name": "Beneficiary services and other",
+              "parent": "Total cash outgo",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 99000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 38000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 66000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 49000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 107000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 89000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 98000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 127000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 129000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 160000000
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "79--federal",
+          "order": 79,
+          "id": "79--surplus_or_deficit_(-)",
+          "name": "Surplus or deficit (-)",
+          "lexicon_name": "Surplus or deficit (-)",
+          "parent": "Disability Insurance Fund (DI)",
+          "type": null,
+          "data": {
+            "federal": [
+              {
+                "x": "1980",
+                "y": 2057000000
+              },
+              {
+                "x": "1990",
+                "y": 3091000000
+              },
+              {
+                "x": "2000",
+                "y": 21016000000
+              },
+              {
+                "x": "2005",
+                "y": 10296000000
+              },
+              {
+                "x": "2010",
+                "y": -20832000000
+              },
+              {
+                "x": "2011",
+                "y": -25263000000
+              },
+              {
+                "x": "2012",
+                "y": -29701000000
+              },
+              {
+                "x": "2013",
+                "y": -31494000000
+              },
+              {
+                "x": "2014",
+                "y": -30452000000
+              },
+              {
+                "x": "2015",
+                "y": -28270000000
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": "80--federal",
+              "order": 80,
+              "id": "80--adjustment_to_balances",
+              "name": "Adjustment to balances",
+              "lexicon_name": "Adjustment to balances",
+              "parent": "Surplus or deficit (-)",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": null
+                  },
+                  {
+                    "x": "1990",
+                    "y": null
+                  },
+                  {
+                    "x": "2000",
+                    "y": null
+                  },
+                  {
+                    "x": "2005",
+                    "y": null
+                  },
+                  {
+                    "x": "2010",
+                    "y": 105000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": null
+                  },
+                  {
+                    "x": "2012",
+                    "y": null
+                  },
+                  {
+                    "x": "2013",
+                    "y": null
+                  },
+                  {
+                    "x": "2014",
+                    "y": null
+                  },
+                  {
+                    "x": "2015",
+                    "y": null
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "81--federal",
+          "order": 81,
+          "id": "81--fund_balance,_end_of_year",
+          "name": "Fund balance, end of year",
+          "lexicon_name": "Fund balance, end of year",
+          "parent": "Disability Insurance Fund (DI)",
+          "type": null,
+          "data": {
+            "federal": [
+              {
+                "x": "1980",
+                "y": 7682000000
+              },
+              {
+                "x": "1990",
+                "y": 11455000000
+              },
+              {
+                "x": "2000",
+                "y": 113644000000
+              },
+              {
+                "x": "2005",
+                "y": 193084000000
+              },
+              {
+                "x": "2010",
+                "y": 186836000000
+              },
+              {
+                "x": "2011",
+                "y": 161573000000
+              },
+              {
+                "x": "2012",
+                "y": 131872000000
+              },
+              {
+                "x": "2013",
+                "y": 100378000000
+              },
+              {
+                "x": "2014",
+                "y": 69926000000
+              },
+              {
+                "x": "2015",
+                "y": 41656000000
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": "82--federal",
+              "order": 82,
+              "id": "82--invested_balance",
+              "name": "Invested balance",
+              "lexicon_name": "Invested balance",
+              "parent": "Fund balance, end of year",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 7674000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": 11505000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": 113707000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": 193263000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": 187222000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": 161965000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": 132345000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": 100791000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": 70113000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 41638000000
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "83--federal",
+              "order": 83,
+              "id": "83--uninvested_balance",
+              "name": "Uninvested balance",
+              "lexicon_name": "Uninvested balance",
+              "parent": "Fund balance, end of year",
+              "type": null,
+              "data": {
+                "federal": [
+                  {
+                    "x": "1980",
+                    "y": 7000000
+                  },
+                  {
+                    "x": "1990",
+                    "y": -50000000
+                  },
+                  {
+                    "x": "2000",
+                    "y": -64000000
+                  },
+                  {
+                    "x": "2005",
+                    "y": -179000000
+                  },
+                  {
+                    "x": "2010",
+                    "y": -386000000
+                  },
+                  {
+                    "x": "2011",
+                    "y": -392000000
+                  },
+                  {
+                    "x": "2012",
+                    "y": -473000000
+                  },
+                  {
+                    "x": "2013",
+                    "y": -413000000
+                  },
+                  {
+                    "x": "2014",
+                    "y": -187000000
+                  },
+                  {
+                    "x": "2015",
+                    "y": 18000000
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        }
+      ],
+      "total_rows": []
+    }
+  ]
+}

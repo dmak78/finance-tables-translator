@@ -233,6 +233,36 @@ const config = {
     latest_year: '2015',
     itemParentId: 'name'
   },
+  'balance-sheets--government--combined': {
+    id: 'balance-sheets--government--combined',
+    section: 'balance-sheets',
+    sector: 'government',
+    government_type: 'combined',
+    government_type_name: 'Combined',
+    name: 'Government Balance Sheet - Combined',
+    latest_year: '2016',
+    itemParentId: 'name'
+  },
+  'balance-sheets--government--federal': {
+    id: 'balance-sheets--government--federal',
+    section: 'balance-sheets',
+    sector: 'government',
+    government_type: 'federal',
+    government_type_name: 'Federal',
+    name: 'Government Balance Sheet - Federal',
+    latest_year: '2016',
+    itemParentId: 'name'
+  },
+  'balance-sheets--government--state_local': {
+    id: 'balance-sheets--government--state_local',
+    section: 'balance-sheets',
+    sector: 'government',
+    government_type: 'state_local',
+    government_type_name: 'State & Local',
+    name: 'Government Balance Sheet - State & Local',
+    latest_year: '2016',
+    itemParentId: 'name'
+  },
   'balance-sheets--gse--federal': {
     id: 'balance-sheets--gse--federal',
     section: 'balance-sheets',
@@ -242,6 +272,70 @@ const config = {
     name: 'Government-Sponsored Enterprises Balance Sheet',
     latest_year: '2015',
     itemParentId: 'name'
+  },
+  'trust-funds--all--federal': {
+    id: 'trust-funds--all--federal',
+    section: 'trust-funds',
+    sector: 'all',
+    government_type: 'federal',
+    government_type_name: 'Federal',
+    name: 'Trust Funds Finacials',
+    latest_year: '2015',
+    itemParentId: 'orderId',
+    multiplier: 1000000,
+    defaults: {
+      rounding_unit: 1000000,
+      precision: 0,
+      current_comparison: 'by_years',
+      available_years: [
+        {
+          id: "1980",
+          name: "1980"
+        },
+        {
+          id: "1990",
+          name: "1990"
+        },
+        {
+          id: "2000",
+          name: "2000"
+        },
+        {
+          id: "2005",
+          name: "2005"
+        },
+        {
+          id: "2010",
+          name: "2010"
+        },
+        {
+          id: "2011",
+          name: "2011"
+        },
+        {
+          id: "2012",
+          name: "2012"
+        },
+        {
+          id: "2013",
+          name: "2013"
+        },
+        {
+          id: "2014",
+          name: "2014"
+        },
+        {
+          id: "2015",
+          name: "2015"
+        }
+      ],
+      available_comparisons: [
+        {
+          name: "Fiscal Year",
+          id: "by_years"
+        }
+      ]
+    }
   },
   'employment--compensation-per-person-per-hour--state_local': {
     id: 'employment--compensation-per-person-per-hour--state_local',

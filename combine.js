@@ -60,9 +60,9 @@ const processDataTables = (data) => {
 }
 
 function writeTableJson(output) {
-  fs.writeJson(`output/revenue--government.json`, output, (err) => {
+  fs.writeJson(`output/test/balance-sheets--government.json`, output, (err) => {
     if (err) console.error(err)
-    console.log('done: ' + 'revenue--government')
+    console.log('done: ' + 'balance-sheets--government')
   })
 }
 
@@ -75,9 +75,11 @@ function csvToJson(config) {
     })
       .fromFile(`input/csv/${id}.csv`)
       .on('json',(jsonRow) => {
+        let rowId = jsonRow.type === 'row' || jsonRow.type === 'total_row' ? `${jsonRow.data_table}--${jsonRow.name}` : jsonRow.name
+        rowId = entityNameToKey(rowId)
         tableData.push({
           ...jsonRow,
-          id: entityNameToKey(jsonRow.name)
+          id: rowId
         })
       })
       .on('done',(error) => {
@@ -90,14 +92,14 @@ function csvToJson(config) {
 
 function buildTableJson(data) {
   const output = {
-    "id": 'revenue--government',
-    "lexicon_name": 'Government Revenue',
-    "name": 'Government Revenue',
+    "id": 'balance-sheets--government',
+    "lexicon_name": 'Government Balance Sheet',
+    "name": 'Government Balance Sheet',
     "current_government_type": 'combined',
-    "current_year": '2014',
+    "current_year": '2016',
     "available_adjustments": null,
-    "rounding_unit": 1000000000,
-    "precision": 1,
+    // "rounding_unit": 1000000000,
+    // "precision": 1,
     "available_government_types": [
       {
         "name": 'Federal',
@@ -120,7 +122,7 @@ function buildTableJson(data) {
   return writeTableJson(output)
 }
 
-const rowConfigValues = ['id', 'order', 'style', 'type', 'footnote', 'parent', 'name', 'source']
+const rowConfigValues = ['id', 'order', 'style', 'type', 'footnote', 'parent', 'name', 'source', 'data_table']
 
 
 const isRowDataType = (row) => row.type === 'row' || row.type === 'total_row'
@@ -130,7 +132,7 @@ const processDataPoints = _.mapValues(datum => {
   return map(filtered, (value, key) => {
     return {
       x: key,
-      y: value * 1000
+      y: value //* 1000
     }
   })
 })
@@ -164,9 +166,12 @@ const combineTableFiles = _.flow(
 )
 
 const tablesToProcess = [
-  'revenue--government--combined',
-  'revenue--government--federal',
-  'revenue--government--state_local'
+  // 'revenue--government--combined',
+  // 'revenue--government--federal',
+  // 'revenue--government--state_local'
+  'balance-sheets--government--combined',
+  'balance-sheets--government--federal',
+  'balance-sheets--government--state_local'
 ]
 
 const getConfigAndProcess = (config) => (id) => csvToJson(config[id])
