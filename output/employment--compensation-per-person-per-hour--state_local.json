@@ -1,0 +1,3459 @@
+{
+  "current_comparison": "by_years",
+  "precision": 2,
+  "available_years": [
+    {
+      "id": "2005",
+      "name": "2005"
+    },
+    {
+      "id": "2010",
+      "name": "2010"
+    },
+    {
+      "id": "2011",
+      "name": "2011"
+    },
+    {
+      "id": "2012",
+      "name": "2012"
+    },
+    {
+      "id": "2013",
+      "name": "2013"
+    },
+    {
+      "id": "2014",
+      "name": "2014"
+    },
+    {
+      "id": "2015",
+      "name": "2015"
+    }
+  ],
+  "available_comparisons": [
+    {
+      "name": "Fiscal Year",
+      "id": "by_years"
+    }
+  ],
+  "id": "employment--compensation-per-person-per-hour--state_local",
+  "lexicon_name": "Wages of State & Local Employees (per person per hour)",
+  "name": "Wages of State & Local Employees (per person per hour)",
+  "current_government_type": "state_local",
+  "current_year": "2015",
+  "available_adjustments": null,
+  "available_government_types": [
+    {
+      "name": "State & Local",
+      "id": "state_local"
+    }
+  ],
+  "data_tables": [
+    {
+      "key": "data-table--all_state_and_local_workers",
+      "order": 2,
+      "id": "all_state_and_local_workers",
+      "name": "All State and Local Workers",
+      "lexicon_name": "All State and Local Workers",
+      "type": "expandable",
+      "rows": [
+        {
+          "key": "4--state_local",
+          "order": 4,
+          "id": "4--wages_and_salaries",
+          "name": "Wages and Salaries",
+          "lexicon_name": "Wages and Salaries",
+          "parent": "All State and Local Workers",
+          "type": null,
+          "data": {
+            "state_local": [
+              {
+                "x": "2004",
+                "y": 23.79
+              },
+              {
+                "x": "2005",
+                "y": 24.45
+              },
+              {
+                "x": "2006",
+                "y": 25.31
+              },
+              {
+                "x": "2007",
+                "y": 25.73
+              },
+              {
+                "x": "2008",
+                "y": 25.45
+              },
+              {
+                "x": "2009",
+                "y": 26.08
+              },
+              {
+                "x": "2010",
+                "y": 26.26
+              },
+              {
+                "x": "2011",
+                "y": 26.57
+              },
+              {
+                "x": "2012",
+                "y": 26.93
+              },
+              {
+                "x": "2013",
+                "y": 27.37
+              },
+              {
+                "x": "2014",
+                "y": 27.85
+              },
+              {
+                "x": "2015",
+                "y": 28.33
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "key": "5--state_local",
+          "order": 5,
+          "id": "5--benefits",
+          "name": "Benefits",
+          "lexicon_name": "Benefits",
+          "parent": "All State and Local Workers",
+          "type": null,
+          "data": {
+            "state_local": [
+              {
+                "x": "2004",
+                "y": 10.77
+              },
+              {
+                "x": "2005",
+                "y": 11.47
+              },
+              {
+                "x": "2006",
+                "y": 12.23
+              },
+              {
+                "x": "2007",
+                "y": 12.89
+              },
+              {
+                "x": "2008",
+                "y": 13.2
+              },
+              {
+                "x": "2009",
+                "y": 13.57
+              },
+              {
+                "x": "2010",
+                "y": 13.72
+              },
+              {
+                "x": "2011",
+                "y": 14.08
+              },
+              {
+                "x": "2012",
+                "y": 14.52
+              },
+              {
+                "x": "2013",
+                "y": 15.04
+              },
+              {
+                "x": "2014",
+                "y": 15.58
+              },
+              {
+                "x": "2015",
+                "y": 15.92
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": "6--state_local",
+              "order": 6,
+              "id": "6--paid_leave",
+              "name": "Paid Leave",
+              "lexicon_name": "Paid Leave",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 2.63
+                  },
+                  {
+                    "x": "2005",
+                    "y": 2.7
+                  },
+                  {
+                    "x": "2006",
+                    "y": 2.94
+                  },
+                  {
+                    "x": "2007",
+                    "y": 3.03
+                  },
+                  {
+                    "x": "2008",
+                    "y": 3.19
+                  },
+                  {
+                    "x": "2009",
+                    "y": 3.14
+                  },
+                  {
+                    "x": "2010",
+                    "y": 3.02
+                  },
+                  {
+                    "x": "2011",
+                    "y": 3.03
+                  },
+                  {
+                    "x": "2012",
+                    "y": 3.05
+                  },
+                  {
+                    "x": "2013",
+                    "y": 3.11
+                  },
+                  {
+                    "x": "2014",
+                    "y": 3.17
+                  },
+                  {
+                    "x": "2015",
+                    "y": 3.21
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "key": "7--state_local",
+                  "order": 7,
+                  "id": "7--vacation",
+                  "name": "Vacation",
+                  "lexicon_name": "Vacation",
+                  "parent": "Paid Leave",
+                  "type": null,
+                  "data": {
+                    "state_local": [
+                      {
+                        "x": "2004",
+                        "y": 0.91
+                      },
+                      {
+                        "x": "2005",
+                        "y": 0.94
+                      },
+                      {
+                        "x": "2006",
+                        "y": 1.02
+                      },
+                      {
+                        "x": "2007",
+                        "y": 1.08
+                      },
+                      {
+                        "x": "2008",
+                        "y": 1.12
+                      },
+                      {
+                        "x": "2009",
+                        "y": 1.15
+                      },
+                      {
+                        "x": "2010",
+                        "y": 1.14
+                      },
+                      {
+                        "x": "2011",
+                        "y": 1.14
+                      },
+                      {
+                        "x": "2012",
+                        "y": 1.14
+                      },
+                      {
+                        "x": "2013",
+                        "y": 1.16
+                      },
+                      {
+                        "x": "2014",
+                        "y": 1.18
+                      },
+                      {
+                        "x": "2015",
+                        "y": 1.19
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": "8--state_local",
+                  "order": 8,
+                  "id": "8--holiday",
+                  "name": "Holiday",
+                  "lexicon_name": "Holiday",
+                  "parent": "Paid Leave",
+                  "type": null,
+                  "data": {
+                    "state_local": [
+                      {
+                        "x": "2004",
+                        "y": 0.87
+                      },
+                      {
+                        "x": "2005",
+                        "y": 0.9
+                      },
+                      {
+                        "x": "2006",
+                        "y": 0.94
+                      },
+                      {
+                        "x": "2007",
+                        "y": 0.96
+                      },
+                      {
+                        "x": "2008",
+                        "y": 1.05
+                      },
+                      {
+                        "x": "2009",
+                        "y": 0.99
+                      },
+                      {
+                        "x": "2010",
+                        "y": 0.89
+                      },
+                      {
+                        "x": "2011",
+                        "y": 0.88
+                      },
+                      {
+                        "x": "2012",
+                        "y": 0.89
+                      },
+                      {
+                        "x": "2013",
+                        "y": 0.92
+                      },
+                      {
+                        "x": "2014",
+                        "y": 0.93
+                      },
+                      {
+                        "x": "2015",
+                        "y": 0.95
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": "9--state_local",
+                  "order": 9,
+                  "id": "9--sick",
+                  "name": "Sick",
+                  "lexicon_name": "Sick",
+                  "parent": "Paid Leave",
+                  "type": null,
+                  "data": {
+                    "state_local": [
+                      {
+                        "x": "2004",
+                        "y": 0.64
+                      },
+                      {
+                        "x": "2005",
+                        "y": 0.66
+                      },
+                      {
+                        "x": "2006",
+                        "y": 0.74
+                      },
+                      {
+                        "x": "2007",
+                        "y": 0.75
+                      },
+                      {
+                        "x": "2008",
+                        "y": 0.8
+                      },
+                      {
+                        "x": "2009",
+                        "y": 0.79
+                      },
+                      {
+                        "x": "2010",
+                        "y": 0.77
+                      },
+                      {
+                        "x": "2011",
+                        "y": 0.78
+                      },
+                      {
+                        "x": "2012",
+                        "y": 0.79
+                      },
+                      {
+                        "x": "2013",
+                        "y": 0.81
+                      },
+                      {
+                        "x": "2014",
+                        "y": 0.83
+                      },
+                      {
+                        "x": "2015",
+                        "y": 0.84
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": "10--state_local",
+                  "order": 10,
+                  "id": "10--personal",
+                  "name": "Personal",
+                  "lexicon_name": "Personal",
+                  "parent": "Paid Leave",
+                  "type": null,
+                  "data": {
+                    "state_local": [
+                      {
+                        "x": "2004",
+                        "y": 0.2
+                      },
+                      {
+                        "x": "2005",
+                        "y": 0.21
+                      },
+                      {
+                        "x": "2006",
+                        "y": 0.24
+                      },
+                      {
+                        "x": "2007",
+                        "y": 0.24
+                      },
+                      {
+                        "x": "2008",
+                        "y": 0.22
+                      },
+                      {
+                        "x": "2009",
+                        "y": 0.22
+                      },
+                      {
+                        "x": "2010",
+                        "y": 0.22
+                      },
+                      {
+                        "x": "2011",
+                        "y": 0.23
+                      },
+                      {
+                        "x": "2012",
+                        "y": 0.23
+                      },
+                      {
+                        "x": "2013",
+                        "y": 0.23
+                      },
+                      {
+                        "x": "2014",
+                        "y": 0.23
+                      },
+                      {
+                        "x": "2015",
+                        "y": 0.24
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": "15--state_local",
+                  "order": 15,
+                  "id": "15--insurance",
+                  "name": "Insurance",
+                  "lexicon_name": "Insurance",
+                  "parent": "Paid Leave",
+                  "type": null,
+                  "data": {
+                    "state_local": [
+                      {
+                        "x": "2004",
+                        "y": 3.57
+                      },
+                      {
+                        "x": "2005",
+                        "y": 3.87
+                      },
+                      {
+                        "x": "2006",
+                        "y": 4.12
+                      },
+                      {
+                        "x": "2007",
+                        "y": 4.37
+                      },
+                      {
+                        "x": "2008",
+                        "y": 4.37
+                      },
+                      {
+                        "x": "2009",
+                        "y": 4.55
+                      },
+                      {
+                        "x": "2010",
+                        "y": 4.75
+                      },
+                      {
+                        "x": "2011",
+                        "y": 4.87
+                      },
+                      {
+                        "x": "2012",
+                        "y": 4.99
+                      },
+                      {
+                        "x": "2013",
+                        "y": 5.12
+                      },
+                      {
+                        "x": "2014",
+                        "y": 5.19
+                      },
+                      {
+                        "x": "2015",
+                        "y": 5.25
+                      }
+                    ]
+                  },
+                  "children": [
+                    {
+                      "key": "16--state_local",
+                      "order": 16,
+                      "id": "16--life",
+                      "name": "Life",
+                      "lexicon_name": "Life",
+                      "parent": "Insurance",
+                      "type": null,
+                      "data": {
+                        "state_local": [
+                          {
+                            "x": "2004",
+                            "y": 0.06
+                          },
+                          {
+                            "x": "2005",
+                            "y": 0.06
+                          },
+                          {
+                            "x": "2006",
+                            "y": 0.06
+                          },
+                          {
+                            "x": "2007",
+                            "y": 0.07
+                          },
+                          {
+                            "x": "2008",
+                            "y": 0.09
+                          },
+                          {
+                            "x": "2009",
+                            "y": 0.09
+                          },
+                          {
+                            "x": "2010",
+                            "y": 0.09
+                          },
+                          {
+                            "x": "2011",
+                            "y": 0.08
+                          },
+                          {
+                            "x": "2012",
+                            "y": 0.09
+                          },
+                          {
+                            "x": "2013",
+                            "y": 0.09
+                          },
+                          {
+                            "x": "2014",
+                            "y": 0.06
+                          },
+                          {
+                            "x": "2015",
+                            "y": 0.06
+                          }
+                        ]
+                      },
+                      "children": []
+                    },
+                    {
+                      "key": "17--state_local",
+                      "order": 17,
+                      "id": "17--health",
+                      "name": "Health",
+                      "lexicon_name": "Health",
+                      "parent": "Insurance",
+                      "type": null,
+                      "data": {
+                        "state_local": [
+                          {
+                            "x": "2004",
+                            "y": 3.44
+                          },
+                          {
+                            "x": "2005",
+                            "y": 3.74
+                          },
+                          {
+                            "x": "2006",
+                            "y": 4
+                          },
+                          {
+                            "x": "2007",
+                            "y": 4.23
+                          },
+                          {
+                            "x": "2008",
+                            "y": 4.2
+                          },
+                          {
+                            "x": "2009",
+                            "y": 4.38
+                          },
+                          {
+                            "x": "2010",
+                            "y": 4.6
+                          },
+                          {
+                            "x": "2011",
+                            "y": 4.72
+                          },
+                          {
+                            "x": "2012",
+                            "y": 4.83
+                          },
+                          {
+                            "x": "2013",
+                            "y": 4.97
+                          },
+                          {
+                            "x": "2014",
+                            "y": 5.06
+                          },
+                          {
+                            "x": "2015",
+                            "y": 5.12
+                          }
+                        ]
+                      },
+                      "children": []
+                    },
+                    {
+                      "key": "18--state_local",
+                      "order": 18,
+                      "id": "18--short-term_disability",
+                      "name": "Short-Term Disability",
+                      "lexicon_name": "Short-Term Disability",
+                      "parent": "Insurance",
+                      "type": null,
+                      "data": {
+                        "state_local": [
+                          {
+                            "x": "2004",
+                            "y": 0.03
+                          },
+                          {
+                            "x": "2005",
+                            "y": 0.03
+                          },
+                          {
+                            "x": "2006",
+                            "y": 0.03
+                          },
+                          {
+                            "x": "2007",
+                            "y": 0.03
+                          },
+                          {
+                            "x": "2008",
+                            "y": 0.02
+                          },
+                          {
+                            "x": "2009",
+                            "y": 0.02
+                          },
+                          {
+                            "x": "2010",
+                            "y": 0.02
+                          },
+                          {
+                            "x": "2011",
+                            "y": 0.03
+                          },
+                          {
+                            "x": "2012",
+                            "y": 0.03
+                          },
+                          {
+                            "x": "2013",
+                            "y": 0.03
+                          },
+                          {
+                            "x": "2014",
+                            "y": 0.03
+                          },
+                          {
+                            "x": "2015",
+                            "y": 0.03
+                          }
+                        ]
+                      },
+                      "children": []
+                    },
+                    {
+                      "key": "19--state_local",
+                      "order": 19,
+                      "id": "19--long-term_disability",
+                      "name": "Long-Term Disability",
+                      "lexicon_name": "Long-Term Disability",
+                      "parent": "Insurance",
+                      "type": null,
+                      "data": {
+                        "state_local": [
+                          {
+                            "x": "2004",
+                            "y": 0.04
+                          },
+                          {
+                            "x": "2005",
+                            "y": 0.04
+                          },
+                          {
+                            "x": "2006",
+                            "y": 0.04
+                          },
+                          {
+                            "x": "2007",
+                            "y": 0.04
+                          },
+                          {
+                            "x": "2008",
+                            "y": 0.05
+                          },
+                          {
+                            "x": "2009",
+                            "y": 0.05
+                          },
+                          {
+                            "x": "2010",
+                            "y": 0.05
+                          },
+                          {
+                            "x": "2011",
+                            "y": 0.04
+                          },
+                          {
+                            "x": "2012",
+                            "y": 0.04
+                          },
+                          {
+                            "x": "2013",
+                            "y": 0.04
+                          },
+                          {
+                            "x": "2014",
+                            "y": 0.04
+                          },
+                          {
+                            "x": "2015",
+                            "y": 0.04
+                          }
+                        ]
+                      },
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "11--state_local",
+              "order": 11,
+              "id": "11--supplemental_pay",
+              "name": "Supplemental Pay",
+              "lexicon_name": "Supplemental Pay",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 0.31
+                  },
+                  {
+                    "x": "2005",
+                    "y": 0.32
+                  },
+                  {
+                    "x": "2006",
+                    "y": 0.32
+                  },
+                  {
+                    "x": "2007",
+                    "y": 0.34
+                  },
+                  {
+                    "x": "2008",
+                    "y": 0.35
+                  },
+                  {
+                    "x": "2009",
+                    "y": 0.34
+                  },
+                  {
+                    "x": "2010",
+                    "y": 0.33
+                  },
+                  {
+                    "x": "2011",
+                    "y": 0.34
+                  },
+                  {
+                    "x": "2012",
+                    "y": 0.34
+                  },
+                  {
+                    "x": "2013",
+                    "y": 0.34
+                  },
+                  {
+                    "x": "2014",
+                    "y": 0.36
+                  },
+                  {
+                    "x": "2015",
+                    "y": 0.35
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "key": "12--state_local",
+                  "order": 12,
+                  "id": "12--overtime_and_premium",
+                  "name": "Overtime and premium",
+                  "lexicon_name": "Overtime and premium",
+                  "parent": "Supplemental Pay",
+                  "type": null,
+                  "data": {
+                    "state_local": [
+                      {
+                        "x": "2004",
+                        "y": 0.14
+                      },
+                      {
+                        "x": "2005",
+                        "y": 0.15
+                      },
+                      {
+                        "x": "2006",
+                        "y": 0.16
+                      },
+                      {
+                        "x": "2007",
+                        "y": 0.18
+                      },
+                      {
+                        "x": "2008",
+                        "y": 0.17
+                      },
+                      {
+                        "x": "2009",
+                        "y": 0.18
+                      },
+                      {
+                        "x": "2010",
+                        "y": 0.17
+                      },
+                      {
+                        "x": "2011",
+                        "y": 0.18
+                      },
+                      {
+                        "x": "2012",
+                        "y": 0.18
+                      },
+                      {
+                        "x": "2013",
+                        "y": 0.19
+                      },
+                      {
+                        "x": "2014",
+                        "y": 0.19
+                      },
+                      {
+                        "x": "2015",
+                        "y": 0.19
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": "13--state_local",
+                  "order": 13,
+                  "id": "13--shift_differentials",
+                  "name": "Shift differentials",
+                  "lexicon_name": "Shift differentials",
+                  "parent": "Supplemental Pay",
+                  "type": null,
+                  "data": {
+                    "state_local": [
+                      {
+                        "x": "2004",
+                        "y": 0.07
+                      },
+                      {
+                        "x": "2005",
+                        "y": 0.07
+                      },
+                      {
+                        "x": "2006",
+                        "y": 0.07
+                      },
+                      {
+                        "x": "2007",
+                        "y": 0.06
+                      },
+                      {
+                        "x": "2008",
+                        "y": 0.05
+                      },
+                      {
+                        "x": "2009",
+                        "y": 0.05
+                      },
+                      {
+                        "x": "2010",
+                        "y": 0.05
+                      },
+                      {
+                        "x": "2011",
+                        "y": 0.04
+                      },
+                      {
+                        "x": "2012",
+                        "y": 0.04
+                      },
+                      {
+                        "x": "2013",
+                        "y": 0.05
+                      },
+                      {
+                        "x": "2014",
+                        "y": 0.05
+                      },
+                      {
+                        "x": "2015",
+                        "y": 0.04
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": "14--state_local",
+                  "order": 14,
+                  "id": "14--nonproduction_bonuses",
+                  "name": "Nonproduction bonuses",
+                  "lexicon_name": "Nonproduction bonuses",
+                  "parent": "Supplemental Pay",
+                  "type": null,
+                  "data": {
+                    "state_local": [
+                      {
+                        "x": "2004",
+                        "y": 0.1
+                      },
+                      {
+                        "x": "2005",
+                        "y": 0.1
+                      },
+                      {
+                        "x": "2006",
+                        "y": 0.1
+                      },
+                      {
+                        "x": "2007",
+                        "y": 0.11
+                      },
+                      {
+                        "x": "2008",
+                        "y": 0.13
+                      },
+                      {
+                        "x": "2009",
+                        "y": 0.12
+                      },
+                      {
+                        "x": "2010",
+                        "y": 0.12
+                      },
+                      {
+                        "x": "2011",
+                        "y": 0.11
+                      },
+                      {
+                        "x": "2012",
+                        "y": 0.12
+                      },
+                      {
+                        "x": "2013",
+                        "y": 0.12
+                      },
+                      {
+                        "x": "2014",
+                        "y": 0.12
+                      },
+                      {
+                        "x": "2015",
+                        "y": 0.12
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "20--state_local",
+              "order": 20,
+              "id": "20--retirement_and_savings",
+              "name": "Retirement and Savings",
+              "lexicon_name": "Retirement and Savings",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 2.18
+                  },
+                  {
+                    "x": "2005",
+                    "y": 2.42
+                  },
+                  {
+                    "x": "2006",
+                    "y": 2.63
+                  },
+                  {
+                    "x": "2007",
+                    "y": 2.9
+                  },
+                  {
+                    "x": "2008",
+                    "y": 3
+                  },
+                  {
+                    "x": "2009",
+                    "y": 3.18
+                  },
+                  {
+                    "x": "2010",
+                    "y": 3.22
+                  },
+                  {
+                    "x": "2011",
+                    "y": 3.37
+                  },
+                  {
+                    "x": "2012",
+                    "y": 3.6
+                  },
+                  {
+                    "x": "2013",
+                    "y": 3.9
+                  },
+                  {
+                    "x": "2014",
+                    "y": 4.29
+                  },
+                  {
+                    "x": "2015",
+                    "y": 4.49
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "key": "21--state_local",
+                  "order": 21,
+                  "id": "21--defined_benefit",
+                  "name": "Defined Benefit",
+                  "lexicon_name": "Defined Benefit",
+                  "parent": "Retirement and Savings",
+                  "type": null,
+                  "data": {
+                    "state_local": [
+                      {
+                        "x": "2004",
+                        "y": 1.93
+                      },
+                      {
+                        "x": "2005",
+                        "y": 2.15
+                      },
+                      {
+                        "x": "2006",
+                        "y": 2.35
+                      },
+                      {
+                        "x": "2007",
+                        "y": 2.59
+                      },
+                      {
+                        "x": "2008",
+                        "y": 2.68
+                      },
+                      {
+                        "x": "2009",
+                        "y": 2.86
+                      },
+                      {
+                        "x": "2010",
+                        "y": 2.89
+                      },
+                      {
+                        "x": "2011",
+                        "y": 3.04
+                      },
+                      {
+                        "x": "2012",
+                        "y": 3.28
+                      },
+                      {
+                        "x": "2013",
+                        "y": 3.56
+                      },
+                      {
+                        "x": "2014",
+                        "y": 3.92
+                      },
+                      {
+                        "x": "2015",
+                        "y": 4.11
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": "22--state_local",
+                  "order": 22,
+                  "id": "22--defined_contribution",
+                  "name": "Defined Contribution",
+                  "lexicon_name": "Defined Contribution",
+                  "parent": "Retirement and Savings",
+                  "type": null,
+                  "data": {
+                    "state_local": [
+                      {
+                        "x": "2004",
+                        "y": 0.25
+                      },
+                      {
+                        "x": "2005",
+                        "y": 0.26
+                      },
+                      {
+                        "x": "2006",
+                        "y": 0.29
+                      },
+                      {
+                        "x": "2007",
+                        "y": 0.31
+                      },
+                      {
+                        "x": "2008",
+                        "y": 0.33
+                      },
+                      {
+                        "x": "2009",
+                        "y": 0.32
+                      },
+                      {
+                        "x": "2010",
+                        "y": 0.32
+                      },
+                      {
+                        "x": "2011",
+                        "y": 0.33
+                      },
+                      {
+                        "x": "2012",
+                        "y": 0.32
+                      },
+                      {
+                        "x": "2013",
+                        "y": 0.34
+                      },
+                      {
+                        "x": "2014",
+                        "y": 0.37
+                      },
+                      {
+                        "x": "2015",
+                        "y": 0.38
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "23--state_local",
+              "order": 23,
+              "id": "23--legally_required_benefits",
+              "name": "Legally Required Benefits",
+              "lexicon_name": "Legally Required Benefits",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 2.03
+                  },
+                  {
+                    "x": "2005",
+                    "y": 2.12
+                  },
+                  {
+                    "x": "2006",
+                    "y": 2.2
+                  },
+                  {
+                    "x": "2007",
+                    "y": 2.26
+                  },
+                  {
+                    "x": "2008",
+                    "y": 2.3
+                  },
+                  {
+                    "x": "2009",
+                    "y": 2.36
+                  },
+                  {
+                    "x": "2010",
+                    "y": 2.41
+                  },
+                  {
+                    "x": "2011",
+                    "y": 2.48
+                  },
+                  {
+                    "x": "2012",
+                    "y": 2.53
+                  },
+                  {
+                    "x": "2013",
+                    "y": 2.56
+                  },
+                  {
+                    "x": "2014",
+                    "y": 2.58
+                  },
+                  {
+                    "x": "2015",
+                    "y": 2.6
+                  }
+                ]
+              },
+              "children": [
+                {
+                  "key": "24--state_local",
+                  "order": 24,
+                  "id": "24--social_security",
+                  "name": "Social Security",
+                  "lexicon_name": "Social Security",
+                  "parent": "Legally Required Benefits",
+                  "type": null,
+                  "data": {
+                    "state_local": [
+                      {
+                        "x": "2004",
+                        "y": 1.21
+                      },
+                      {
+                        "x": "2005",
+                        "y": 1.23
+                      },
+                      {
+                        "x": "2006",
+                        "y": 1.29
+                      },
+                      {
+                        "x": "2007",
+                        "y": 1.33
+                      },
+                      {
+                        "x": "2008",
+                        "y": 1.39
+                      },
+                      {
+                        "x": "2009",
+                        "y": 1.42
+                      },
+                      {
+                        "x": "2010",
+                        "y": 1.45
+                      },
+                      {
+                        "x": "2011",
+                        "y": 1.46
+                      },
+                      {
+                        "x": "2012",
+                        "y": 1.47
+                      },
+                      {
+                        "x": "2013",
+                        "y": 1.49
+                      },
+                      {
+                        "x": "2014",
+                        "y": 1.49
+                      },
+                      {
+                        "x": "2015",
+                        "y": 1.51
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": "25--state_local",
+                  "order": 25,
+                  "id": "25--medicare",
+                  "name": "Medicare",
+                  "lexicon_name": "Medicare",
+                  "parent": "Legally Required Benefits",
+                  "type": null,
+                  "data": {
+                    "state_local": [
+                      {
+                        "x": "2004",
+                        "y": 0.36
+                      },
+                      {
+                        "x": "2005",
+                        "y": 0.37
+                      },
+                      {
+                        "x": "2006",
+                        "y": 0.39
+                      },
+                      {
+                        "x": "2007",
+                        "y": 0.4
+                      },
+                      {
+                        "x": "2008",
+                        "y": 0.41
+                      },
+                      {
+                        "x": "2009",
+                        "y": 0.42
+                      },
+                      {
+                        "x": "2010",
+                        "y": 0.42
+                      },
+                      {
+                        "x": "2011",
+                        "y": 0.42
+                      },
+                      {
+                        "x": "2012",
+                        "y": 0.43
+                      },
+                      {
+                        "x": "2013",
+                        "y": 0.44
+                      },
+                      {
+                        "x": "2014",
+                        "y": 0.45
+                      },
+                      {
+                        "x": "2015",
+                        "y": 0.45
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": "26--state_local",
+                  "order": 26,
+                  "id": "26--federal_unemployment_insurance",
+                  "name": "Federal Unemployment Insurance",
+                  "lexicon_name": "Federal Unemployment Insurance",
+                  "parent": "Legally Required Benefits",
+                  "type": null,
+                  "data": {
+                    "state_local": [
+                      {
+                        "x": "2004",
+                        "y": 0
+                      },
+                      {
+                        "x": "2005",
+                        "y": 0
+                      },
+                      {
+                        "x": "2006",
+                        "y": 0
+                      },
+                      {
+                        "x": "2007",
+                        "y": 0
+                      },
+                      {
+                        "x": "2008",
+                        "y": 0
+                      },
+                      {
+                        "x": "2009",
+                        "y": 0
+                      },
+                      {
+                        "x": "2010",
+                        "y": 0
+                      },
+                      {
+                        "x": "2011",
+                        "y": 0
+                      },
+                      {
+                        "x": "2012",
+                        "y": 0
+                      },
+                      {
+                        "x": "2013",
+                        "y": 0
+                      },
+                      {
+                        "x": "2014",
+                        "y": 0
+                      },
+                      {
+                        "x": "2015",
+                        "y": 0
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": "27--state_local",
+                  "order": 27,
+                  "id": "27--state_unemployment_insurance",
+                  "name": "State Unemployment Insurance",
+                  "lexicon_name": "State Unemployment Insurance",
+                  "parent": "Legally Required Benefits",
+                  "type": null,
+                  "data": {
+                    "state_local": [
+                      {
+                        "x": "2004",
+                        "y": 0.06
+                      },
+                      {
+                        "x": "2005",
+                        "y": 0.07
+                      },
+                      {
+                        "x": "2006",
+                        "y": 0.06
+                      },
+                      {
+                        "x": "2007",
+                        "y": 0.06
+                      },
+                      {
+                        "x": "2008",
+                        "y": 0.06
+                      },
+                      {
+                        "x": "2009",
+                        "y": 0.07
+                      },
+                      {
+                        "x": "2010",
+                        "y": 0.08
+                      },
+                      {
+                        "x": "2011",
+                        "y": 0.12
+                      },
+                      {
+                        "x": "2012",
+                        "y": 0.13
+                      },
+                      {
+                        "x": "2013",
+                        "y": 0.11
+                      },
+                      {
+                        "x": "2014",
+                        "y": 0.1
+                      },
+                      {
+                        "x": "2015",
+                        "y": 0.09
+                      }
+                    ]
+                  },
+                  "children": []
+                },
+                {
+                  "key": "28--state_local",
+                  "order": 28,
+                  "id": "28--workers'_compensation",
+                  "name": "Workers' Compensation",
+                  "lexicon_name": "Workers' Compensation",
+                  "parent": "Legally Required Benefits",
+                  "type": null,
+                  "data": {
+                    "state_local": [
+                      {
+                        "x": "2004",
+                        "y": 0.4
+                      },
+                      {
+                        "x": "2005",
+                        "y": 0.46
+                      },
+                      {
+                        "x": "2006",
+                        "y": 0.47
+                      },
+                      {
+                        "x": "2007",
+                        "y": 0.47
+                      },
+                      {
+                        "x": "2008",
+                        "y": 0.44
+                      },
+                      {
+                        "x": "2009",
+                        "y": 0.46
+                      },
+                      {
+                        "x": "2010",
+                        "y": 0.46
+                      },
+                      {
+                        "x": "2011",
+                        "y": 0.49
+                      },
+                      {
+                        "x": "2012",
+                        "y": 0.51
+                      },
+                      {
+                        "x": "2013",
+                        "y": 0.52
+                      },
+                      {
+                        "x": "2014",
+                        "y": 0.54
+                      },
+                      {
+                        "x": "2015",
+                        "y": 0.55
+                      }
+                    ]
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "key": "29--state_local",
+              "order": 29,
+              "id": "29--other_benefits",
+              "name": "Other Benefits",
+              "lexicon_name": "Other Benefits",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 0.05
+                  },
+                  {
+                    "x": "2005",
+                    "y": 0.05
+                  },
+                  {
+                    "x": "2006",
+                    "y": 0
+                  },
+                  {
+                    "x": "2007",
+                    "y": 0
+                  },
+                  {
+                    "x": "2008",
+                    "y": 0
+                  },
+                  {
+                    "x": "2009",
+                    "y": 0
+                  },
+                  {
+                    "x": "2010",
+                    "y": 0
+                  },
+                  {
+                    "x": "2011",
+                    "y": 0
+                  },
+                  {
+                    "x": "2012",
+                    "y": 0
+                  },
+                  {
+                    "x": "2013",
+                    "y": 0
+                  },
+                  {
+                    "x": "2014",
+                    "y": 0
+                  },
+                  {
+                    "x": "2015",
+                    "y": 0
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        }
+      ],
+      "total_rows": [
+        {
+          "key": "3--state_local",
+          "order": 3,
+          "id": "3--total_compensation_(per_hour_worked)",
+          "name": "Total Compensation (per hour worked)",
+          "lexicon_name": "Total Compensation (per hour worked)",
+          "parent": "All State and Local Workers",
+          "type": null,
+          "data": {
+            "state_local": [
+              {
+                "x": "2004",
+                "y": 34.56
+              },
+              {
+                "x": "2005",
+                "y": 35.92
+              },
+              {
+                "x": "2006",
+                "y": 37.54
+              },
+              {
+                "x": "2007",
+                "y": 38.63
+              },
+              {
+                "x": "2008",
+                "y": 38.64
+              },
+              {
+                "x": "2009",
+                "y": 39.65
+              },
+              {
+                "x": "2010",
+                "y": 39.98
+              },
+              {
+                "x": "2011",
+                "y": 40.65
+              },
+              {
+                "x": "2012",
+                "y": 41.44
+              },
+              {
+                "x": "2013",
+                "y": 42.4
+              },
+              {
+                "x": "2014",
+                "y": 43.42
+              },
+              {
+                "x": "2015",
+                "y": 44.25
+              }
+            ]
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "data-table--primary,_secondary,_and_special_ed._teachers",
+      "order": 30,
+      "id": "primary,_secondary,_and_special_ed._teachers",
+      "name": "Primary, Secondary, and Special Ed. Teachers",
+      "lexicon_name": "Primary, Secondary, and Special Ed. Teachers",
+      "type": "",
+      "rows": [
+        {
+          "key": "32--state_local",
+          "order": 32,
+          "id": "32--wages_and_salaries",
+          "name": "Wages and Salaries",
+          "lexicon_name": "Wages and Salaries",
+          "parent": "Primary, Secondary, and Special Ed. Teachers",
+          "type": null,
+          "data": {
+            "state_local": [
+              {
+                "x": "2004",
+                "y": 33.71
+              },
+              {
+                "x": "2005",
+                "y": 34.56
+              },
+              {
+                "x": "2006",
+                "y": 35.87
+              },
+              {
+                "x": "2007",
+                "y": 36.65
+              },
+              {
+                "x": "2008",
+                "y": 36.59
+              },
+              {
+                "x": "2009",
+                "y": 37.54
+              },
+              {
+                "x": "2010",
+                "y": 38.67
+              },
+              {
+                "x": "2011",
+                "y": 39.72
+              },
+              {
+                "x": "2012",
+                "y": 40
+              },
+              {
+                "x": "2013",
+                "y": 40.32
+              },
+              {
+                "x": "2014",
+                "y": 40.82
+              },
+              {
+                "x": "2015",
+                "y": 41.46
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "key": "33--state_local",
+          "order": 33,
+          "id": "33--benefits",
+          "name": "Benefits",
+          "lexicon_name": "Benefits",
+          "parent": "Primary, Secondary, and Special Ed. Teachers",
+          "type": null,
+          "data": {
+            "state_local": [
+              {
+                "x": "2004",
+                "y": 11.86
+              },
+              {
+                "x": "2005",
+                "y": 12.61
+              },
+              {
+                "x": "2006",
+                "y": 13.41
+              },
+              {
+                "x": "2007",
+                "y": 14.29
+              },
+              {
+                "x": "2008",
+                "y": 14.93
+              },
+              {
+                "x": "2009",
+                "y": 15.56
+              },
+              {
+                "x": "2010",
+                "y": 16.08
+              },
+              {
+                "x": "2011",
+                "y": 16.85
+              },
+              {
+                "x": "2012",
+                "y": 17.36
+              },
+              {
+                "x": "2013",
+                "y": 17.98
+              },
+              {
+                "x": "2014",
+                "y": 18.6
+              },
+              {
+                "x": "2015",
+                "y": 19.36
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": "34--state_local",
+              "order": 34,
+              "id": "34--paid_leave",
+              "name": "Paid Leave",
+              "lexicon_name": "Paid Leave",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 2.36
+                  },
+                  {
+                    "x": "2005",
+                    "y": 2.4
+                  },
+                  {
+                    "x": "2006",
+                    "y": 2.51
+                  },
+                  {
+                    "x": "2007",
+                    "y": 2.57
+                  },
+                  {
+                    "x": "2008",
+                    "y": 2.46
+                  },
+                  {
+                    "x": "2009",
+                    "y": 2.51
+                  },
+                  {
+                    "x": "2010",
+                    "y": 2.57
+                  },
+                  {
+                    "x": "2011",
+                    "y": 2.54
+                  },
+                  {
+                    "x": "2012",
+                    "y": 2.52
+                  },
+                  {
+                    "x": "2013",
+                    "y": 2.53
+                  },
+                  {
+                    "x": "2014",
+                    "y": 2.57
+                  },
+                  {
+                    "x": "2015",
+                    "y": 2.61
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "35--state_local",
+              "order": 35,
+              "id": "35--supplemental_pay",
+              "name": "Supplemental Pay",
+              "lexicon_name": "Supplemental Pay",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 0.11
+                  },
+                  {
+                    "x": "2005",
+                    "y": 0.11
+                  },
+                  {
+                    "x": "2006",
+                    "y": 0.1
+                  },
+                  {
+                    "x": "2007",
+                    "y": 0.1
+                  },
+                  {
+                    "x": "2008",
+                    "y": 0.16
+                  },
+                  {
+                    "x": "2009",
+                    "y": 0.15
+                  },
+                  {
+                    "x": "2010",
+                    "y": 0.15
+                  },
+                  {
+                    "x": "2011",
+                    "y": 0.16
+                  },
+                  {
+                    "x": "2012",
+                    "y": 0.16
+                  },
+                  {
+                    "x": "2013",
+                    "y": 0.17
+                  },
+                  {
+                    "x": "2014",
+                    "y": 0.18
+                  },
+                  {
+                    "x": "2015",
+                    "y": 0.18
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "36--state_local",
+              "order": 36,
+              "id": "36--insurance",
+              "name": "Insurance",
+              "lexicon_name": "Insurance",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 4.22
+                  },
+                  {
+                    "x": "2005",
+                    "y": 4.57
+                  },
+                  {
+                    "x": "2006",
+                    "y": 5
+                  },
+                  {
+                    "x": "2007",
+                    "y": 5.35
+                  },
+                  {
+                    "x": "2008",
+                    "y": 5.7
+                  },
+                  {
+                    "x": "2009",
+                    "y": 5.87
+                  },
+                  {
+                    "x": "2010",
+                    "y": 6.24
+                  },
+                  {
+                    "x": "2011",
+                    "y": 6.52
+                  },
+                  {
+                    "x": "2012",
+                    "y": 6.66
+                  },
+                  {
+                    "x": "2013",
+                    "y": 6.78
+                  },
+                  {
+                    "x": "2014",
+                    "y": 6.75
+                  },
+                  {
+                    "x": "2015",
+                    "y": 6.89
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "37--state_local",
+              "order": 37,
+              "id": "37--retirement_and_savings",
+              "name": "Retirement and Savings",
+              "lexicon_name": "Retirement and Savings",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 2.73
+                  },
+                  {
+                    "x": "2005",
+                    "y": 3.01
+                  },
+                  {
+                    "x": "2006",
+                    "y": 3.26
+                  },
+                  {
+                    "x": "2007",
+                    "y": 3.65
+                  },
+                  {
+                    "x": "2008",
+                    "y": 3.95
+                  },
+                  {
+                    "x": "2009",
+                    "y": 4.31
+                  },
+                  {
+                    "x": "2010",
+                    "y": 4.3
+                  },
+                  {
+                    "x": "2011",
+                    "y": 4.72
+                  },
+                  {
+                    "x": "2012",
+                    "y": 5.07
+                  },
+                  {
+                    "x": "2013",
+                    "y": 5.54
+                  },
+                  {
+                    "x": "2014",
+                    "y": 6.21
+                  },
+                  {
+                    "x": "2015",
+                    "y": 6.77
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "38--state_local",
+              "order": 38,
+              "id": "38--legally_required_benefits",
+              "name": "Legally Required Benefits",
+              "lexicon_name": "Legally Required Benefits",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 2.35
+                  },
+                  {
+                    "x": "2005",
+                    "y": 2.43
+                  },
+                  {
+                    "x": "2006",
+                    "y": 2.54
+                  },
+                  {
+                    "x": "2007",
+                    "y": 2.6
+                  },
+                  {
+                    "x": "2008",
+                    "y": 2.66
+                  },
+                  {
+                    "x": "2009",
+                    "y": 2.73
+                  },
+                  {
+                    "x": "2010",
+                    "y": 2.84
+                  },
+                  {
+                    "x": "2011",
+                    "y": 2.92
+                  },
+                  {
+                    "x": "2012",
+                    "y": 2.96
+                  },
+                  {
+                    "x": "2013",
+                    "y": 2.97
+                  },
+                  {
+                    "x": "2014",
+                    "y": 2.9
+                  },
+                  {
+                    "x": "2015",
+                    "y": 2.92
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "39--state_local",
+              "order": 39,
+              "id": "39--other_benefits",
+              "name": "Other Benefits",
+              "lexicon_name": "Other Benefits",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 0.09
+                  },
+                  {
+                    "x": "2005",
+                    "y": 0.09
+                  },
+                  {
+                    "x": "2006",
+                    "y": 0
+                  },
+                  {
+                    "x": "2007",
+                    "y": 0
+                  },
+                  {
+                    "x": "2008",
+                    "y": 0
+                  },
+                  {
+                    "x": "2009",
+                    "y": 0
+                  },
+                  {
+                    "x": "2010",
+                    "y": 0
+                  },
+                  {
+                    "x": "2011",
+                    "y": 0
+                  },
+                  {
+                    "x": "2012",
+                    "y": 0
+                  },
+                  {
+                    "x": "2013",
+                    "y": 0
+                  },
+                  {
+                    "x": "2014",
+                    "y": 0
+                  },
+                  {
+                    "x": "2015",
+                    "y": 0
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        }
+      ],
+      "total_rows": [
+        {
+          "key": "31--state_local",
+          "order": 31,
+          "id": "31--total_compensation_(per_hour_worked)",
+          "name": "Total Compensation (per hour worked)",
+          "lexicon_name": "Total Compensation (per hour worked)",
+          "parent": "Primary, Secondary, and Special Ed. Teachers",
+          "type": null,
+          "data": {
+            "state_local": [
+              {
+                "x": "2004",
+                "y": 45.57
+              },
+              {
+                "x": "2005",
+                "y": 47.16
+              },
+              {
+                "x": "2006",
+                "y": 49.28
+              },
+              {
+                "x": "2007",
+                "y": 50.93
+              },
+              {
+                "x": "2008",
+                "y": 51.53
+              },
+              {
+                "x": "2009",
+                "y": 53.1
+              },
+              {
+                "x": "2010",
+                "y": 54.75
+              },
+              {
+                "x": "2011",
+                "y": 56.57
+              },
+              {
+                "x": "2012",
+                "y": 57.36
+              },
+              {
+                "x": "2013",
+                "y": 58.3
+              },
+              {
+                "x": "2014",
+                "y": 59.43
+              },
+              {
+                "x": "2015",
+                "y": 60.83
+              }
+            ]
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "data-table--office_and_administrative_support_occupations",
+      "order": 40,
+      "id": "office_and_administrative_support_occupations",
+      "name": "Office and administrative support occupations",
+      "lexicon_name": "Office and administrative support occupations",
+      "type": "",
+      "rows": [
+        {
+          "key": "42--state_local",
+          "order": 42,
+          "id": "42--wages_and_salaries",
+          "name": "Wages and Salaries",
+          "lexicon_name": "Wages and Salaries",
+          "parent": "Office and administrative support occupations",
+          "type": null,
+          "data": {
+            "state_local": [
+              {
+                "x": "2004",
+                "y": 15.11
+              },
+              {
+                "x": "2005",
+                "y": 15.43
+              },
+              {
+                "x": "2006",
+                "y": 15.93
+              },
+              {
+                "x": "2007",
+                "y": 16.36
+              },
+              {
+                "x": "2008",
+                "y": 16.41
+              },
+              {
+                "x": "2009",
+                "y": 16.86
+              },
+              {
+                "x": "2010",
+                "y": 17.04
+              },
+              {
+                "x": "2011",
+                "y": 17.23
+              },
+              {
+                "x": "2012",
+                "y": 17.44
+              },
+              {
+                "x": "2013",
+                "y": 17.6
+              },
+              {
+                "x": "2014",
+                "y": 17.93
+              },
+              {
+                "x": "2015",
+                "y": 18.33
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "key": "43--state_local",
+          "order": 43,
+          "id": "43--benefits",
+          "name": "Benefits",
+          "lexicon_name": "Benefits",
+          "parent": "Office and administrative support occupations",
+          "type": null,
+          "data": {
+            "state_local": [
+              {
+                "x": "2004",
+                "y": 8.59
+              },
+              {
+                "x": "2005",
+                "y": 9.13
+              },
+              {
+                "x": "2006",
+                "y": 9.68
+              },
+              {
+                "x": "2007",
+                "y": 10.15
+              },
+              {
+                "x": "2008",
+                "y": 10.19
+              },
+              {
+                "x": "2009",
+                "y": 10.59
+              },
+              {
+                "x": "2010",
+                "y": 10.92
+              },
+              {
+                "x": "2011",
+                "y": 11.19
+              },
+              {
+                "x": "2012",
+                "y": 11.4
+              },
+              {
+                "x": "2013",
+                "y": 11.75
+              },
+              {
+                "x": "2014",
+                "y": 12.16
+              },
+              {
+                "x": "2015",
+                "y": 12.61
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": "44--state_local",
+              "order": 44,
+              "id": "44--paid_leave",
+              "name": "Paid Leave",
+              "lexicon_name": "Paid Leave",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 2.25
+                  },
+                  {
+                    "x": "2005",
+                    "y": 2.31
+                  },
+                  {
+                    "x": "2006",
+                    "y": 2.44
+                  },
+                  {
+                    "x": "2007",
+                    "y": 2.5
+                  },
+                  {
+                    "x": "2008",
+                    "y": 2.42
+                  },
+                  {
+                    "x": "2009",
+                    "y": 2.49
+                  },
+                  {
+                    "x": "2010",
+                    "y": 2.52
+                  },
+                  {
+                    "x": "2011",
+                    "y": 2.53
+                  },
+                  {
+                    "x": "2012",
+                    "y": 2.55
+                  },
+                  {
+                    "x": "2013",
+                    "y": 2.57
+                  },
+                  {
+                    "x": "2014",
+                    "y": 2.62
+                  },
+                  {
+                    "x": "2015",
+                    "y": 2.7
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "45--state_local",
+              "order": 45,
+              "id": "45--supplemental_pay",
+              "name": "Supplemental Pay",
+              "lexicon_name": "Supplemental Pay",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 0.16
+                  },
+                  {
+                    "x": "2005",
+                    "y": 0.17
+                  },
+                  {
+                    "x": "2006",
+                    "y": 0.18
+                  },
+                  {
+                    "x": "2007",
+                    "y": 0.19
+                  },
+                  {
+                    "x": "2008",
+                    "y": 0.21
+                  },
+                  {
+                    "x": "2009",
+                    "y": 0.2
+                  },
+                  {
+                    "x": "2010",
+                    "y": 0.2
+                  },
+                  {
+                    "x": "2011",
+                    "y": 0.2
+                  },
+                  {
+                    "x": "2012",
+                    "y": 0.2
+                  },
+                  {
+                    "x": "2013",
+                    "y": 0.2
+                  },
+                  {
+                    "x": "2014",
+                    "y": 0.2
+                  },
+                  {
+                    "x": "2015",
+                    "y": 0.21
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "46--state_local",
+              "order": 46,
+              "id": "46--insurance",
+              "name": "Insurance",
+              "lexicon_name": "Insurance",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 3.29
+                  },
+                  {
+                    "x": "2005",
+                    "y": 3.61
+                  },
+                  {
+                    "x": "2006",
+                    "y": 3.88
+                  },
+                  {
+                    "x": "2007",
+                    "y": 4.09
+                  },
+                  {
+                    "x": "2008",
+                    "y": 4.01
+                  },
+                  {
+                    "x": "2009",
+                    "y": 4.2
+                  },
+                  {
+                    "x": "2010",
+                    "y": 4.37
+                  },
+                  {
+                    "x": "2011",
+                    "y": 4.44
+                  },
+                  {
+                    "x": "2012",
+                    "y": 4.49
+                  },
+                  {
+                    "x": "2013",
+                    "y": 4.64
+                  },
+                  {
+                    "x": "2014",
+                    "y": 4.76
+                  },
+                  {
+                    "x": "2015",
+                    "y": 4.91
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "47--state_local",
+              "order": 47,
+              "id": "47--retirement_and_savings",
+              "name": "Retirement and Savings",
+              "lexicon_name": "Retirement and Savings",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 1.36
+                  },
+                  {
+                    "x": "2005",
+                    "y": 1.46
+                  },
+                  {
+                    "x": "2006",
+                    "y": 1.58
+                  },
+                  {
+                    "x": "2007",
+                    "y": 1.75
+                  },
+                  {
+                    "x": "2008",
+                    "y": 1.9
+                  },
+                  {
+                    "x": "2009",
+                    "y": 1.99
+                  },
+                  {
+                    "x": "2010",
+                    "y": 2.08
+                  },
+                  {
+                    "x": "2011",
+                    "y": 2.17
+                  },
+                  {
+                    "x": "2012",
+                    "y": 2.3
+                  },
+                  {
+                    "x": "2013",
+                    "y": 2.49
+                  },
+                  {
+                    "x": "2014",
+                    "y": 2.69
+                  },
+                  {
+                    "x": "2015",
+                    "y": 2.87
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "48--state_local",
+              "order": 48,
+              "id": "48--legally_required_benefits",
+              "name": "Legally Required Benefits",
+              "lexicon_name": "Legally Required Benefits",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 1.5
+                  },
+                  {
+                    "x": "2005",
+                    "y": 1.55
+                  },
+                  {
+                    "x": "2006",
+                    "y": 1.59
+                  },
+                  {
+                    "x": "2007",
+                    "y": 1.63
+                  },
+                  {
+                    "x": "2008",
+                    "y": 1.66
+                  },
+                  {
+                    "x": "2009",
+                    "y": 1.71
+                  },
+                  {
+                    "x": "2010",
+                    "y": 1.75
+                  },
+                  {
+                    "x": "2011",
+                    "y": 1.86
+                  },
+                  {
+                    "x": "2012",
+                    "y": 1.86
+                  },
+                  {
+                    "x": "2013",
+                    "y": 1.86
+                  },
+                  {
+                    "x": "2014",
+                    "y": 1.89
+                  },
+                  {
+                    "x": "2015",
+                    "y": 1.92
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "49--state_local",
+              "order": 49,
+              "id": "49--other_benefits",
+              "name": "Other Benefits",
+              "lexicon_name": "Other Benefits",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 0.03
+                  },
+                  {
+                    "x": "2005",
+                    "y": 0.04
+                  },
+                  {
+                    "x": "2006",
+                    "y": 0
+                  },
+                  {
+                    "x": "2007",
+                    "y": 0
+                  },
+                  {
+                    "x": "2008",
+                    "y": 0
+                  },
+                  {
+                    "x": "2009",
+                    "y": 0
+                  },
+                  {
+                    "x": "2010",
+                    "y": 0
+                  },
+                  {
+                    "x": "2011",
+                    "y": 0
+                  },
+                  {
+                    "x": "2012",
+                    "y": 0
+                  },
+                  {
+                    "x": "2013",
+                    "y": 0
+                  },
+                  {
+                    "x": "2014",
+                    "y": 0
+                  },
+                  {
+                    "x": "2015",
+                    "y": 0
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        }
+      ],
+      "total_rows": [
+        {
+          "key": "41--state_local",
+          "order": 41,
+          "id": "41--total_compensation_(per_hour_worked)",
+          "name": "Total Compensation (per hour worked)",
+          "lexicon_name": "Total Compensation (per hour worked)",
+          "parent": "Office and administrative support occupations",
+          "type": null,
+          "data": {
+            "state_local": [
+              {
+                "x": "2004",
+                "y": 23.7
+              },
+              {
+                "x": "2005",
+                "y": 24.56
+              },
+              {
+                "x": "2006",
+                "y": 25.6
+              },
+              {
+                "x": "2007",
+                "y": 26.5
+              },
+              {
+                "x": "2008",
+                "y": 26.6
+              },
+              {
+                "x": "2009",
+                "y": 27.45
+              },
+              {
+                "x": "2010",
+                "y": 27.95
+              },
+              {
+                "x": "2011",
+                "y": 28.42
+              },
+              {
+                "x": "2012",
+                "y": 28.84
+              },
+              {
+                "x": "2013",
+                "y": 29.35
+              },
+              {
+                "x": "2014",
+                "y": 30.08
+              },
+              {
+                "x": "2015",
+                "y": 30.93
+              }
+            ]
+          },
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "data-table--professional_and_related_occupations",
+      "order": 50,
+      "id": "professional_and_related_occupations",
+      "name": "Professional and related occupations",
+      "lexicon_name": "Professional and related occupations",
+      "type": "",
+      "rows": [
+        {
+          "key": "52--state_local",
+          "order": 52,
+          "id": "52--wages_and_salaries",
+          "name": "Wages and Salaries",
+          "lexicon_name": "Wages and Salaries",
+          "parent": "Professional and related occupations",
+          "type": null,
+          "data": {
+            "state_local": [
+              {
+                "x": "2004",
+                "y": 30.42
+              },
+              {
+                "x": "2005",
+                "y": 31.35
+              },
+              {
+                "x": "2006",
+                "y": 32.68
+              },
+              {
+                "x": "2007",
+                "y": 32.99
+              },
+              {
+                "x": "2008",
+                "y": 31.93
+              },
+              {
+                "x": "2009",
+                "y": 32.66
+              },
+              {
+                "x": "2010",
+                "y": 32.72
+              },
+              {
+                "x": "2011",
+                "y": 33.08
+              },
+              {
+                "x": "2012",
+                "y": 33.55
+              },
+              {
+                "x": "2013",
+                "y": 34.25
+              },
+              {
+                "x": "2014",
+                "y": 34.76
+              },
+              {
+                "x": "2015",
+                "y": 35.32
+              }
+            ]
+          },
+          "children": []
+        },
+        {
+          "key": "53--state_local",
+          "order": 53,
+          "id": "53--benefits",
+          "name": "Benefits",
+          "lexicon_name": "Benefits",
+          "parent": "Professional and related occupations",
+          "type": null,
+          "data": {
+            "state_local": [
+              {
+                "x": "2004",
+                "y": 11.44
+              },
+              {
+                "x": "2005",
+                "y": 12.18
+              },
+              {
+                "x": "2006",
+                "y": 13.08
+              },
+              {
+                "x": "2007",
+                "y": 13.87
+              },
+              {
+                "x": "2008",
+                "y": 14.79
+              },
+              {
+                "x": "2009",
+                "y": 15.09
+              },
+              {
+                "x": "2010",
+                "y": 14.99
+              },
+              {
+                "x": "2011",
+                "y": 15.28
+              },
+              {
+                "x": "2012",
+                "y": 15.76
+              },
+              {
+                "x": "2013",
+                "y": 16.41
+              },
+              {
+                "x": "2014",
+                "y": 16.92
+              },
+              {
+                "x": "2015",
+                "y": 17.51
+              }
+            ]
+          },
+          "children": [
+            {
+              "key": "54--state_local",
+              "order": 54,
+              "id": "54--paid_leave",
+              "name": "Paid Leave",
+              "lexicon_name": "Paid Leave",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 2.52
+                  },
+                  {
+                    "x": "2005",
+                    "y": 2.59
+                  },
+                  {
+                    "x": "2006",
+                    "y": 2.94
+                  },
+                  {
+                    "x": "2007",
+                    "y": 3.03
+                  },
+                  {
+                    "x": "2008",
+                    "y": 3.54
+                  },
+                  {
+                    "x": "2009",
+                    "y": 3.35
+                  },
+                  {
+                    "x": "2010",
+                    "y": 3.05
+                  },
+                  {
+                    "x": "2011",
+                    "y": 3.02
+                  },
+                  {
+                    "x": "2012",
+                    "y": 3.04
+                  },
+                  {
+                    "x": "2013",
+                    "y": 3.13
+                  },
+                  {
+                    "x": "2014",
+                    "y": 3.16
+                  },
+                  {
+                    "x": "2015",
+                    "y": 3.19
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "55--state_local",
+              "order": 55,
+              "id": "55--supplemental_pay",
+              "name": "Supplemental Pay",
+              "lexicon_name": "Supplemental Pay",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 0.19
+                  },
+                  {
+                    "x": "2005",
+                    "y": 0.2
+                  },
+                  {
+                    "x": "2006",
+                    "y": 0.2
+                  },
+                  {
+                    "x": "2007",
+                    "y": 0.22
+                  },
+                  {
+                    "x": "2008",
+                    "y": 0.25
+                  },
+                  {
+                    "x": "2009",
+                    "y": 0.24
+                  },
+                  {
+                    "x": "2010",
+                    "y": 0.23
+                  },
+                  {
+                    "x": "2011",
+                    "y": 0.23
+                  },
+                  {
+                    "x": "2012",
+                    "y": 0.24
+                  },
+                  {
+                    "x": "2013",
+                    "y": 0.25
+                  },
+                  {
+                    "x": "2014",
+                    "y": 0.26
+                  },
+                  {
+                    "x": "2015",
+                    "y": 0.26
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "56--state_local",
+              "order": 56,
+              "id": "56--insurance",
+              "name": "Insurance",
+              "lexicon_name": "Insurance",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 3.88
+                  },
+                  {
+                    "x": "2005",
+                    "y": 4.2
+                  },
+                  {
+                    "x": "2006",
+                    "y": 4.51
+                  },
+                  {
+                    "x": "2007",
+                    "y": 4.81
+                  },
+                  {
+                    "x": "2008",
+                    "y": 4.84
+                  },
+                  {
+                    "x": "2009",
+                    "y": 5.05
+                  },
+                  {
+                    "x": "2010",
+                    "y": 5.29
+                  },
+                  {
+                    "x": "2011",
+                    "y": 5.4
+                  },
+                  {
+                    "x": "2012",
+                    "y": 5.52
+                  },
+                  {
+                    "x": "2013",
+                    "y": 5.63
+                  },
+                  {
+                    "x": "2014",
+                    "y": 5.64
+                  },
+                  {
+                    "x": "2015",
+                    "y": 5.78
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "57--state_local",
+              "order": 57,
+              "id": "57--retirement_and_savings",
+              "name": "Retirement and Savings",
+              "lexicon_name": "Retirement and Savings",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 2.48
+                  },
+                  {
+                    "x": "2005",
+                    "y": 2.71
+                  },
+                  {
+                    "x": "2006",
+                    "y": 2.94
+                  },
+                  {
+                    "x": "2007",
+                    "y": 3.26
+                  },
+                  {
+                    "x": "2008",
+                    "y": 3.56
+                  },
+                  {
+                    "x": "2009",
+                    "y": 3.81
+                  },
+                  {
+                    "x": "2010",
+                    "y": 3.74
+                  },
+                  {
+                    "x": "2011",
+                    "y": 3.89
+                  },
+                  {
+                    "x": "2012",
+                    "y": 4.18
+                  },
+                  {
+                    "x": "2013",
+                    "y": 4.58
+                  },
+                  {
+                    "x": "2014",
+                    "y": 5.04
+                  },
+                  {
+                    "x": "2015",
+                    "y": 5.44
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "58--state_local",
+              "order": 58,
+              "id": "58--legally_required_benefits",
+              "name": "Legally Required Benefits",
+              "lexicon_name": "Legally Required Benefits",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 2.31
+                  },
+                  {
+                    "x": "2005",
+                    "y": 2.42
+                  },
+                  {
+                    "x": "2006",
+                    "y": 2.51
+                  },
+                  {
+                    "x": "2007",
+                    "y": 2.55
+                  },
+                  {
+                    "x": "2008",
+                    "y": 2.6
+                  },
+                  {
+                    "x": "2009",
+                    "y": 2.65
+                  },
+                  {
+                    "x": "2010",
+                    "y": 2.68
+                  },
+                  {
+                    "x": "2011",
+                    "y": 2.73
+                  },
+                  {
+                    "x": "2012",
+                    "y": 2.79
+                  },
+                  {
+                    "x": "2013",
+                    "y": 2.83
+                  },
+                  {
+                    "x": "2014",
+                    "y": 2.82
+                  },
+                  {
+                    "x": "2015",
+                    "y": 2.85
+                  }
+                ]
+              },
+              "children": []
+            },
+            {
+              "key": "59--state_local",
+              "order": 59,
+              "id": "59--other_benefits",
+              "name": "Other Benefits",
+              "lexicon_name": "Other Benefits",
+              "parent": "Benefits",
+              "type": null,
+              "data": {
+                "state_local": [
+                  {
+                    "x": "2004",
+                    "y": 0.06
+                  },
+                  {
+                    "x": "2005",
+                    "y": 0.06
+                  },
+                  {
+                    "x": "2006",
+                    "y": 0
+                  },
+                  {
+                    "x": "2007",
+                    "y": 0
+                  },
+                  {
+                    "x": "2008",
+                    "y": 0
+                  },
+                  {
+                    "x": "2009",
+                    "y": 0
+                  },
+                  {
+                    "x": "2010",
+                    "y": 0
+                  },
+                  {
+                    "x": "2011",
+                    "y": 0
+                  },
+                  {
+                    "x": "2012",
+                    "y": 0
+                  },
+                  {
+                    "x": "2013",
+                    "y": 0
+                  },
+                  {
+                    "x": "2014",
+                    "y": 0
+                  },
+                  {
+                    "x": "2015",
+                    "y": 0
+                  }
+                ]
+              },
+              "children": []
+            }
+          ]
+        }
+      ],
+      "total_rows": [
+        {
+          "key": "51--state_local",
+          "order": 51,
+          "id": "51--total_compensation_(per_hour_worked)",
+          "name": "Total Compensation (per hour worked)",
+          "lexicon_name": "Total Compensation (per hour worked)",
+          "parent": "Professional and related occupations",
+          "type": null,
+          "data": {
+            "state_local": [
+              {
+                "x": "2004",
+                "y": 41.86
+              },
+              {
+                "x": "2005",
+                "y": 43.52
+              },
+              {
+                "x": "2006",
+                "y": 45.75
+              },
+              {
+                "x": "2007",
+                "y": 46.87
+              },
+              {
+                "x": "2008",
+                "y": 46.71
+              },
+              {
+                "x": "2009",
+                "y": 47.75
+              },
+              {
+                "x": "2010",
+                "y": 47.71
+              },
+              {
+                "x": "2011",
+                "y": 48.36
+              },
+              {
+                "x": "2012",
+                "y": 49.3
+              },
+              {
+                "x": "2013",
+                "y": 50.65
+              },
+              {
+                "x": "2014",
+                "y": 51.68
+              },
+              {
+                "x": "2015",
+                "y": 52.82
+              }
+            ]
+          },
+          "children": []
+        }
+      ]
+    }
+  ]
+}

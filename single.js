@@ -9,6 +9,11 @@ import csv from 'csvtojson'
 import { entityNameToKey } from './lib'
 import currentConfig from './config'
 
+const getFootnotesFromData = _.flow(
+  _.filter(row => row.type === 'footnote'),
+  _.map(footnote => ({ id: footnote.footnote, text: footnote.name}))
+)
+
 const parseDataIntoArray = _.map(item => (
   {
     ...item,
@@ -23,7 +28,8 @@ const createRow = (row, parent, dataArray, config) => {
     nameId,
     name,
     style,
-    government_type
+    government_type,
+    footnote
   } = row
   const parentId = _.get(config.itemParentId)(row)
   const childRows = _.filter(item => item.type === 'row' && item.parent === parentId)(dataArray)
@@ -35,6 +41,7 @@ const createRow = (row, parent, dataArray, config) => {
     "name": name,
     "lexicon_name": name,
     "parent": parent,
+    "footnote": footnote,
     "type": style && style !== "" ? style : null,
     "data": {
       [row.government_type]: map(_.pick(_.range(1980, 2017))(row), (value, key) => {
@@ -104,7 +111,8 @@ function buildTableJson(data, config) {
           "id": government_type
         }
       ],
-      "data_tables": processDataTables(data, config)
+      "data_tables": processDataTables(data, config),
+      "footnotes": getFootnotesFromData(data)
     }
     resolve(output)
   })
@@ -142,6 +150,8 @@ const tablesToProcess = [
   // 'spending--by-mission--state_local',
   // 'spending--by-mission--federal',
   // 'employment--compensation-aggregate--combined',
+  // 'employment--compensation-per-person--combined',
+  // 'employment--compensation-per-person-per-hour--state_local'
   // 'grb--all--combined',
   // 'revenue--government--state_local',
   // 'revenue--government--federal',
@@ -149,7 +159,10 @@ const tablesToProcess = [
   // 'balance-sheets--government--combined',
   // 'balance-sheets--government--federal',
   // 'balance-sheets--government--state_local',
-  'trust-funds--all--federal'
+  // 'trust-funds--all--federal',
+  // 'balance-sheets--gse--federal',
+  'balance-sheets--federal-reserve--federal',
+  // 'trust-funds--balance-sheet--combined'
 ]
 
 forEach(tablesToProcess, (table) => {

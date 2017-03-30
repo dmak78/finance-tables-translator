@@ -59,6 +59,85 @@ const config = {
       ]
     }
   },
+  'trust-funds--balance-sheet--combined': {
+    id: 'trust-funds--balance-sheet--combined',
+    section: 'trust-funds',
+    sector: 'balance-sheet',
+    government_type: 'combined',
+    government_type_name: 'Combined',
+    name: 'Pensions Balance Sheet',
+    latest_year: '2016',
+    itemParentId: 'name',
+    multiplier: 1000000,
+    defaults: {
+      rounding_unit: 1000000000,
+      precision: 1,
+      current_comparison: "by_years",
+      available_comparisons: [
+        {
+          name: "Fiscal Year",
+          id: "by_years"
+        }
+      ],
+      available_years: [
+        {
+          "name": "1980",
+          "id": "1980"
+        },
+        {
+          "name": "1990",
+          "id": "1990"
+        },
+        {
+          "name": "2000",
+          "id": "2000"
+        },
+        {
+          "name": "2010",
+          "id": "2010"
+        },
+        {
+          "name": "2011",
+          "id": "2011"
+        },
+        {
+          "name": "2012",
+          "id": "2012"
+        },
+        {
+          "name": "2013",
+          "id": "2013"
+        },
+        {
+          "name": "2014",
+          "id": "2014"
+        },
+        {
+          "name": "2015",
+          "id": "2015"
+        },
+        {
+          "name": "2016",
+          "id": "2016"
+        }
+      ]
+    }
+  },
+  'spending--by-function--combined': {
+    id: 'spending--by-function--combined',
+    section: 'spending',
+    sector: 'by-function',
+    government_type: 'combined',
+    government_type_name: 'Combined',
+    name: 'Spending By Function',
+    latest_year: '2014',
+    itemParentId: 'name',
+    multiplier: 1000000,
+    defaults: {
+      rounding_unit: 1000000000,
+      precision: 1
+    }
+  },
   'spending--by-mission--combined': {
     id: 'spending--by-mission--combined',
     section: 'spending',
@@ -162,14 +241,55 @@ const config = {
     government_type: 'combined',
     government_type_name: 'Combined',
     name: 'Compensation of Government Employees (aggregate)',
-    latest_year: '2014',
+    latest_year: '2015',
     itemParentId: 'orderId',
+    multiplier: 1000000,
     defaults: {
+      rounding_unit: 1000000000,
+      precision: 2,
       current_comparison: "by_years",
       available_comparisons: [
         {
           id: "by_years",
           name: "Fiscal Year"
+        }
+      ],
+      available_years: [
+        {
+          "name": "1980",
+          "id": "1980"
+        },
+        {
+          "name": "1990",
+          "id": "1990"
+        },
+        {
+          "name": "2000",
+          "id": "2000"
+        },
+        {
+          "name": "2010",
+          "id": "2010"
+        },
+        {
+          "name": "2011",
+          "id": "2011"
+        },
+        {
+          "name": "2012",
+          "id": "2012"
+        },
+        {
+          "name": "2013",
+          "id": "2013"
+        },
+        {
+          "name": "2014",
+          "id": "2014"
+        },
+        {
+          "name": "2015",
+          "id": "2015"
         }
       ]
     }
@@ -181,7 +301,7 @@ const config = {
     government_type: 'combined',
     government_type_name: 'Combined',
     name: 'Compensation of Government Employees (per person)',
-    latest_year: '2014',
+    latest_year: '2015',
     itemParentId: 'orderId',
     defaults: {
       current_comparison: "by_years",
@@ -189,6 +309,44 @@ const config = {
         {
           id: "by_years",
           name: "Fiscal Year"
+        }
+      ],
+      available_years: [
+        {
+          "name": "1980",
+          "id": "1980"
+        },
+        {
+          "name": "1990",
+          "id": "1990"
+        },
+        {
+          "name": "2000",
+          "id": "2000"
+        },
+        {
+          "name": "2010",
+          "id": "2010"
+        },
+        {
+          "name": "2011",
+          "id": "2011"
+        },
+        {
+          "name": "2012",
+          "id": "2012"
+        },
+        {
+          "name": "2013",
+          "id": "2013"
+        },
+        {
+          "name": "2014",
+          "id": "2014"
+        },
+        {
+          "name": "2015",
+          "id": "2015"
         }
       ]
     }
@@ -223,15 +381,65 @@ const config = {
     latest_year: '2014',
     itemParentId: 'name'
   },
-  'balance-sheets--federal-reserve--combined': {
-    id: 'balance-sheets--federal-reserve--combined',
+  'balance-sheets--federal-reserve--federal': {
+    id: 'balance-sheets--federal-reserve--federal',
     section: 'balance-sheets',
     sector: 'federal-reserve',
-    government_type: 'combined',
-    government_type_name: 'Combined',
+    government_type: 'federal',
+    government_type_name: 'Federal',
     name: 'Federal Reserve Balance Sheet',
     latest_year: '2015',
-    itemParentId: 'name'
+    itemParentId: 'name',
+    multiplier: 1000000,
+    defaults: {
+      rounding_unit: 1000000000,
+      precision: 2,
+      current_comparison: 'by_years',
+      available_years: [
+        {
+          id: "1980",
+          name: "1980"
+        },
+        {
+          id: "1990",
+          name: "1990"
+        },
+        {
+          id: "2000",
+          name: "2000"
+        },
+        {
+          id: "2010",
+          name: "2010"
+        },
+        {
+          id: "2011",
+          name: "2011"
+        },
+        {
+          id: "2012",
+          name: "2012"
+        },
+        {
+          id: "2013",
+          name: "2013"
+        },
+        {
+          id: "2014",
+          name: "2014"
+        },
+        {
+          id: "2015",
+          name: "2015"
+        }
+      ],
+      available_comparisons: [
+        {
+          name: "Fiscal Year",
+          id: "by_years"
+        }
+      ]
+    }
   },
   'balance-sheets--government--combined': {
     id: 'balance-sheets--government--combined',
@@ -271,7 +479,57 @@ const config = {
     government_type_name: 'Federal',
     name: 'Government-Sponsored Enterprises Balance Sheet',
     latest_year: '2015',
-    itemParentId: 'name'
+    itemParentId: 'name',
+    multiplier: 1000000,
+    defaults: {
+      rounding_unit: 1000000000,
+      precision: 2,
+      current_comparison: 'by_years',
+      available_years: [
+        {
+          id: "1980",
+          name: "1980"
+        },
+        {
+          id: "1990",
+          name: "1990"
+        },
+        {
+          id: "2000",
+          name: "2000"
+        },
+        {
+          id: "2010",
+          name: "2010"
+        },
+        {
+          id: "2011",
+          name: "2011"
+        },
+        {
+          id: "2012",
+          name: "2012"
+        },
+        {
+          id: "2013",
+          name: "2013"
+        },
+        {
+          id: "2014",
+          name: "2014"
+        },
+        {
+          id: "2015",
+          name: "2015"
+        }
+      ],
+      available_comparisons: [
+        {
+          name: "Fiscal Year",
+          id: "by_years"
+        }
+      ]
+    }
   },
   'trust-funds--all--federal': {
     id: 'trust-funds--all--federal',
@@ -343,7 +601,7 @@ const config = {
     sector: 'compensation-per-person-per-hour',
     government_type: 'state_local',
     government_type_name: 'State & Local',
-    name: 'Compensation Per Person Per Hour (State & Local)',
+    name: 'Wages of State & Local Employees (per person per hour)',
     latest_year: '2015',
     itemParentId: 'orderId',
     defaults: {
