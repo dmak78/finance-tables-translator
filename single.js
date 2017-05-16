@@ -7,7 +7,7 @@ import merge from 'lodash/merge'
 import mergeWith from 'lodash/mergeWith'
 import csv from 'csvtojson'
 import { entityNameToKey } from './lib'
-import currentConfig from './config'
+import currentConfig from './config_single'
 
 const getFootnotesFromData = _.flow(
   _.filter(row => row.type === 'footnote'),
@@ -111,8 +111,8 @@ function buildTableJson(data, config) {
           "id": government_type
         }
       ],
-      "data_tables": processDataTables(data, config),
-      "footnotes": getFootnotesFromData(data)
+      "footnotes": getFootnotesFromData(data),
+      "data_tables": processDataTables(data, config)
     }
     resolve(output)
   })
@@ -159,9 +159,9 @@ const tablesToProcess = [
   // 'balance-sheets--government--combined',
   // 'balance-sheets--government--federal',
   // 'balance-sheets--government--state_local',
-  // 'trust-funds--all--federal',
+  'trust-funds--all--federal',
   // 'balance-sheets--gse--federal',
-  'balance-sheets--federal-reserve--federal',
+  // 'balance-sheets--federal-reserve--federal',
   // 'trust-funds--balance-sheet--combined'
 ]
 

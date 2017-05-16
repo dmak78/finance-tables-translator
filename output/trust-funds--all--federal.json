@@ -62,6 +62,32 @@
       "id": "federal"
     }
   ],
+  "footnotes": [
+    {
+      "id": 1,
+      "text": "For years after 2017, outlays for \"Beneficiary Services and other\" are included in the \"Benefit Payments\" line."
+    },
+    {
+      "id": 2,
+      "text": "In 1983, includes $329.3 million loss on sale of securities."
+    },
+    {
+      "id": 3,
+      "text": "Starting in 1983, includes amounts from Postal Service."
+    },
+    {
+      "id": 4,
+      "text": "For years after 1986, SMI receipts for kidney dialysis. For years after 2004, includes Medicare refunds, which were shown as offsets to cash outgo in years prior to 2005."
+    },
+    {
+      "id": 5,
+      "text": "For years after 2017, outlays in the \"Other\" line are included in the \"Benefit Payments\" line."
+    },
+    {
+      "id": 6,
+      "text": "For 1989 and 1990, includes transactions and balances of the HI and SMI Catastrophic Insurance trust funds, which began in 1989 and were abolished in 1990."
+    }
+  ],
   "data_tables": [
     {
       "key": "data-table--medicare_trust_funds_(hi)",
@@ -78,6 +104,7 @@
           "name": "Total cash income",
           "lexicon_name": "Total cash income",
           "parent": "Medicare Trust Funds (HI)",
+          "footnote": "",
           "type": null,
           "data": {
             "federal": [
@@ -131,6 +158,7 @@
               "name": "Social insurance and retirement receipts",
               "lexicon_name": "Social insurance and retirement receipts",
               "parent": "Total cash income",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -185,6 +213,7 @@
               "name": "Total intragovernmental receipts",
               "lexicon_name": "Total intragovernmental receipts",
               "parent": "Total cash income",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -238,6 +267,7 @@
                   "name": "Employer share, employee retirement",
                   "lexicon_name": "Employer share, employee retirement",
                   "parent": "Total intragovernmental receipts",
+                  "footnote": 1,
                   "type": null,
                   "data": {
                     "federal": [
@@ -292,6 +322,7 @@
                   "name": "Interest",
                   "lexicon_name": "Interest",
                   "parent": "Total intragovernmental receipts",
+                  "footnote": "",
                   "type": null,
                   "data": {
                     "federal": [
@@ -346,6 +377,7 @@
                   "name": "Federal Payment (OASDI taxes)",
                   "lexicon_name": "Federal Payment (OASDI taxes)",
                   "parent": "Total intragovernmental receipts",
+                  "footnote": "",
                   "type": null,
                   "data": {
                     "federal": [
@@ -400,6 +432,7 @@
                   "name": "Other",
                   "lexicon_name": "Other",
                   "parent": "Total intragovernmental receipts",
+                  "footnote": "",
                   "type": null,
                   "data": {
                     "federal": [
@@ -456,6 +489,7 @@
               "name": "Total other (mainly proprietary) receipts",
               "lexicon_name": "Total other (mainly proprietary) receipts",
               "parent": "Total cash income",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -509,6 +543,7 @@
                   "name": "Premium income",
                   "lexicon_name": "Premium income",
                   "parent": "Total other (mainly proprietary) receipts",
+                  "footnote": "",
                   "type": null,
                   "data": {
                     "federal": [
@@ -563,6 +598,7 @@
                   "name": "Other",
                   "lexicon_name": "Other",
                   "parent": "Total other (mainly proprietary) receipts",
+                  "footnote": 2,
                   "type": null,
                   "data": {
                     "federal": [
@@ -621,6 +657,7 @@
           "name": "Total cash outgo",
           "lexicon_name": "Total cash outgo",
           "parent": "Medicare Trust Funds (HI)",
+          "footnote": "",
           "type": null,
           "data": {
             "federal": [
@@ -674,6 +711,7 @@
               "name": "Benefit payments",
               "lexicon_name": "Benefit payments",
               "parent": "Total cash outgo",
+              "footnote": 3,
               "type": null,
               "data": {
                 "federal": [
@@ -728,6 +766,7 @@
               "name": "Administrative expenses",
               "lexicon_name": "Administrative expenses",
               "parent": "Total cash outgo",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -782,6 +821,7 @@
               "name": "Payments to the Patient-Centered Outcomes Research Trust Fund",
               "lexicon_name": "Payments to the Patient-Centered Outcomes Research Trust Fund",
               "parent": "Total cash outgo",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -836,6 +876,7 @@
               "name": "Other",
               "lexicon_name": "Other",
               "parent": "Total cash outgo",
+              "footnote": 3,
               "type": null,
               "data": {
                 "federal": [
@@ -892,6 +933,7 @@
           "name": "Surplus or deficit (-)",
           "lexicon_name": "Surplus or deficit (-)",
           "parent": "Medicare Trust Funds (HI)",
+          "footnote": "",
           "type": null,
           "data": {
             "federal": [
@@ -945,6 +987,7 @@
               "name": "Adjustment to balances",
               "lexicon_name": "Adjustment to balances",
               "parent": "Surplus or deficit (-)",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -1001,6 +1044,7 @@
           "name": "Fund balance, end of year",
           "lexicon_name": "Fund balance, end of year",
           "parent": "Medicare Trust Funds (HI)",
+          "footnote": "",
           "type": null,
           "data": {
             "federal": [
@@ -1054,6 +1098,7 @@
               "name": "Invested balance",
               "lexicon_name": "Invested balance",
               "parent": "Fund balance, end of year",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -1108,6 +1153,7 @@
               "name": "Uninvested balance",
               "lexicon_name": "Uninvested balance",
               "parent": "Fund balance, end of year",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -1175,6 +1221,7 @@
           "name": "Total cash income",
           "lexicon_name": "Total cash income",
           "parent": "Supplementary Medical Insurance Fund (SMI)",
+          "footnote": "",
           "type": null,
           "data": {
             "federal": [
@@ -1228,6 +1275,7 @@
               "name": "Individual Income Taxes",
               "lexicon_name": "Individual Income Taxes",
               "parent": "Total cash income",
+              "footnote": 6,
               "type": null,
               "data": {
                 "federal": [
@@ -1282,6 +1330,7 @@
               "name": "Excise Taxes",
               "lexicon_name": "Excise Taxes",
               "parent": "Total cash income",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -1336,6 +1385,7 @@
               "name": "Intragovernmental Receipts",
               "lexicon_name": "Intragovernmental Receipts",
               "parent": "Total cash income",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -1389,6 +1439,7 @@
                   "name": "Interest",
                   "lexicon_name": "Interest",
                   "parent": "Intragovernmental Receipts",
+                  "footnote": 6,
                   "type": null,
                   "data": {
                     "federal": [
@@ -1443,6 +1494,7 @@
                   "name": "Federal Contributions and other",
                   "lexicon_name": "Federal Contributions and other",
                   "parent": "Intragovernmental Receipts",
+                  "footnote": "",
                   "type": null,
                   "data": {
                     "federal": [
@@ -1499,6 +1551,7 @@
               "name": "Premium income",
               "lexicon_name": "Premium income",
               "parent": "Total cash income",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -1552,6 +1605,7 @@
                   "name": "From aged participants",
                   "lexicon_name": "From aged participants",
                   "parent": "Premium income",
+                  "footnote": "",
                   "type": null,
                   "data": {
                     "federal": [
@@ -1606,6 +1660,7 @@
                   "name": "For prescription drugs",
                   "lexicon_name": "For prescription drugs",
                   "parent": "Premium income",
+                  "footnote": "",
                   "type": null,
                   "data": {
                     "federal": [
@@ -1660,6 +1715,7 @@
                   "name": "From States and other participants",
                   "lexicon_name": "From States and other participants",
                   "parent": "Premium income",
+                  "footnote": "",
                   "type": null,
                   "data": {
                     "federal": [
@@ -1716,6 +1772,7 @@
               "name": "Other",
               "lexicon_name": "Other",
               "parent": "Total cash income",
+              "footnote": 4,
               "type": null,
               "data": {
                 "federal": [
@@ -1772,6 +1829,7 @@
           "name": "Total cash outgo",
           "lexicon_name": "Total cash outgo",
           "parent": "Supplementary Medical Insurance Fund (SMI)",
+          "footnote": "",
           "type": null,
           "data": {
             "federal": [
@@ -1825,6 +1883,7 @@
               "name": "Benefit payments",
               "lexicon_name": "Benefit payments",
               "parent": "Total cash outgo",
+              "footnote": 5,
               "type": null,
               "data": {
                 "federal": [
@@ -1879,6 +1938,7 @@
               "name": "Administrative expenses",
               "lexicon_name": "Administrative expenses",
               "parent": "Total cash outgo",
+              "footnote": 6,
               "type": null,
               "data": {
                 "federal": [
@@ -1933,6 +1993,7 @@
               "name": "Payments to the Patient-Centered Outcomes Research Trust Fund",
               "lexicon_name": "Payments to the Patient-Centered Outcomes Research Trust Fund",
               "parent": "Total cash outgo",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -1987,6 +2048,7 @@
               "name": "Other",
               "lexicon_name": "Other",
               "parent": "Total cash outgo",
+              "footnote": 5,
               "type": null,
               "data": {
                 "federal": [
@@ -2043,6 +2105,7 @@
           "name": "Surplus or deficit (-)",
           "lexicon_name": "Surplus or deficit (-)",
           "parent": "Supplementary Medical Insurance Fund (SMI)",
+          "footnote": "",
           "type": null,
           "data": {
             "federal": [
@@ -2096,6 +2159,7 @@
               "name": "Adjustment to balances",
               "lexicon_name": "Adjustment to balances",
               "parent": "Surplus or deficit (-)",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -2152,6 +2216,7 @@
           "name": "Fund balance, end of year",
           "lexicon_name": "Fund balance, end of year",
           "parent": "Supplementary Medical Insurance Fund (SMI)",
+          "footnote": "",
           "type": null,
           "data": {
             "federal": [
@@ -2205,6 +2270,7 @@
               "name": "Invested balance",
               "lexicon_name": "Invested balance",
               "parent": "Fund balance, end of year",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -2259,6 +2325,7 @@
               "name": "Uninvested balance",
               "lexicon_name": "Uninvested balance",
               "parent": "Fund balance, end of year",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -2326,6 +2393,7 @@
           "name": "Total cash income",
           "lexicon_name": "Total cash income",
           "parent": "Old Age and Survivors Insurance Fund (OASI)",
+          "footnote": "",
           "type": null,
           "data": {
             "federal": [
@@ -2379,6 +2447,7 @@
               "name": "Social insurance and retirement receipts",
               "lexicon_name": "Social insurance and retirement receipts",
               "parent": "Total cash income",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -2433,6 +2502,7 @@
               "name": "Intragovernmental receipts",
               "lexicon_name": "Intragovernmental receipts",
               "parent": "Total cash income",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -2486,6 +2556,7 @@
                   "name": "Employer share, employee retirement",
                   "lexicon_name": "Employer share, employee retirement",
                   "parent": "Intragovernmental receipts",
+                  "footnote": "",
                   "type": null,
                   "data": {
                     "federal": [
@@ -2540,6 +2611,7 @@
                   "name": "Interest",
                   "lexicon_name": "Interest",
                   "parent": "Intragovernmental receipts",
+                  "footnote": "",
                   "type": null,
                   "data": {
                     "federal": [
@@ -2594,6 +2666,7 @@
                   "name": "Other",
                   "lexicon_name": "Other",
                   "parent": "Intragovernmental receipts",
+                  "footnote": "",
                   "type": null,
                   "data": {
                     "federal": [
@@ -2650,6 +2723,7 @@
               "name": "Other cash income",
               "lexicon_name": "Other cash income",
               "parent": "Total cash income",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -2706,6 +2780,7 @@
           "name": "Total cash outgo",
           "lexicon_name": "Total cash outgo",
           "parent": "Old Age and Survivors Insurance Fund (OASI)",
+          "footnote": "",
           "type": null,
           "data": {
             "federal": [
@@ -2755,10 +2830,11 @@
             {
               "key": "53--federal",
               "order": 53,
-              "id": "53--benefit_payments1",
-              "name": "Benefit payments1",
-              "lexicon_name": "Benefit payments1",
+              "id": "53--benefit_payments",
+              "name": "Benefit payments",
+              "lexicon_name": "Benefit payments",
               "parent": "Total cash outgo",
+              "footnote": 1,
               "type": null,
               "data": {
                 "federal": [
@@ -2813,6 +2889,7 @@
               "name": "Payments to the railroad retirement account",
               "lexicon_name": "Payments to the railroad retirement account",
               "parent": "Total cash outgo",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -2867,6 +2944,7 @@
               "name": "Interest payments",
               "lexicon_name": "Interest payments",
               "parent": "Total cash outgo",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -2921,6 +2999,7 @@
               "name": "Administrative expenses",
               "lexicon_name": "Administrative expenses",
               "parent": "Total cash outgo",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -2975,6 +3054,7 @@
               "name": "Military service credit adjustment",
               "lexicon_name": "Military service credit adjustment",
               "parent": "Total cash outgo",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -3029,6 +3109,7 @@
               "name": "Beneficiary services and other",
               "lexicon_name": "Beneficiary services and other",
               "parent": "Total cash outgo",
+              "footnote": 1,
               "type": null,
               "data": {
                 "federal": [
@@ -3085,6 +3166,7 @@
           "name": "Surplus or deficit (-)",
           "lexicon_name": "Surplus or deficit (-)",
           "parent": "Old Age and Survivors Insurance Fund (OASI)",
+          "footnote": "",
           "type": null,
           "data": {
             "federal": [
@@ -3138,6 +3220,7 @@
               "name": "Adjustment to balances",
               "lexicon_name": "Adjustment to balances",
               "parent": "Surplus or deficit (-)",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -3194,6 +3277,7 @@
           "name": "Fund balance, end of year",
           "lexicon_name": "Fund balance, end of year",
           "parent": "Old Age and Survivors Insurance Fund (OASI)",
+          "footnote": "",
           "type": null,
           "data": {
             "federal": [
@@ -3247,6 +3331,7 @@
               "name": "Invested balance",
               "lexicon_name": "Invested balance",
               "parent": "Fund balance, end of year",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -3301,6 +3386,7 @@
               "name": "Uninvested balance",
               "lexicon_name": "Uninvested balance",
               "parent": "Fund balance, end of year",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -3368,6 +3454,7 @@
           "name": "Total cash income",
           "lexicon_name": "Total cash income",
           "parent": "Disability Insurance Fund (DI)",
+          "footnote": "",
           "type": null,
           "data": {
             "federal": [
@@ -3421,6 +3508,7 @@
               "name": "Social insurance and retirement receipts",
               "lexicon_name": "Social insurance and retirement receipts",
               "parent": "Total cash income",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -3475,6 +3563,7 @@
               "name": "Total intragovernmental receipts",
               "lexicon_name": "Total intragovernmental receipts",
               "parent": "Total cash income",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -3528,6 +3617,7 @@
                   "name": "Employer share, employee retirement",
                   "lexicon_name": "Employer share, employee retirement",
                   "parent": "Total intragovernmental receipts",
+                  "footnote": "",
                   "type": null,
                   "data": {
                     "federal": [
@@ -3582,6 +3672,7 @@
                   "name": "Interest",
                   "lexicon_name": "Interest",
                   "parent": "Total intragovernmental receipts",
+                  "footnote": "",
                   "type": null,
                   "data": {
                     "federal": [
@@ -3636,6 +3727,7 @@
                   "name": "Other",
                   "lexicon_name": "Other",
                   "parent": "Total intragovernmental receipts",
+                  "footnote": "",
                   "type": null,
                   "data": {
                     "federal": [
@@ -3692,6 +3784,7 @@
               "name": "Other cash income",
               "lexicon_name": "Other cash income",
               "parent": "Total cash income",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -3748,6 +3841,7 @@
           "name": "Total cash outgo",
           "lexicon_name": "Total cash outgo",
           "parent": "Disability Insurance Fund (DI)",
+          "footnote": "",
           "type": null,
           "data": {
             "federal": [
@@ -3801,6 +3895,7 @@
               "name": "Benefit payments",
               "lexicon_name": "Benefit payments",
               "parent": "Total cash outgo",
+              "footnote": 1,
               "type": null,
               "data": {
                 "federal": [
@@ -3855,6 +3950,7 @@
               "name": "Payments to the railroad retirement account",
               "lexicon_name": "Payments to the railroad retirement account",
               "parent": "Total cash outgo",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -3909,6 +4005,7 @@
               "name": "Administrative expenses",
               "lexicon_name": "Administrative expenses",
               "parent": "Total cash outgo",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -3963,6 +4060,7 @@
               "name": "Interest payments",
               "lexicon_name": "Interest payments",
               "parent": "Total cash outgo",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -4017,6 +4115,7 @@
               "name": "Military service credit adjustment",
               "lexicon_name": "Military service credit adjustment",
               "parent": "Total cash outgo",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -4071,6 +4170,7 @@
               "name": "Beneficiary services and other",
               "lexicon_name": "Beneficiary services and other",
               "parent": "Total cash outgo",
+              "footnote": 1,
               "type": null,
               "data": {
                 "federal": [
@@ -4127,6 +4227,7 @@
           "name": "Surplus or deficit (-)",
           "lexicon_name": "Surplus or deficit (-)",
           "parent": "Disability Insurance Fund (DI)",
+          "footnote": "",
           "type": null,
           "data": {
             "federal": [
@@ -4180,6 +4281,7 @@
               "name": "Adjustment to balances",
               "lexicon_name": "Adjustment to balances",
               "parent": "Surplus or deficit (-)",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -4236,6 +4338,7 @@
           "name": "Fund balance, end of year",
           "lexicon_name": "Fund balance, end of year",
           "parent": "Disability Insurance Fund (DI)",
+          "footnote": "",
           "type": null,
           "data": {
             "federal": [
@@ -4289,6 +4392,7 @@
               "name": "Invested balance",
               "lexicon_name": "Invested balance",
               "parent": "Fund balance, end of year",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [
@@ -4343,6 +4447,7 @@
               "name": "Uninvested balance",
               "lexicon_name": "Uninvested balance",
               "parent": "Fund balance, end of year",
+              "footnote": "",
               "type": null,
               "data": {
                 "federal": [

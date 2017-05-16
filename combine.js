@@ -11,6 +11,10 @@ import { entityNameToKey } from './lib'
 
 import currentConfig from './config'
 
+import comparisonConfig from './config_comparison'
+
+const tableConfig = comparisonConfig['spending--by-mission']
+
 const parseDataIntoArray = (data) => {
   let output = []
   forEach(data, (value, key) => {
@@ -30,9 +34,10 @@ const createRow = (row, parent, dataArray, config) => {
     lexicon_name: row.name,
     parent: parent,
     type: row.style && row.style !== "" ? row.style : null,
+    footnote: row.footnote || null,
     data: row.data,
     children: _.map(
-      row => createRow(row, row.name, dataArray)
+      child => createRow(child, row.name, dataArray)
     )(_.filter(item => item.type === 'row' && item.parent === parentId && item.data_table === dataTableId)(dataArray))
   }
 }
@@ -63,23 +68,34 @@ const processDataTables = (data) => {
 }
 
 function writeTableJson(output) {
-  fs.writeJson(`output/spending--by-function.json`, output, (err) => {
+  fs.writeJson(`output/test/041317/${tableConfig.id}.json`, output, (err) => {
     if (err) console.error(err)
-    console.log('done: ' + 'spending--by-function')
+    console.log('done: ' + tableConfig.id)
   })
 }
 
-function csvToJson(config) {
-  const id = `${config.section}--${config.sector}--${config.government_type}`
+function csvToJson(file) {
   const tableData = []
+  const allYears = []
   return new Promise(function(resolve){
     csv({
       checkType: true
     })
-      .fromFile(`input/csv/${id}.csv`)
+      .fromFile(`input/csv/${file}.csv`)
       .on('json',(jsonRow) => {
         let rowId = jsonRow.type === 'row' || jsonRow.type === 'total_row' ? `${jsonRow.data_table}--${jsonRow.name}` : jsonRow.name
         rowId = entityNameToKey(rowId)
+        // const sourceId = rowId !== '' ? `${rowId}--${jsonRow.government_type}` : ''
+        // const yearDataRange = _.range(1980, 2017)
+        // const yearData = _.pick(yearDataRange)(jsonRow)
+        // const outputData = _.flow(
+        //   _.omit(yearDataRange),
+        //   (_) => ({..._, id: rowId, sourceId }),
+        //   (_) => {
+        //     return jsonRow.government_type ? {..._, dataset: {[jsonRow.government_type]: yearData }} : _
+        //   }
+        // )(jsonRow)
+        // tableData.push(outputData)
         tableData.push({
           ...jsonRow,
           id: rowId
@@ -87,44 +103,27 @@ function csvToJson(config) {
       })
       .on('done',(error) => {
         if (error) return console.error(error)
-        console.log('converted: ' + id )
-        resolve(tableData)
+        console.log('converted: ' + file )
+        resolve(tableData)   
       })
   })
 }
 
-function buildTableJson(data) {
-  const output = {
-    "id": 'spending--by-function',
-    "lexicon_name": 'Spending By Function',
-    "name": 'Spending By Function',
-    "current_government_type": 'combined',
-    "current_year": '2014',
-    "available_adjustments": null,
-    "rounding_unit": 1000000000,
-    "precision": 1,
-    "available_government_types": [
-      {
-        "name": 'Federal',
-        "id": 'federal'
-      },
-      {
-        "name": 'State & Local',
-        "id": 'state_local'
-      },
-      {
-        "name": 'Combined',
-        "id": 'combined'
-      }
-    ],
-    data_tables: processDataTables(data)
-  }
+const getFootnotesFromData = _.flow(
+  _.filter(row => row.type === 'footnote'),
+  _.map(footnote => ({ id: footnote.footnote, text: footnote.name}))
+)
 
-  return writeTableJson(output)
+function buildTableJson(data) {
+  const defaults = tableConfig.defaults
+  return writeTableJson({ 
+    ...defaults,
+    footnotes: getFootnotesFromData(data),
+    data_tables: processDataTables(data)
+  })
 }
 
 const rowConfigValues = ['id', 'order', 'style', 'type', 'footnote', 'parent', 'name', 'source', 'data_table']
-
 
 const isRowDataType = (row) => row.type === 'row' || row.type === 'total_row'
 
@@ -133,7 +132,7 @@ const processDataPoints = _.mapValues(datum => {
   return map(filtered, (value, key) => {
     return {
       x: key,
-      y: value * 1000000
+      y: value * (tableConfig.multiplier || 1)
     }
   })
 })
@@ -166,25 +165,13 @@ const combineTableFiles = _.flow(
   buildTableJson
 )
 
-const tablesToProcess = [
-  // 'revenue--government--combined',
-  // 'revenue--government--federal',
-  // 'revenue--government--state_local'
-  // 'balance-sheets--government--combined',
-  // 'balance-sheets--government--federal',
-  // 'balance-sheets--government--state_local',
-  'spending--by-function--combined'
-]
+const tablesToProcess = tableConfig.files
 
-const getConfigAndProcess = (config) => (id) => csvToJson(config[id])
-
-const fetchTableCsvFiles = (config) => _.map(getConfigAndProcess(config))
-
-const combine = (config, tableIds) => {
-  const files = fetchTableCsvFiles(config)(tableIds)
+const combine = (tableIds) => {
+  const files = _.map(csvToJson)(tableIds)
   Promise.all(files).then(
     combineTableFiles
   )
 }
 
-combine(currentConfig, tablesToProcess)
+combine(tablesToProcess)

@@ -62,6 +62,20 @@
       "id": "combined"
     }
   ],
+  "footnotes": [
+    {
+      "id": 1,
+      "text": "Includes federal and state/local defined benefit pension plans"
+    },
+    {
+      "id": 2,
+      "text": "Includes federal and state/local defined benefit pension plans + unfunded portion of Thrift Savings Plan"
+    },
+    {
+      "id": 3,
+      "text": "Discrepancy between Net Worth and Assets minus liabilities is due to the fact that federal pensions are counted as 3rd quarter but state and local is counted as 2nd quarter.  This calculation is done to match the reporting periods for federal government P&L (OMB) and aggregate state and local P&L (census)"
+    }
+  ],
   "data_tables": [
     {
       "key": "data-table--assets",
@@ -2534,20 +2548,6 @@
           ]
         }
       ]
-    }
-  ],
-  "footnotes": [
-    {
-      "id": 1,
-      "text": "1  includes federal and state/local defined benefit pension plans"
-    },
-    {
-      "id": 2,
-      "text": "2. includes federal and state/local defined benefit pension plans + unfunded portion of Thrift Savings Plan"
-    },
-    {
-      "id": 3,
-      "text": "3 Discrepancy between Net Worth and Assets minus liabilities is due to the fact that federal pensions are counted as 3rd quarter but state and local is counted as 2nd quarter.  This calculation is done to match the reporting periods for federal government P&L (OMB) and aggregate state and local P&L (census)"
     }
   ]
 }

@@ -59,10 +59,10 @@ const config = {
       ]
     }
   },
-  'trust-funds--balance-sheet--combined': {
-    id: 'trust-funds--balance-sheet--combined',
+  'trust-funds--pensions-balance-sheet--combined': {
+    id: 'trust-funds--pensions-balance-sheet--combined',
     section: 'trust-funds',
-    sector: 'balance-sheet',
+    sector: 'pensions-balance-sheet',
     government_type: 'combined',
     government_type_name: 'Combined',
     name: 'Pensions Balance Sheet',

@@ -2,6 +2,7 @@ import { defaultYears, defaultGovernmentTypes } from './defaults'
 
 const comparisonConfig = {
   'balance-sheets--government': {
+    id: 'balance-sheets--government',
     files: [
       'balance-sheets--government--combined',
       'balance-sheets--government--federal',
@@ -33,6 +34,7 @@ const comparisonConfig = {
     }
   },
   'employment--number-of-employees': {
+    id: 'employment--number-of-employees',
     files: [
       'employment--number-of-employees--combined',
       'employment--number-of-employees--federal',
@@ -54,6 +56,7 @@ const comparisonConfig = {
     }
   },
   'revenue--government': {
+    id: 'revenue--government',
     files: [
       'revenue--government--combined',
       'revenue--government--federal',
@@ -81,9 +84,10 @@ const comparisonConfig = {
     }
   },
   'spending--by-mission': {
+    id: 'spending--by-mission',
     files: [
-      'spending--by-mission--combined',
-      'spending--by-mission--federal',
+      'spending--by-mission--combined-041317',
+      'spending--by-mission--federal-041317',
       'spending--by-mission--state_local',
     ],
     multiplier: 1000,
@@ -108,6 +112,7 @@ const comparisonConfig = {
     }
   },
   'spending--by-function': {
+    id: 'spending--by-function',
     files: [
       'spending--by-function--combined'
     ],
